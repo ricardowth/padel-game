@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+.env
+.env.local
+.env*.local
+.vercel
+
+scripts/.screenshots/
+
+.DS_Store
+Thumbs.db

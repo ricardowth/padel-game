@@ -1,0 +1,6961 @@
+{
+  "id": "fip-2026",
+  "year": 2026,
+  "source": {
+    "provider": "padelfip.com",
+    "note": "CUPRA FIP Tour 2026, scraped verbatim. Junior/Promises, FIP Beyond, Championship, Olympic Path and Hexagon events are excluded — they are not part of a pro career ladder."
+  },
+  "tournaments": [
+    {
+      "id": "bronze-melbourne-fip-bronze-melbourne-padel-o",
+      "name": "FIP Bronze Melbourne Padel Open",
+      "city": "Melbourne",
+      "country": "AU",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 2,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-01-07",
+      "endDate": "2026-01-11"
+    },
+    {
+      "id": "silver-melbourne-fip-silver-australian-padel-",
+      "name": "FIP Silver Australian Padel Open",
+      "city": "Melbourne",
+      "country": "AU",
+      "category": "silver",
+      "band": "developmental",
+      "week": 3,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-01-14",
+      "endDate": "2026-01-18"
+    },
+    {
+      "id": "bronze-mallorca-fip-bronze-mallorca",
+      "name": "FIP Bronze Mallorca",
+      "city": "Mallorca",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 4,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-25"
+    },
+    {
+      "id": "bronze-mumbai-fip-bronze-mumbai",
+      "name": "FIP Bronze Mumbai",
+      "city": "Mumbai",
+      "country": "IN",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 4,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-01-22",
+      "endDate": "2026-01-25"
+    },
+    {
+      "id": "silver-caen-fip-silver-caen",
+      "name": "FIP Silver Caen",
+      "city": "Caen",
+      "country": "FR",
+      "category": "silver",
+      "band": "developmental",
+      "week": 4,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-25"
+    },
+    {
+      "id": "bronze-beniparrell-fip-bronze-comunidad-valenci",
+      "name": "FIP Bronze Comunidad Valenciana I",
+      "city": "Beniparrell",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 5,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-01-26",
+      "endDate": "2026-02-01"
+    },
+    {
+      "id": "bronze-doha-fip-bronze-doha",
+      "name": "FIP Bronze Doha",
+      "city": "Doha",
+      "country": "QA",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 5,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-01-28",
+      "endDate": "2026-02-01"
+    },
+    {
+      "id": "bronze-madeira-fip-bronze-madeira",
+      "name": "FIP Bronze Madeira",
+      "city": "Madeira",
+      "country": "PT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 5,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-02-01",
+      "endDate": "2026-02-08"
+    },
+    {
+      "id": "bronze-san-antonio-fip-bronze-san-antonio",
+      "name": "FIP Bronze San Antonio",
+      "city": "San antonio",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 5,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-01-29",
+      "endDate": "2026-02-02"
+    },
+    {
+      "id": "bronze-manana-fip-bronze-bahrain",
+      "name": "FIP Bronze Bahrain",
+      "city": "Manana",
+      "country": "BH",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 6,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-02-04",
+      "endDate": "2026-02-08"
+    },
+    {
+      "id": "platinum-marseille-fip-platinum-ville-de-marsei",
+      "name": "FIP Platinum Ville de Marseille",
+      "city": "Marseille",
+      "country": "FR",
+      "category": "platinum",
+      "band": "professional",
+      "week": 6,
+      "points": {
+        "r32": 14,
+        "r16": 27,
+        "quarter": 54,
+        "semi": 108,
+        "final": 180,
+        "winner": 300
+      },
+      "prize": {
+        "r32": 770,
+        "r16": 1400,
+        "quarter": 2380,
+        "semi": 4200,
+        "final": 7700,
+        "winner": 14000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-02-02",
+      "endDate": "2026-02-08"
+    },
+    {
+      "id": "bronze-wadi-el-natrun-fip-bronze-wadi-padel-tourna",
+      "name": "FIP Bronze Wadi Padel Tournament",
+      "city": "Wadi el natrun",
+      "country": "EG",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 7,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-15"
+    },
+    {
+      "id": "silver-wadi-el-natrun-fip-silver-wadi-padel-tourna",
+      "name": "FIP Silver Wadi Padel Tournament",
+      "city": "Wadi el natrun",
+      "country": "EG",
+      "category": "silver",
+      "band": "developmental",
+      "week": 7,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-15"
+    },
+    {
+      "id": "bronze-agadir-fip-bronze-agadir",
+      "name": "FIP Bronze Agadir",
+      "city": "Agadir",
+      "country": "MA",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 8,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-02-18",
+      "endDate": "2026-02-22"
+    },
+    {
+      "id": "silver-dubai-fip-silver-damac-dubai",
+      "name": "FIP Silver Damac Dubai",
+      "city": "Dubai",
+      "country": "AE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 8,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-02-16",
+      "endDate": "2026-02-22"
+    },
+    {
+      "id": "bronze-agrigento-fip-bronze-agrigento",
+      "name": "FIP Bronze Agrigento",
+      "city": "Agrigento",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 9,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-02-25",
+      "endDate": "2026-03-01"
+    },
+    {
+      "id": "silver-espoo-fip-silver-esc-padel-2026",
+      "name": "FIP Silver Esc Padel 2026",
+      "city": "Espoo",
+      "country": "FI",
+      "category": "silver",
+      "band": "developmental",
+      "week": 9,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-02-25",
+      "endDate": "2026-03-01"
+    },
+    {
+      "id": "bronze-alexandria-fip-bronze-wepadel-tournamen",
+      "name": "FIP Bronze Wepadel Tournament",
+      "city": "Alexandria",
+      "country": "EG",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 10,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-03",
+      "endDate": "2026-03-07"
+    },
+    {
+      "id": "bronze-burriana-fip-bronze-burriana",
+      "name": "FIP Bronze Burriana",
+      "city": "Burriana",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 10,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-04",
+      "endDate": "2026-03-08"
+    },
+    {
+      "id": "bronze-houten-fip-bronze-padel-shop-open",
+      "name": "FIP Bronze Padel Shop Open",
+      "city": "Houten",
+      "country": "NL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 10,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-03",
+      "endDate": "2026-03-08"
+    },
+    {
+      "id": "bronze-santa-maria-fip-bronze-gaucho",
+      "name": "FIP Bronze Gaúcho",
+      "city": "Santa maria",
+      "country": "BR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 10,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-06",
+      "endDate": "2026-03-08"
+    },
+    {
+      "id": "bronze-singapore-fip-bronze-singapore",
+      "name": "FIP Bronze Singapore",
+      "city": "Singapore",
+      "country": "SG",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 10,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-04",
+      "endDate": "2026-03-08"
+    },
+    {
+      "id": "gold-acores-fip-gold-ponta-delgada",
+      "name": "FIP Gold Ponta Delgada",
+      "city": "Açores",
+      "country": "PT",
+      "category": "gold",
+      "band": "professional",
+      "week": 10,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-04",
+      "endDate": "2026-03-08"
+    },
+    {
+      "id": "bronze-joinville-fip-bronze-joinville",
+      "name": "FIP Bronze Joinville",
+      "city": "Joinville",
+      "country": "BR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 11,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-15"
+    },
+    {
+      "id": "bronze-siracusa-fip-bronze-siracusa",
+      "name": "FIP Bronze Siracusa",
+      "city": "Siracusa",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 11,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-11",
+      "endDate": "2026-03-15"
+    },
+    {
+      "id": "silver-joinville-fip-silver-joinville",
+      "name": "FIP Silver Joinville",
+      "city": "Joinville",
+      "country": "BR",
+      "category": "silver",
+      "band": "developmental",
+      "week": 11,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-03-12",
+      "endDate": "2026-03-15"
+    },
+    {
+      "id": "silver-manila-fip-silver-manila",
+      "name": "FIP Silver Manila",
+      "city": "Manila",
+      "country": "PH",
+      "category": "silver",
+      "band": "developmental",
+      "week": 11,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-03-12",
+      "endDate": "2026-03-15"
+    },
+    {
+      "id": "bronze-helsingborg-fip-bronze-sweden-i",
+      "name": "FIP Bronze Sweden I",
+      "city": "Helsingborg",
+      "country": "SE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 12,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-18",
+      "endDate": "2026-03-22"
+    },
+    {
+      "id": "bronze-hong-kong-fip-bronze-go-park-hong-kong",
+      "name": "FIP Bronze Go Park Hong Kong",
+      "city": "Hong kong",
+      "country": "HK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 12,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-17",
+      "endDate": "2026-03-22"
+    },
+    {
+      "id": "bronze-kaunas-fip-bronze-litas-kaunas",
+      "name": "FIP Bronze Litas Kaunas",
+      "city": "Kaunas",
+      "country": "LT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 12,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-19",
+      "endDate": "2026-03-22"
+    },
+    {
+      "id": "bronze-nairobi-fip-bronze-elite-padel-nairo",
+      "name": "FIP Bronze Elite Padel Nairobi",
+      "city": "Nairobi",
+      "country": "KE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 12,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-19",
+      "endDate": "2026-03-22"
+    },
+    {
+      "id": "silver-parma-fip-silver-mediolanum-padel-",
+      "name": "FIP Silver Mediolanum Padel Cup",
+      "city": "Parma",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 12,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-17",
+      "endDate": "2026-03-22"
+    },
+    {
+      "id": "bronze-hong-kong-fip-bronze-hong-kong-ii",
+      "name": "FIP Bronze Hong Kong II",
+      "city": "Hong kong",
+      "country": "HK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 13,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-25",
+      "endDate": "2026-03-29"
+    },
+    {
+      "id": "bronze-viseu-fip-bronze-viseu",
+      "name": "FIP Bronze Viseu",
+      "city": "Viseu",
+      "country": "PT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 13,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-24",
+      "endDate": "2026-03-29"
+    },
+    {
+      "id": "silver-caltanisetta-fip-silver-kalat",
+      "name": "FIP Silver Kalat",
+      "city": "Caltanisetta",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 13,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-25",
+      "endDate": "2026-03-29"
+    },
+    {
+      "id": "bronze-houten-fip-bronze-netherlands",
+      "name": "FIP Bronze Netherlands",
+      "city": "Houten",
+      "country": "NL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 14,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-31",
+      "endDate": "2026-04-05"
+    },
+    {
+      "id": "bronze-mumbai-fip-bronze-mumbai-ii",
+      "name": "FIP Bronze Mumbai II",
+      "city": "Mumbai",
+      "country": "IN",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 14,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-05"
+    },
+    {
+      "id": "gold-almaty-fip-gold-almaty",
+      "name": "FIP Gold Almaty",
+      "city": "Almaty",
+      "country": "KZ",
+      "category": "gold",
+      "band": "professional",
+      "week": 14,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-05"
+    },
+    {
+      "id": "silver-abidjan-fip-silver-betclic",
+      "name": "FIP Silver Betclic",
+      "city": "Abidjan",
+      "country": "CI",
+      "category": "silver",
+      "band": "developmental",
+      "week": 14,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-05"
+    },
+    {
+      "id": "bronze-aguascalientes-fip-bronze-aguascalientes",
+      "name": "FIP Bronze Aguascalientes",
+      "city": "Aguascalientes",
+      "country": "MX",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 15,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-04-09",
+      "endDate": "2026-04-11"
+    },
+    {
+      "id": "bronze-baku-fip-bronze-baku",
+      "name": "FIP Bronze Baku",
+      "city": "Baku",
+      "country": "AZ",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 15,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-09",
+      "endDate": "2026-04-12"
+    },
+    {
+      "id": "bronze-eidsvoll-fip-bronze-s4sport-open",
+      "name": "FIP Bronze S4sport Open",
+      "city": "Eidsvoll",
+      "country": "NO",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 15,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-09",
+      "endDate": "2026-04-12"
+    },
+    {
+      "id": "bronze-elche-fip-bronze-elche",
+      "name": "FIP Bronze Elche",
+      "city": "Elche",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 15,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-08",
+      "endDate": "2026-04-12"
+    },
+    {
+      "id": "bronze-rivesaltes-fip-bronze-rivesaltes",
+      "name": "FIP Bronze Rivesaltes",
+      "city": "Rivesaltes",
+      "country": "FR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 15,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-08",
+      "endDate": "2026-04-12"
+    },
+    {
+      "id": "silver-aguascalientes-fip-silver-aguascalientes",
+      "name": "FIP Silver Aguascalientes",
+      "city": "Aguascalientes",
+      "country": "MX",
+      "category": "silver",
+      "band": "developmental",
+      "week": 15,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-04-08",
+      "endDate": "2026-04-11"
+    },
+    {
+      "id": "silver-mumbai-fip-silver-mumbai",
+      "name": "FIP Silver Mumbai",
+      "city": "Mumbai",
+      "country": "IN",
+      "category": "silver",
+      "band": "developmental",
+      "week": 15,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-08",
+      "endDate": "2026-04-12"
+    },
+    {
+      "id": "bronze-ayia-napa-fip-bronze-cyprus-i",
+      "name": "FIP Bronze Cyprus I",
+      "city": "Ayia Napa",
+      "country": "CY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 16,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-19"
+    },
+    {
+      "id": "bronze-ijui-fip-bronze-ijui",
+      "name": "FIP Bronze Ijuí",
+      "city": "Ijuí",
+      "country": "BR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 16,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-17",
+      "endDate": "2026-04-19"
+    },
+    {
+      "id": "bronze-kuala-lumpur-fip-bronze-kuala-lumpur",
+      "name": "FIP Bronze Kuala Lumpur",
+      "city": "Kuala lumpur",
+      "country": "MY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 16,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-14",
+      "endDate": "2026-04-19"
+    },
+    {
+      "id": "bronze-marrakech-fip-bronze-marrakech",
+      "name": "FIP Bronze Marrakech",
+      "city": "Marrakech",
+      "country": "MA",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 16,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-19"
+    },
+    {
+      "id": "bronze-sevilla-fip-bronze-iconico-sports",
+      "name": "FIP Bronze Icónico Sports",
+      "city": "Sevilla",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 16,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-15",
+      "endDate": "2026-04-19"
+    },
+    {
+      "id": "silver-nola-fip-silver-nola",
+      "name": "FIP Silver Nola",
+      "city": "Nola",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 16,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-15",
+      "endDate": "2026-04-19"
+    },
+    {
+      "id": "bronze-asuncion-fip-bronze-paraguay-i",
+      "name": "FIP Bronze Paraguay I",
+      "city": "Asunción",
+      "country": "PY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 17,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-26"
+    },
+    {
+      "id": "bronze-ayia-napa-fip-bronze-cyprus-ii",
+      "name": "FIP Bronze Cyprus II",
+      "city": "Ayia Napa",
+      "country": "CY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 17,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-23",
+      "endDate": "2026-04-26"
+    },
+    {
+      "id": "bronze-isla-de-la-palma-fip-bronze-aquahobby-isla-de",
+      "name": "FIP Bronze Aquahobby Isla de la Palma",
+      "city": "Isla de la Palma",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 17,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-23",
+      "endDate": "2026-04-25"
+    },
+    {
+      "id": "bronze-santiago-fip-bronze-chile-ii",
+      "name": "FIP Bronze Chile II",
+      "city": "Santiago",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 17,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-04-23",
+      "endDate": "2026-04-26"
+    },
+    {
+      "id": "silver-bari-fip-silver-mediolanum-padel-",
+      "name": "FIP Silver Mediolanum Padel Cup Bari",
+      "city": "Bari",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 17,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-22",
+      "endDate": "2026-04-26"
+    },
+    {
+      "id": "silver-kuala-lumpur-fip-silver-kuala-lumpur",
+      "name": "FIP Silver Kuala Lumpur",
+      "city": "Kuala lumpur",
+      "country": "MY",
+      "category": "silver",
+      "band": "developmental",
+      "week": 17,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-21",
+      "endDate": "2026-04-26"
+    },
+    {
+      "id": "bronze-montesilvano-fip-bronze-montesilvano",
+      "name": "FIP Bronze Montesilvano",
+      "city": "Montesilvano",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 18,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-30",
+      "endDate": "2026-05-03"
+    },
+    {
+      "id": "bronze-singapore-fip-bronze-singapore-ii",
+      "name": "FIP Bronze Singapore II",
+      "city": "Singapore",
+      "country": "SG",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 18,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-29",
+      "endDate": "2026-05-03"
+    },
+    {
+      "id": "silver-ayia-napa-fip-silver-cyprus-i",
+      "name": "FIP Silver Cyprus I",
+      "city": "Ayia Napa",
+      "country": "CY",
+      "category": "silver",
+      "band": "developmental",
+      "week": 18,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-30",
+      "endDate": "2026-05-03"
+    },
+    {
+      "id": "silver-gran-canaria-fip-silver-bmw-marmotor-26-a",
+      "name": "FIP Silver Bmw Marmotor 26º Aniversario Club la Calzada",
+      "city": "Gran Canaria",
+      "country": "ES",
+      "category": "silver",
+      "band": "developmental",
+      "week": 18,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-29",
+      "endDate": "2026-05-03"
+    },
+    {
+      "id": "silver-leiria-fip-silver-leiria-master-pad",
+      "name": "FIP Silver Leiria Master Padel",
+      "city": "Leiria",
+      "country": "PT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 18,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-29",
+      "endDate": "2026-05-03"
+    },
+    {
+      "id": "silver-mendoza-fip-silver-mendoza",
+      "name": "FIP Silver Mendoza",
+      "city": "Mendoza",
+      "country": "AR",
+      "category": "silver",
+      "band": "developmental",
+      "week": 18,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-04-29",
+      "endDate": "2026-05-03"
+    },
+    {
+      "id": "bronze-kolding-fip-bronze-mos-mosh-gallery-",
+      "name": "FIP Bronze Mos Mosh Gallery Kif Padel Masters",
+      "city": "Kolding",
+      "country": "DK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 19,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-10"
+    },
+    {
+      "id": "bronze-london-fip-bronze-london",
+      "name": "FIP Bronze London",
+      "city": "London",
+      "country": "GB",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 19,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-10"
+    },
+    {
+      "id": "bronze-prishtina-fip-bronze-prishtina",
+      "name": "FIP Bronze Prishtina",
+      "city": "Prishtina",
+      "country": "XK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 19,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-10"
+    },
+    {
+      "id": "bronze-samui-fip-bronze-samui",
+      "name": "FIP Bronze Samui",
+      "city": "Samui",
+      "country": "TH",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 19,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-06",
+      "endDate": "2026-05-10"
+    },
+    {
+      "id": "silver-teramo-fip-silver-horama-2026",
+      "name": "FIP Silver Horama 2026",
+      "city": "Teramo",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 19,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-06",
+      "endDate": "2026-05-09"
+    },
+    {
+      "id": "silver-vila-real-de-santo-antonio-fip-silver-vila-real-de-sant",
+      "name": "FIP Silver Vila Real de Santo Antonio",
+      "city": "Vila Real de Santo Antonio",
+      "country": "PT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 19,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-05",
+      "endDate": "2026-05-09"
+    },
+    {
+      "id": "bronze-alexandria-fip-bronze-egypt-iii",
+      "name": "FIP Bronze Egypt III",
+      "city": "Alexandría",
+      "country": "EG",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 20,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-14",
+      "endDate": "2026-05-17"
+    },
+    {
+      "id": "bronze-bratislava-fip-bronze-bratislava",
+      "name": "FIP Bronze Bratislava",
+      "city": "Bratislava",
+      "country": "SK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 20,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-13",
+      "endDate": "2026-05-16"
+    },
+    {
+      "id": "bronze-bydgoszcz-fip-bronze-lotto",
+      "name": "FIP Bronze Lotto",
+      "city": "Bydgoszcz",
+      "country": "PL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 20,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-13",
+      "endDate": "2026-05-17"
+    },
+    {
+      "id": "bronze-miami-fip-bronze-miami",
+      "name": "FIP Bronze Miami",
+      "city": "Miami",
+      "country": "US",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 20,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-14",
+      "endDate": "2026-05-17"
+    },
+    {
+      "id": "bronze-phangan-fip-bronze-phangan",
+      "name": "FIP Bronze Phangan",
+      "city": "Phangan",
+      "country": "TH",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 20,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-14",
+      "endDate": "2026-05-17"
+    },
+    {
+      "id": "silver-timisoara-fip-silver-timisoara",
+      "name": "FIP Silver Timisoara",
+      "city": "Timisoara",
+      "country": "RO",
+      "category": "silver",
+      "band": "developmental",
+      "week": 20,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-14",
+      "endDate": "2026-05-17"
+    },
+    {
+      "id": "bronze-latina-fip-bronze-latina",
+      "name": "FIP Bronze Latina",
+      "city": "Latina",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 21,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-24"
+    },
+    {
+      "id": "bronze-marnes-fip-bronze-marnes",
+      "name": "FIP Bronze Marnes",
+      "city": "Marnes",
+      "country": "FR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 21,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-23"
+    },
+    {
+      "id": "bronze-yogyakarta-fip-bronze-yogyakarta",
+      "name": "FIP Bronze Yogyakarta",
+      "city": "Yogyakarta",
+      "country": "ID",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 21,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-24"
+    },
+    {
+      "id": "platinum-tirana-fip-platinum-albania",
+      "name": "FIP Platinum Albania",
+      "city": "Tirana",
+      "country": "AL",
+      "category": "platinum",
+      "band": "professional",
+      "week": 21,
+      "points": {
+        "r32": 14,
+        "r16": 27,
+        "quarter": 54,
+        "semi": 108,
+        "final": 180,
+        "winner": 300
+      },
+      "prize": {
+        "r32": 770,
+        "r16": 1400,
+        "quarter": 2380,
+        "semi": 4200,
+        "final": 7700,
+        "winner": 14000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-24",
+      "endDate": "2026-05-30"
+    },
+    {
+      "id": "silver-london-fip-silver-hop-london-padel-",
+      "name": "FIP Silver Hop London Padel Open",
+      "city": "London",
+      "country": "GB",
+      "category": "silver",
+      "band": "developmental",
+      "week": 21,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-24"
+    },
+    {
+      "id": "silver-oeiras-fip-silver-oeiras",
+      "name": "FIP Silver Oeiras",
+      "city": "Oeiras",
+      "country": "PT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 21,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-24"
+    },
+    {
+      "id": "bronze-abu-dhabi-fip-bronze-damac-abu-dhabi",
+      "name": "FIP Bronze Damac Abu Dhabi",
+      "city": "Abu Dhabi",
+      "country": "AE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 22,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-26",
+      "endDate": "2026-05-31"
+    },
+    {
+      "id": "bronze-castellon-fip-bronze-castellon-automoc",
+      "name": "FIP Bronze Castellón - Automoción Cano Kia",
+      "city": "Castellón",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 22,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-27",
+      "endDate": "2026-05-31"
+    },
+    {
+      "id": "bronze-pembroke-fip-bronze-pembroke",
+      "name": "FIP Bronze Pembroke",
+      "city": "Pembroke",
+      "country": "MT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 22,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31"
+    },
+    {
+      "id": "bronze-rijswijk-fip-bronze-hello-padel",
+      "name": "FIP Bronze Hello Padel",
+      "city": "Rijswijk",
+      "country": "NL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 22,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31"
+    },
+    {
+      "id": "bronze-vina-del-mar-fip-bronze-chile-iii",
+      "name": "FIP Bronze Chile III",
+      "city": "Viña del Mar",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 22,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31"
+    },
+    {
+      "id": "silver-hoganas-fip-silver-hoganas",
+      "name": "FIP Silver Hoganas",
+      "city": "Hóganás",
+      "country": "SE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 22,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31"
+    },
+    {
+      "id": "bronze-dakar-fip-bronze-dakar",
+      "name": "FIP Bronze Dakar",
+      "city": "Dakar",
+      "country": "SN",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 23,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07"
+    },
+    {
+      "id": "bronze-hamburg-fip-bronze-hamburg",
+      "name": "FIP Bronze Hamburg",
+      "city": "Hamburg",
+      "country": "DD",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 23,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07"
+    },
+    {
+      "id": "bronze-istanbul-fip-bronze-qnb-cup",
+      "name": "FIP Bronze Qnb Cup",
+      "city": "Istanbul",
+      "country": "TR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 23,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07"
+    },
+    {
+      "id": "bronze-matosinhos-fip-bronze-matosinhos-open-h",
+      "name": "FIP Bronze Matosinhos Open Hospital Santa Maria Do Porto",
+      "city": "Matosinhos",
+      "country": "PT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 23,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-05",
+      "endDate": "2026-06-07"
+    },
+    {
+      "id": "bronze-warsaw-fip-bronze-decathlon",
+      "name": "FIP Bronze Decathlon",
+      "city": "Warsaw",
+      "country": "PL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 23,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07"
+    },
+    {
+      "id": "silver-bandol-fip-silver-bandol",
+      "name": "FIP Silver Bandol",
+      "city": "Bandol",
+      "country": "FR",
+      "category": "silver",
+      "band": "developmental",
+      "week": 23,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07"
+    },
+    {
+      "id": "silver-dubai-fip-silver-damac-dubai-2",
+      "name": "FIP Silver Damac Dubai",
+      "city": "Dubai",
+      "country": "AE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 23,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-03",
+      "endDate": "2026-06-07"
+    },
+    {
+      "id": "bronze-lanzarote-fip-bronze-unomas-lanzarote-",
+      "name": "FIP Bronze Unomas Lanzarote I",
+      "city": "Lanzarote",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 24,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-11",
+      "endDate": "2026-06-14"
+    },
+    {
+      "id": "bronze-ljubljana-fip-bronze-slovenia",
+      "name": "FIP Bronze Slovenia",
+      "city": "Ljubljana",
+      "country": "SI",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 24,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-09",
+      "endDate": "2026-06-14"
+    },
+    {
+      "id": "gold-shanghai-fip-gold-shanghai",
+      "name": "FIP Gold Shanghai",
+      "city": "Shanghai",
+      "country": "CN",
+      "category": "gold",
+      "band": "professional",
+      "week": 24,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-10",
+      "endDate": "2026-06-14"
+    },
+    {
+      "id": "silver-palermo-fip-silver-mediolanum-padel-",
+      "name": "FIP Silver Mediolanum Padel Cup",
+      "city": "Palermo",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 24,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-10",
+      "endDate": "2026-06-14"
+    },
+    {
+      "id": "bronze-cordenons-fip-bronze-cordenons",
+      "name": "FIP Bronze Cordenons",
+      "city": "Cordenons",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 25,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-19",
+      "endDate": "2026-06-21"
+    },
+    {
+      "id": "bronze-kenitra-fip-bronze-morocco-padel-int",
+      "name": "FIP Bronze Morocco Padel International Tour Frmt 3",
+      "city": "Kénitra",
+      "country": "MA",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 25,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-06-19",
+      "endDate": "2026-06-21"
+    },
+    {
+      "id": "bronze-osaka-fip-bronze-high-velocity-osa",
+      "name": "FIP Bronze High Velocity Osaka",
+      "city": "Osaka",
+      "country": "JP",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 25,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-16",
+      "endDate": "2026-06-21"
+    },
+    {
+      "id": "platinum-paredes-fip-platinum-lusitania-portu",
+      "name": "FIP Platinum Lusitania Portugal Master Padel",
+      "city": "Paredes",
+      "country": "PT",
+      "category": "platinum",
+      "band": "professional",
+      "week": 25,
+      "points": {
+        "r32": 14,
+        "r16": 27,
+        "quarter": 54,
+        "semi": 108,
+        "final": 180,
+        "winner": 300
+      },
+      "prize": {
+        "r32": 770,
+        "r16": 1400,
+        "quarter": 2380,
+        "semi": 4200,
+        "final": 7700,
+        "winner": 14000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-15",
+      "endDate": "2026-06-21"
+    },
+    {
+      "id": "silver-narbona-fip-silver-narbona",
+      "name": "FIP Silver Narbona",
+      "city": "Narbona",
+      "country": "FR",
+      "category": "silver",
+      "band": "developmental",
+      "week": 25,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-17",
+      "endDate": "2026-06-21"
+    },
+    {
+      "id": "bronze-astorga-fip-bronze-astorga",
+      "name": "FIP Bronze Astorga",
+      "city": "Astorga",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 26,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-24",
+      "endDate": "2026-06-28"
+    },
+    {
+      "id": "bronze-iquique-fip-bronze-iquique",
+      "name": "FIP Bronze Iquique",
+      "city": "Iquique",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 26,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-06-26",
+      "endDate": "2026-06-28"
+    },
+    {
+      "id": "bronze-selangor-fip-bronze-high-velocity-sel",
+      "name": "FIP Bronze High Velocity Selangor",
+      "city": "Selangor",
+      "country": "MY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 26,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-23",
+      "endDate": "2026-06-28"
+    },
+    {
+      "id": "gold-abidjan-fip-gold-abidjan",
+      "name": "FIP Gold Abidjan",
+      "city": "Abidjan",
+      "country": "CI",
+      "category": "gold",
+      "band": "professional",
+      "week": 26,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-23",
+      "endDate": "2026-06-28"
+    },
+    {
+      "id": "silver-giulianova-fip-silver-giulianova",
+      "name": "FIP Silver Giulianova",
+      "city": "Giulianova",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 26,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-24",
+      "endDate": "2026-06-28"
+    },
+    {
+      "id": "bronze-baku-fip-bronze-baku-ii",
+      "name": "FIP Bronze Baku II",
+      "city": "Baku",
+      "country": "AZ",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 27,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-05"
+    },
+    {
+      "id": "bronze-chieti-fip-bronze-chieti",
+      "name": "FIP Bronze Chieti",
+      "city": "Chieti",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 27,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-03",
+      "endDate": "2026-07-05"
+    },
+    {
+      "id": "bronze-la-nucia-fip-bronze-la-nucia",
+      "name": "FIP Bronze la Nucía",
+      "city": "La Nucia",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 27,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-05"
+    },
+    {
+      "id": "silver-belfast-fip-silver-r3-bull-padel-cup",
+      "name": "FIP Silver R3 Bull Padel Cup",
+      "city": "Belfast",
+      "country": "GB",
+      "category": "silver",
+      "band": "developmental",
+      "week": 27,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-05"
+    },
+    {
+      "id": "bronze-budapest-fip-bronze-hungary",
+      "name": "FIP Bronze Hungary",
+      "city": "Budapest",
+      "country": "HU",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 28,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-12"
+    },
+    {
+      "id": "bronze-jakarta-fip-bronze-jakarta",
+      "name": "FIP Bronze Jakarta",
+      "city": "Jakarta",
+      "country": "ID",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 28,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-07",
+      "endDate": "2026-07-12"
+    },
+    {
+      "id": "bronze-tbilisi-fip-bronze-georgia",
+      "name": "FIP Bronze Georgia",
+      "city": "Tbilisi",
+      "country": "GE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 28,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-12"
+    },
+    {
+      "id": "silver-alcala-de-guadaira-fip-silver-alcala-de-guadair",
+      "name": "FIP Silver Alcala de Guadaira",
+      "city": "Alcalá de Guadaira",
+      "country": "ES",
+      "category": "silver",
+      "band": "developmental",
+      "week": 28,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-12"
+    },
+    {
+      "id": "silver-koksijde-fip-silver-koksijde",
+      "name": "FIP Silver Koksijde",
+      "city": "Koksijde",
+      "country": "BE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 28,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-12"
+    },
+    {
+      "id": "silver-pingyuan-fip-silver-pingyuan",
+      "name": "FIP Silver Pingyuan",
+      "city": "Pingyuan",
+      "country": "CN",
+      "category": "silver",
+      "band": "developmental",
+      "week": 28,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-09",
+      "endDate": "2026-07-12"
+    },
+    {
+      "id": "bronze-a-coruna-fip-bronze-a-coruna",
+      "name": "FIP Bronze A Coruña",
+      "city": "A Coruña",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 29,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-19"
+    },
+    {
+      "id": "bronze-banten-fip-bronze-banten",
+      "name": "FIP Bronze Banten",
+      "city": "Banten",
+      "country": "ID",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 29,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-19"
+    },
+    {
+      "id": "bronze-dronten-fip-bronze-dronten",
+      "name": "FIP Bronze Dronten",
+      "city": "Dronten",
+      "country": "NL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 29,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-16",
+      "endDate": "2026-07-19"
+    },
+    {
+      "id": "silver-dublin-fip-silver-hiscox-padel-iris",
+      "name": "FIP Silver Hiscox Padel Irish Open Dublin",
+      "city": "Dublin",
+      "country": "IE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 29,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-19"
+    },
+    {
+      "id": "bronze-brescia-fip-bronze-hub-4-0-rovato",
+      "name": "FIP Bronze Hub 4.0 Rovato",
+      "city": "Brescia",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 30,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-26"
+    },
+    {
+      "id": "bronze-camboriu-fip-bronze-camboriu",
+      "name": "FIP Bronze Camboriu",
+      "city": "Camboriu",
+      "country": "BR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 30,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26"
+    },
+    {
+      "id": "bronze-comunidad-valenciana-fip-bronze-san-juan-de-alica",
+      "name": "FIP Bronze San Juan de Alicante – El Salt",
+      "city": "Comunidad valenciana",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 30,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-26"
+    },
+    {
+      "id": "bronze-copiapo-fip-bronze-copiapo",
+      "name": "FIP Bronze Copiapo",
+      "city": "Copiapo",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 30,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26"
+    },
+    {
+      "id": "bronze-lelystad-fip-bronze-allesvoorpadel",
+      "name": "FIP Bronze Allesvoorpadel",
+      "city": "Lelystad",
+      "country": "NL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 30,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-26"
+    },
+    {
+      "id": "silver-camboriu-fip-silver-camboriu",
+      "name": "FIP Silver Camboriu",
+      "city": "Camboriu",
+      "country": "BR",
+      "category": "silver",
+      "band": "developmental",
+      "week": 30,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26"
+    },
+    {
+      "id": "silver-oporto-fip-silver-mimosa-open-porto",
+      "name": "FIP Silver Mimosa Open Porto",
+      "city": "Oporto",
+      "country": "PT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 30,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-22",
+      "endDate": "2026-07-26"
+    },
+    {
+      "id": "bronze-ciudad-del-este-fip-bronze-paraguay-ii",
+      "name": "FIP Bronze Paraguay II",
+      "city": "Ciudad del Este",
+      "country": "PY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 31,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-02"
+    },
+    {
+      "id": "bronze-frascati-fip-bronze-frascati",
+      "name": "FIP Bronze Frascati",
+      "city": "Frascati",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 31,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-02"
+    },
+    {
+      "id": "bronze-north-coast-fip-bronze-playa",
+      "name": "FIP Bronze Playa",
+      "city": "North Coast",
+      "country": "EG",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 31,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-01"
+    },
+    {
+      "id": "silver-barcelona-fip-silver-slam-collbato",
+      "name": "FIP Silver Slam Collbató",
+      "city": "Barcelona",
+      "country": "ES",
+      "category": "silver",
+      "band": "developmental",
+      "week": 31,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-28",
+      "endDate": "2026-08-02"
+    },
+    {
+      "id": "silver-jersey-island-fip-silver-rathbones-island-",
+      "name": "FIP Silver Rathbones Island Padel",
+      "city": "Jersey Island",
+      "country": "GB",
+      "category": "silver",
+      "band": "developmental",
+      "week": 31,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-02"
+    },
+    {
+      "id": "bronze-portimao-fip-bronze-portimao",
+      "name": "FIP Bronze Portimao",
+      "city": "Portimao",
+      "country": "PT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 32,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09"
+    },
+    {
+      "id": "bronze-barcelona-fip-bronze-padel-barcelona-e",
+      "name": "FIP Bronze Padel Barcelona El Prat",
+      "city": "Barcelona",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 33,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16"
+    },
+    {
+      "id": "bronze-mol-fip-bronze-r3-bullpadel-cup-",
+      "name": "FIP Bronze R3 Bullpadel Cup Mol",
+      "city": "Mol",
+      "country": "BE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 33,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16"
+    },
+    {
+      "id": "silver-bali-fip-silver-bali-island-sport",
+      "name": "FIP Silver Bali Island Sports",
+      "city": "Bali",
+      "country": "ID",
+      "category": "silver",
+      "band": "developmental",
+      "week": 33,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16"
+    },
+    {
+      "id": "bronze-castro-fip-bronze-castro",
+      "name": "FIP Bronze Castro",
+      "city": "Castro",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 34,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-23"
+    },
+    {
+      "id": "gold-san-luis-fip-gold-san-luis",
+      "name": "FIP Gold San Luis",
+      "city": "San Luis",
+      "country": "MX",
+      "category": "gold",
+      "band": "professional",
+      "week": 34,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-22"
+    },
+    {
+      "id": "silver-espoo-fip-silver-esc-padel-ii",
+      "name": "FIP Silver Esc Padel II",
+      "city": "Espoo",
+      "country": "FI",
+      "category": "silver",
+      "band": "developmental",
+      "week": 34,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-22"
+    },
+    {
+      "id": "silver-porto-sant-elpidio-fip-silver-3f-elettronica-po",
+      "name": "FIP Silver 3f Elettronica Porto St'elpidio",
+      "city": "Porto Sant'Elpidio",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 34,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-24"
+    },
+    {
+      "id": "bronze-madrid-fip-bronze-bamvolea-ciudad-r",
+      "name": "FIP Bronze Bamvolea Ciudad Raqueta",
+      "city": "Madrid",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 35,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-29"
+    },
+    {
+      "id": "bronze-westerbork-fip-bronze-westerbork",
+      "name": "FIP Bronze Westerbork",
+      "city": "Westerbork",
+      "country": "NL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 35,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-30"
+    },
+    {
+      "id": "gold-belgrade-fip-gold-belgrade",
+      "name": "FIP Gold Belgrade",
+      "city": "Belgrade",
+      "country": "CS",
+      "category": "gold",
+      "band": "professional",
+      "week": 35,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-30"
+    },
+    {
+      "id": "silver-mc-allen-texas-fip-silver-mc-allen-texas",
+      "name": "FIP Silver Mc Allen Texas",
+      "city": "MC Allen Texas",
+      "country": "US",
+      "category": "silver",
+      "band": "developmental",
+      "week": 35,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-30"
+    },
+    {
+      "id": "silver-westerbork-fip-silver-westerbork",
+      "name": "FIP Silver Westerbork",
+      "city": "Westerbork",
+      "country": "NL",
+      "category": "silver",
+      "band": "developmental",
+      "week": 35,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-30"
+    },
+    {
+      "id": "bronze-marnes-fip-bronze-marnes-2",
+      "name": "FIP Bronze Marnes",
+      "city": "Marnes",
+      "country": "FR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 36,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06"
+    },
+    {
+      "id": "bronze-phoenix-fip-bronze-phoenix-open",
+      "name": "FIP Bronze Phoenix Open",
+      "city": "Phoenix",
+      "country": "US",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 36,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06"
+    },
+    {
+      "id": "bronze-sassuolo-fip-bronze-sassuolo",
+      "name": "FIP Bronze Sassuolo",
+      "city": "Sassuolo",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 36,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06"
+    },
+    {
+      "id": "bronze-tbd-bronze-paraguay-iii",
+      "name": "Bronze Paraguay III",
+      "city": "Tbd",
+      "country": "PY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 36,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06"
+    },
+    {
+      "id": "silver-cordoba-fip-silver-cordoba",
+      "name": "FIP Silver Cordoba",
+      "city": "Cordoba",
+      "country": "ES",
+      "category": "silver",
+      "band": "developmental",
+      "week": 36,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06"
+    },
+    {
+      "id": "bronze-casablanca-fip-bronze-casablanca",
+      "name": "FIP Bronze Casablanca",
+      "city": "Casablanca",
+      "country": "MA",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 37,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "bronze-phuket-fip-bronze-phuket",
+      "name": "FIP Bronze Phuket",
+      "city": "Phuket",
+      "country": "TH",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 37,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "bronze-san-luis-fip-bronze-san-luis",
+      "name": "FIP Bronze San Luis",
+      "city": "San luis",
+      "country": "MX",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 37,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "gold-bucharest-fip-gold-bucharest",
+      "name": "FIP Gold Bucharest",
+      "city": "Bucharest",
+      "country": "RO",
+      "category": "gold",
+      "band": "professional",
+      "week": 37,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "silver-ceuta-fip-silver-ceuta",
+      "name": "FIP Silver Ceuta",
+      "city": "Ceuta",
+      "country": "ES",
+      "category": "silver",
+      "band": "developmental",
+      "week": 37,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "silver-lisboa-fip-silver-lisboa",
+      "name": "FIP Silver Lisboa",
+      "city": "Lisboa",
+      "country": "PT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 37,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "silver-san-luis-fip-silver-san-luis",
+      "name": "FIP Silver San Luis",
+      "city": "San Luis",
+      "country": "MX",
+      "category": "silver",
+      "band": "developmental",
+      "week": 37,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "silver-utrecht-fip-silver-padel-copa-utrech",
+      "name": "FIP Silver Padel Copa Utrecht 2026",
+      "city": "Utrecht",
+      "country": "NL",
+      "category": "silver",
+      "band": "developmental",
+      "week": 37,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "bronze-izmir-fip-bronze-izmir",
+      "name": "FIP Bronze Izmir",
+      "city": "Izmir",
+      "country": "TR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 38,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20"
+    },
+    {
+      "id": "bronze-tbc-fip-bronze-comunidad-valenci",
+      "name": "FIP Bronze Comunidad Valenciana VI",
+      "city": "Tbc",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 38,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20"
+    },
+    {
+      "id": "gold-sao-paulo-fip-gold-sao-paulo",
+      "name": "FIP Gold Sao Paulo",
+      "city": "Sao Paulo",
+      "country": "BR",
+      "category": "gold",
+      "band": "professional",
+      "week": 38,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20"
+    },
+    {
+      "id": "silver-bangkok-fip-silver-bangkok",
+      "name": "FIP Silver Bangkok",
+      "city": "Bangkok",
+      "country": "TH",
+      "category": "silver",
+      "band": "developmental",
+      "week": 38,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20"
+    },
+    {
+      "id": "silver-budapest-fip-silver-budapest",
+      "name": "FIP Silver Budapest",
+      "city": "Budapest",
+      "country": "HU",
+      "category": "silver",
+      "band": "developmental",
+      "week": 38,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20"
+    },
+    {
+      "id": "silver-guimaraes-fip-silver-guimaraes",
+      "name": "FIP Silver Guimaraes",
+      "city": "Guimaraes",
+      "country": "PT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 38,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20"
+    },
+    {
+      "id": "silver-nairobi-fip-silver-nairobi",
+      "name": "FIP Silver Nairobi",
+      "city": "Nairobi",
+      "country": "KE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 38,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20"
+    },
+    {
+      "id": "bronze-dubai-fip-bronze-dubai",
+      "name": "FIP Bronze Dubai",
+      "city": "Dubai",
+      "country": "AE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 39,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27"
+    },
+    {
+      "id": "bronze-tunisia-fip-bronze-tunisia-i",
+      "name": "FIP Bronze Tunisia I",
+      "city": "Tunisia",
+      "country": "TN",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 39,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27"
+    },
+    {
+      "id": "bronze-vina-del-mar-fip-bronze-chile-vii",
+      "name": "FIP Bronze Chile VII",
+      "city": "Viña del Mar",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 39,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27"
+    },
+    {
+      "id": "platinum-lyon-fip-platinum-lyon",
+      "name": "FIP Platinum Lyon",
+      "city": "Lyon",
+      "country": "FR",
+      "category": "platinum",
+      "band": "professional",
+      "week": 39,
+      "points": {
+        "r32": 14,
+        "r16": 27,
+        "quarter": 54,
+        "semi": 108,
+        "final": 180,
+        "winner": 300
+      },
+      "prize": {
+        "r32": 770,
+        "r16": 1400,
+        "quarter": 2380,
+        "semi": 4200,
+        "final": 7700,
+        "winner": 14000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27"
+    },
+    {
+      "id": "silver-amsterdam-fip-silver-amsterdam",
+      "name": "FIP Silver Amsterdam",
+      "city": "Amsterdam",
+      "country": "NL",
+      "category": "silver",
+      "band": "developmental",
+      "week": 39,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27"
+    },
+    {
+      "id": "silver-sao-joao-da-madeira-fip-silver-sao-joao-da-madei",
+      "name": "FIP Silver Sâo Joâo Da Madeira",
+      "city": "SÂo joÂo da madeira",
+      "country": "PT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 39,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27"
+    },
+    {
+      "id": "bronze-almeirim-fip-bronze-almeirim",
+      "name": "FIP Bronze Almeirim",
+      "city": "Almeirim",
+      "country": "PT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 40,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04"
+    },
+    {
+      "id": "bronze-jonkoping-fip-bronze-sweden-ii",
+      "name": "FIP Bronze Sweden II",
+      "city": "Jönköping",
+      "country": "SE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 40,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04"
+    },
+    {
+      "id": "bronze-karachi-fip-bronze-pakistan-i",
+      "name": "FIP Bronze Pakistan I",
+      "city": "Karachi",
+      "country": "PK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 40,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04"
+    },
+    {
+      "id": "bronze-tunisia-fip-bronze-tunissia-ii",
+      "name": "FIP Bronze Tunissia II",
+      "city": "Tunisia",
+      "country": "TN",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 40,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04"
+    },
+    {
+      "id": "bronze-yerevan-fip-bronze-yerevan-cup",
+      "name": "FIP Bronze Yerevan Cup",
+      "city": "Yerevan",
+      "country": "AM",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 40,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04"
+    },
+    {
+      "id": "gold-perugia-fip-gold-mediolanum-perugia",
+      "name": "FIP Gold Mediolanum Perugia",
+      "city": "Perugia",
+      "country": "IT",
+      "category": "gold",
+      "band": "professional",
+      "week": 40,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04"
+    },
+    {
+      "id": "bronze-nairobi-fip-bronze-kenya-ii",
+      "name": "FIP Bronze Kenya II",
+      "city": "Nairobi",
+      "country": "KE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 41,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "bronze-rovigo-fip-bronze-rovigo",
+      "name": "FIP Bronze Rovigo",
+      "city": "Rovigo",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 41,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "bronze-taastrup-fip-bronze-racket-club-maste",
+      "name": "FIP Bronze Racket Club Masters",
+      "city": "Taastrup",
+      "country": "DK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 41,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "bronze-tbd-fip-bronze-paraguay-iv",
+      "name": "FIP Bronze Paraguay IV",
+      "city": "Tbd",
+      "country": "PY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 41,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "bronze-veracruz-fip-bronze-veracruz",
+      "name": "FIP Bronze Veracruz",
+      "city": "Veracruz",
+      "country": "MX",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 41,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "silver-london-fip-silver-r3-bullpadel-cup-",
+      "name": "FIP Silver R3 Bullpadel Cup Stratford",
+      "city": "London",
+      "country": "GB",
+      "category": "silver",
+      "band": "developmental",
+      "week": 41,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "silver-porec-parenzo-fip-silver-porec-parenzo",
+      "name": "FIP Silver Porec Parenzo",
+      "city": "Porec parenzo",
+      "country": "HR",
+      "category": "silver",
+      "band": "developmental",
+      "week": 41,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "silver-veracruz-fip-silver-veracruz",
+      "name": "FIP Silver Veracruz",
+      "city": "Veracruz",
+      "country": "MX",
+      "category": "silver",
+      "band": "developmental",
+      "week": 41,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "bronze-alkmaar-fip-bronze-alkmaar",
+      "name": "FIP Bronze Alkmaar",
+      "city": "Alkmaar",
+      "country": "NL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 42,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18"
+    },
+    {
+      "id": "bronze-cotonu-fip-bronze-cotonu",
+      "name": "FIP Bronze Cotonú",
+      "city": "Cotonú",
+      "country": "BJ",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 42,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18"
+    },
+    {
+      "id": "bronze-hong-kong-fip-bronze-hong-kong-iii",
+      "name": "FIP Bronze Hong Kong III",
+      "city": "Hong kong",
+      "country": "HK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 42,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18"
+    },
+    {
+      "id": "bronze-miami-fip-bronze-miami-ii",
+      "name": "FIP Bronze Miami II",
+      "city": "Miami",
+      "country": "US",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 42,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18"
+    },
+    {
+      "id": "bronze-oeiras-fip-bronze-oeiras",
+      "name": "FIP Bronze Oeiras",
+      "city": "Oeiras",
+      "country": "PT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 42,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18"
+    },
+    {
+      "id": "bronze-oslo-fip-bronze-oslo",
+      "name": "FIP Bronze Oslo",
+      "city": "Oslo",
+      "country": "NO",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 42,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18"
+    },
+    {
+      "id": "gold-sevilla-fip-gold-ciudad-de-sevilla",
+      "name": "FIP Gold Ciudad de Sevilla",
+      "city": "Sevilla",
+      "country": "ES",
+      "category": "gold",
+      "band": "professional",
+      "week": 42,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18"
+    },
+    {
+      "id": "bronze-agrigento-fip-bronze-agrigento-ii",
+      "name": "FIP Bronze Agrigento II",
+      "city": "Agrigento",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 43,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25"
+    },
+    {
+      "id": "bronze-antalya-fip-bronze-antalya",
+      "name": "FIP Bronze Antalya",
+      "city": "Antalya",
+      "country": "TR",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 43,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25"
+    },
+    {
+      "id": "bronze-metepec-fip-bronze-metepec",
+      "name": "FIP Bronze Metepec",
+      "city": "Metepec",
+      "country": "MX",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 43,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25"
+    },
+    {
+      "id": "bronze-samui-fip-bronze-samui-ii",
+      "name": "FIP Bronze Samui II",
+      "city": "Samui",
+      "country": "TH",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 43,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25"
+    },
+    {
+      "id": "bronze-tbc-fip-bronze-chile-viii",
+      "name": "FIP Bronze Chile VIII",
+      "city": "Tbc",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 43,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25"
+    },
+    {
+      "id": "gold-melilla-fip-gold-melilla",
+      "name": "FIP Gold Melilla",
+      "city": "Melilla",
+      "country": "ES",
+      "category": "gold",
+      "band": "professional",
+      "week": 43,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25"
+    },
+    {
+      "id": "silver-london-fip-silver-rocket-padel",
+      "name": "FIP Silver Rocket Padel",
+      "city": "London",
+      "country": "GB",
+      "category": "silver",
+      "band": "developmental",
+      "week": 43,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25"
+    },
+    {
+      "id": "silver-metepec-fip-silver-metepec",
+      "name": "FIP Silver Metepec",
+      "city": "Metepec",
+      "country": "MX",
+      "category": "silver",
+      "band": "developmental",
+      "week": 43,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25"
+    },
+    {
+      "id": "bronze-panghan-fip-bronze-ko-panghan",
+      "name": "FIP Bronze Ko Panghan",
+      "city": "Panghan",
+      "country": "TH",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 44,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01"
+    },
+    {
+      "id": "bronze-tashkent-fip-bronze-de-uzbekistan",
+      "name": "FIP Bronze de Uzbekistan",
+      "city": "Tashkent",
+      "country": "UZ",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 44,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01"
+    },
+    {
+      "id": "bronze-tbc-fip-bronze-cyprus-iii",
+      "name": "FIP Bronze Cyprus III",
+      "city": "Tbc",
+      "country": "CY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 44,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01"
+    },
+    {
+      "id": "bronze-villena-fip-bronze-jc-ferrero-academ",
+      "name": "FIP Bronze Jc Ferrero Academy",
+      "city": "Villena",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 44,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01"
+    },
+    {
+      "id": "gold-torino-fip-gold-mediolanum-torino",
+      "name": "FIP Gold Mediolanum Torino",
+      "city": "Torino",
+      "country": "IT",
+      "category": "gold",
+      "band": "professional",
+      "week": 44,
+      "points": {
+        "r32": 7,
+        "r16": 14,
+        "quarter": 27,
+        "semi": 54,
+        "final": 90,
+        "winner": 150
+      },
+      "prize": {
+        "r32": 385,
+        "r16": 700,
+        "quarter": 1190,
+        "semi": 2100,
+        "final": 3850,
+        "winner": 7000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01"
+    },
+    {
+      "id": "silver-dubai-fip-silver-dubai",
+      "name": "FIP Silver Dubai",
+      "city": "Dubai",
+      "country": "AE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 44,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01"
+    },
+    {
+      "id": "bronze-aguascalientes-fip-bronze-aguascalientes-ii",
+      "name": "FIP Bronze Aguascalientes II",
+      "city": "Aguascalientes",
+      "country": "MX",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 45,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "bronze-new-dehli-fip-bronze-new-dehli",
+      "name": "FIP Bronze New Dehli",
+      "city": "New dehli",
+      "country": "IN",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 45,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "bronze-tbc-fip-bronze-cyprus-iv",
+      "name": "FIP Bronze Cyprus IV",
+      "city": "Tbc",
+      "country": "CY",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 45,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "bronze-tbc-fip-bronze-finland-ii",
+      "name": "FIP Bronze Finland II",
+      "city": "Tbc",
+      "country": "FI",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 45,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "bronze-doha-fip-bronze-doha-ii",
+      "name": "FIP Bronze Doha II",
+      "city": "Doha",
+      "country": "QA",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 46,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "bronze-mumbai-fip-bronze-mumbai-iv",
+      "name": "FIP Bronze Mumbai IV",
+      "city": "Mumbai",
+      "country": "IN",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 46,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "bronze-nola-fip-bronze-pala-padel-nola",
+      "name": "FIP Bronze Pala Padel Nola",
+      "city": "Nola",
+      "country": "IT",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 46,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "bronze-tbc-fip-bronze-comunidad-valenci-2",
+      "name": "FIP Bronze Comunidad Valenciana VIII",
+      "city": "Tbc",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 46,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "silver-como-fip-silver-mediolanum-como",
+      "name": "FIP Silver Mediolanum Como",
+      "city": "Como",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 46,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "silver-oporto-fip-silver-oporto-ii",
+      "name": "FIP Silver Oporto II",
+      "city": "Oporto",
+      "country": "PT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 46,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "silver-tbc-fip-silver-cyprus-ii",
+      "name": "FIP Silver Cyprus II",
+      "city": "Tbc",
+      "country": "CY",
+      "category": "silver",
+      "band": "developmental",
+      "week": 46,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "bronze-acra-fip-bronze-acra",
+      "name": "FIP Bronze Acra",
+      "city": "Acra",
+      "country": "GH",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 47,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "bronze-iurreta-fip-bronze-iurreta-padelko",
+      "name": "FIP Bronze Iurreta Padelko",
+      "city": "Iurreta",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 47,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "bronze-karachi-fip-bronze-karachi",
+      "name": "FIP Bronze Karachi",
+      "city": "Karachi",
+      "country": "PK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 47,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "bronze-rochefort-fip-bronze-rochefort",
+      "name": "FIP Bronze Rochefort",
+      "city": "Rochefort",
+      "country": "BE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 47,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "platinum-tbc-fip-platinum-mexico",
+      "name": "FIP Platinum Mexico",
+      "city": "Tbc",
+      "country": "MX",
+      "category": "platinum",
+      "band": "professional",
+      "week": 47,
+      "points": {
+        "r32": 14,
+        "r16": 27,
+        "quarter": 54,
+        "semi": 108,
+        "final": 180,
+        "winner": 300
+      },
+      "prize": {
+        "r32": 770,
+        "r16": 1400,
+        "quarter": 2380,
+        "semi": 4200,
+        "final": 7700,
+        "winner": 14000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "silver-hong-kong-fip-silver-hong-kong",
+      "name": "FIP Silver Hong Kong",
+      "city": "Hong Kong",
+      "country": "HK",
+      "category": "silver",
+      "band": "developmental",
+      "week": 47,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "silver-napoli-fip-silver-napoli",
+      "name": "FIP Silver Napoli",
+      "city": "Napoli",
+      "country": "IT",
+      "category": "silver",
+      "band": "developmental",
+      "week": 47,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "silver-skurup-fip-silver-sweden-ii",
+      "name": "FIP Silver Sweden II",
+      "city": "Skurup",
+      "country": "SE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 47,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "bronze-esbjerg-fip-bronze-esbjerg",
+      "name": "FIP Bronze Esbjerg",
+      "city": "Esbjerg",
+      "country": "DK",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 48,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "bronze-phuket-fip-bronze-phuket-ii",
+      "name": "FIP Bronze Phuket II",
+      "city": "Phuket",
+      "country": "TH",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 48,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "bronze-roeselare-fip-bronze-roeselare",
+      "name": "FIP Bronze Roeselare",
+      "city": "Roeselare",
+      "country": "BE",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 48,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "women"
+      ],
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "bronze-tbc-fip-bronze-chile-ix",
+      "name": "FIP Bronze Chile IX",
+      "city": "Tbc",
+      "country": "CL",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 48,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "bronze-tbc-fip-bronze-egypt-v",
+      "name": "FIP Bronze Egypt V",
+      "city": "Tbc",
+      "country": "EG",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 48,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "bronze-tbd-fip-bronze-comunidad-valenci",
+      "name": "FIP Bronze Comunidad Valenciana IX",
+      "city": "Tbd",
+      "country": "ES",
+      "category": "bronze",
+      "band": "developmental",
+      "week": 48,
+      "points": {
+        "r16": 4,
+        "quarter": 7,
+        "semi": 14,
+        "final": 24,
+        "winner": 40
+      },
+      "prize": {
+        "r16": 120,
+        "quarter": 204,
+        "semi": 360,
+        "final": 660,
+        "winner": 1200
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "silver-roeselare-fip-silver-roeselare",
+      "name": "FIP Silver Roeselare",
+      "city": "Roeselare",
+      "country": "BE",
+      "category": "silver",
+      "band": "developmental",
+      "week": 48,
+      "points": {
+        "r32": 4,
+        "r16": 7,
+        "quarter": 14,
+        "semi": 29,
+        "final": 48,
+        "winner": 80
+      },
+      "prize": {
+        "r32": 143,
+        "r16": 260,
+        "quarter": 442,
+        "semi": 780,
+        "final": 1430,
+        "winner": 2600
+      },
+      "tours": [
+        "men"
+      ],
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29"
+    }
+  ]
+}

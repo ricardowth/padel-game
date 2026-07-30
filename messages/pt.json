@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "title": "Simulador de Carreira de Padel",
+    "description": "Começas aos 16, sobes do FIP Bronze ao Premier Padel e descobres como acaba a tua carreira. Uma carreira inteira demora dois minutos."
+  },
+  "common": {
+    "back": "Voltar",
+    "continue": "Continuar",
+    "loading": "A carregar…",
+    "language": "Idioma",
+    "you": "Tu",
+    "none": "—"
+  },
+  "disclaimer": {
+    "short": "Simulador não oficial, feito por fãs.",
+    "full": "Simulador não oficial, feito por fãs. Sem qualquer ligação, apoio ou afiliação à FIP, ao Premier Padel ou a qualquer jogador. Rankings, nomes e calendários são dados públicos reais; todas as avaliações e atributos são estimativas inventadas, apenas para efeitos de jogo."
+  },
+  "landing": {
+    "eyebrow": "FIP Bronze → Premier Padel",
+    "title": "Simulador de Carreira de Padel",
+    "tagline": "Começas aos 16 apenas com potencial. Escolhe o teu lado, escolhe o teu parceiro e descobre até onde chegas.",
+    "start": "Começar carreira",
+    "pace": "Ritmo",
+    "paceStory": "História",
+    "paceStoryHint": "~2 decisões por época. Imersivo.",
+    "paceQuick": "Rápido",
+    "paceQuickHint": "~1 decisão por época. Para repetir depressa.",
+    "tour": "Circuito",
+    "tourMen": "Masculino",
+    "tourWomen": "Feminino",
+    "facts": {
+      "players": "{count} jogadores reais do ranking",
+      "events": "{count} torneios reais de 2026",
+      "duration": "Uma carreira demora ~2 minutos"
+    }
+  },
+  "creator": {
+    "title": "Define a tua identidade",
+    "subtitle": "Tudo aqui muda a forma como jogas — e quanto vales aos 16.",
+    "identity": "Identidade",
+    "lastName": "Apelido",
+    "lastNamePlaceholder": "O teu nome",
+    "number": "Número",
+    "hand": "Mão preferida",
+    "handLeft": "Esquerda",
+    "handRight": "Direita",
+    "handHint": "Os esquerdinos são valorizados no revés.",
+    "nationality": "Nacionalidade",
+    "searchCountry": "Procurar país",
+    "sideTitle": "Lado e estilo",
+    "sideHint": "Toca no campo para escolher a tua parede.",
+    "drive": "Drive",
+    "reves": "Revés",
+    "driveHint": "Lado direito. O finalizador — remate e víbora.",
+    "revesHint": "Lado esquerdo. O construtor — bandeja e defensa.",
+    "playstyle": "Estilo de jogo",
+    "style": {
+      "power": "Pegador",
+      "playmaker": "Táctico",
+      "counter": "Contragolpe",
+      "allcourt": "Completo",
+      "powerHint": "Potência. Remate enorme, defesa frágil.",
+      "playmakerHint": "Construtor. Constrói o ponto, paciente.",
+      "counterHint": "Contra-atacante. Ganha a devolver tudo.",
+      "allcourtHint": "Completo. Demora a chegar ao pico, mas chega mais alto."
+    },
+    "startingOvr": "OVR inicial",
+    "potential": "Potencial",
+    "confirm": "Confirmar identidade",
+    "nameRequired": "Escolhe primeiro um nome."
+  },
+  "board": {
+    "age": "Idade",
+    "earnings": "Ganhos",
+    "titles": "Títulos",
+    "finals": "Finais",
+    "weeksAtNo1": "Semanas em #1",
+    "with": "c/ {partner}",
+    "noPartner": "Sem parceiro",
+    "season": "Época {season}",
+    "rank": "Ranking",
+    "unranked": "Sem ranking",
+    "chemistry": "Química",
+    "form": "Forma",
+    "fatigue": "Fadiga",
+    "morale": "Moral",
+    "band": "Circuito",
+    "attributes": "Atributos",
+    "simulating": "A simular a época…",
+    "continue": "Continuar",
+    "playToEnd": "Jogar até ao fim",
+    "decisionPending": "Decisão de carreira…",
+    "ledger": {
+      "title": "Carreira",
+      "age": "Idade",
+      "partner": "Parceiro",
+      "side": "Lado",
+      "ovr": "OVR",
+      "titles": "TÍT",
+      "rank": "Ranking",
+      "earnings": "€",
+      "future": "—",
+      "worlds": "{country} · Campeonato do Mundo",
+      "worldsRecord": "{apps} presenças · {golds} ouros"
+    },
+    "sideShort": {
+      "drive": "DR",
+      "reves": "RV"
+    },
+    "bands": {
+      "developmental": "FIP Bronze / Silver",
+      "professional": "FIP Gold / Platinum",
+      "elite": "Premier Padel",
+      "developmentalShort": "Formação",
+      "professionalShort": "Profissional",
+      "eliteShort": "Elite"
+    },
+    "injured": "Lesionado · {weeks} semanas",
+    "banned": "Suspenso · {seasons} épocas"
+  },
+  "attributes": {
+    "remate": "Remate",
+    "volea": "Volea",
+    "bandeja": "Bandeja",
+    "vibora": "Víbora",
+    "defensa": "Defensa",
+    "pared": "Pared",
+    "velocidad": "Velocidad",
+    "mental": "Mental"
+  },
+  "decision": {
+    "heading": "Decisão",
+    "choose": "Escolher",
+    "outcome": "Resultado",
+    "next": "Seguinte"
+  },
+  "tags": {
+    "ovr_up": "+{value} OVR",
+    "ovr_down": "🔻 OVR −{value}",
+    "ovr_up_maturity": "+{value} OVR por maturidade",
+    "no_change": "Sem alterações",
+    "fatigue_up": "Mais fadiga",
+    "fatigue_down": "Recuperar",
+    "no_growth": "Sem evolução",
+    "miss_events": "Falhas {value} torneios",
+    "recover_fully": "Recuperação total",
+    "keep_points": "Manténs os pontos",
+    "injury_risk": "Risco de lesão",
+    "chemistry_up": "+Química",
+    "chemistry_reset": "Química a zero",
+    "keep_chemistry": "Manténs química {value}",
+    "breakup_risk": "Risco de rutura",
+    "focus_cost": "Custa concentração",
+    "points_up": "+Pontos de ranking",
+    "points_down": "−Pontos de ranking",
+    "travel_fatigue": "Fadiga de viagem",
+    "attribute_up": "+{attribute}",
+    "may_not_stick": "Pode não pegar",
+    "form_up": "+Forma",
+    "morale_up": "+Moral",
+    "morale_down": "−Moral",
+    "lesser_role": "Papel reduzido temporário",
+    "pressure": "Pressão",
+    "ban_risk": "Risco de suspensão",
+    "money_up": "+€ de patrocínio",
+    "money_down": "−€",
+    "expectations": "Expectativas",
+    "growth_up": "Evolução mais rápida",
+    "injury_resistance": "Resistência a lesões",
+    "delay_decline": "Adia o declínio",
+    "decline_risk": "Risco de declínio",
+    "band_up": "Subir de circuito",
+    "easier_wins": "Vitórias mais fáceis",
+    "prestige_down": "−Prestígio",
+    "early_exits": "Saídas precoces prováveis",
+    "tougher_fields": "Quadros mais duros",
+    "partner_ovr": "OVR {value}",
+    "stronger_partner": "+{value} parceiro mais forte",
+    "side_switch": "🔻 OVR −{value} (troca de lado)"
+  },
+  "events": {
+    "train_harder": {
+      "title": "Treinar mais",
+      "description": "O teu treinador quer mais um bloco este mês. As tuas pernas já se estão a queixar.",
+      "options": {
+        "push": "Fazer o bloco",
+        "balanced": "Manter o equilíbrio",
+        "rest": "Aliviar e descansar"
+      },
+      "results": {
+        "gain": "O trabalho resultou. Sais daqui mais afiado.",
+        "small": "Um ganho pequeno e muito suor.",
+        "tweak": "Torceste alguma coisa. Vai levar umas semanas.",
+        "steady": "Trabalho constante, progresso constante.",
+        "flat": "Não mudou grande coisa.",
+        "rested": "Voltas fresco e a bater com liberdade."
+      }
+    },
+    "injury_knock": {
+      "title": "Uma mazela",
+      "description": "Há algo no teu ombro que não está bem. E há torneio na quinta-feira.",
+      "options": {
+        "rest": "Desistir e descansar",
+        "play_through": "Jogar assim mesmo"
+      },
+      "results": {
+        "rested": "Aborrecido e absolutamente certo. Curas bem.",
+        "held_up": "Aguentou. Escapaste desta.",
+        "worsened": "Cedeu. Ficas de fora durante um tempo."
+      }
+    },
+    "partner_tension": {
+      "title": "Tensão com {partner}",
+      "description": "{partner} anda seco contigo desde a última saída à primeira ronda.",
+      "options": {
+        "smooth": "Falar às claras",
+        "simmer": "Deixar arrefecer"
+      },
+      "results": {
+        "resolved": "Um jantar longo e voltam a ser uma equipa.",
+        "awkward": "Não está resolvido, mas também não piorou.",
+        "ignored": "Ninguém disse nada. Nada mudou.",
+        "festered": "Apodreceu. Mal falam um com o outro."
+      }
+    },
+    "wildcard_offer": {
+      "title": "Convite (wildcard)",
+      "description": "Um torneio maior tem um convite com o teu nome. É um voo longo.",
+      "options": {
+        "accept": "Aceitar o convite",
+        "decline": "Manter o teu calendário"
+      },
+      "results": {
+        "deep_run": "Fizeste um percurso que ninguém esperava. As pessoas repararam.",
+        "early_exit": "Fora à primeira ronda e um voo de regresso muito longo.",
+        "declined": "Ficas em casa e poupas as pernas."
+      }
+    },
+    "technique_tweak": {
+      "title": "Ajuste técnico",
+      "description": "O teu treinador quer reconstruir um golpe de raiz. Vai piorar antes de melhorar.",
+      "options": {
+        "bandeja": "Reconstruir a bandeja",
+        "remate": "Reconstruir o remate",
+        "keep": "Manter o que funciona"
+      },
+      "results": {
+        "stuck": "Pegou. Agora o golpe é uma arma.",
+        "failed": "Nunca soube bem. Voltas ao antigo.",
+        "kept": "Confias no que tens. Confiança também é um golpe."
+      }
+    },
+    "prioritize": {
+      "title": "Escolhe o teu pico",
+      "description": "Não podes estar afiado em todo o lado. Onde apontas a época?",
+      "options": {
+        "target": "Preparar uma grande semana",
+        "spread": "Distribuir a carga"
+      },
+      "results": {
+        "peaked": "Cronometraste na perfeição e chegaste a voar.",
+        "flat": "Chegaste ao pico uma semana cedo demais e apareceste apagado.",
+        "spread": "Sem picos, sem quedas, e pernas mais frescas."
+      }
+    },
+    "finish_school": {
+      "title": "Acabar a escola",
+      "description": "Podes fazer os exames finais este ano, ou dedicar-te já a tempo inteiro ao circuito.",
+      "options": {
+        "accept": "Fazer os exames",
+        "full_time": "Ir a tempo inteiro"
+      },
+      "results": {
+        "graduated": "Acabas o curso. Também falhaste um bloco de treino.",
+        "committed": "Tudo dentro. Já não há plano B."
+      }
+    },
+    "media_moment": {
+      "title": "O microfone",
+      "description": "Um jornalista pergunta o que achas mesmo das cabeças de série.",
+      "options": {
+        "outspoken": "Dizer o que pensas",
+        "diplomatic": "Não dizer nada de interessante"
+      },
+      "results": {
+        "loved": "O vídeo corre mundo. De repente toda a gente sabe o teu nome.",
+        "backlash": "O vídeo corre mundo. E preferias que não tivesse corrido.",
+        "measured": "Uma resposta esquecível e uma semana calma."
+      }
+    },
+    "shady_edge": {
+      "title": "Uma vantagem",
+      "description": "Alguém te oferece uma vantagem que não sobreviveria a um teste. Ninguém saberia. Até saber.",
+      "options": {
+        "accept": "Aceitar a vantagem",
+        "decline": "Ir embora"
+      },
+      "results": {
+        "undetected": "Não acontece nada. Jogas o melhor padel da tua vida e dormes mal.",
+        "caught": "És apanhado. A suspensão custa-te o ranking, o dinheiro e o nome.",
+        "declined": "Vais embora e pensas nisso durante muito tempo."
+      }
+    },
+    "sponsor_deal": {
+      "title": "Proposta de patrocínio",
+      "description": "Duas marcas querem-te. Uma paga a sério e espera resultados.",
+      "options": {
+        "sign_big": "Assinar o contrato grande",
+        "sign_small": "Assinar o contrato modesto",
+        "decline": "Ficar sem patrocínio"
+      },
+      "results": {
+        "signed": "Assinado. O dinheiro é real e a pressão também.",
+        "signed_small": "Assinado. Dinheiro discreto, sem exigências.",
+        "declined": "Manténs o teu próprio nome na camisola."
+      }
+    },
+    "hire_coach": {
+      "title": "Construir a tua equipa",
+      "description": "Finalmente podes pagar a alguém. Uma pessoa, este ano.",
+      "options": {
+        "coach": "Contratar um treinador",
+        "physio": "Contratar um fisioterapeuta",
+        "neither": "Poupar o dinheiro"
+      },
+      "results": {
+        "hired_coach": "Um treinador que vê mesmo os teus jogos. Agora evoluis mais depressa.",
+        "hired_physio": "Um fisioterapeuta sempre disponível. O teu corpo vai agradecer aos 32.",
+        "declined": "Ficas com o dinheiro e fazes tudo sozinho."
+      }
+    },
+    "rest_year": {
+      "title": "Gerir a carga",
+      "description": "Já não tens 24 anos. Uma época mais leve compraria-te anos.",
+      "options": {
+        "manage_load": "Aliviar a época",
+        "full_season": "Jogar tudo"
+      },
+      "results": {
+        "managed": "Menos torneios, corpo mais fresco, melhor padel quando conta.",
+        "held_level": "Jogaste tudo e aguentaste o nível. À justa.",
+        "burned_out": "Jogaste tudo e o teu corpo mandou a fatura."
+      }
+    },
+    "switch_band": {
+      "title": "Que circuito?",
+      "description": "Escolhes onde competes na próxima época. Peixe grande, ou água funda?",
+      "options": {
+        "move_up": "Subir ao Premier",
+        "move_pro": "Subir ao FIP Gold / Platinum",
+        "drop_pro": "Descer ao FIP Gold / Platinum",
+        "stay": "Ficar onde estás"
+      },
+      "results": {
+        "moved_up": "Premier Padel. Agora cada quadro é uma guerra.",
+        "moved_pro": "Gold e Platinum. Um degrau a sério.",
+        "dropped": "De volta a baixo. Quadros ganháveis, cheques menores.",
+        "stayed": "Ficas onde estás."
+      }
+    },
+    "partner_market": {
+      "title": "O mercado de parelhas",
+      "description": "O mercado abriu. {partner} está à espera de notícias tuas.",
+      "title_dumped": "{partner} vai-se embora",
+      "description_dumped": "{partner} aceitou uma proposta melhor. Precisas de alguém para a próxima época.",
+      "options": {
+        "offer": "Formar dupla com {partner}",
+        "stay": "Continuar com {partner}"
+      },
+      "results": {
+        "accepted": "Novo parceiro, nova parede, tudo por provar.",
+        "stayed": "Continuam juntos. A química continua a crescer."
+      }
+    }
+  },
+  "awards": {
+    "fip_no1": "FIP #1",
+    "major": "Título de Major",
+    "best_smash": "Melhor Remate",
+    "breakout": "Revelação do Ano",
+    "empty": "Vitrine vazia"
+  },
+  "result": {
+    "title": "Carreira completa",
+    "finalOvr": "OVR final",
+    "totals": "{titles} títulos · {finals} finais · {weeks} semanas em #1 · {earnings}",
+    "worlds": "Campeonato do Mundo",
+    "worldsEmpty": "Nunca foi convocado",
+    "awards": "Prémios",
+    "partnerships": "Duplas marcantes",
+    "seasonsTogether": "{count, plural, =1 {# época juntos} other {# épocas juntos}}",
+    "partnershipTotals": "{titles} títulos · {finals} finais",
+    "peakRank": "Melhor ranking",
+    "playAgain": "Jogar outra vez",
+    "viewLedger": "Registo completo da carreira",
+    "seed": "Semente",
+    "share": "Partilhar",
+    "copied": "Link copiado",
+    "tier": {
+      "journeyman": "Profissional",
+      "contender": "Candidato",
+      "champion": "Campeão",
+      "legend": "Lenda",
+      "journeymanBlurb": "Viveste do padel. A maioria nunca consegue.",
+      "contenderBlurb": "Estiveste na conversa e nos campos grandes.",
+      "championBlurb": "Ganhaste coisas que contam. As pessoas lembram-se das finais.",
+      "legendBlurb": "Tu foste a época. Os outros jogavam pelo segundo lugar."
+    },
+    "shareText": "{name} — {tier} · {titles} títulos · melhor #{peak} · {earnings}"
+  }
+}

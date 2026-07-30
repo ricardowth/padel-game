@@ -1,0 +1,791 @@
+{
+  "id": "premier-2026",
+  "year": 2026,
+  "source": {
+    "provider": "padelfip.com",
+    "note": "Qatar Airways Premier Padel Tour 2026, scraped verbatim. The postponed Qatar Major is restored to its originally scheduled 6-11 April window so the Major slate is complete."
+  },
+  "tournaments": [
+    {
+      "id": "p1-riyadh-riyadh-season-p1",
+      "name": "Riyadh Season P1",
+      "city": "Riyadh",
+      "country": "SA",
+      "category": "p1",
+      "band": "elite",
+      "week": 6,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-02-07",
+      "endDate": "2026-02-14"
+    },
+    {
+      "id": "p2-gijon-gijon-p2",
+      "name": "Gijón P2",
+      "city": "Gijón",
+      "country": "ES",
+      "category": "p2",
+      "band": "elite",
+      "week": 9,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-08"
+    },
+    {
+      "id": "p2-cancun-cancun-p2",
+      "name": "Cancún P2",
+      "city": "Cancún",
+      "country": "MX",
+      "category": "p2",
+      "band": "elite",
+      "week": 11,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-22"
+    },
+    {
+      "id": "p1-miami-miami-p1",
+      "name": "Miami P1",
+      "city": "Miami",
+      "country": "US",
+      "category": "p1",
+      "band": "elite",
+      "week": 12,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-03-22",
+      "endDate": "2026-03-29"
+    },
+    {
+      "id": "major-doha-qatar-major",
+      "name": "Qatar Major",
+      "city": "Doha",
+      "country": "QA",
+      "category": "major",
+      "band": "elite",
+      "week": 15,
+      "points": {
+        "r64": 45,
+        "r32": 90,
+        "r16": 180,
+        "quarter": 360,
+        "semi": 720,
+        "final": 1200,
+        "winner": 2000
+      },
+      "prize": {
+        "r64": 1350,
+        "r32": 2475,
+        "r16": 4500,
+        "quarter": 7650,
+        "semi": 13500,
+        "final": 24750,
+        "winner": 45000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-06",
+      "endDate": "2026-04-11"
+    },
+    {
+      "id": "p2-giza-newgiza-p2",
+      "name": "Newgiza P2",
+      "city": "Giza",
+      "country": "EG",
+      "category": "p2",
+      "band": "elite",
+      "week": 15,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-18"
+    },
+    {
+      "id": "p2-brussels-brussels-p2",
+      "name": "Brussels P2",
+      "city": "Brussels",
+      "country": "BE",
+      "category": "p2",
+      "band": "elite",
+      "week": 16,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-04-19",
+      "endDate": "2026-04-26"
+    },
+    {
+      "id": "p2-asuncion-asuncion-p2",
+      "name": "Asuncion P2",
+      "city": "Asunción",
+      "country": "PY",
+      "category": "p2",
+      "band": "elite",
+      "week": 18,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-03",
+      "endDate": "2026-05-10"
+    },
+    {
+      "id": "p1-buenos-aires-buenos-aires-p1",
+      "name": "Buenos Aires P1",
+      "city": "Buenos aires",
+      "country": "AR",
+      "category": "p1",
+      "band": "elite",
+      "week": 19,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-17"
+    },
+    {
+      "id": "major-rome-italy-major",
+      "name": "Italy Major",
+      "city": "Rome",
+      "country": "IT",
+      "category": "major",
+      "band": "elite",
+      "week": 22,
+      "points": {
+        "r64": 45,
+        "r32": 90,
+        "r16": 180,
+        "quarter": 360,
+        "semi": 720,
+        "final": 1200,
+        "winner": 2000
+      },
+      "prize": {
+        "r64": 1350,
+        "r32": 2475,
+        "r16": 4500,
+        "quarter": 7650,
+        "semi": 13500,
+        "final": 24750,
+        "winner": 45000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-05-31",
+      "endDate": "2026-06-07"
+    },
+    {
+      "id": "p1-valencia-valencia-p1",
+      "name": "Valencia P1",
+      "city": "Valencia",
+      "country": "ES",
+      "category": "p1",
+      "band": "elite",
+      "week": 23,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-14"
+    },
+    {
+      "id": "p2-valladolid-valladolid-p2",
+      "name": "Valladolid P2",
+      "city": "Valladolid",
+      "country": "ES",
+      "category": "p2",
+      "band": "elite",
+      "week": 25,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-21",
+      "endDate": "2026-06-28"
+    },
+    {
+      "id": "p2-bordeaux-bordeaux-p2",
+      "name": "Bordeaux P2",
+      "city": "Bordeaux",
+      "country": "FR",
+      "category": "p2",
+      "band": "elite",
+      "week": 26,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-05"
+    },
+    {
+      "id": "p1-malaga-malaga-p1",
+      "name": "Malaga P1",
+      "city": "Malaga",
+      "country": "ES",
+      "category": "p1",
+      "band": "elite",
+      "week": 28,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-19"
+    },
+    {
+      "id": "p1-pretoria-pretoria-p1",
+      "name": "Pretoria P1",
+      "city": "Pretoria",
+      "country": "ZA",
+      "category": "p1",
+      "band": "elite",
+      "week": 30,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-07-26",
+      "endDate": "2026-08-02"
+    },
+    {
+      "id": "p1-london-london-p1",
+      "name": "London P1",
+      "city": "London",
+      "country": "GB",
+      "category": "p1",
+      "band": "elite",
+      "week": 32,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09"
+    },
+    {
+      "id": "p1-madrid-comunidad-de-madrid-p1",
+      "name": "Comunidad de Madrid P1",
+      "city": "Madrid",
+      "country": "ES",
+      "category": "p1",
+      "band": "elite",
+      "week": 35,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-08-29",
+      "endDate": "2026-09-06"
+    },
+    {
+      "id": "major-paris-paris-major",
+      "name": "Paris Major",
+      "city": "Paris",
+      "country": "FR",
+      "category": "major",
+      "band": "elite",
+      "week": 37,
+      "points": {
+        "r64": 45,
+        "r32": 90,
+        "r16": 180,
+        "quarter": 360,
+        "semi": 720,
+        "final": 1200,
+        "winner": 2000
+      },
+      "prize": {
+        "r64": 1350,
+        "r32": 2475,
+        "r16": 4500,
+        "quarter": 7650,
+        "semi": 13500,
+        "final": 24750,
+        "winner": 45000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13"
+    },
+    {
+      "id": "p2-rotterdam-rotterdam-p2",
+      "name": "Rotterdam P2",
+      "city": "Rotterdam",
+      "country": "NL",
+      "category": "p2",
+      "band": "elite",
+      "week": 40,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04"
+    },
+    {
+      "id": "p2-tbc-germany-p2",
+      "name": "Germany P2",
+      "city": "Tbc",
+      "country": "DD",
+      "category": "p2",
+      "band": "elite",
+      "week": 41,
+      "points": {
+        "r32": 23,
+        "r16": 45,
+        "quarter": 90,
+        "semi": 180,
+        "final": 300,
+        "winner": 500
+      },
+      "prize": {
+        "r32": 715,
+        "r16": 1300,
+        "quarter": 2210,
+        "semi": 3900,
+        "final": 7150,
+        "winner": 13000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11"
+    },
+    {
+      "id": "p1-milano-milano-p1",
+      "name": "Milano P1",
+      "city": "Milano",
+      "country": "IT",
+      "category": "p1",
+      "band": "elite",
+      "week": 42,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18"
+    },
+    {
+      "id": "major-kuwait-kuwait-major",
+      "name": "Kuwait Major",
+      "city": "Kuwait",
+      "country": "KW",
+      "category": "major",
+      "band": "elite",
+      "week": 44,
+      "points": {
+        "r64": 45,
+        "r32": 90,
+        "r16": 180,
+        "quarter": 360,
+        "semi": 720,
+        "final": 1200,
+        "winner": 2000
+      },
+      "prize": {
+        "r64": 1350,
+        "r32": 2475,
+        "r16": 4500,
+        "quarter": 7650,
+        "semi": 13500,
+        "final": 24750,
+        "winner": 45000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-31"
+    },
+    {
+      "id": "p1-dubai-dubai-p1",
+      "name": "Dubai P1",
+      "city": "Dubai",
+      "country": "AE",
+      "category": "p1",
+      "band": "elite",
+      "week": 45,
+      "points": {
+        "r32": 45,
+        "r16": 90,
+        "quarter": 180,
+        "semi": 360,
+        "final": 600,
+        "winner": 1000
+      },
+      "prize": {
+        "r32": 1320,
+        "r16": 2400,
+        "quarter": 4080,
+        "semi": 7200,
+        "final": 13200,
+        "winner": 24000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "major-acapulco-mexico-major",
+      "name": "Mexico Major",
+      "city": "Acapulco",
+      "country": "MX",
+      "category": "major",
+      "band": "elite",
+      "week": 48,
+      "points": {
+        "r64": 45,
+        "r32": 90,
+        "r16": 180,
+        "quarter": 360,
+        "semi": 720,
+        "final": 1200,
+        "winner": 2000
+      },
+      "prize": {
+        "r64": 1350,
+        "r32": 2475,
+        "r16": 4500,
+        "quarter": 7650,
+        "semi": 13500,
+        "final": 24750,
+        "winner": 45000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "finals-barcelona-premier-padel-finals",
+      "name": "Premier Padel Finals",
+      "city": "Barcelona",
+      "country": "ES",
+      "category": "finals",
+      "band": "elite",
+      "week": 50,
+      "points": {
+        "quarter": 270,
+        "semi": 540,
+        "final": 900,
+        "winner": 1500
+      },
+      "prize": {
+        "quarter": 10200,
+        "semi": 18000,
+        "final": 33000,
+        "winner": 60000
+      },
+      "tours": [
+        "men",
+        "women"
+      ],
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-13"
+    }
+  ]
+}

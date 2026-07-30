@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "title": "Padel Career Simulator",
+    "description": "Start at 16, grind from FIP Bronze to Premier Padel, and see how your career ends. A full career takes two minutes."
+  },
+  "common": {
+    "back": "Back",
+    "continue": "Continue",
+    "loading": "Loading…",
+    "language": "Language",
+    "you": "You",
+    "none": "—"
+  },
+  "disclaimer": {
+    "short": "Unofficial fan-made simulator.",
+    "full": "Unofficial fan-made simulator. Not affiliated with, endorsed by, or connected to the FIP, Premier Padel, or any player. Rankings, names and calendars are real public data; all ratings and attributes are invented estimates for gameplay only."
+  },
+  "landing": {
+    "eyebrow": "FIP Bronze → Premier Padel",
+    "title": "Padel Career Simulator",
+    "tagline": "You start at 16 with nothing but potential. Pick your side, pick your partner, and find out how far you get.",
+    "start": "Start career",
+    "pace": "Pace",
+    "paceStory": "Story",
+    "paceStoryHint": "~2 decisions a season. Immersive.",
+    "paceQuick": "Quick",
+    "paceQuickHint": "~1 decision a season. Fast replays.",
+    "tour": "Tour",
+    "tourMen": "Men's",
+    "tourWomen": "Women's",
+    "facts": {
+      "players": "{count} real ranked players",
+      "events": "{count} real 2026 tournaments",
+      "duration": "A career takes ~2 minutes"
+    }
+  },
+  "creator": {
+    "title": "Define your identity",
+    "subtitle": "Everything here changes how you play — and what you are worth at 16.",
+    "identity": "Identity",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "Your name",
+    "number": "Number",
+    "hand": "Preferred hand",
+    "handLeft": "Left",
+    "handRight": "Right",
+    "handHint": "Left-handers are prized on the revés.",
+    "nationality": "Nationality",
+    "searchCountry": "Search country",
+    "sideTitle": "Side & style",
+    "sideHint": "Tap the court to choose your wall.",
+    "drive": "Drive",
+    "reves": "Revés",
+    "driveHint": "Right side. The finisher — remate and víbora.",
+    "revesHint": "Left side. The playmaker — bandeja and defensa.",
+    "playstyle": "Playstyle",
+    "style": {
+      "power": "Pegador",
+      "playmaker": "Táctico",
+      "counter": "Contragolpe",
+      "allcourt": "Completo",
+      "powerHint": "Power. Huge remate, thin defence.",
+      "playmakerHint": "Playmaker. Builds the point, patient.",
+      "counterHint": "Counterpuncher. Wins on retrieval.",
+      "allcourtHint": "All-court. Slower to peak, higher ceiling."
+    },
+    "startingOvr": "Starting OVR",
+    "potential": "Potential",
+    "confirm": "Confirm identity",
+    "nameRequired": "Pick a name first."
+  },
+  "board": {
+    "age": "Age",
+    "earnings": "Earnings",
+    "titles": "Titles",
+    "finals": "Finals",
+    "weeksAtNo1": "Weeks at #1",
+    "with": "w/ {partner}",
+    "noPartner": "No partner",
+    "season": "Season {season}",
+    "rank": "Rank",
+    "unranked": "Unranked",
+    "chemistry": "Chemistry",
+    "form": "Form",
+    "fatigue": "Fatigue",
+    "morale": "Morale",
+    "band": "Circuit",
+    "attributes": "Attributes",
+    "simulating": "Simulating season…",
+    "continue": "Continue",
+    "playToEnd": "Play to the end",
+    "decisionPending": "Career decision…",
+    "ledger": {
+      "title": "Career",
+      "age": "Age",
+      "partner": "Partner",
+      "side": "Side",
+      "ovr": "OVR",
+      "titles": "TTL",
+      "rank": "Rank",
+      "earnings": "€",
+      "future": "—",
+      "worlds": "{country} · World Championship",
+      "worldsRecord": "{apps} apps · {golds} golds"
+    },
+    "sideShort": {
+      "drive": "DR",
+      "reves": "RV"
+    },
+    "bands": {
+      "developmental": "FIP Bronze / Silver",
+      "professional": "FIP Gold / Platinum",
+      "elite": "Premier Padel",
+      "developmentalShort": "Development",
+      "professionalShort": "Professional",
+      "eliteShort": "Elite"
+    },
+    "injured": "Injured · {weeks} weeks",
+    "banned": "Suspended · {seasons} seasons"
+  },
+  "attributes": {
+    "remate": "Remate",
+    "volea": "Volea",
+    "bandeja": "Bandeja",
+    "vibora": "Víbora",
+    "defensa": "Defensa",
+    "pared": "Pared",
+    "velocidad": "Velocidad",
+    "mental": "Mental"
+  },
+  "decision": {
+    "heading": "Decision",
+    "choose": "Choose",
+    "outcome": "Outcome",
+    "next": "Next"
+  },
+  "tags": {
+    "ovr_up": "+{value} OVR",
+    "ovr_down": "🔻 OVR −{value}",
+    "ovr_up_maturity": "+{value} OVR for maturity",
+    "no_change": "No changes",
+    "fatigue_up": "More fatigue",
+    "fatigue_down": "Recover",
+    "no_growth": "No growth",
+    "miss_events": "Miss {value} events",
+    "recover_fully": "Recover fully",
+    "keep_points": "Keep your points",
+    "injury_risk": "Injury risk",
+    "chemistry_up": "+Chemistry",
+    "chemistry_reset": "Chemistry resets",
+    "keep_chemistry": "Keep chemistry {value}",
+    "breakup_risk": "Breakup risk",
+    "focus_cost": "Costs focus",
+    "points_up": "+Ranking points",
+    "points_down": "−Ranking points",
+    "travel_fatigue": "Travel fatigue",
+    "attribute_up": "+{attribute}",
+    "may_not_stick": "May not stick",
+    "form_up": "+Form",
+    "morale_up": "+Morale",
+    "morale_down": "−Morale",
+    "lesser_role": "Temporary lesser role",
+    "pressure": "Pressure",
+    "ban_risk": "Risk of a ban",
+    "money_up": "+Sponsor €",
+    "money_down": "−€",
+    "expectations": "Expectations",
+    "growth_up": "Faster growth",
+    "injury_resistance": "Injury resistance",
+    "delay_decline": "Delay decline",
+    "decline_risk": "Decline risk",
+    "band_up": "Move up a circuit",
+    "easier_wins": "Easier wins",
+    "prestige_down": "−Prestige",
+    "early_exits": "Early exits likely",
+    "tougher_fields": "Tougher fields",
+    "partner_ovr": "OVR {value}",
+    "stronger_partner": "+{value} stronger partner",
+    "side_switch": "🔻 OVR −{value} (side switch)"
+  },
+  "events": {
+    "train_harder": {
+      "title": "Train harder",
+      "description": "Your coach wants an extra block this month. Your legs are already talking.",
+      "options": {
+        "push": "Add the block",
+        "balanced": "Keep it balanced",
+        "rest": "Back off and rest"
+      },
+      "results": {
+        "gain": "The work landed. You come out sharper.",
+        "small": "A small gain, and a lot of sweat.",
+        "tweak": "You tweaked something. It will need a few weeks.",
+        "steady": "Steady work, steady progress.",
+        "flat": "Nothing much changed.",
+        "rested": "You come back fresh and swinging freely."
+      }
+    },
+    "injury_knock": {
+      "title": "A knock",
+      "description": "Something in your shoulder is not right. There is a tournament on Thursday.",
+      "options": {
+        "rest": "Pull out and rest",
+        "play_through": "Play through it"
+      },
+      "results": {
+        "rested": "Boring, and exactly right. You heal clean.",
+        "held_up": "It held up. You got away with one.",
+        "worsened": "It went. You are out for a while."
+      }
+    },
+    "partner_tension": {
+      "title": "Tension with {partner}",
+      "description": "{partner} has been short with you since the last early exit.",
+      "options": {
+        "smooth": "Talk it out",
+        "simmer": "Let it simmer"
+      },
+      "results": {
+        "resolved": "A long dinner, and you are a team again.",
+        "awkward": "It is not fixed, but it is not worse.",
+        "ignored": "Nothing was said. Nothing changed.",
+        "festered": "It festered. You are barely speaking."
+      }
+    },
+    "wildcard_offer": {
+      "title": "Wildcard offer",
+      "description": "A bigger event has a wildcard with your name on it. It is a long flight.",
+      "options": {
+        "accept": "Take the wildcard",
+        "decline": "Stay on your schedule"
+      },
+      "results": {
+        "deep_run": "You made a run nobody expected. People noticed.",
+        "early_exit": "Out in the first round, and a very long flight home.",
+        "declined": "You stay home and keep your legs."
+      }
+    },
+    "technique_tweak": {
+      "title": "Technique tweak",
+      "description": "Your coach wants to rebuild one shot from the ground up. It will get worse before it gets better.",
+      "options": {
+        "bandeja": "Rebuild the bandeja",
+        "remate": "Rebuild the remate",
+        "keep": "Keep what works"
+      },
+      "results": {
+        "stuck": "It stuck. The shot is a weapon now.",
+        "failed": "It never felt right. You go back to the old one.",
+        "kept": "You trust what you have. Confidence is a shot too."
+      }
+    },
+    "prioritize": {
+      "title": "Pick your peak",
+      "description": "You cannot be sharp everywhere. Where do you point the season?",
+      "options": {
+        "target": "Peak for one big week",
+        "spread": "Spread the load"
+      },
+      "results": {
+        "peaked": "You timed it perfectly and arrived flying.",
+        "flat": "You peaked a week early and arrived flat.",
+        "spread": "No peaks, no troughs, and fresher legs."
+      }
+    },
+    "finish_school": {
+      "title": "Finish school",
+      "description": "You can sit your final exams this year, or go full-time on tour now.",
+      "options": {
+        "accept": "Sit the exams",
+        "full_time": "Go full-time on tour"
+      },
+      "results": {
+        "graduated": "You graduate. You also missed a block of training.",
+        "committed": "All in. There is no plan B now."
+      }
+    },
+    "media_moment": {
+      "title": "The microphone",
+      "description": "A reporter asks what you really think about the seeding.",
+      "options": {
+        "outspoken": "Say what you think",
+        "diplomatic": "Say nothing interesting"
+      },
+      "results": {
+        "loved": "The clip travels. Suddenly everyone knows your name.",
+        "backlash": "The clip travels. You wish it had not.",
+        "measured": "A forgettable answer, and a quiet week."
+      }
+    },
+    "shady_edge": {
+      "title": "An edge",
+      "description": "Someone offers you an edge that would not survive a test. Nobody would know. Until they did.",
+      "options": {
+        "accept": "Take the edge",
+        "decline": "Walk away"
+      },
+      "results": {
+        "undetected": "Nothing happens. You play the best padel of your life, and sleep badly.",
+        "caught": "You are caught. The ban costs you your ranking, your money and your name.",
+        "declined": "You walk away and think about it for a long time."
+      }
+    },
+    "sponsor_deal": {
+      "title": "Sponsor offer",
+      "description": "Two brands want you. One pays properly and expects results.",
+      "options": {
+        "sign_big": "Sign the big deal",
+        "sign_small": "Sign the modest deal",
+        "decline": "Stay unsponsored"
+      },
+      "results": {
+        "signed": "Signed. The money is real and so is the pressure.",
+        "signed_small": "Signed. Quiet money, no strings.",
+        "declined": "You keep your own name on your shirt."
+      }
+    },
+    "hire_coach": {
+      "title": "Build your team",
+      "description": "You can finally afford someone. One person, this year.",
+      "options": {
+        "coach": "Hire a coach",
+        "physio": "Hire a physio",
+        "neither": "Save the money"
+      },
+      "results": {
+        "hired_coach": "A coach who actually watches your matches. You improve faster now.",
+        "hired_physio": "A physio on call. Your body will thank you at 32.",
+        "declined": "You keep the money and do it yourself."
+      }
+    },
+    "rest_year": {
+      "title": "Manage the load",
+      "description": "You are not 24 any more. A lighter season would buy you years.",
+      "options": {
+        "manage_load": "Lighten the season",
+        "full_season": "Play everything"
+      },
+      "results": {
+        "managed": "Fewer events, fresher body, better padel when it counts.",
+        "held_level": "You played it all and held your level. Just.",
+        "burned_out": "You played it all and your body sent the bill."
+      }
+    },
+    "switch_band": {
+      "title": "Which circuit?",
+      "description": "You choose where you compete next season. Big fish, or deep water?",
+      "options": {
+        "move_up": "Step up to Premier",
+        "move_pro": "Step up to FIP Gold / Platinum",
+        "drop_pro": "Drop back to FIP Gold / Platinum",
+        "stay": "Stay where you are"
+      },
+      "results": {
+        "moved_up": "Premier Padel. Every draw is a war now.",
+        "moved_pro": "Gold and Platinum. A real step up.",
+        "dropped": "Back down. Winnable draws, smaller cheques.",
+        "stayed": "You stay where you are."
+      }
+    },
+    "partner_market": {
+      "title": "The partner market",
+      "description": "The window is open. {partner} is waiting to hear from you.",
+      "title_dumped": "{partner} is leaving",
+      "description_dumped": "{partner} has taken a better offer. You need someone for next season.",
+      "options": {
+        "offer": "Pair with {partner}",
+        "stay": "Stay with {partner}"
+      },
+      "results": {
+        "accepted": "New partner, new wall, everything to prove.",
+        "stayed": "You stay together. The chemistry keeps building."
+      }
+    }
+  },
+  "awards": {
+    "fip_no1": "FIP #1",
+    "major": "Major title",
+    "best_smash": "Best Smash",
+    "breakout": "Breakout of the Year",
+    "empty": "Empty trophy case"
+  },
+  "result": {
+    "title": "Career complete",
+    "finalOvr": "Final OVR",
+    "totals": "{titles} titles · {finals} finals · {weeks} weeks at #1 · {earnings}",
+    "worlds": "World Championship",
+    "worldsEmpty": "Never called up",
+    "awards": "Awards",
+    "partnerships": "Defining partnerships",
+    "seasonsTogether": "{count, plural, =1 {# season together} other {# seasons together}}",
+    "partnershipTotals": "{titles} titles · {finals} finals",
+    "peakRank": "Peak rank",
+    "playAgain": "Play again",
+    "viewLedger": "Full career ledger",
+    "seed": "Seed",
+    "share": "Share",
+    "copied": "Link copied",
+    "tier": {
+      "journeyman": "Journeyman",
+      "contender": "Contender",
+      "champion": "Champion",
+      "legend": "Legend",
+      "journeymanBlurb": "You made a living from padel. Most never do.",
+      "contenderBlurb": "You were in the conversation, and on the big courts.",
+      "championBlurb": "You won things that matter. People remember the finals.",
+      "legendBlurb": "You were the era. Everyone else was playing for second."
+    },
+    "shareText": "{name} — {tier} · {titles} titles · peak #{peak} · {earnings}"
+  }
+}

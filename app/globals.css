@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+/*
+ * Dark, dense, single-screen (§14). The palette is deliberately narrow: two
+ * greys for surfaces, one accent, and a rating ramp that is reused by every
+ * OVR badge, ledger pill and consequence tag so the whole board reads as one
+ * system.
+ */
+@theme {
+  --color-ink: #070a10;
+  --color-surface: #10151f;
+  --color-surface-2: #171d2a;
+  --color-line: #232c3c;
+  --color-line-soft: #1b2230;
+
+  --color-text: #e8edf7;
+  --color-muted: #8b97ad;
+  --color-faint: #5a657a;
+
+  --color-accent: #38e2b0;
+  --color-accent-dim: #1b7f65;
+
+  /* Rating ramp — worst to best. */
+  --color-r1: #64748b;
+  --color-r2: #d97706;
+  --color-r3: #ca8a04;
+  --color-r4: #65a30d;
+  --color-r5: #16a34a;
+  --color-r6: #059669;
+
+  --color-good: #34d399;
+  --color-bad: #fb7185;
+  --color-neutral: #94a3b8;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  /* The board is a fixed dense screen; only inner panes scroll. */
+  overscroll-behavior: none;
+}
+
+/* Thin, dark scrollbars so inner panes do not break the dense look. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@utility panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: 0.75rem;
+}
+
+@utility label {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-faint);
+}
+
+@utility num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Cards animate in as the ledger fills, but never for users who opt out. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility rise {
+  animation: rise 0.28s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

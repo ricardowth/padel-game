@@ -1,0 +1,360 @@
+{
+  "year": 2026,
+  "source": {
+    "provider": "padelfip.com",
+    "url": "https://www.padelfip.com/calendar-premier-padel/?events-year=2026"
+  },
+  "fetchedAt": "2026-07-30T13:56:26.684Z",
+  "events": [
+    {
+      "title": "RIYADH SEASON P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "startDate": "2026-02-07",
+      "endDate": "2026-02-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/riyadh-season-p1-2026/"
+    },
+    {
+      "title": "GIJÓN P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Gijón",
+      "country": "Spain",
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/gijon-p2-2026/"
+    },
+    {
+      "title": "CANCÚN P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Cancún",
+      "country": "Mexico",
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/cancun-p2-2026/"
+    },
+    {
+      "title": "MIAMI P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Miami",
+      "country": "United States",
+      "startDate": "2026-03-22",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/miami-p1-2026/"
+    },
+    {
+      "title": "QATAR MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Doha",
+      "country": "Qatar",
+      "startDate": null,
+      "endDate": null,
+      "status": "POSTPONED",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/qatar-major-2026/"
+    },
+    {
+      "title": "NEWGIZA P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Giza",
+      "country": "Egypt",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/newgiza-p2-2026/"
+    },
+    {
+      "title": "BRUSSELS P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Brussels",
+      "country": "Belgium",
+      "startDate": "2026-04-19",
+      "endDate": "2026-04-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/brussels-p2-2026/"
+    },
+    {
+      "title": "ASUNCION P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Asunción",
+      "country": "Paraguay",
+      "startDate": "2026-05-03",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/asuncion-p2-2026/"
+    },
+    {
+      "title": "BUENOS AIRES P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Buenos aires",
+      "country": "Argentina",
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/buenos-aires-p1-2026/"
+    },
+    {
+      "title": "ITALY MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Rome",
+      "country": "Italy",
+      "startDate": "2026-05-31",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/italy-major-2026/"
+    },
+    {
+      "title": "VALENCIA P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Valencia",
+      "country": "Spain",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/valencia-p1-2026/"
+    },
+    {
+      "title": "VALLADOLID P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Valladolid",
+      "country": "Spain",
+      "startDate": "2026-06-21",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/valladolid-p2-2026/"
+    },
+    {
+      "title": "BORDEAUX P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Bordeaux",
+      "country": "France",
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/bordeaux-p2-2026/"
+    },
+    {
+      "title": "MALAGA P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Malaga",
+      "country": "Spain",
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/malaga-p1-2026/"
+    },
+    {
+      "title": "PRETORIA P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Pretoria",
+      "country": "South Africa",
+      "startDate": "2026-07-26",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/pretoria-p1-2026/"
+    },
+    {
+      "title": "LONDON P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "London",
+      "country": "Great Britain",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/london-p1-2026/"
+    },
+    {
+      "title": "COMUNIDAD DE MADRID P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Madrid",
+      "country": "Spain",
+      "startDate": "2026-08-29",
+      "endDate": "2026-09-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/comunidad-de-madrid-p1-2026/"
+    },
+    {
+      "title": "PARIS MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Paris",
+      "country": "France",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/paris-major-2026/"
+    },
+    {
+      "title": "ROTTERDAM P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/rotterdam-p2-2026/"
+    },
+    {
+      "title": "GERMANY P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Tbc",
+      "country": "Germany",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/germany-p2-2026/"
+    },
+    {
+      "title": "MILANO P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Milano",
+      "country": "Italy",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/milano-p1-2026/"
+    },
+    {
+      "title": "KUWAIT MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Kuwait",
+      "country": "Kuwait",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/kuwait-major-2026/"
+    },
+    {
+      "title": "DUBAI P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/dubai-p1-2026/"
+    },
+    {
+      "title": "MEXICO MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Acapulco",
+      "country": "Mexico",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/mexico-major-2026/"
+    },
+    {
+      "title": "PREMIER PADEL FINALS",
+      "categoryClass": "fip-pp-master-finals",
+      "city": "Barcelona",
+      "country": "Spain",
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/premier-padel-finals-2026/"
+    }
+  ]
+}

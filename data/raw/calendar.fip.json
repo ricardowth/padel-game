@@ -1,0 +1,6332 @@
+{
+  "year": 2026,
+  "source": {
+    "provider": "padelfip.com",
+    "url": "https://www.padelfip.com/calendar/?events-year=2026"
+  },
+  "fetchedAt": "2026-07-30T13:56:26.910Z",
+  "events": [
+    {
+      "title": "FIP PROMISES AACHEN EUREGIO CUP",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Alsdorf",
+      "country": "Germany",
+      "startDate": "2026-01-02",
+      "endDate": "2026-01-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-alsdorf-2026/"
+    },
+    {
+      "title": "FIP BRONZE MELBOURNE PADEL OPEN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Melbourne",
+      "country": "Australia",
+      "startDate": "2026-01-07",
+      "endDate": "2026-01-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-melbourne-padel-open-2026/"
+    },
+    {
+      "title": "FIP PROMISES VALENCIA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Valencia",
+      "country": "Spain",
+      "startDate": "2026-01-09",
+      "endDate": "2026-01-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-valencia-2026/"
+    },
+    {
+      "title": "FIP SILVER AUSTRALIAN PADEL OPEN",
+      "categoryClass": "fip-tour-silver",
+      "city": "Melbourne",
+      "country": "Australia",
+      "startDate": "2026-01-14",
+      "endDate": "2026-01-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-australian-padel-open-2026/"
+    },
+    {
+      "title": "FIP SILVER CAEN",
+      "categoryClass": "fip-tour-silver",
+      "city": "Caen",
+      "country": "France",
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-caen-2026/"
+    },
+    {
+      "title": "FIP BRONZE MALLORCA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Mallorca",
+      "country": "Spain",
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-mallorca-2026/"
+    },
+    {
+      "title": "FIP BRONZE MUMBAI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-01-22",
+      "endDate": "2026-01-25",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-mumbai-2026/"
+    },
+    {
+      "title": "FIP PROMISES DOHA",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Doha",
+      "country": "Qatar",
+      "startDate": "2026-01-22",
+      "endDate": "2026-01-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-doha/"
+    },
+    {
+      "title": "FIP PROMISES MUMBAI",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-01-24",
+      "endDate": "2026-01-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-mumbai/"
+    },
+    {
+      "title": "FIP BRONZE COMUNIDAD VALENCIANA I",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Beniparrell",
+      "country": "Spain",
+      "startDate": "2026-01-26",
+      "endDate": "2026-02-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-comunidad-valenciana-i-2026/"
+    },
+    {
+      "title": "GENERALI HEXAGON CUP 2026",
+      "categoryClass": "hexagon-world-series",
+      "city": "Madrid",
+      "country": "Spain",
+      "startDate": "2026-01-28",
+      "endDate": "2026-02-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/generali-hexagon-cup-2026/"
+    },
+    {
+      "title": "FIP BRONZE DOHA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Doha",
+      "country": "Qatar",
+      "startDate": "2026-01-28",
+      "endDate": "2026-02-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-doha-2026/"
+    },
+    {
+      "title": "FIP PROMISES PERUGIA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Perugia",
+      "country": "Italy",
+      "startDate": "2026-01-29",
+      "endDate": "2026-02-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-perugia-2026/"
+    },
+    {
+      "title": "FIP BRONZE SAN ANTONIO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "San antonio",
+      "country": "Chile",
+      "startDate": "2026-01-29",
+      "endDate": "2026-02-02",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-san-antonio-2026/"
+    },
+    {
+      "title": "FIP BRONZE MADEIRA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Madeira",
+      "country": "Portugal",
+      "startDate": "2026-02-01",
+      "endDate": "2026-02-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-madeira-2026/"
+    },
+    {
+      "title": "FIP PLATINUM VILLE DE MARSEILLE",
+      "categoryClass": "fip-tour-platinum",
+      "city": "Marseille",
+      "country": "France",
+      "startDate": "2026-02-02",
+      "endDate": "2026-02-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-platinum-ville-de-marseille-2026/"
+    },
+    {
+      "title": "FIP BRONZE BAHRAIN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Manana",
+      "country": "Bahrain",
+      "startDate": "2026-02-04",
+      "endDate": "2026-02-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-bahrain-2026/"
+    },
+    {
+      "title": "FIP PROMISES KAUNAS",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Kaunas",
+      "country": "Lithuania",
+      "startDate": "2026-02-06",
+      "endDate": "2026-02-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-kaunas-2026/"
+    },
+    {
+      "title": "RIYADH SEASON P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "startDate": "2026-02-07",
+      "endDate": "2026-02-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/riyadh-season-p1-2026/"
+    },
+    {
+      "title": "FIP SILVER WADI PADEL TOURNAMENT",
+      "categoryClass": "fip-tour-silver",
+      "city": "Wadi el natrun",
+      "country": "Egypt",
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-15",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-wadi-padel-tournament-2026/"
+    },
+    {
+      "title": "FIP PROMISES NEW GIZA",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Giza",
+      "country": "Egypt",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-new-giza-2026/"
+    },
+    {
+      "title": "FIP BRONZE WADI PADEL TOURNAMENT",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Wadi el natrun",
+      "country": "Egypt",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-15",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-wadi-padel-tournament-2026/"
+    },
+    {
+      "title": "FIP PROMISES TORINO",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Torino",
+      "country": "Italy",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-torino-2026/"
+    },
+    {
+      "title": "FIP PROMISES JOHANNESBURG",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-johannesburg-2026/"
+    },
+    {
+      "title": "FIP PROMISES AVEIRO",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Aveiro",
+      "country": "Portugal",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-aveiro-2026/"
+    },
+    {
+      "title": "FIP SILVER DAMAC DUBAI",
+      "categoryClass": "fip-tour-silver",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-02-16",
+      "endDate": "2026-02-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-damac-dubai-2026/"
+    },
+    {
+      "title": "FIP BRONZE AGADIR",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Agadir",
+      "country": "Morocco",
+      "startDate": "2026-02-18",
+      "endDate": "2026-02-22",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-agadir-2026/"
+    },
+    {
+      "title": "FIP PROMISES PALMA DE MALLORCA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Palma de Mallorca",
+      "country": "SPAIN",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-palma-de-mallorca-2026/"
+    },
+    {
+      "title": "FIP PROMISES UNOMÁS LANZAROTE I",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "ARRECIFE",
+      "country": "SPAIN",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-arrecife-2026/"
+    },
+    {
+      "title": "FIP BRONZE AGRIGENTO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Agrigento",
+      "country": "Italy",
+      "startDate": "2026-02-25",
+      "endDate": "2026-03-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-agrigento-2026/"
+    },
+    {
+      "title": "FIP SILVER ESC PADEL 2026",
+      "categoryClass": "fip-tour-silver",
+      "city": "Espoo",
+      "country": "Finland",
+      "startDate": "2026-02-25",
+      "endDate": "2026-03-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-esc-padel-2026-2026/"
+    },
+    {
+      "title": "FIP PROMISES MIDDELKERKE",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Middelkerke",
+      "country": "Belgium",
+      "startDate": "2026-02-26",
+      "endDate": "2026-03-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-middelkerke-2026/"
+    },
+    {
+      "title": "FIP PROMISES PAREDES",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Paredes",
+      "country": "Portugal",
+      "startDate": "2026-02-27",
+      "endDate": "2026-03-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-paredes-2026/"
+    },
+    {
+      "title": "FIP PROMISES SIRACUSA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Siracusa",
+      "country": "Italy",
+      "startDate": "2026-02-27",
+      "endDate": "2026-03-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-siracusa-2026/"
+    },
+    {
+      "title": "FIP PROMISES CURITIBA",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Curitiba",
+      "country": "Brasil",
+      "startDate": "2026-02-27",
+      "endDate": "2026-03-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-curitiba-2026/"
+    },
+    {
+      "title": "FIP PROMISES WOODLANDS, TX",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Woodlands",
+      "country": "United States",
+      "startDate": "2026-02-27",
+      "endDate": "2026-03-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-woodlands-tx-2026/"
+    },
+    {
+      "title": "FIP PROMISES ESC PADEL 2026",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Espoo",
+      "country": "Finland",
+      "startDate": "2026-02-27",
+      "endDate": "2026-03-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-esc-padel-2026-2026/"
+    },
+    {
+      "title": "GIJÓN P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Gijón",
+      "country": "Spain",
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/gijon-p2-2026/"
+    },
+    {
+      "title": "FIP BRONZE WEPADEL TOURNAMENT",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Alexandria",
+      "country": "Egypt",
+      "startDate": "2026-03-03",
+      "endDate": "2026-03-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-wepadel-tournament-2026/"
+    },
+    {
+      "title": "FIP BRONZE PADEL SHOP OPEN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Houten",
+      "country": "Netherlands",
+      "startDate": "2026-03-03",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-padel-shop-open-2026/"
+    },
+    {
+      "title": "FIP GOLD PONTA DELGADA",
+      "categoryClass": "fip-tour-gold",
+      "city": "Açores",
+      "country": "Portugal",
+      "startDate": "2026-03-04",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-ponta-delgada-2026/"
+    },
+    {
+      "title": "FIP BRONZE BURRIANA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Burriana",
+      "country": "Spain",
+      "startDate": "2026-03-04",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-burriana-2026/"
+    },
+    {
+      "title": "FIP BRONZE SINGAPORE",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Singapore",
+      "country": "Singapore",
+      "startDate": "2026-03-04",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-singapore-2026/"
+    },
+    {
+      "title": "FIP PROMISES VIÑA DEL MAR",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "ViÑa del mar",
+      "country": "Chile",
+      "startDate": "2026-03-05",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-vina-del-mar-2026/"
+    },
+    {
+      "title": "FIP PROMISES TROFA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Trofa",
+      "country": "Portugal",
+      "startDate": "2026-03-06",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-trofa-2026/"
+    },
+    {
+      "title": "FIP BRONZE GAÚCHO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Santa maria",
+      "country": "Brazil",
+      "startDate": "2026-03-06",
+      "endDate": "2026-03-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-gaucho-2026/"
+    },
+    {
+      "title": "FIP BRONZE SIRACUSA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Siracusa",
+      "country": "Italy",
+      "startDate": "2026-03-11",
+      "endDate": "2026-03-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-siracusa-2026/"
+    },
+    {
+      "title": "FIP SILVER MANILA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Manila",
+      "country": "Philippines",
+      "startDate": "2026-03-12",
+      "endDate": "2026-03-15",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-manila-2026/"
+    },
+    {
+      "title": "FIP SILVER JOINVILLE",
+      "categoryClass": "fip-tour-silver",
+      "city": "Joinville",
+      "country": "Brazil",
+      "startDate": "2026-03-12",
+      "endDate": "2026-03-15",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-joinville-2026/"
+    },
+    {
+      "title": "FIP PROMISES VILLA MERCEDE CUP",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Frascati",
+      "country": "Italy",
+      "startDate": "2026-03-12",
+      "endDate": "2026-03-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-frascati-2026/"
+    },
+    {
+      "title": "FIP BRONZE JOINVILLE",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Joinville",
+      "country": "Brazil",
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-15",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-joinville-2026/"
+    },
+    {
+      "title": "FIP PROMISES JOINVILLE",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Joinville",
+      "country": "Brazil",
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-joinville-2026/"
+    },
+    {
+      "title": "CANCÚN P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Cancún",
+      "country": "Mexico",
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/cancun-p2-2026/"
+    },
+    {
+      "title": "FIP SILVER MEDIOLANUM PADEL CUP",
+      "categoryClass": "fip-tour-silver",
+      "city": "Parma",
+      "country": "Italy",
+      "startDate": "2026-03-17",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-mediolanum-2026-2/"
+    },
+    {
+      "title": "FIP BRONZE GO PARK HONG KONG",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Hong kong",
+      "country": "Hong Kong",
+      "startDate": "2026-03-17",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-go-park-hong-kong-2026/"
+    },
+    {
+      "title": "FIP BRONZE SWEDEN I",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Helsingborg",
+      "country": "Sweden",
+      "startDate": "2026-03-18",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-sweden-i-2026/"
+    },
+    {
+      "title": "FIP BRONZE ELITE PADEL NAIROBI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "startDate": "2026-03-19",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-nairobi-2026/"
+    },
+    {
+      "title": "FIP BRONZE LITAS KAUNAS",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Kaunas",
+      "country": "Lithuania",
+      "startDate": "2026-03-19",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-kaunas-2026/"
+    },
+    {
+      "title": "FIP PROMISES HELSINGBORG",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Helsingborg",
+      "country": "Sweden",
+      "startDate": "2026-03-20",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-helsingborg-2026/"
+    },
+    {
+      "title": "FIP PROMISES MALGRAT DE MAR",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Malgrat de Mar",
+      "country": "Spain",
+      "startDate": "2026-03-20",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-malgrat-de-mar-2026/"
+    },
+    {
+      "title": "FIP PROMISES TORINO II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Torino",
+      "country": "Italy",
+      "startDate": "2026-03-20",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-torino-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES HONG KONG I",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Hong Kong",
+      "country": "China",
+      "startDate": "2026-03-21",
+      "endDate": "2026-03-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-hong-kong-2026/"
+    },
+    {
+      "title": "MIAMI P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Miami",
+      "country": "United States",
+      "startDate": "2026-03-22",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/miami-p1-2026/"
+    },
+    {
+      "title": "FIP BRONZE VISEU",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Viseu",
+      "country": "Portugal",
+      "startDate": "2026-03-24",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-viseu-2026/"
+    },
+    {
+      "title": "FIP SILVER KALAT",
+      "categoryClass": "fip-tour-silver",
+      "city": "Caltanisetta",
+      "country": "Italy",
+      "startDate": "2026-03-25",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-caltanisetta-2026/"
+    },
+    {
+      "title": "FIP BRONZE HONG KONG II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Hong kong",
+      "country": "Hong Kong",
+      "startDate": "2026-03-25",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-hong-kong-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES CAPE TOWN",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "startDate": "2026-03-27",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-capetown-2026/"
+    },
+    {
+      "title": "FIP PROMISES HONG KONG II",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Hong Kong",
+      "country": "China",
+      "startDate": "2026-03-27",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-hong-kong-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES ELVAS",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Elvas",
+      "country": "Portugal",
+      "startDate": "2026-03-27",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-elvas-2026/"
+    },
+    {
+      "title": "FIP PROMISES KARACHI",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "startDate": "2026-03-27",
+      "endDate": "2026-03-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-karachi-2026/"
+    },
+    {
+      "title": "FIP BRONZE NETHERLANDS",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Houten",
+      "country": "Netherlands",
+      "startDate": "2026-03-31",
+      "endDate": "2026-04-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-netherlands-2026/"
+    },
+    {
+      "title": "FIP GOLD ALMATY",
+      "categoryClass": "fip-tour-gold",
+      "city": "Almaty",
+      "country": "Kazakhstan",
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-almaty-2026/"
+    },
+    {
+      "title": "FIP SILVER BETCLIC",
+      "categoryClass": "fip-tour-silver",
+      "city": "Abidjan",
+      "country": "Ivory Coast",
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-ivory-coast-i-2026/"
+    },
+    {
+      "title": "FIP PROMISES SETÚBAL",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Setúbal",
+      "country": "Portugal",
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-setubal-2026/"
+    },
+    {
+      "title": "FIP BRONZE MUMBAI II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-mumbai-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES SANDIGLIANO",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Sandigliano",
+      "country": "Italy",
+      "startDate": "2026-04-02",
+      "endDate": "2026-04-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-sandigliano-2026/"
+    },
+    {
+      "title": "FIP PROMISES MUMBAI II",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-04-02",
+      "endDate": "2026-04-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-mumbai-ii-2026/"
+    },
+    {
+      "title": "QATAR MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Doha",
+      "country": "Qatar",
+      "startDate": null,
+      "endDate": null,
+      "status": "POSTPONED",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/qatar-major-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 MUMBAI",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-04-06",
+      "endDate": "2026-04-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b3-mumbai/"
+    },
+    {
+      "title": "FIP SILVER MUMBAI",
+      "categoryClass": "fip-tour-silver",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-04-08",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-mumbai-2026/"
+    },
+    {
+      "title": "FIP BRONZE ELCHE",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Elche",
+      "country": "Spain",
+      "startDate": "2026-04-08",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-elche-2026/"
+    },
+    {
+      "title": "FIP BRONZE RIVESALTES",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Rivesaltes",
+      "country": "France",
+      "startDate": "2026-04-08",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-rivesaltes-2026/"
+    },
+    {
+      "title": "FIP SILVER AGUASCALIENTES",
+      "categoryClass": "fip-tour-silver",
+      "city": "Aguascalientes",
+      "country": "Mexico",
+      "startDate": "2026-04-08",
+      "endDate": "2026-04-11",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-aguascalientes-2026/"
+    },
+    {
+      "title": "FIP BRONZE BAKU",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Baku",
+      "country": "Azerbaijan",
+      "startDate": "2026-04-09",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-baku-2026/"
+    },
+    {
+      "title": "FIP BRONZE AGUASCALIENTES",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Aguascalientes",
+      "country": "Mexico",
+      "startDate": "2026-04-09",
+      "endDate": "2026-04-11",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-aguascalientes-2026/"
+    },
+    {
+      "title": "FIP BRONZE S4SPORT OPEN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Eidsvoll",
+      "country": "Norway",
+      "startDate": "2026-04-09",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-s4sport-open-2026/"
+    },
+    {
+      "title": "FIP PROMISES GREEN HOUSE PADEL CUP",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Marino - Santa Maria delle Mole",
+      "country": "Italy",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-marino-2026/"
+    },
+    {
+      "title": "FIP PROMISES MUMBAI III",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-mumbai-iii-2026/"
+    },
+    {
+      "title": "FIP PROMISES STRATFORD",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Stratford",
+      "country": "Great Britain",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-stratford-2026/"
+    },
+    {
+      "title": "FIP PROMISES RIOMAFRA",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Mafra",
+      "country": "Brazil",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-mafra-2026/"
+    },
+    {
+      "title": "FIP PROMISES OEIRAS",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Oeiras",
+      "country": "Portugal",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-oeiras-2026/"
+    },
+    {
+      "title": "FIP PROMISES MIAMI, FL",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Miami",
+      "country": "United States",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-miami-fl-2026/"
+    },
+    {
+      "title": "NEWGIZA P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Giza",
+      "country": "Egypt",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/newgiza-p2-2026/"
+    },
+    {
+      "title": "FIP BRONZE KUALA LUMPUR",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Kuala lumpur",
+      "country": "Malaysia",
+      "startDate": "2026-04-14",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-kuala-lumpur-2026/"
+    },
+    {
+      "title": "FIP SILVER NOLA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Nola",
+      "country": "Italy",
+      "startDate": "2026-04-15",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-nola-2026/"
+    },
+    {
+      "title": "FIP BRONZE ICÓNICO SPORTS",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Sevilla",
+      "country": "Spain",
+      "startDate": "2026-04-15",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-iconico-sports-2026/"
+    },
+    {
+      "title": "FIP PROMISES IJUÍ",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Ijuí",
+      "country": "Brasil",
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-ijui-2026/"
+    },
+    {
+      "title": "FIP BRONZE CYPRUS I",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Ayia Napa",
+      "country": "Cyprus",
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-ayia-napa-protaras-cyprus-2026/"
+    },
+    {
+      "title": "FIP BRONZE MARRAKECH",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Marrakech",
+      "country": "Morocco",
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-marrakech-2026/"
+    },
+    {
+      "title": "FIP PROMISES CHISWICK",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Chiswick",
+      "country": "Great Britain",
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-chiswick-2026/"
+    },
+    {
+      "title": "FIP PROMISES VILLARRICA",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Villarrica",
+      "country": "Chile",
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-villarrica-2026/"
+    },
+    {
+      "title": "FIP PROMISES ST. PRIEST",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "St. Priest",
+      "country": "France",
+      "startDate": "2026-04-17",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-st-priest-2026/"
+    },
+    {
+      "title": "FIP BRONZE IJUÍ",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Ijuí",
+      "country": "Brazil",
+      "startDate": "2026-04-17",
+      "endDate": "2026-04-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-ijui-2026/"
+    },
+    {
+      "title": "BRUSSELS P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Brussels",
+      "country": "Belgium",
+      "startDate": "2026-04-19",
+      "endDate": "2026-04-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/brussels-p2-2026/"
+    },
+    {
+      "title": "FIP SILVER KUALA LUMPUR",
+      "categoryClass": "fip-tour-silver",
+      "city": "Kuala lumpur",
+      "country": "Malaysia",
+      "startDate": "2026-04-21",
+      "endDate": "2026-04-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-kuala-lumpur-2026/"
+    },
+    {
+      "title": "FIP SILVER MEDIOLANUM PADEL CUP BARI",
+      "categoryClass": "fip-tour-silver",
+      "city": "Bari",
+      "country": "Italy",
+      "startDate": "2026-04-22",
+      "endDate": "2026-04-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-mediolanum-padel-cup-bari-2026/"
+    },
+    {
+      "title": "FIP BRONZE AQUAHOBBY ISLA DE LA PALMA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Isla de la Palma",
+      "country": "Spain",
+      "startDate": "2026-04-23",
+      "endDate": "2026-04-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-aquahobby-isla-de-la-palma-2026/"
+    },
+    {
+      "title": "FIP PROMISES ATHLETICANS II",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Cairo",
+      "country": "Egypt",
+      "startDate": "2026-04-23",
+      "endDate": "2026-04-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-cairo-2026/"
+    },
+    {
+      "title": "FIP BRONZE CYPRUS II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Ayia Napa",
+      "country": "Cyprus",
+      "startDate": "2026-04-23",
+      "endDate": "2026-04-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-ayia-napa-protaras-cyprus-ii-2026/"
+    },
+    {
+      "title": "FIP BRONZE CHILE II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Santiago",
+      "country": "Chile",
+      "startDate": "2026-04-23",
+      "endDate": "2026-04-26",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-chile-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES HAMBURG",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Hamburg",
+      "country": "Germany",
+      "startDate": "2026-04-24",
+      "endDate": "2026-04-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-hamburg-2026/"
+    },
+    {
+      "title": "FIP BRONZE PARAGUAY I",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Asunción",
+      "country": "Paraguay",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-paraguay-i-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 SINGAPORE",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Singapore",
+      "country": "Singapore",
+      "startDate": "2026-04-27",
+      "endDate": "2026-04-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b3-singapore/"
+    },
+    {
+      "title": "FIP SILVER LEIRIA MASTER PADEL",
+      "categoryClass": "fip-tour-silver",
+      "city": "Leiria",
+      "country": "Portugal",
+      "startDate": "2026-04-29",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-leiria-master-padel-2026/"
+    },
+    {
+      "title": "FIP SILVER BMW MARMOTOR 26º ANIVERSARIO CLUB LA CALZADA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Gran Canaria",
+      "country": "Spain",
+      "startDate": "2026-04-29",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-club-la-calzada-2026/"
+    },
+    {
+      "title": "FIP BRONZE SINGAPORE II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Singapore",
+      "country": "Singapore",
+      "startDate": "2026-04-29",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-singapur-ii-2026/"
+    },
+    {
+      "title": "FIP SILVER MENDOZA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Mendoza",
+      "country": "Argentina",
+      "startDate": "2026-04-29",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-mendoza-2026/"
+    },
+    {
+      "title": "FIP SILVER CYPRUS I",
+      "categoryClass": "fip-tour-silver",
+      "city": "Ayia Napa",
+      "country": "Cyprus",
+      "startDate": "2026-04-30",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-ayia-napa-protaras-cyprus-iii-2026/"
+    },
+    {
+      "title": "FIP PROMISES CENTURION",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Centurion",
+      "country": "South Africa",
+      "startDate": "2026-04-30",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-johannesburg-ii-2026/"
+    },
+    {
+      "title": "FIP BRONZE MONTESILVANO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Montesilvano",
+      "country": "Italy",
+      "startDate": "2026-04-30",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-montesilvano-2026/"
+    },
+    {
+      "title": "FIP PROMISES BMW MARMOTOR 26 ANIVERSARIO CLUB LA CALZADA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Gran Canaria",
+      "country": "Spain",
+      "startDate": "2026-04-30",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-gran-canaria-2026/"
+    },
+    {
+      "title": "FIP PROMISES VILAMOURA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Vilamoura",
+      "country": "Portugal",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-vilamoura-2026/"
+    },
+    {
+      "title": "FIP PROMISES TRANI",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Trani",
+      "country": "Italy",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-trani-2026/"
+    },
+    {
+      "title": "FIP PROMISES MERIDA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Merida",
+      "country": "Spain",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-merida-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 TARIJA",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Tarija",
+      "country": "Bolivia",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-tarija-2026/"
+    },
+    {
+      "title": "ASUNCION P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Asunción",
+      "country": "Paraguay",
+      "startDate": "2026-05-03",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/asuncion-p2-2026/"
+    },
+    {
+      "title": "FIP SILVER VILA REAL DE SANTO ANTONIO",
+      "categoryClass": "fip-tour-silver",
+      "city": "Vila Real de Santo Antonio",
+      "country": "Portugal",
+      "startDate": "2026-05-05",
+      "endDate": "2026-05-09",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-vila-real-de-santo-antonio-2026/"
+    },
+    {
+      "title": "FIP SILVER HORAMA 2026",
+      "categoryClass": "fip-tour-silver",
+      "city": "Teramo",
+      "country": "Italy",
+      "startDate": "2026-05-06",
+      "endDate": "2026-05-09",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-horama-2026/"
+    },
+    {
+      "title": "FIP BRONZE SAMUI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Samui",
+      "country": "Thailand",
+      "startDate": "2026-05-06",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-samui-2026/"
+    },
+    {
+      "title": "FIP BRONZE PRISHTINA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Prishtina",
+      "country": "Kosovo",
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-prishtina-2026/"
+    },
+    {
+      "title": "FIP BRONZE MOS MOSH GALLERY KIF PADEL MASTERS",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Kolding",
+      "country": "Denmark",
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-kolding-2026/"
+    },
+    {
+      "title": "FIP BRONZE LONDON",
+      "categoryClass": "fip-tour-bronze",
+      "city": "London",
+      "country": "Great Britain",
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-london-2026/"
+    },
+    {
+      "title": "FIP PROMISES DAMAC DUBAI",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-05-08",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-dubai-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES GENT",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Gent",
+      "country": "Belgium",
+      "startDate": "2026-05-08",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-ghent-2026/"
+    },
+    {
+      "title": "FIP PROMISES SANREMO PADEL EXPERIENCE - PERUGIA II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Perugia",
+      "country": "Italy",
+      "startDate": "2026-05-08",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-sanremo-padel-experience-perugia-ii/"
+    },
+    {
+      "title": "FIP PROMISES KOLDING",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Kolding",
+      "country": "Denmark",
+      "startDate": "2026-05-09",
+      "endDate": "2026-05-10",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-kolding-2026/"
+    },
+    {
+      "title": "BUENOS AIRES P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Buenos aires",
+      "country": "Argentina",
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/buenos-aires-p1-2026/"
+    },
+    {
+      "title": "FIP BRONZE LOTTO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Bydgoszcz",
+      "country": "Poland",
+      "startDate": "2026-05-13",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-bydgoszcz-2026/"
+    },
+    {
+      "title": "FIP BRONZE BRATISLAVA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "startDate": "2026-05-13",
+      "endDate": "2026-05-16",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-bratislava-2026/"
+    },
+    {
+      "title": "FIP BRONZE EGYPT III",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Alexandría",
+      "country": "Egypt",
+      "startDate": "2026-05-14",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-egypt-iii-2026/"
+    },
+    {
+      "title": "FIP BRONZE MIAMI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Miami",
+      "country": "United States",
+      "startDate": "2026-05-14",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-miami-2026/"
+    },
+    {
+      "title": "FIP SILVER TIMISOARA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Timisoara",
+      "country": "Romania",
+      "startDate": "2026-05-14",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-timisoara-2026/"
+    },
+    {
+      "title": "FIP BRONZE PHANGAN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Phangan",
+      "country": "Thailand",
+      "startDate": "2026-05-14",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-phangan-2026/"
+    },
+    {
+      "title": "FIP PROMISES ANTOFAGASTA",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Antofagasta",
+      "country": "Chile",
+      "startDate": "2026-05-15",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-antofagasta-2026/"
+    },
+    {
+      "title": "FIP PROMISES ALBUFEIRA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Albufeira",
+      "country": "Portugal",
+      "startDate": "2026-05-15",
+      "endDate": "2026-05-17",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-albufeira-2026/"
+    },
+    {
+      "title": "FIP BRONZE YOGYAKARTA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Yogyakarta",
+      "country": "Indonesia",
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-indonesia-i-yogyakarta-2026/"
+    },
+    {
+      "title": "FIP SILVER HOP LONDON PADEL OPEN",
+      "categoryClass": "fip-tour-silver",
+      "city": "London",
+      "country": "Great Britain",
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-hop-london-padel-open-2026/"
+    },
+    {
+      "title": "FIP BRONZE LATINA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Latina",
+      "country": "Italy",
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-latina-2026/"
+    },
+    {
+      "title": "FIP BRONZE MARNES",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Marnes",
+      "country": "France",
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-23",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-marnes-2026/"
+    },
+    {
+      "title": "FIP SILVER OEIRAS",
+      "categoryClass": "fip-tour-silver",
+      "city": "Oeiras",
+      "country": "Portugal",
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-oeiras-2026-2/"
+    },
+    {
+      "title": "FIP PROMISES TBILISI",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Tbilisi",
+      "country": "Georgia",
+      "startDate": "2026-05-22",
+      "endDate": "2026-05-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-tbilisi-2026/"
+    },
+    {
+      "title": "FIP PROMISES MALMÖ",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Malmö",
+      "country": "Sweden",
+      "startDate": "2026-05-22",
+      "endDate": "2026-05-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-malmo-2026/"
+    },
+    {
+      "title": "FIP PROMISES VISEU",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Viseu",
+      "country": "Portugal",
+      "startDate": "2026-05-22",
+      "endDate": "2026-05-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-viseu-2026/"
+    },
+    {
+      "title": "FIP PROMISES CURITIBA II",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Curitiba",
+      "country": "Brazil",
+      "startDate": "2026-05-22",
+      "endDate": "2026-05-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-brasil-iv-2026/"
+    },
+    {
+      "title": "FIP PLATINUM ALBANIA",
+      "categoryClass": "fip-tour-platinum",
+      "city": "Tirana",
+      "country": "Albania",
+      "startDate": "2026-05-24",
+      "endDate": "2026-05-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-platinum-albania-2026/"
+    },
+    {
+      "title": "FIP BRONZE DAMAC ABU DHABI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "startDate": "2026-05-26",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-damac-abu-dhabi-2026/"
+    },
+    {
+      "title": "FIP BRONZE CASTELLÓN - AUTOMOCIÓN CANO KIA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Castellón",
+      "country": "Spain",
+      "startDate": "2026-05-27",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-castellon-automocion-cano-kia-2026/"
+    },
+    {
+      "title": "FIP BRONZE CHILE III",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Viña del Mar",
+      "country": "Chile",
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-chile-iii-2026/"
+    },
+    {
+      "title": "FIP SILVER HOGANAS",
+      "categoryClass": "fip-tour-silver",
+      "city": "Hóganás",
+      "country": "Sweden",
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-sweden-i-2026/"
+    },
+    {
+      "title": "FIP PROMISES GUAYAQUIL",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Guayaquil",
+      "country": "Ecuador",
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-guayaquil-i-2026/"
+    },
+    {
+      "title": "FIP BRONZE HELLO PADEL",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Rijswijk",
+      "country": "Netherlands",
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-hello-padel-2026/"
+    },
+    {
+      "title": "FIP BRONZE PEMBROKE",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Pembroke",
+      "country": "Malta",
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-pembroke-2026/"
+    },
+    {
+      "title": "FIP PROMISES SANREMO PADEL EXPERIENCE - GROSSETO",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Grosseto",
+      "country": "Italy",
+      "startDate": "2026-05-29",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-grosseto/"
+    },
+    {
+      "title": "FIP BEYOND B1 SAMOBOR ROBERT STRBAC",
+      "categoryClass": "fip-beyond-b1",
+      "city": "Samobor",
+      "country": "Croatia",
+      "startDate": "2026-05-29",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-samobor-robert-strbac-2026/"
+    },
+    {
+      "title": "FIP PROMISES HIGH VELOCITY MANILA",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Manila",
+      "country": "Philippines",
+      "startDate": "2026-05-29",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-high-velocity-manila/"
+    },
+    {
+      "title": "FIP PROMISES CHICAGO, IL",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Chicago",
+      "country": "United States",
+      "startDate": "2026-05-29",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-chicago-il-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 SANREMO PADEL EXPERIENCE - GROSSETO",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Grosseto",
+      "country": "Italy",
+      "startDate": "2026-05-30",
+      "endDate": "2026-05-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b3-sanremo-padel-experience-grosseto/"
+    },
+    {
+      "title": "ITALY MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Rome",
+      "country": "Italy",
+      "startDate": "2026-05-31",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/italy-major-2026/"
+    },
+    {
+      "title": "FIP SILVER DAMAC DUBAI",
+      "categoryClass": "fip-tour-silver",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-06-03",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-damac-dubai-2026-2/"
+    },
+    {
+      "title": "FIP BRONZE HAMBURG",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Hamburg",
+      "country": "Germany",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-hamburg-2026/"
+    },
+    {
+      "title": "FIP BRONZE QNB CUP",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-qnb-cup-2026/"
+    },
+    {
+      "title": "FIP PROMISES CHISINAU",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Chisinau",
+      "country": "Moldova",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-chisinau-2026/"
+    },
+    {
+      "title": "FIP PROMISES FORO ITALICO",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Roma",
+      "country": "Italy",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-roma-2026/"
+    },
+    {
+      "title": "FIP BRONZE DAKAR",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Dakar",
+      "country": "Senegal",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-dakar-2026/"
+    },
+    {
+      "title": "FIP BRONZE DECATHLON",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Warsaw",
+      "country": "Poland",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-warsaw-2026/"
+    },
+    {
+      "title": "FIP SILVER BANDOL",
+      "categoryClass": "fip-tour-silver",
+      "city": "Bandol",
+      "country": "France",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-bandol-2026/"
+    },
+    {
+      "title": "FIP PROMISES LUSAKA - FIRST CAPITAL BANK PADEL CUP",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Lusaka",
+      "country": "Zambia",
+      "startDate": "2026-06-05",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-lusaka-2026/"
+    },
+    {
+      "title": "FIP PROMISES CARDIFF",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Cardiff",
+      "country": "United Kingdom",
+      "startDate": "2026-06-05",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-cardiff-2026/"
+    },
+    {
+      "title": "FIP BRONZE MATOSINHOS OPEN HOSPITAL SANTA MARIA DO PORTO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Matosinhos",
+      "country": "Portugal",
+      "startDate": "2026-06-05",
+      "endDate": "2026-06-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-matosinhos-open-hospital-santa-maria-do-porto-2026/"
+    },
+    {
+      "title": "VALENCIA P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Valencia",
+      "country": "Spain",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/valencia-p1-2026/"
+    },
+    {
+      "title": "FIP BRONZE SLOVENIA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "startDate": "2026-06-09",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-slovenia-2026/"
+    },
+    {
+      "title": "FIP SILVER MEDIOLANUM PADEL CUP",
+      "categoryClass": "fip-tour-silver",
+      "city": "Palermo",
+      "country": "Italy",
+      "startDate": "2026-06-10",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-mediolanum-palermo-2026/"
+    },
+    {
+      "title": "FIP GOLD SHANGHAI",
+      "categoryClass": "fip-tour-gold",
+      "city": "Shanghai",
+      "country": "China",
+      "startDate": "2026-06-10",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-shanghai-2026/"
+    },
+    {
+      "title": "FIP BRONZE UNOMAS LANZAROTE I",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Lanzarote",
+      "country": "Spain",
+      "startDate": "2026-06-11",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-unomas-lanzarote-i-2026/"
+    },
+    {
+      "title": "FIP PROMISES PINHAL NOVO",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Pinhal Novo",
+      "country": "Portugal",
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-pinhal-novo-2026/"
+    },
+    {
+      "title": "FIP PROMISES BADAJOZ",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Badajoz",
+      "country": "Spain",
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-badajoz-2026/"
+    },
+    {
+      "title": "FIP PROMISES ROVATO",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Rovato",
+      "country": "Italy",
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-rovato-2026/"
+    },
+    {
+      "title": "FIP PROMISES PUERTO VARAS",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Puerto Varas",
+      "country": "Chile",
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-puerto-varas-2026/"
+    },
+    {
+      "title": "FIP PLATINUM LUSITANIA PORTUGAL MASTER PADEL",
+      "categoryClass": "fip-tour-platinum",
+      "city": "Paredes",
+      "country": "Portugal",
+      "startDate": "2026-06-15",
+      "endDate": "2026-06-21",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-platinum-lusitania-portugal-master-padel-2026/"
+    },
+    {
+      "title": "FIP BRONZE HIGH VELOCITY OSAKA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Osaka",
+      "country": "Japan",
+      "startDate": "2026-06-16",
+      "endDate": "2026-06-21",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-osaka-2026/"
+    },
+    {
+      "title": "FIP JUNIOR AFRICA PADEL CUP 2026",
+      "categoryClass": "fip-championship",
+      "city": "Alexandria",
+      "country": "Egypt",
+      "startDate": "2026-06-17",
+      "endDate": "2026-06-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-junior-africa-padel-cup-2026-2026/"
+    },
+    {
+      "title": "FIP SILVER NARBONA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Narbona",
+      "country": "France",
+      "startDate": "2026-06-17",
+      "endDate": "2026-06-21",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-narbona-2026/"
+    },
+    {
+      "title": "FIP BRONZE CORDENONS",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Cordenons",
+      "country": "Italy",
+      "startDate": "2026-06-19",
+      "endDate": "2026-06-21",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-cordenons-2026/"
+    },
+    {
+      "title": "FIP BRONZE MOROCCO PADEL INTERNATIONAL TOUR FRMT 3",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Kénitra",
+      "country": "Morocco",
+      "startDate": "2026-06-19",
+      "endDate": "2026-06-21",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-morocco-padel-international-tour-frmt-3-2026/"
+    },
+    {
+      "title": "FIP PROMISES ROMA II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Roma",
+      "country": "Italy",
+      "startDate": "2026-06-19",
+      "endDate": "2026-06-21",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-roma-ii-2026/"
+    },
+    {
+      "title": "VALLADOLID P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Valladolid",
+      "country": "Spain",
+      "startDate": "2026-06-21",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/valladolid-p2-2026/"
+    },
+    {
+      "title": "FIP BRONZE HIGH VELOCITY SELANGOR",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Selangor",
+      "country": "Malaysia",
+      "startDate": "2026-06-23",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-high-velocity-selangor-2026/"
+    },
+    {
+      "title": "FIP GOLD ABIDJAN",
+      "categoryClass": "fip-tour-gold",
+      "city": "Abidjan",
+      "country": "Ivory Coast",
+      "startDate": "2026-06-23",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-abidjan-2026/"
+    },
+    {
+      "title": "FIP BRONZE ASTORGA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Astorga",
+      "country": "Spain",
+      "startDate": "2026-06-24",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-astorga-2026/"
+    },
+    {
+      "title": "FIP SILVER GIULIANOVA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Giulianova",
+      "country": "Italy",
+      "startDate": "2026-06-24",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-giulianova-2026/"
+    },
+    {
+      "title": "FIP PROMISES THE TRAVEL BOSS CUP",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Durban",
+      "country": "South Africa",
+      "startDate": "2026-06-25",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-durban-2026/"
+    },
+    {
+      "title": "FIP PROMISES SABADELL",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Sabadell",
+      "country": "Spain",
+      "startDate": "2026-06-26",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-sabadell-2026/"
+    },
+    {
+      "title": "FIP PROMISES WAKIT RAKIT",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Woodlands, TX- USA",
+      "country": "",
+      "startDate": "2026-06-26",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-woodlands-tx-ii/"
+    },
+    {
+      "title": "FIP BRONZE IQUIQUE",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Iquique",
+      "country": "Chile",
+      "startDate": "2026-06-26",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-iquique-2026/"
+    },
+    {
+      "title": "FIP PROMISES HIGH VELOCITY SELANGOR",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "startDate": "2026-06-26",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-kuala-lumpur-2026/"
+    },
+    {
+      "title": "FIP PROMISES CURITIBA III",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Curitiba",
+      "country": "Brazil",
+      "startDate": "2026-06-26",
+      "endDate": "2026-06-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-curitiba-iii-2/"
+    },
+    {
+      "title": "FIP JUNIOR EURO PADEL CUP 2026",
+      "categoryClass": "fip-championship",
+      "city": "Porto",
+      "country": "Portugal",
+      "startDate": "2026-06-27",
+      "endDate": "2026-07-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-junior-euro-padel-cup-2026-2026/"
+    },
+    {
+      "title": "BORDEAUX P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Bordeaux",
+      "country": "France",
+      "startDate": "2026-06-28",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/bordeaux-p2-2026/"
+    },
+    {
+      "title": "FIP BRONZE LA NUCÍA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "La Nucia",
+      "country": "Spain",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-la-nucia-2026/"
+    },
+    {
+      "title": "FIP BRONZE BAKU II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Baku",
+      "country": "Azerbaijan",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-baku-ii/"
+    },
+    {
+      "title": "FIP PROMISES ABIDJAN",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Abidjan",
+      "country": "Ivory Coast",
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-abidjan-2026/"
+    },
+    {
+      "title": "FIP SILVER R3 BULL PADEL CUP",
+      "categoryClass": "fip-tour-silver",
+      "city": "Belfast",
+      "country": "",
+      "startDate": "2026-07-02",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-r3-bull-padel-cup-2026/"
+    },
+    {
+      "title": "FIP PROMISES KOKSIJDE",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Koksijde",
+      "country": "Belgium",
+      "startDate": "2026-07-03",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-koksijde-2026/"
+    },
+    {
+      "title": "FIP BRONZE CHIETI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Chieti",
+      "country": "Italy",
+      "startDate": "2026-07-03",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-chieti-2026/"
+    },
+    {
+      "title": "FIP PROMISES VALLADOLID",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Valladolid",
+      "country": "Spain",
+      "startDate": "2026-07-03",
+      "endDate": "2026-07-05",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-valladolid-2026/"
+    },
+    {
+      "title": "FIP SILVER ALCALA DE GUADAIRA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Alcalá de Guadaira",
+      "country": "Spain",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-alcala-de-guadaira-2026/"
+    },
+    {
+      "title": "1ST FISU WORLD UNIVERSITY CHAMPIONSHIP PADEL",
+      "categoryClass": "olympic-path-events",
+      "city": "Malaga",
+      "country": "Spain",
+      "startDate": "2026-07-07",
+      "endDate": "2026-07-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/1st-fisu-world-university-championship-padel-2026/"
+    },
+    {
+      "title": "FIP BRONZE JAKARTA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "startDate": "2026-07-07",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-jakarta-2026/"
+    },
+    {
+      "title": "FIP BRONZE HUNGARY",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Budapest",
+      "country": "Hungary",
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-hungary-2026/"
+    },
+    {
+      "title": "FIP BRONZE GEORGIA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbilisi",
+      "country": "Georgia",
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-georgia-2026/"
+    },
+    {
+      "title": "FIP SILVER KOKSIJDE",
+      "categoryClass": "fip-tour-silver",
+      "city": "Koksijde",
+      "country": "Belgium",
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-koksijde-2026/"
+    },
+    {
+      "title": "FIP PROMISES JAKARTA",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "startDate": "2026-07-09",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-jakarta-2026/"
+    },
+    {
+      "title": "FIP SILVER PINGYUAN",
+      "categoryClass": "fip-tour-silver",
+      "city": "Pingyuan",
+      "country": "China",
+      "startDate": "2026-07-09",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-pingyuan-2026/"
+    },
+    {
+      "title": "FIP PROMISES GLOBO PADEL REGGIO CALABRIA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Cittanova",
+      "country": "Italy",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-globo-padel-reggio-calabria-2026/"
+    },
+    {
+      "title": "FIP PROMISES TROFEO PITU LOSADA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Alicante",
+      "country": "Spain",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-alicante-2026/"
+    },
+    {
+      "title": "FIP PROMISES IQUIQUE",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Iquique",
+      "country": "Chile",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-iquique-2026/"
+    },
+    {
+      "title": "FIP PROMISES HOUTEN",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Houten",
+      "country": "Netherlands",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-12",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-houten-2026/"
+    },
+    {
+      "title": "MALAGA P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Malaga",
+      "country": "Spain",
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/malaga-p1-2026/"
+    },
+    {
+      "title": "FIP BRONZE BANTEN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Banten",
+      "country": "Indonesia",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-banten-2026/"
+    },
+    {
+      "title": "FIP PROMISES ALEXANDRIA",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Alexandria",
+      "country": "Egypt",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-alenxandria/"
+    },
+    {
+      "title": "FIP SILVER HISCOX PADEL IRISH OPEN DUBLIN",
+      "categoryClass": "fip-tour-silver",
+      "city": "Dublin",
+      "country": "Ireland",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-hiscox-padel-irish-open-dublin-2026/"
+    },
+    {
+      "title": "FIP BRONZE A CORUÑA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "A Coruña",
+      "country": "Spain",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-acoruna-2026/"
+    },
+    {
+      "title": "FIP PROMISES PARIS BY WME SPORTS",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Paris",
+      "country": "France",
+      "startDate": "2026-07-16",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-wme-sport-paris-2026/"
+    },
+    {
+      "title": "FIP BRONZE DRONTEN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Dronten",
+      "country": "Netherlands",
+      "startDate": "2026-07-16",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-dronten-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 SANREMO PADEL EXPERIENCE - ROMA",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Rome",
+      "country": "Italy",
+      "startDate": "2026-07-17",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b3-sanremo-padel-experience-roma/"
+    },
+    {
+      "title": "FIP PROMISES ZARAGOZA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Zaragoza",
+      "country": "Spain",
+      "startDate": "2026-07-17",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-zaragoza-2026/"
+    },
+    {
+      "title": "FIP PROMISES SANREMO PADEL EXPERIENCE - ROMA III",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Rome",
+      "country": "Italy",
+      "startDate": "2026-07-17",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-roma-iii-2026/"
+    },
+    {
+      "title": "FIP PROMISES COALITION KYALAMI",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Kyalami",
+      "country": "South Africa",
+      "startDate": "2026-07-17",
+      "endDate": "2026-07-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-kyalami-2026/"
+    },
+    {
+      "title": "FIP SILVER MIMOSA OPEN PORTO",
+      "categoryClass": "fip-tour-silver",
+      "city": "Oporto",
+      "country": "Portugal",
+      "startDate": "2026-07-22",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-oporto-2026/"
+    },
+    {
+      "title": "FIP BRONZE HUB 4.0 ROVATO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Brescia",
+      "country": "Italy",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-hub-4-0-rovato-2026/"
+    },
+    {
+      "title": "FIP BRONZE ALLESVOORPADEL",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Lelystad",
+      "country": "Netherlands",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-allesvoorpadel-2026/"
+    },
+    {
+      "title": "FIP PROMISES BURGOS",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Burgos",
+      "country": "Spain",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-burgos-2026/"
+    },
+    {
+      "title": "FIP BRONZE SAN JUAN DE ALICANTE – EL SALT",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Comunidad valenciana",
+      "country": "Spain",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-san-juan-de-alicante-el-salt-2026/"
+    },
+    {
+      "title": "FIP PROMISES PADEL EXPO - POWERADE",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Lisboa",
+      "country": "Portugal",
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-lisboa-2026/"
+    },
+    {
+      "title": "FIP BEYOND B2 LONDON",
+      "categoryClass": "fip-beyond-b2",
+      "city": "London",
+      "country": "Great Britain",
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-london-2026/"
+    },
+    {
+      "title": "FIP PROMISES BALNEARIO CAMBORIÚ",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Camboriú",
+      "country": "Brazil",
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-camboriu-2026/"
+    },
+    {
+      "title": "FIP SILVER CAMBORIU",
+      "categoryClass": "fip-tour-silver",
+      "city": "Camboriu",
+      "country": "Brazil",
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-camboriu-2026-6/"
+    },
+    {
+      "title": "FIP PROMISES SANREMO PADEL EXPERIENCE GPADEL - TORINO III",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Bruino",
+      "country": "Italy",
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-bruino-2026/"
+    },
+    {
+      "title": "FIP BRONZE CAMBORIU",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Camboriu",
+      "country": "Brazil",
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-camboriu-2026-6/"
+    },
+    {
+      "title": "FIP BRONZE COPIAPO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Copiapo",
+      "country": "Chile",
+      "startDate": "2026-07-24",
+      "endDate": "2026-07-26",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-copiapo-2026/"
+    },
+    {
+      "title": "PRETORIA P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Pretoria",
+      "country": "South Africa",
+      "startDate": "2026-07-26",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/pretoria-p1-2026/"
+    },
+    {
+      "title": "FIP SILVER SLAM COLLBATÓ",
+      "categoryClass": "fip-tour-silver",
+      "city": "Barcelona",
+      "country": "Spain",
+      "startDate": "2026-07-28",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-collbatto-2026/"
+    },
+    {
+      "title": "FIP BRONZE PLAYA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "North Coast",
+      "country": "Egypt",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-playa-2026/"
+    },
+    {
+      "title": "FIP BRONZE FRASCATI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Frascati",
+      "country": "Italy",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-frascati-2026/"
+    },
+    {
+      "title": "FIP SILVER RATHBONES ISLAND PADEL",
+      "categoryClass": "fip-tour-silver",
+      "city": "Jersey Island",
+      "country": "Great Britain",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-rathbones-island-padel-2026-2/"
+    },
+    {
+      "title": "FIP PROMISES LOS REALEJOS",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Tenerife",
+      "country": "Spain",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-los-realejos-2026/"
+    },
+    {
+      "title": "FIP BRONZE PARAGUAY II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Ciudad del Este",
+      "country": "Paraguay",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-paraguay-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES COIMBRA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Coimbra- Portugal",
+      "country": "",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-coimbra/"
+    },
+    {
+      "title": "FIP WORLD CUP 2026 QUALIFIERS - NORTH & CENTRAL AMERICA",
+      "categoryClass": "fip-championship",
+      "city": "Toronto",
+      "country": "Canada",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-02",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-world-cup-2026-qualifiers-north-central-america/"
+    },
+    {
+      "title": "FIP BRONZE PORTIMAO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Portimao",
+      "country": "Portugal",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-portimao-2026/"
+    },
+    {
+      "title": "LONDON P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "London",
+      "country": "Great Britain",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-09",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/london-p1-2026/"
+    },
+    {
+      "title": "FIP PROMISES EL PRAT DE LLOBREGAT",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "El Prat",
+      "country": "Spain",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-09",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-el-prat-de-llobregat-2026/"
+    },
+    {
+      "title": "FIP PROMISES CENTURION II",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Centurion",
+      "country": "South Africa",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-09",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-centurion-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES HEROE'S",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Marina di Ravenna",
+      "country": "Italy",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-09",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-marina-di-ravenna-2026/"
+    },
+    {
+      "title": "FIP SILVER BALI ISLAND SPORTS",
+      "categoryClass": "fip-tour-silver",
+      "city": "Bali",
+      "country": "Indonesia",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-indonesia-2026/"
+    },
+    {
+      "title": "FIP BRONZE PADEL BARCELONA EL PRAT",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Barcelona",
+      "country": "Spain",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-barcelona-2026/"
+    },
+    {
+      "title": "FIP BRONZE R3 BULLPADEL CUP MOL",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Mol",
+      "country": "Belgium",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-r3-bullpadel-cup-mol-2026/"
+    },
+    {
+      "title": "FIP PROMISES DIPUTACIÓN DE MÁLAGA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Alhaurín de la Torre",
+      "country": "Spain",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-16",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-andalucia-2026/"
+    },
+    {
+      "title": "FIP PROMISES BALI ISLAND SPORTS HOLYWINGS PADEL CLUB",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Bali",
+      "country": "Indonesia",
+      "startDate": "2026-08-12",
+      "endDate": "2026-08-16",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-bali/"
+    },
+    {
+      "title": "FIP PROMISES 3R BULLPADEL CUP MOL",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Mol",
+      "country": "Belgium",
+      "startDate": "2026-08-13",
+      "endDate": "2026-08-16",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-mol-2026/"
+    },
+    {
+      "title": "FIP PROMISES ECUADOR II",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "TBC",
+      "country": "Ecuador",
+      "startDate": null,
+      "endDate": null,
+      "status": "POSTPONED",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-ecuador-ii/"
+    },
+    {
+      "title": "FIP GOLD SAN LUIS",
+      "categoryClass": "fip-tour-gold",
+      "city": "San Luis",
+      "country": "Mexico",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-san-luis-2026/"
+    },
+    {
+      "title": "FIP BRONZE CASTRO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Castro",
+      "country": "Chile",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-23",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-castro-2026/"
+    },
+    {
+      "title": "FIP SILVER 3F ELETTRONICA PORTO ST'ELPIDIO",
+      "categoryClass": "fip-tour-silver",
+      "city": "Porto Sant'Elpidio",
+      "country": "Italy",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-24",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-3f-elettronica-porto-stelpidio-2026/"
+    },
+    {
+      "title": "FIP SILVER ESC PADEL II",
+      "categoryClass": "fip-tour-silver",
+      "city": "Espoo",
+      "country": "Finland",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-esc-padel-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES PLAYA",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "North Coast",
+      "country": "Egypt",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-alexandria-ii/"
+    },
+    {
+      "title": "FIP PROMISES PALMA DE MALLORCA II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Palma de Mallorca",
+      "country": "Spain",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-23",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-palma-de-mallorca-ii-2026/"
+    },
+    {
+      "title": "FIP WORLD CUP 2026 QUALIFIERS - SOUTH AMERICA",
+      "categoryClass": "fip-championship",
+      "city": "Asunción",
+      "country": "Paraguay",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-world-cup-2026-qualifiers-south-america/"
+    },
+    {
+      "title": "FIP PROMISES CURITIBA IV",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Curitiba",
+      "country": "Brazil",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-23",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-curitiba-iii-2026/"
+    },
+    {
+      "title": "FIP PROMISES MIDDELKERKE II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "MIDDELKERKE",
+      "country": "Belgium",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-23",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-middelkerke-ii-2026/"
+    },
+    {
+      "title": "MEDITERRANEAN GAMES",
+      "categoryClass": "olympic-path-events",
+      "city": "Taranto",
+      "country": "Italy",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-28",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/mediterranean-games-2026/"
+    },
+    {
+      "title": "FIP SILVER WESTERBORK",
+      "categoryClass": "fip-tour-silver",
+      "city": "Westerbork",
+      "country": "Netherlands",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-women-netherlands-west-2026/"
+    },
+    {
+      "title": "FIP SILVER MC ALLEN TEXAS",
+      "categoryClass": "fip-tour-silver",
+      "city": "MC Allen Texas",
+      "country": "United States",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-mcallen-texas-2026/"
+    },
+    {
+      "title": "FIP BRONZE WESTERBORK",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Westerbork",
+      "country": "Netherlands",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-men-netherlands-west-2026/"
+    },
+    {
+      "title": "FIP GOLD BELGRADE",
+      "categoryClass": "fip-tour-gold",
+      "city": "Belgrade",
+      "country": "Serbia",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-belgrade-2026/"
+    },
+    {
+      "title": "FIP BRONZE BAMVOLEA CIUDAD RAQUETA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Madrid",
+      "country": "Spain",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-bamvolea-ciudad-raqueta-2026/"
+    },
+    {
+      "title": "FIP PROMISES KARACHI II",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "startDate": "2026-08-27",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-karachi-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES LUSAKA II",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Lusaka",
+      "country": "Zambia",
+      "startDate": "2026-08-27",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-lusaka-ii/"
+    },
+    {
+      "title": "FIP PROMISES COLOGNE",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Cologne",
+      "country": "Germany",
+      "startDate": "2026-08-27",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-cologne-2026/"
+    },
+    {
+      "title": "FIP PROMISES GIULIANOVA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Giulianova",
+      "country": "Italy",
+      "startDate": "2026-08-27",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-giulianova-2026/"
+    },
+    {
+      "title": "FIP PROMISES SAN FRANCISCO, CA",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "San Francisco, CA",
+      "country": "United States",
+      "startDate": "2026-08-28",
+      "endDate": "2026-08-30",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-san-francisco-ca-2026/"
+    },
+    {
+      "title": "COMUNIDAD DE MADRID P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Madrid",
+      "country": "Spain",
+      "startDate": "2026-08-29",
+      "endDate": "2026-09-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/comunidad-de-madrid-p1-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 HIGH VELOCITY SINGAPORE",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Singapore",
+      "country": "Singapore",
+      "startDate": null,
+      "endDate": null,
+      "status": "POSTPONED",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b3-singapore-2/"
+    },
+    {
+      "title": "FIP BRONZE PHOENIX OPEN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Phoenix",
+      "country": "Arizona US",
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-mesa-arizona-2026/"
+    },
+    {
+      "title": "FIP BRONZE SASSUOLO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Sassuolo",
+      "country": "Italy",
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-sassuolo-2026/"
+    },
+    {
+      "title": "BRONZE PARAGUAY III",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbd",
+      "country": "Paraguay",
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/bronze-paraguay-iii-2026-2/"
+    },
+    {
+      "title": "FIP SILVER CORDOBA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Cordoba",
+      "country": "Spain",
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-cordoba-2026/"
+    },
+    {
+      "title": "FIP BRONZE MARNES",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Marnes",
+      "country": "France",
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-marnes-2026-2/"
+    },
+    {
+      "title": "FIP PROMISES SALAMANCA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Salamanca",
+      "country": "Spain",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-salamanca-2026/"
+    },
+    {
+      "title": "FIP SILVER CEUTA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Ceuta",
+      "country": "Spain",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-ceuta-2026/"
+    },
+    {
+      "title": "PARIS MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Paris",
+      "country": "France",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/paris-major-2026/"
+    },
+    {
+      "title": "FIP BRONZE CASABLANCA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Casablanca",
+      "country": "Morocco",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-casablanca-2026/"
+    },
+    {
+      "title": "FIP BRONZE SAN LUIS",
+      "categoryClass": "fip-tour-bronze",
+      "city": "San luis",
+      "country": "Mexico",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-san-luis-2026/"
+    },
+    {
+      "title": "FIP SILVER SAN LUIS",
+      "categoryClass": "fip-tour-silver",
+      "city": "San Luis",
+      "country": "Mexico",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-san-luis-2026/"
+    },
+    {
+      "title": "FIP SILVER LISBOA",
+      "categoryClass": "fip-tour-silver",
+      "city": "Lisboa",
+      "country": "Portugal",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-lisboa-2026/"
+    },
+    {
+      "title": "FIP BRONZE PHUKET",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Phuket",
+      "country": "Thailand",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-phuket-2026/"
+    },
+    {
+      "title": "FIP GOLD BUCHAREST",
+      "categoryClass": "fip-tour-gold",
+      "city": "Bucharest",
+      "country": "Romania",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-bucharest/"
+    },
+    {
+      "title": "FIP SILVER PADEL COPA UTRECHT 2026",
+      "categoryClass": "fip-tour-silver",
+      "city": "Utrecht",
+      "country": "Netherlands",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-padel-copa-utrecht-2026/"
+    },
+    {
+      "title": "FIP PROMISES SAN LUIS POTOSÍ",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "San Luis PotosÍ",
+      "country": "Mexico",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-san-luis-potosi-2026/"
+    },
+    {
+      "title": "FIP PROMISES STOCKHOLM",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-stockholm-2026/"
+    },
+    {
+      "title": "FIP PROMISES GRÖTZINGEN",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Grötzingen",
+      "country": "Germany",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-grotzingen/"
+    },
+    {
+      "title": "FIP PROMISES FLORIDIA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Floridia",
+      "country": "Italy",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-florida-2026/"
+    },
+    {
+      "title": "FIP PROMISES SÃO JOÃO DA MADEIRA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "São João da Madeira",
+      "country": "Portugal",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-sao-joao-da-madeira-2026/"
+    },
+    {
+      "title": "XIII JUEGOS SURAMERICANOS SANTA FE 2026",
+      "categoryClass": "olympic-path-events",
+      "city": "Santa Fe",
+      "country": "Argentina",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-26",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/xiii-juegos-suramericanos-santa-fe-2026/"
+    },
+    {
+      "title": "FIP SILVER GUIMARAES",
+      "categoryClass": "fip-tour-silver",
+      "city": "Guimaraes",
+      "country": "Portugal",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-guimaraes-2026/"
+    },
+    {
+      "title": "FIP GOLD SAO PAULO",
+      "categoryClass": "fip-tour-gold",
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-sao-paulo/"
+    },
+    {
+      "title": "FIP SILVER BUDAPEST",
+      "categoryClass": "fip-tour-silver",
+      "city": "Budapest",
+      "country": "Hungary",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-budapest-2026/"
+    },
+    {
+      "title": "FIP SENIOR WORLD CUP 2026",
+      "categoryClass": "fip-championship",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-19",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-senior-world-cup-2026-2026/"
+    },
+    {
+      "title": "FIP SILVER NAIROBI",
+      "categoryClass": "fip-tour-silver",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-nairobi-2026/"
+    },
+    {
+      "title": "FIP BRONZE COMUNIDAD VALENCIANA VI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbc",
+      "country": "Spain",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-comunidad-valenciana-vi-2026/"
+    },
+    {
+      "title": "FIP BRONZE IZMIR",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Izmir",
+      "country": "Türkiye",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-izmir-2026/"
+    },
+    {
+      "title": "HEXAGON WORLD SERIES I",
+      "categoryClass": "hexagon-world-series",
+      "city": "TBC",
+      "country": "",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/hexagon-world-series-i/"
+    },
+    {
+      "title": "FIP SILVER BANGKOK",
+      "categoryClass": "fip-tour-silver",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-bangkok-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 SANREMO PADEL EXPERIENCE - SANREMO",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Sanremo",
+      "country": "Italy",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b3-sanremo-2026/"
+    },
+    {
+      "title": "FIP PROMISES PAREDES II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Paredes",
+      "country": "Portugal",
+      "startDate": "2026-09-17",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-paredes-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES SANREMO PADEL EXPERIENCE - SANREMO",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Sanremo",
+      "country": "Italy",
+      "startDate": "2026-09-17",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-sanremo-padel-experience-sanremo/"
+    },
+    {
+      "title": "FIP PROMISES CAMPO 9",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Campo",
+      "country": "Paraguay",
+      "startDate": "2026-09-17",
+      "endDate": "2026-09-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-campo-9/"
+    },
+    {
+      "title": "FIP PLATINUM LYON",
+      "categoryClass": "fip-tour-platinum",
+      "city": "Lyon",
+      "country": "France",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-platinum-lyon-2026/"
+    },
+    {
+      "title": "FIP BRONZE CHILE VII",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Viña del Mar",
+      "country": "Chile",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-chile-vii-2026/"
+    },
+    {
+      "title": "FIP SILVER AMSTERDAM",
+      "categoryClass": "fip-tour-silver",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-amsterdam-2026/"
+    },
+    {
+      "title": "FIP BRONZE DUBAI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-dubai-2026/"
+    },
+    {
+      "title": "FIP SILVER SÂO JOÂO DA MADEIRA",
+      "categoryClass": "fip-tour-silver",
+      "city": "SÂo joÂo da madeira",
+      "country": "Portugal",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-sao-joao-da-madeira-2026/"
+    },
+    {
+      "title": "FIP BRONZE TUNISIA I",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tunisia",
+      "country": "Tunisia",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/"
+    },
+    {
+      "title": "FIP PROMISES MANSOURSA",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Mansoursa",
+      "country": "Egypt",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-mansoursa/"
+    },
+    {
+      "title": "FIP PROMISES KARACHI III",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-karachi-iii/"
+    },
+    {
+      "title": "FIP PROMISES JOHANNESBURG II",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-johannesburg-ii/"
+    },
+    {
+      "title": "FIP PROMISES ELDA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Elda",
+      "country": "Spain",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-comunitat-valenciana-2026/"
+    },
+    {
+      "title": "FIP PROMISES PORTOVIEJO",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Portoviejo",
+      "country": "Ecuador",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-portoviejo/"
+    },
+    {
+      "title": "FIP PROMISES MIAMI, FL II",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Miami",
+      "country": "United States",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-miami-fl-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES POREC",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Porec",
+      "country": "Croatia",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-27",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-porec-2026/"
+    },
+    {
+      "title": "ROTTERDAM P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/rotterdam-p2-2026/"
+    },
+    {
+      "title": "FIP BRONZE YEREVAN CUP",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Yerevan",
+      "country": "Armenia",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-yerevan-cup-2026/"
+    },
+    {
+      "title": "ASIAN GAMES",
+      "categoryClass": "olympic-path-events",
+      "city": "Aichi-Nagoya",
+      "country": "",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-03",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/asian-games-2026/"
+    },
+    {
+      "title": "FIP BRONZE PAKISTAN I",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-pakistan-i-2026/"
+    },
+    {
+      "title": "FIP GOLD MEDIOLANUM PERUGIA",
+      "categoryClass": "fip-tour-gold",
+      "city": "Perugia",
+      "country": "Italy",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-mediolanum-perugia-2026/"
+    },
+    {
+      "title": "FIP BRONZE TUNISSIA II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tunisia",
+      "country": "Tunisia",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-tunissia-ii-2026/"
+    },
+    {
+      "title": "FIP BRONZE SWEDEN II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Jönköping",
+      "country": "Sweden",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-sweden-iii-2026/"
+    },
+    {
+      "title": "FIP BRONZE ALMEIRIM",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Almeirim",
+      "country": "Portugal",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-almeirim-2026/"
+    },
+    {
+      "title": "FIP PROMISES CALDAS",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Caldas",
+      "country": "Portugal",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-caldas-2026/"
+    },
+    {
+      "title": "FIP PROMISES ITALY TBC",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "TBC",
+      "country": "Italy",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-04",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-messina-2026/"
+    },
+    {
+      "title": "FIP BRONZE KENYA II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-kenya-ii-2026/"
+    },
+    {
+      "title": "GERMANY P2",
+      "categoryClass": "fip-pp-p2",
+      "city": "Tbc",
+      "country": "Germany",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/germany-p2-2026/"
+    },
+    {
+      "title": "FIP BRONZE VERACRUZ",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Veracruz",
+      "country": "Mexico",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-veracruz-2026/"
+    },
+    {
+      "title": "FIP BRONZE PARAGUAY IV",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbd",
+      "country": "Paraguay",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/bronze-paraguay-iii-2026/"
+    },
+    {
+      "title": "FIP SILVER VERACRUZ",
+      "categoryClass": "fip-tour-silver",
+      "city": "Veracruz",
+      "country": "Mexico",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-veracruz-2026/"
+    },
+    {
+      "title": "FIP BRONZE RACKET CLUB MASTERS",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Taastrup",
+      "country": "Denmark",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-racket-club-masters-2026/"
+    },
+    {
+      "title": "FIP SILVER R3 BULLPADEL CUP STRATFORD",
+      "categoryClass": "fip-tour-silver",
+      "city": "London",
+      "country": "Great Britain",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-r3-bullpadel-cup-stratford/"
+    },
+    {
+      "title": "FIP SILVER POREC PARENZO",
+      "categoryClass": "fip-tour-silver",
+      "city": "Porec parenzo",
+      "country": "Croatia",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-porec-parenzo-2026/"
+    },
+    {
+      "title": "FIP BRONZE ROVIGO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Rovigo",
+      "country": "Italy",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-rovigo-2026/"
+    },
+    {
+      "title": "FIP PROMISES DUBAI II",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-dubai-iii-2026/"
+    },
+    {
+      "title": "FIP PROMISES HONG KONG III",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Hong Kong III",
+      "country": "China",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-hong-kong-iii-2026/"
+    },
+    {
+      "title": "FIP PROMISES LEÓN",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "León",
+      "country": "Spain",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-leon-2026/"
+    },
+    {
+      "title": "FIP PROMISES TAASTRUP",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Taastrup",
+      "country": "Denmark",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-11",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-taastrup-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 RAFA NADAL ACADEMY-MANACOR",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Manacor",
+      "country": "Spain",
+      "startDate": null,
+      "endDate": null,
+      "status": "POSTPONED",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b3-rafa-nadal-academy-manacor/"
+    },
+    {
+      "title": "FIP BRONZE OSLO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Oslo",
+      "country": "Norway",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-oslo-2026/"
+    },
+    {
+      "title": "FIP BRONZE COTONÚ",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Cotonú",
+      "country": "Benin",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-contonu-2026/"
+    },
+    {
+      "title": "MILANO P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Milano",
+      "country": "Italy",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/milano-p1-2026/"
+    },
+    {
+      "title": "FIP BRONZE ALKMAAR",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Alkmaar",
+      "country": "Netherlands",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-alkmaar-2026/"
+    },
+    {
+      "title": "FIP BRONZE HONG KONG III",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Hong kong",
+      "country": "Hong Kong",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-hong-kong-iii-2026/"
+    },
+    {
+      "title": "FIP BRONZE OEIRAS",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Oeiras",
+      "country": "Portugal",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-oeiras-2026/"
+    },
+    {
+      "title": "FIP BRONZE MIAMI II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Miami",
+      "country": "United States",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-miami-2026-2/"
+    },
+    {
+      "title": "FIP GOLD CIUDAD DE SEVILLA",
+      "categoryClass": "fip-tour-gold",
+      "city": "Sevilla",
+      "country": "Spain",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-ciudad-de-sevilla-2026/"
+    },
+    {
+      "title": "FIP BEYOND B2 LUSAKA",
+      "categoryClass": "fip-beyond-b2",
+      "city": "Lusaka",
+      "country": "Zambia",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b2-lusaka/"
+    },
+    {
+      "title": "FIP PROMISES APRILIA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Aprilia",
+      "country": "Italy",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-aprilia-2026/"
+    },
+    {
+      "title": "FIP PROMISES DOHA III",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Doha",
+      "country": "Qatar",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-doha-iii-2026/"
+    },
+    {
+      "title": "FIP PROMISES MAFRA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Mafra",
+      "country": "Portugal",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-mafra-2026-2/"
+    },
+    {
+      "title": "FIP PROMISES HONG KONG IV",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Hong Kong",
+      "country": "China",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-hong-kong-iv-2026/"
+    },
+    {
+      "title": "FIP BEYOND B3 MIAMI",
+      "categoryClass": "fip-beyond-b3",
+      "city": "Miami",
+      "country": "USA",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-18",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-miami-2026/"
+    },
+    {
+      "title": "FIP GOLD MELILLA",
+      "categoryClass": "fip-tour-gold",
+      "city": "Melilla",
+      "country": "Spain",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-melilla-2026/"
+    },
+    {
+      "title": "FIP BRONZE SAMUI II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Samui",
+      "country": "Thailand",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-samui-ii-2026/"
+    },
+    {
+      "title": "FIP SILVER METEPEC",
+      "categoryClass": "fip-tour-silver",
+      "city": "Metepec",
+      "country": "Mexico",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-metepec-2026/"
+    },
+    {
+      "title": "FIP BRONZE CHILE VIII",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbc",
+      "country": "Chile",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-chile-viii-2026-2-2/"
+    },
+    {
+      "title": "FIP BRONZE ANTALYA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Antalya",
+      "country": "Türkiye",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-antalya-2026/"
+    },
+    {
+      "title": "FIP BRONZE AGRIGENTO II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Agrigento",
+      "country": "Italy",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-agrigento-ii-2026/"
+    },
+    {
+      "title": "FIP BRONZE METEPEC",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Metepec",
+      "country": "Mexico",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-metepec-2026/"
+    },
+    {
+      "title": "FIP SILVER ROCKET PADEL",
+      "categoryClass": "fip-tour-silver",
+      "city": "London",
+      "country": "United Kingdom",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-rocket-padel-2026/"
+    },
+    {
+      "title": "FIP PROMISES ALMATY",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Almaty",
+      "country": "Kazakhstan",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-almaty-2026/"
+    },
+    {
+      "title": "FIP PROMISES VENRAY",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Venray",
+      "country": "Netherlands",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-venray-2026/"
+    },
+    {
+      "title": "FIP PROMISES FRASCATI II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Frascati",
+      "country": "Italy",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-frascati-ii-2026/"
+    },
+    {
+      "title": "HEXAGON WORLD SERIES II",
+      "categoryClass": "hexagon-world-series",
+      "city": "TBC",
+      "country": "",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-25",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/hexagon-world-series-ii/"
+    },
+    {
+      "title": "FIP BRONZE KO PANGHAN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Panghan",
+      "country": "Thailand",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-ko-panghan/"
+    },
+    {
+      "title": "KUWAIT MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Kuwait",
+      "country": "Kuwait",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-31",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/kuwait-major-2026/"
+    },
+    {
+      "title": "FIP BRONZE DE UZBEKISTAN",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tashkent",
+      "country": "Uzbekistan",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-de-uzbekistan/"
+    },
+    {
+      "title": "FIP BRONZE JC FERRERO ACADEMY",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Villena",
+      "country": "Spain",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-jc-ferrero-academy-2026/"
+    },
+    {
+      "title": "FIP BRONZE CYPRUS III",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbc",
+      "country": "Cyprus",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iii-2026/"
+    },
+    {
+      "title": "FIP GOLD MEDIOLANUM TORINO",
+      "categoryClass": "fip-tour-gold",
+      "city": "Torino",
+      "country": "Italy",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-gold-mediolanum-torino-2026/"
+    },
+    {
+      "title": "FIP SILVER DUBAI",
+      "categoryClass": "fip-tour-silver",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-dubai-2026-2/"
+    },
+    {
+      "title": "FIP PROMISES NEW DELHI",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "New delhi",
+      "country": "India",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-new-delhi-2026-2/"
+    },
+    {
+      "title": "FIP PROMISES SANTAREM II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Santarem",
+      "country": "Portugal",
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-santarem-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES UNOMÁS LANZAROTE II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Arrecife",
+      "country": "Spain",
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-arrecife-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES ECUADOR III",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "TBC",
+      "country": "Ecuador",
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-ecuador-iii/"
+    },
+    {
+      "title": "FIP BEYOND B2 DAMAC DUBAI",
+      "categoryClass": "fip-beyond-b2",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b2-dubai/"
+    },
+    {
+      "title": "FIP PROMISES NEW DELHI",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "New delhi",
+      "country": "India",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-new-delhi-2026/"
+    },
+    {
+      "title": "FIP BRONZE AGUASCALIENTES II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Aguascalientes",
+      "country": "Mexico",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-aguascalientes-ii-2026/"
+    },
+    {
+      "title": "FIP WORLD CUP 2026",
+      "categoryClass": "fip-championship",
+      "city": "Doha",
+      "country": "Qatar",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-07",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-world-cup-2026-2/"
+    },
+    {
+      "title": "FIP BRONZE NEW DEHLI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "New dehli",
+      "country": "India",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-new-dehli-2026/"
+    },
+    {
+      "title": "FIP BRONZE CYPRUS IV",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbc",
+      "country": "Cyprus",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/"
+    },
+    {
+      "title": "FIP BRONZE FINLAND II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbc",
+      "country": "Finland",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-finland-2026/"
+    },
+    {
+      "title": "FIP PROMISES AGUASCALIENTES",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "Aguascalientes",
+      "country": "Mexico",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-aguascalientes-2026/"
+    },
+    {
+      "title": "FIP PROMISES MUMBAI IV",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-mumbai-iv-2026/"
+    },
+    {
+      "title": "FIP PROMISES ANCONA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Ancona",
+      "country": "Italy",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-ancona-2026/"
+    },
+    {
+      "title": "FIP JUNIOR ASIA PADEL CUP 2026",
+      "categoryClass": "fip-championship",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-junior-asia-padel-cup-2026-2026/"
+    },
+    {
+      "title": "DUBAI P1",
+      "categoryClass": "fip-ppt-p1",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/dubai-p1-2026/"
+    },
+    {
+      "title": "FIP BRONZE DOHA II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Doha",
+      "country": "Qatar",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-doha-2026-2/"
+    },
+    {
+      "title": "FIP BRONZE COMUNIDAD VALENCIANA VIII",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbc",
+      "country": "Spain",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-comunidad-valenciana-viii-2026/"
+    },
+    {
+      "title": "FIP SILVER MEDIOLANUM COMO",
+      "categoryClass": "fip-tour-silver",
+      "city": "Como",
+      "country": "Italy",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-mediolanum-como-2026/"
+    },
+    {
+      "title": "FIP BRONZE PALA PADEL NOLA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Nola",
+      "country": "Italy",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-pala-padel-nola-2026/"
+    },
+    {
+      "title": "FIP BRONZE MUMBAI IV",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Mumbai",
+      "country": "India",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-mumbai-iv-2026/"
+    },
+    {
+      "title": "FIP SILVER CYPRUS II",
+      "categoryClass": "fip-tour-silver",
+      "city": "Tbc",
+      "country": "Cyprus",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-cyprus-ii-2026/"
+    },
+    {
+      "title": "FIP SILVER OPORTO II",
+      "categoryClass": "fip-tour-silver",
+      "city": "Oporto",
+      "country": "Portugal",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-oporto-2-2026-2/"
+    },
+    {
+      "title": "FIP JUNIOR AMERICA PADEL CUP 2026",
+      "categoryClass": "fip-championship",
+      "city": "TBC",
+      "country": "Mexico",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-14",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-junior-america-padel-cup-2026-2026/"
+    },
+    {
+      "title": "FIP PROMISES WAVER",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Waver",
+      "country": "Belgium",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-waver-2026/"
+    },
+    {
+      "title": "FIP PROMISES VALENCIA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Valencia",
+      "country": "Spain",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-valencia-2026-2/"
+    },
+    {
+      "title": "FIP BEYOND B2 MELILLA CIUDAD DEL DEPORTE 2026",
+      "categoryClass": "fip-beyond-b2",
+      "city": "Melilla",
+      "country": "Spain",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-15",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-beyond-b2-melilla-ciudad-del-deporte-2026/"
+    },
+    {
+      "title": "FIP BRONZE ROCHEFORT",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Rochefort",
+      "country": "Belgium",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-rochafort-2026/"
+    },
+    {
+      "title": "FIP SILVER HONG KONG",
+      "categoryClass": "fip-tour-silver",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-hong-kong-2026/"
+    },
+    {
+      "title": "FIP SILVER NAPOLI",
+      "categoryClass": "fip-tour-silver",
+      "city": "Napoli",
+      "country": "Italy",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-napoli-2026/"
+    },
+    {
+      "title": "FIP SILVER SWEDEN II",
+      "categoryClass": "fip-tour-silver",
+      "city": "Skurup",
+      "country": "Sweden",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-sweden-ii-2026/"
+    },
+    {
+      "title": "FIP BRONZE KARACHI",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-karachi-2026/"
+    },
+    {
+      "title": "FIP PLATINUM MEXICO",
+      "categoryClass": "fip-tour-platinum",
+      "city": "Tbc",
+      "country": "Mexico",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-platinum-mexico-ii-2026/"
+    },
+    {
+      "title": "FIP BRONZE IURRETA PADELKO",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Iurreta",
+      "country": "Spain",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-vizcaya-2026/"
+    },
+    {
+      "title": "FIP BRONZE ACRA",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Acra",
+      "country": "Ghana",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-acra-2026/"
+    },
+    {
+      "title": "FIP PROMISES ROESELARE",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Roeselare",
+      "country": "Belgium",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-roeselare-2026/"
+    },
+    {
+      "title": "FIP PROMISES PERUGIA III",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Perugia",
+      "country": "Italy",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-22",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-perugia-iii-2026/"
+    },
+    {
+      "title": "FIP BRONZE CHILE IX",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbc",
+      "country": "Chile",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/"
+    },
+    {
+      "title": "FIP BRONZE EGYPT V",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbc",
+      "country": "Egypt",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-egypt-vi-2026/"
+    },
+    {
+      "title": "FIP SILVER ROESELARE",
+      "categoryClass": "fip-tour-silver",
+      "city": "Roeselare",
+      "country": "Belgium",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men"
+      ],
+      "url": "https://www.padelfip.com/events/fip-silver-roeselare-2026/"
+    },
+    {
+      "title": "MEXICO MAJOR",
+      "categoryClass": "fip-ppt-major",
+      "city": "Acapulco",
+      "country": "Mexico",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/mexico-major-2026/"
+    },
+    {
+      "title": "FIP BRONZE ROESELARE",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Roeselare",
+      "country": "Belgium",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-roeselare-2026/"
+    },
+    {
+      "title": "FIP BRONZE ESBJERG",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Esbjerg",
+      "country": "Denmark",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-esbjerg-2026/"
+    },
+    {
+      "title": "FIP BRONZE COMUNIDAD VALENCIANA IX",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Tbd",
+      "country": "Spain",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-comunidad-valenciana-ix-2026/"
+    },
+    {
+      "title": "FIP BRONZE PHUKET II",
+      "categoryClass": "fip-tour-bronze",
+      "city": "Phuket",
+      "country": "Thailand",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-bronze-phuket-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES CENTURION III",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Centurion-South Africa",
+      "country": "",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-centurion-iii/"
+    },
+    {
+      "title": "FIP PROMISES RENDE",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Rende",
+      "country": "Italy",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-rende-2026/"
+    },
+    {
+      "title": "FIP PROMISES LLEIDA",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Lleida",
+      "country": "Spain",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-29",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-lleida-2026/"
+    },
+    {
+      "title": "FIP PROMISES EL PRAT DE LLOBREGAT II",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "El Prat de Llobregat",
+      "country": "Spain",
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-el-prat-de-llobregat-ii-2026/"
+    },
+    {
+      "title": "FIP PROMISES VILNIUS",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-06",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-vilnius/"
+    },
+    {
+      "title": "PREMIER PADEL FINALS",
+      "categoryClass": "fip-pp-master-finals",
+      "city": "Barcelona",
+      "country": "Spain",
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-13",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/premier-padel-finals-2026/"
+    },
+    {
+      "title": "ASIAN INDOOR & MARTIAL ARTS GAMES",
+      "categoryClass": "olympic-path-events",
+      "city": "RIYADH",
+      "country": "SAUDI ARABIA",
+      "startDate": "2026-12-17",
+      "endDate": "2026-12-21",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/asian-indoor-martial-arts-games/"
+    },
+    {
+      "title": "HEXAGON WORLD SERIES III",
+      "categoryClass": "hexagon-world-series",
+      "city": "TBC",
+      "country": "",
+      "startDate": "2026-12-17",
+      "endDate": "2026-12-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/hexagon-world-series-iii/"
+    },
+    {
+      "title": "FIP PROMISES CONTINENTAL FINALS - AMERICA",
+      "categoryClass": "fip-tour-promises-america",
+      "city": "TBC",
+      "country": "",
+      "startDate": "2026-12-18",
+      "endDate": "2026-12-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-continental-finals-america-2026/"
+    },
+    {
+      "title": "FIP PROMISES CONTINENTAL FINALS - ASIA",
+      "categoryClass": "fip-tour-promises-asia",
+      "city": "TBC",
+      "country": "",
+      "startDate": "2026-12-18",
+      "endDate": "2026-12-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-continental-finals-asia-2026/"
+    },
+    {
+      "title": "FIP PROMISES CONTINENTAL FINALS - EUROPE",
+      "categoryClass": "fip-tour-promises-europe",
+      "city": "TBC",
+      "country": "",
+      "startDate": "2026-12-18",
+      "endDate": "2026-12-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-continental-finals-europe/"
+    },
+    {
+      "title": "FIP PROMISES CONTINENTAL FINALS - AFRICA",
+      "categoryClass": "fip-tour-promises-africa",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "startDate": "2026-12-18",
+      "endDate": "2026-12-20",
+      "status": "scheduled",
+      "tours": [
+        "men",
+        "women"
+      ],
+      "url": "https://www.padelfip.com/events/fip-promises-continental-finals/"
+    }
+  ]
+}

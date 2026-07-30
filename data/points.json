@@ -1,0 +1,96 @@
+{
+  "$schema": "See lib/data/points.ts — this file is hand-authored tuning data.",
+  "$comment": [
+    "Points-by-round-by-category (§7, §12). Winner points come straight from the plan's",
+    "circuit table (Bronze 40 / Silver 80 / Gold 150 / Platinum 300 / P2 500 / P1 1000 /",
+    "Major 2000). Earlier rounds are derived from `roundShares`, whose ratios match the real",
+    "Premier Padel breakdown (a Major pays 2000/1200/720/360/180/90/45).",
+    "",
+    "`roundLadder` is the canonical exit ladder: TournamentResult.roundReached indexes into it,",
+    "0 = lost in the round of 64, 6 = won the title. A category that starts later than r64 simply",
+    "has no entry for the earlier rounds — `firstRound` says where its draw begins.",
+    "",
+    "Prize figures are a player's own share (not the pair's) in EUR, sized to the plan's bands:",
+    "Developmental €7k-30k, Professional €50k-150k, Elite high. Tune freely — nothing derives",
+    "these but the tournament builder."
+  ],
+
+  "roundLadder": ["r64", "r32", "r16", "quarter", "semi", "final", "winner"],
+  "roundShares": {
+    "r64": 0.0225,
+    "r32": 0.045,
+    "r16": 0.09,
+    "quarter": 0.18,
+    "semi": 0.36,
+    "final": 0.6,
+    "winner": 1
+  },
+  "prizeShares": {
+    "r64": 0.03,
+    "r32": 0.055,
+    "r16": 0.1,
+    "quarter": 0.17,
+    "semi": 0.3,
+    "final": 0.55,
+    "winner": 1
+  },
+
+  "categories": {
+    "bronze": {
+      "band": "developmental",
+      "drawSize": 16,
+      "firstRound": "r16",
+      "winnerPoints": 40,
+      "winnerPrize": 1200
+    },
+    "silver": {
+      "band": "developmental",
+      "drawSize": 24,
+      "firstRound": "r32",
+      "winnerPoints": 80,
+      "winnerPrize": 2600
+    },
+    "gold": {
+      "band": "professional",
+      "drawSize": 32,
+      "firstRound": "r32",
+      "winnerPoints": 150,
+      "winnerPrize": 7000
+    },
+    "platinum": {
+      "band": "professional",
+      "drawSize": 32,
+      "firstRound": "r32",
+      "winnerPoints": 300,
+      "winnerPrize": 14000
+    },
+    "p2": {
+      "band": "elite",
+      "drawSize": 32,
+      "firstRound": "r32",
+      "winnerPoints": 500,
+      "winnerPrize": 13000
+    },
+    "p1": {
+      "band": "elite",
+      "drawSize": 32,
+      "firstRound": "r32",
+      "winnerPoints": 1000,
+      "winnerPrize": 24000
+    },
+    "major": {
+      "band": "elite",
+      "drawSize": 64,
+      "firstRound": "r64",
+      "winnerPoints": 2000,
+      "winnerPrize": 45000
+    },
+    "finals": {
+      "band": "elite",
+      "drawSize": 8,
+      "firstRound": "quarter",
+      "winnerPoints": 1500,
+      "winnerPrize": 60000
+    }
+  }
+}
