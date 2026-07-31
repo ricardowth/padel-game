@@ -65,9 +65,11 @@
       "allcourtHint": "All-court. Slower to peak, higher ceiling."
     },
     "startingOvr": "Starting OVR",
-    "potential": "Potential",
     "confirm": "Confirm identity",
-    "nameRequired": "Pick a name first."
+    "nameRequired": "Pick a name first.",
+    "seed": "Seed",
+    "reroll": "Reroll",
+    "seedHint": "Drives the whole career. Reroll for a different run, or paste a seed to replay someone else's."
   },
   "board": {
     "age": "Age",
@@ -382,7 +384,7 @@
   },
   "result": {
     "title": "Career complete",
-    "finalOvr": "Final OVR",
+    "peakOvr": "Peak OVR",
     "totals": "{titles} titles · {finals} finals · {weeks} weeks at #1 · {earnings}",
     "worlds": "World Championship",
     "worldsEmpty": "Never called up",
@@ -395,6 +397,8 @@
     "viewLedger": "Full career ledger",
     "seed": "Seed",
     "share": "Share",
+    "sharing": "Drawing card…",
+    "saved": "Image saved",
     "copied": "Link copied",
     "tier": {
       "journeyman": "Journeyman",

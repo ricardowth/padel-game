@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { createRng, hashSeed } from "./rng";
+import { createRng, hashSeed, randomSeed } from "./rng";
 
 describe("createRng", () => {
   it("is deterministic for a given seed", () => {
@@ -82,5 +82,35 @@ describe("createRng", () => {
   it("accepts a numeric seed and matches its hashed string form", () => {
     const seed = hashSeed("numeric");
     expect(createRng(seed).next()).toBe(createRng("numeric").next());
+  });
+});
+
+describe("randomSeed", () => {
+  it("produces a readable, URL-safe token", () => {
+    for (let i = 0; i < 200; i++) {
+      expect(randomSeed()).toMatch(/^[a-z2-9]{4}-[a-z2-9]{4}-[a-z2-9]{4}$/);
+    }
+  });
+
+  it("avoids look-alike characters so a shared seed can be typed back in", () => {
+    const sample = Array.from({ length: 400 }, () => randomSeed()).join("");
+    expect(sample).not.toMatch(/[01loi]/);
+  });
+
+  it("is different every time — a new career must not be predictable", () => {
+    const seeds = new Set(Array.from({ length: 2000 }, () => randomSeed()));
+    expect(seeds.size).toBe(2000);
+  });
+
+  it("still drives a reproducible stream once generated", () => {
+    const seed = randomSeed();
+    const a = Array.from({ length: 20 }, () => createRng(seed).next());
+    const b = Array.from({ length: 20 }, () => createRng(seed).next());
+    expect(a).toEqual(b);
+  });
+
+  it("honours a requested shape", () => {
+    expect(randomSeed(2, 3)).toMatch(/^[a-z2-9]{3}-[a-z2-9]{3}$/);
+    expect(randomSeed(1, 8)).toMatch(/^[a-z2-9]{8}$/);
   });
 });

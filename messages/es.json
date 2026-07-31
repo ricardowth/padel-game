@@ -65,9 +65,11 @@
       "allcourtHint": "Completo. Tarda en llegar a su pico, pero llega más alto."
     },
     "startingOvr": "OVR inicial",
-    "potential": "Potencial",
     "confirm": "Confirmar identidad",
-    "nameRequired": "Elige primero un nombre."
+    "nameRequired": "Elige primero un nombre.",
+    "seed": "Semilla",
+    "reroll": "Generar otra",
+    "seedHint": "Determina toda la carrera. Genera otra para un recorrido distinto, o pega una semilla para repetir la de otra persona."
   },
   "board": {
     "age": "Edad",
@@ -382,7 +384,7 @@
   },
   "result": {
     "title": "Carrera completa",
-    "finalOvr": "OVR final",
+    "peakOvr": "OVR máximo",
     "totals": "{titles} títulos · {finals} finales · {weeks} semanas en el #1 · {earnings}",
     "worlds": "Campeonato del Mundo",
     "worldsEmpty": "Nunca fue convocado",
@@ -395,6 +397,8 @@
     "viewLedger": "Registro completo de la carrera",
     "seed": "Semilla",
     "share": "Compartir",
+    "sharing": "Creando imagen…",
+    "saved": "Imagen guardada",
     "copied": "Enlace copiado",
     "shareText": "{name} — {tier} · {titles} títulos · mejor #{peak} · {earnings}",
     "tier": {

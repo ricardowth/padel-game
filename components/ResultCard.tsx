@@ -8,6 +8,7 @@ import {
   awardCounts,
   definingPartnerships,
   legacyTier,
+  peakOvr,
   peakRank,
   type CareerEngine,
 } from "../lib/sim/career";
@@ -27,11 +28,13 @@ export function ResultCard({ engine }: { engine: CareerEngine }) {
   const locale = useLocale();
 
   const [showLedger, setShowLedger] = useState(false);
-  const [copied, setCopied] = useState(false);
+  /** null while idle; otherwise the footer button's transient state. */
+  const [shareState, setShareState] = useState<"sharing" | "saved" | "copied" | null>(null);
 
   const { state, world } = engine;
   const tier = legacyTier(state);
   const peak = peakRank(state);
+  const ovr = peakOvr(state);
   const partnerships = definingPartnerships(state);
   const awards = awardCounts(state);
 
@@ -39,11 +42,11 @@ export function ResultCard({ engine }: { engine: CareerEngine }) {
   const countryOf = (id: string) => world.players.get(id)?.country ?? "";
 
   /** Params the OG route needs to redraw this card as an image. */
-  const ogUrl = () => {
+  const ogPath = () => {
     const params = new URLSearchParams({
       name: state.you.name,
       tier,
-      ovr: String(state.you.ovr),
+      ovr: String(ovr),
       side: state.you.currentSide,
       country: state.you.country,
       titles: String(state.titles),
@@ -53,9 +56,27 @@ export function ResultCard({ engine }: { engine: CareerEngine }) {
       peak: String(peak),
       locale,
     });
-    return `${window.location.origin}/api/og?${params}`;
+    return `/api/og?${params}`;
   };
 
+  /** `luis-branco-contender-64.png` — a filename worth having in a camera roll. */
+  const imageName = () => {
+    const slug = state.you.name
+      .normalize("NFD")
+      .replace(/[^a-zA-Z0-9]+/g, "-")
+      .replace(/^-|-$/g, "")
+      .toLowerCase();
+    return `${slug || "padel"}-${tier}-${ovr}.png`;
+  };
+
+  /**
+   * Share the card as an actual image, not a link.
+   *
+   * The OG route already draws the card, so this fetches that PNG and hands the
+   * *file* to the share sheet — on phones that puts the picture straight into
+   * Instagram or WhatsApp. Desktop browsers cannot share files, so there it
+   * downloads instead; only if both fail does it fall back to copying a link.
+   */
   const share = async () => {
     const text = t("shareText", {
       name: state.you.name,
@@ -65,16 +86,42 @@ export function ResultCard({ engine }: { engine: CareerEngine }) {
       earnings: euro(state.earnings),
     });
 
+    const flash = (value: "saved" | "copied") => {
+      setShareState(value);
+      setTimeout(() => setShareState(null), 2000);
+    };
+
+    setShareState("sharing");
     try {
-      if (navigator.share) {
-        await navigator.share({ title: t("title"), text, url: ogUrl() });
-      } else {
-        await navigator.clipboard.writeText(`${text}\n${ogUrl()}`);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
+      const response = await fetch(ogPath());
+      if (!response.ok) throw new Error(`og ${response.status}`);
+      const file = new File([await response.blob()], imageName(), { type: "image/png" });
+
+      if (navigator.canShare?.({ files: [file] })) {
+        await navigator.share({ title: t("title"), text, files: [file] });
+        setShareState(null);
+        return;
       }
-    } catch {
-      // The user dismissed the share sheet — nothing to recover from.
+
+      const url = URL.createObjectURL(file);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = file.name;
+      link.click();
+      URL.revokeObjectURL(url);
+      flash("saved");
+    } catch (error) {
+      // AbortError means the user dismissed the share sheet — not a failure.
+      if (error instanceof DOMException && error.name === "AbortError") {
+        setShareState(null);
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(`${text}\n${window.location.origin}${ogPath()}`);
+        flash("copied");
+      } catch {
+        setShareState(null);
+      }
     }
   };
 
@@ -86,7 +133,7 @@ export function ResultCard({ engine }: { engine: CareerEngine }) {
           <p className="label text-[color:var(--color-accent)]">{t("title")}</p>
 
           <div className="mt-3 flex items-start gap-4">
-            <OvrBadge value={state.you.ovr} size="lg" label={t("finalOvr")} />
+            <OvrBadge value={ovr} size="lg" label={t("peakOvr")} />
             <div className="min-w-0 flex-1">
               <div className="flex flex-wrap items-center gap-2">
                 <Flag iso={state.you.country} className="text-[10px]" />
@@ -206,9 +253,10 @@ export function ResultCard({ engine }: { engine: CareerEngine }) {
             <button
               type="button"
               onClick={share}
-              className="rounded-lg border border-[color:var(--color-line)] px-4 py-2 text-xs font-semibold text-[color:var(--color-muted)] transition-colors hover:bg-white/[0.05]"
+              disabled={shareState === "sharing"}
+              className="rounded-lg border border-[color:var(--color-line)] px-4 py-2 text-xs font-semibold text-[color:var(--color-muted)] transition-colors hover:bg-white/[0.05] disabled:opacity-60"
             >
-              {copied ? t("copied") : t("share")}
+              {shareState ? t(shareState) : t("share")}
             </button>
             <Link
               href="/"

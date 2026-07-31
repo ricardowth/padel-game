@@ -4,8 +4,8 @@ import { useLocale, useTranslations } from "next-intl";
 import { useMemo, useState } from "react";
 
 import type { Playstyle, Side, Tour } from "../lib/data/types";
-import { createPlayer, type CreatePlayerInput } from "../lib/sim/career";
-import { createRng } from "../lib/sim/rng";
+import { createPlayer, playerRng, type CreatePlayerInput } from "../lib/sim/career";
+import { randomSeed } from "../lib/sim/rng";
 import { allCountries } from "../lib/ui/format";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Flag, OvrBadge, RatingPill } from "./ui/Pills";
@@ -44,13 +44,16 @@ export function PlayerCreator({
     return q ? countries.filter((c) => c.name.toLowerCase().includes(q)) : countries;
   }, [countries, query]);
 
-  // Seeded off the identity so the preview matches the career you actually get.
-  const seed = `${name || "player"}-${country}-${side}-${playstyle}-${handedness}`;
+  // A fresh random seed per career, so the same identity does not replay the
+  // same 19 seasons. Held in state rather than regenerated each render, so the
+  // preview stays still while you type — reroll or paste a seed to change it.
+  const [seed, setSeed] = useState(randomSeed);
+
   const preview = useMemo(
     () =>
       createPlayer(
         { name: name || "—", country, tour, side, playstyle, handedness },
-        createRng(seed),
+        playerRng(seed),
       ),
     [country, handedness, name, playstyle, seed, side, tour],
   );
@@ -79,9 +82,9 @@ export function PlayerCreator({
                 <Flag iso={country} />
                 {name.trim() || t("lastNamePlaceholder")}
               </div>
-              <div className="label mt-1">
-                {t("startingOvr")} · {t("potential")} {preview.potential}
-              </div>
+              {/* Only the starting OVR. Potential is a hidden cap (§4) — showing
+                  it would let you reroll for a ceiling instead of playing. */}
+              <div className="label mt-1">{t("startingOvr")}</div>
             </div>
           </div>
 
@@ -109,6 +112,37 @@ export function PlayerCreator({
               ))}
             </div>
             <p className="mt-1.5 text-[11px] text-[color:var(--color-faint)]">{t("handHint")}</p>
+          </div>
+
+          {/* The seed drives the whole career (§9). Random by default so no two
+              runs match; editable so a shared seed can be replayed exactly. */}
+          <div>
+            <span className="label">{t("seed")}</span>
+            <div className="mt-1 flex gap-2">
+              <input
+                value={seed}
+                onChange={(e) => setSeed(e.target.value)}
+                onBlur={() => setSeed((s) => s.trim() || randomSeed())}
+                spellCheck={false}
+                maxLength={40}
+                aria-label={t("seed")}
+                className="num min-w-0 flex-1 rounded-lg border border-[color:var(--color-line)] bg-[color:var(--color-ink)] px-3 py-2 text-xs outline-none focus:border-[color:var(--color-accent)]/60"
+              />
+              <button
+                type="button"
+                onClick={() => setSeed(randomSeed())}
+                title={t("reroll")}
+                aria-label={t("reroll")}
+                className="shrink-0 rounded-lg border border-[color:var(--color-line)] px-3 py-2 text-sm leading-none text-[color:var(--color-muted)] transition-colors hover:border-[color:var(--color-accent)]/50 hover:bg-white/[0.05] hover:text-[color:var(--color-accent)]"
+              >
+                {/* A glyph, not an emoji — this is the button's only visible
+                    content, and emoji font coverage is not guaranteed. */}
+                <span aria-hidden>↻</span>
+              </button>
+            </div>
+            <p className="mt-1.5 text-[11px] leading-snug text-[color:var(--color-faint)]">
+              {t("seedHint")}
+            </p>
           </div>
 
           <div>

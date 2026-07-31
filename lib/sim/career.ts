@@ -107,6 +107,18 @@ export interface StartCareerOptions {
 const STARTING_OVR = 44;
 
 /**
+ * Derives the RNG stream used to build the player, so the creator's preview and
+ * the engine's actual player always agree.
+ *
+ * They must not share the career RNG: the engine consumes draws building the
+ * world before it ever reaches the player, so a preview using a fresh stream
+ * from the same seed produced a *different* player — it promised a potential of
+ * 84 and delivered 69. Giving player creation its own named sub-stream makes
+ * the preview an accurate promise regardless of what else the engine does first.
+ */
+export const playerRng = (seed: string): Rng => createRng(`${seed}:player`);
+
+/**
  * Builds the player's starting profile. Side, playstyle and handedness all feed
  * the spread, which is what makes the creator's live OVR preview meaningful.
  */
@@ -211,7 +223,7 @@ export class CareerEngine {
     this.world = createWorld({ data: options.data, rng: this.rng, year: startYear });
     this.nameBank = buildNameBank(this.world.players.values());
 
-    const you = createPlayer(options.input, this.rng);
+    const you = createPlayer(options.input, playerRng(options.seed));
     this.world.players.set(you.id, clonePlayer(you));
 
     const partner = pickStartingPartner(this.world, you, this.rng);
@@ -842,6 +854,20 @@ export function legacyTier(state: CareerState): LegacyTier {
   if (no1 >= 1 || majors >= 1 || (bestRank <= 10 && state.bigTitles >= 8)) return "champion";
   if (bestRank <= 50 || state.bigTitles >= 3) return "contender";
   return "journeyman";
+}
+
+/**
+ * Highest OVR the career ever reached — the headline number on the final card.
+ * A player who peaked at 84 and retired at 71 is remembered as an 84, so the
+ * ledger rows (which already carry the penalised, season-end value) are scanned
+ * alongside the current rating rather than reading `you.ovr` alone.
+ */
+export function peakOvr(state: CareerState): number {
+  let best = state.you.ovr;
+  for (const row of state.history) {
+    if (row.ovr > best) best = row.ovr;
+  }
+  return best;
 }
 
 /** Best career ranking reached, or 0 if never ranked. */

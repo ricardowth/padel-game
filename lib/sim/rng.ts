@@ -32,6 +32,36 @@ export interface Rng {
   shuffle<T>(items: readonly T[]): T[];
 }
 
+/**
+ * Alphabet for generated seeds. Excludes look-alikes (0/O, 1/l/I) so a seed can
+ * be read off a share card and typed back in without ambiguity.
+ */
+const SEED_ALPHABET = "abcdefghjkmnpqrstuvwxyz23456789";
+
+/**
+ * A fresh random career seed, e.g. `k3fq-9mxt-2wbd`.
+ *
+ * Careers are reproducible *from* a seed (§9), but a new career must not be
+ * predictable: without this, the same name and identity would replay the same
+ * 19 seasons every time. Uses the platform CSPRNG where available.
+ */
+export function randomSeed(groups = 3, size = 4): string {
+  const total = groups * size;
+  const values = new Uint32Array(total);
+
+  const webCrypto = globalThis.crypto;
+  if (webCrypto?.getRandomValues) {
+    webCrypto.getRandomValues(values);
+  } else {
+    for (let i = 0; i < total; i++) values[i] = Math.floor(Math.random() * 0xffffffff);
+  }
+
+  const chars = Array.from(values, (v) => SEED_ALPHABET[v % SEED_ALPHABET.length]);
+  return Array.from({ length: groups }, (_, g) =>
+    chars.slice(g * size, (g + 1) * size).join(""),
+  ).join("-");
+}
+
 /** mulberry32 — small, fast, good enough for game simulation. */
 export function createRng(seed: string | number): Rng {
   let state = (typeof seed === "string" ? hashSeed(seed) : seed >>> 0) || 1;

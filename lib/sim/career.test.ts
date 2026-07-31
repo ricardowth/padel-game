@@ -5,8 +5,18 @@
 import { beforeAll, describe, expect, it } from "vitest";
 
 import { loadTourData, type TourData } from "../data/load";
-import { CareerEngine, END_AGE, START_AGE, definingPartnerships, legacyTier, peakRank } from "./career";
-import { createRng } from "./rng";
+import {
+  CareerEngine,
+  END_AGE,
+  START_AGE,
+  createPlayer,
+  definingPartnerships,
+  legacyTier,
+  peakOvr,
+  peakRank,
+  playerRng,
+} from "./career";
+import { createRng, randomSeed } from "./rng";
 import type { DecisionCard } from "./types";
 
 let menData: TourData;
@@ -205,6 +215,17 @@ describe("legacy", () => {
     }
   });
 
+  it("reports the career's best OVR, not the one it retired on (§14)", () => {
+    const { engine } = playCareer("peak-ovr");
+    const state = engine.state;
+
+    const best = Math.max(state.you.ovr, ...state.history.map((row) => row.ovr));
+    expect(peakOvr(state)).toBe(best);
+    // A 35-year-old has declined off their peak, so the headline number should
+    // be the one the ledger remembers rather than the final row's.
+    expect(peakOvr(state)).toBeGreaterThanOrEqual(state.you.ovr);
+  });
+
   it("keeps career totals consistent with the per-season rows", () => {
     const { engine } = playCareer("totals");
     const state = engine.state;
@@ -215,5 +236,61 @@ describe("legacy", () => {
     // Career earnings also absorb sponsor money, so they can only be higher.
     expect(state.earnings).toBeGreaterThanOrEqual(0);
     expect(ledgerEarnings).toBeGreaterThan(0);
+  });
+});
+
+describe("seeding", () => {
+  const input = {
+    name: "Preview Check",
+    country: "AR",
+    tour: "men" as const,
+    side: "reves" as const,
+    playstyle: "playmaker" as const,
+    handedness: "right" as const,
+  };
+
+  const engineFor = (seed: string) =>
+    new CareerEngine({ data: menData, seed, pace: "story" as const, input });
+
+  it("builds exactly the player the creator previewed", () => {
+    // The engine consumes RNG draws setting the world up before it reaches the
+    // player, so player creation has to run on its own derived stream. Without
+    // that, the creator advertised a potential of 84 and delivered 69.
+    for (const seed of ["alpha", "beta", randomSeed()]) {
+      const preview = createPlayer(input, playerRng(seed));
+      const actual = engineFor(seed).state.you;
+
+      expect(actual.attributes).toEqual(preview.attributes);
+      expect(actual.potential).toBe(preview.potential);
+      expect(actual.ovr).toBe(preview.ovr);
+    }
+  });
+
+  it("gives the same identity a different career on a different seed", () => {
+    // The whole point of a random seed: replaying as "the same person" must not
+    // replay the same 19 seasons.
+    const a = engineFor("run-one").state.you;
+    const b = engineFor("run-two").state.you;
+
+    expect(a.name).toBe(b.name);
+    expect(a.attributes).not.toEqual(b.attributes);
+  });
+
+  it("still replays identically when a seed is reused", () => {
+    const seed = randomSeed();
+    const a = engineFor(seed).state.you;
+    const b = engineFor(seed).state.you;
+
+    expect(a.attributes).toEqual(b.attributes);
+    expect(a.potential).toBe(b.potential);
+  });
+
+  it("keeps the starting OVR on target whatever the seed", () => {
+    for (let i = 0; i < 40; i++) {
+      const player = createPlayer(input, playerRng(randomSeed()));
+      expect(player.ovr).toBe(44);
+      expect(player.potential).toBeGreaterThan(player.ovr);
+      expect(player.potential).toBeLessThanOrEqual(99);
+    }
   });
 });

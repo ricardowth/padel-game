@@ -33,6 +33,7 @@ function ratingTone(value: number): string {
 const STRINGS = {
   en: {
     complete: "CAREER COMPLETE",
+    ovr: "PEAK OVR",
     titles: "TITLES",
     finals: "FINALS",
     weeks: "WEEKS AT #1",
@@ -48,6 +49,7 @@ const STRINGS = {
   },
   pt: {
     complete: "CARREIRA COMPLETA",
+    ovr: "OVR MÁXIMO",
     titles: "TÍTULOS",
     finals: "FINAIS",
     weeks: "SEMANAS EM #1",
@@ -63,6 +65,7 @@ const STRINGS = {
   },
   es: {
     complete: "CARRERA COMPLETA",
+    ovr: "OVR MÁXIMO",
     titles: "TÍTULOS",
     finals: "FINALES",
     weeks: "SEMANAS EN #1",
@@ -143,13 +146,26 @@ export async function GET(request: Request) {
                 borderRadius: 28,
                 background: ratingTone(ovr),
                 color: "#ffffff",
-                fontSize: 82,
-                fontWeight: 900,
+                flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
               }}
             >
-              {ovr}
+              <div style={{ display: "flex", fontSize: 82, fontWeight: 900, lineHeight: 1 }}>
+                {ovr}
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  marginTop: 8,
+                  fontSize: 15,
+                  fontWeight: 700,
+                  letterSpacing: 2,
+                  opacity: 0.85,
+                }}
+              >
+                {s.ovr}
+              </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
