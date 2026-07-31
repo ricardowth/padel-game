@@ -1,8 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { ROUND_INDEX } from "../data/points";
+import { ROUND_INDEX, hasDirectEntry, type CategorySpec } from "../data/points";
 import type { Tournament } from "../data/types";
-import { winProbability, recoverFatigue, updateForm } from "./match";
+import { simulateTournament, winProbability, recoverFatigue, updateForm } from "./match";
+import pointsFile from "../../data/points.json";
 import { createRng } from "./rng";
 import {
   BAND_CATEGORIES,
@@ -49,6 +50,9 @@ const outcome = (over: Partial<TournamentOutcome> = {}): TournamentOutcome => ({
   matchesWon: 1,
   points: 100,
   prize: 500,
+  cost: 0,
+  hadToQualify: false,
+  qualified: true,
   won: false,
   reachedFinal: false,
   ...over,
@@ -197,5 +201,96 @@ describe("fatigue and form", () => {
 
     for (let i = 0; i < 50; i++) form = updateForm(form, outcome({ matchesWon: 0 }), 5);
     expect(form).toBeGreaterThanOrEqual(-50);
+  });
+});
+
+describe("qualifying and entry costs", () => {
+  const points = pointsFile as unknown as import("../data/points").PointsFile;
+
+  const premier = (): Tournament => ({
+    id: "p1",
+    name: "Some P1",
+    city: "Madrid",
+    country: "ES",
+    category: "p1",
+    band: "elite",
+    week: 20,
+    points: { r32: 45, r16: 90, quarter: 180, semi: 360, final: 600, winner: 1000 },
+    prize: { r32: 1320, r16: 2400, quarter: 4080, semi: 7200, final: 13200, winner: 24000 },
+    tours: ["men"],
+    startDate: "2026-05-11",
+  });
+
+  const play = (rank: number, seed: string, strength = 78) =>
+    simulateTournament({
+      tournament: premier(),
+      strength,
+      mental: 70,
+      partnerId: "P",
+      opponents: [70, 72, 74, 76, 78],
+      points,
+      rng: createRng(seed),
+      rank,
+    });
+
+  it("sends players below the direct-entry rank into qualifying", () => {
+    expect(play(150, "q1").hadToQualify).toBe(true);
+    expect(play(10, "q2").hadToQualify).toBe(false);
+  });
+
+  it("charges the trip whether or not you make the draw", () => {
+    const spec = points.categories.p1;
+    expect(play(150, "q3").cost).toBe(spec.entryCost);
+    expect(play(10, "q4").cost).toBe(spec.entryCost);
+    expect(spec.entryCost).toBeGreaterThan(0);
+  });
+
+  it("pays nothing at all for a qualifying exit", () => {
+    // Weak team, deep outside direct entry — it will miss the draw sooner or later.
+    let missed = 0;
+    for (let i = 0; i < 60; i++) {
+      const out = play(300, `qual-${i}`, 52);
+      if (!out.qualified) {
+        missed++;
+        expect(out.points).toBe(0);
+        expect(out.prize).toBe(0);
+        // The trip still cost money — this is the whole mechanic.
+        expect(out.cost).toBeGreaterThan(0);
+        expect(out.won).toBe(false);
+        expect(out.reachedFinal).toBe(false);
+      }
+    }
+    expect(missed).toBeGreaterThan(0);
+  });
+
+  it("makes a low rank worse at identical playing strength", () => {
+    // A qualifying exit scores zero, so the same team ranked outside direct
+    // entry must average fewer points. The gap is only ~8% for a strong team,
+    // so this needs a decent sample to sit above the noise.
+    const RUNS = 600;
+    let ranked = 0;
+    let unranked = 0;
+    let failedQualifying = 0;
+
+    for (let i = 0; i < RUNS; i++) {
+      ranked += play(10, `hi-${i}`).points;
+      const low = play(300, `lo-${i}`);
+      unranked += low.points;
+      if (!low.qualified) failedQualifying++;
+    }
+
+    expect(failedQualifying).toBeGreaterThan(0);
+    expect(unranked).toBeLessThan(ranked);
+  });
+
+  it("tightens direct entry as the circuit climbs", () => {
+    const spec = (c: keyof typeof points.categories): CategorySpec => points.categories[c];
+    expect(spec("major").directEntryRank).toBeLessThan(spec("gold").directEntryRank);
+    expect(spec("p1").entryCost).toBeGreaterThan(spec("bronze").entryCost);
+  });
+
+  it("treats an unranked newcomer as open-entry only where the draw is open", () => {
+    expect(hasDirectEntry(points.categories.bronze, 0)).toBe(true);
+    expect(hasDirectEntry(points.categories.p1, 0)).toBe(false);
   });
 });

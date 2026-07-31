@@ -178,7 +178,10 @@
     "tougher_fields": "Tougher fields",
     "partner_ovr": "OVR {value}",
     "stronger_partner": "+{value} stronger partner",
-    "side_switch": "🔻 OVR −{value} (side switch)"
+    "side_switch": "🔻 OVR −{value} (side switch)",
+    "main_draw_entry": "Direct main draw",
+    "stop_bleeding": "Stop losing money",
+    "keep_prestige": "Keep the level"
   },
   "events": {
     "train_harder": {
@@ -372,6 +375,20 @@
       "results": {
         "accepted": "New partner, new wall, everything to prove.",
         "stayed": "You stay together. The chemistry keeps building."
+      }
+    },
+    "drop_down": {
+      "title": "You are not making main draws",
+      "description": "You lost in qualifying {failures} times out of {attempts} this season, and the travel is costing more than the prize money.",
+      "description_money": "You made the draws but the season still finished in the red — the travel is costing more than the prize money.",
+      "options": {
+        "drop": "Drop back a circuit",
+        "stick": "Stick it out here"
+      },
+      "results": {
+        "dropped": "Smaller stages, but you are in the main draw on Monday instead of flying home on Sunday.",
+        "stuck_it_out": "You dig in. The qualifying draws start going your way.",
+        "sank": "Another year of Sunday flights home, and the bank account shows it."
       }
     }
   },

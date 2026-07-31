@@ -31,6 +31,25 @@ export interface CategorySpec {
   winnerPoints: number;
   /** A single player's share, in EUR. */
   winnerPrize: number;
+  /**
+   * FIP rank that earns direct main-draw entry. Below it you play qualifying
+   * first — the "previa" — and losing there scores nothing at all.
+   */
+  directEntryRank: number;
+  /** Matches to win in qualifying before the main draw. */
+  qualifyingRounds: number;
+  /**
+   * One player's travel and entry bill, charged whether you win or lose. This is
+   * what makes chasing Premier events from outside the top 64 cost real money.
+   */
+  entryCost: number;
+}
+
+/** Does this player rank straight into the main draw? */
+export function hasDirectEntry(spec: CategorySpec, rank: number): boolean {
+  // An unranked player (rank 0, before their first season) qualifies for nothing.
+  if (rank <= 0) return spec.directEntryRank >= 100000;
+  return rank <= spec.directEntryRank;
 }
 
 export interface PointsFile {

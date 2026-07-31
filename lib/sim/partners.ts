@@ -13,6 +13,22 @@ import { effectiveOvr } from "./pool";
 import type { Rng } from "./rng";
 import type { Pair, StrengthBreakdown, World } from "./types";
 
+/**
+ * How much more likely a compatriot is to be drawn into the partner market than
+ * an equally-rated foreigner — countrymen train together, share coaches and
+ * speak the same language, so they pair up more than a blind draw suggests.
+ *
+ * Measured lift over each country's raw share of the pool, across ~3,400 offers:
+ *   AR  20.0% of pool -> 25.8% of offers  (+5.8pp)
+ *   SE   3.0% of pool ->  6.2% of offers  (+3.2pp)
+ *   ES  55.5% of pool -> 69.5% of offers (+14.0pp)
+ *
+ * Spain overshoots simply because it already dominates the real top 200, which
+ * is faithful rather than a bug. `partners.test.ts` pins the direction and the
+ * ceiling so this constant cannot drift unnoticed.
+ */
+export const COMPATRIOT_WEIGHT = 2.4;
+
 /** Chemistry starts here for a brand-new pairing. */
 export const STARTING_CHEMISTRY = 40;
 export const MAX_CHEMISTRY = 100;
@@ -252,33 +268,83 @@ export function buildOffers({
   const spread = Math.max(1, Math.floor(shuffled.length / count));
   for (let i = 0; i < count && i * spread < shuffled.length; i++) {
     const slice = shuffled.slice(i * spread, (i + 1) * spread);
-    if (slice.length > 0) picked.push(rng.pick(slice));
+    if (slice.length === 0) continue;
+
+    // Countrymen train together, share coaches and speak the same language, so
+    // they pair up more often than a blind draw would suggest.
+    const weights = slice.map((offer) =>
+      offer.player.country === career.you.country ? COMPATRIOT_WEIGHT : 1,
+    );
+    picked.push(rng.weighted(slice, weights));
   }
 
   return picked;
 }
 
+export interface BreakupContext {
+  career: CareerState;
+  /** Where the partner sits on the ladder. */
+  partnerRank: number;
+  /** Where the player finished. */
+  playerRank: number;
+  /** How the season went, -1 (disaster) .. +1 (breakout). */
+  seasonQuality: number;
+  /** Events this season the player failed to qualify out of. */
+  qualifyingFailures: number;
+  /** Career decisions that backfired — injuries, lost chemistry, a ban. */
+  poorDecisions: number;
+}
+
 /**
- * Whether the current partner walks away. Underperform and a better-ranked
- * player will take the call — the "Lebron/Galan breakup" beat (§5).
+ * Odds the current partner walks away — the "Lebron/Galan breakup" beat (§5).
+ *
+ * A partner is not just watching the rankings: they feel a bad season, they feel
+ * being dragged through qualifying draws by a player who cannot get direct entry,
+ * and they lose patience with someone who keeps making decisions that cost the
+ * pair. High chemistry buys a lot of forgiveness, which is what makes loyalty
+ * worth something (§16).
  */
-export function partnerLeaves(
-  career: CareerState,
-  partnerRank: number,
-  playerRank: number,
-  rng: Rng,
-): boolean {
-  if (!career.partnerId) return false;
+export function breakupChance({
+  career,
+  partnerRank,
+  playerRank,
+  seasonQuality,
+  qualifyingFailures,
+  poorDecisions,
+}: BreakupContext): number {
+  if (!career.partnerId) return 0;
 
-  // They out-rank you by a distance and you had a poor year.
-  const gap = playerRank - partnerRank;
   let chance = 0;
-  if (gap > 40) chance += 0.25;
-  if (gap > 100) chance += 0.25;
-  if (career.chemistry < 35) chance += 0.2;
-  if (career.chemistry > 75) chance -= 0.2;
 
-  return rng.chance(Math.max(0, Math.min(0.7, chance)));
+  // They out-rank you by a distance.
+  const gap = playerRank - partnerRank;
+  if (gap > 40) chance += 0.18;
+  if (gap > 100) chance += 0.22;
+
+  // The season itself was bad.
+  if (seasonQuality < -0.3) chance += 0.2;
+  else if (seasonQuality < 0) chance += 0.08;
+  else if (seasonQuality > 0.4) chance -= 0.12;
+
+  // You keep dragging them into qualifying.
+  chance += Math.min(0.25, qualifyingFailures * 0.05);
+
+  // A pattern of decisions that cost the pair.
+  chance += Math.min(0.2, poorDecisions * 0.035);
+
+  // Chemistry is the counterweight: a settled pairing tolerates a bad year.
+  if (career.chemistry >= 80) chance -= 0.3;
+  else if (career.chemistry >= 60) chance -= 0.15;
+  else if (career.chemistry < 35) chance += 0.15;
+
+  // A suspension ends most partnerships on its own.
+  if (career.banSeasonsLeft > 0) chance += 0.5;
+
+  return Math.max(0, Math.min(0.85, chance));
+}
+
+export function partnerLeaves(ctx: BreakupContext, rng: Rng): boolean {
+  return rng.chance(breakupChance(ctx));
 }
 
 /** Puts the career player and a partner on their sides, honouring the switch. */

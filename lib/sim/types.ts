@@ -72,7 +72,14 @@ export interface TournamentOutcome {
   roundReached: number;
   matchesWon: number;
   points: number;
+  /** Gross prize money; `cost` is not yet deducted. */
   prize: number;
+  /** Travel and entry, charged win or lose. */
+  cost: number;
+  /** True when the player was below direct-entry rank and had to play qualifying. */
+  hadToQualify: boolean;
+  /** False when they lost in qualifying — no points, no prize, trip still paid for. */
+  qualified: boolean;
   /** True when the title was won. */
   won: boolean;
   /** True when the final was reached (won or lost). */
@@ -88,7 +95,12 @@ export interface SeasonOutcome {
   finals: number;
   matchesWon: number;
   points: number;
+  /** Net of travel and entry costs — can be negative. */
   earnings: number;
+  /** Events entered from outside direct entry. */
+  qualifyingAttempts: number;
+  /** Of those, how many ended in the qualifying rounds. */
+  qualifyingFailures: number;
   rank: number;
   /** Keys for anything notable that happened, for the season recap. */
   noteKeys: string[];
@@ -218,6 +230,14 @@ export interface EventContext {
     seasonTitles: number;
     /** Rank movement vs the previous season; negative means improving. */
     rankDelta: number;
+    /** Events this season the player had to qualify for. */
+    qualifyingAttempts: number;
+    /** Of those, how many they failed to get out of. */
+    qualifyingFailures: number;
+    /** Season prize money minus travel and entry — negative means losing money. */
+    seasonNet: number;
+    /** Decisions this career that backfired (injury, lost chemistry, a ban). */
+    poorDecisions: number;
   };
   world: World;
   /** Resolves a player id to their display name — the one place prose leaks in. */

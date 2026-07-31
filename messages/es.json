@@ -178,7 +178,10 @@
     "tougher_fields": "Cuadros más duros",
     "partner_ovr": "OVR {value}",
     "stronger_partner": "+{value} pareja más fuerte",
-    "side_switch": "🔻 OVR −{value} (cambio de lado)"
+    "side_switch": "🔻 OVR −{value} (cambio de lado)",
+    "main_draw_entry": "Entrada directa al cuadro",
+    "stop_bleeding": "Dejar de perder dinero",
+    "keep_prestige": "Mantener el nivel"
   },
   "events": {
     "train_harder": {
@@ -372,6 +375,20 @@
       "results": {
         "accepted": "Nueva pareja, nueva pared, todo por demostrar.",
         "stayed": "Seguís juntos. La química sigue creciendo."
+      }
+    },
+    "drop_down": {
+      "title": "No estás llegando a los cuadros principales",
+      "description": "Perdiste en la previa {failures} veces de {attempts} esta temporada, y los viajes cuestan más que los premios.",
+      "description_money": "Llegaste a los cuadros, pero la temporada acabó en números rojos — los viajes cuestan más que los premios.",
+      "options": {
+        "drop": "Bajar de circuito",
+        "stick": "Aguantar aquí"
+      },
+      "results": {
+        "dropped": "Escenarios más pequeños, pero el lunes estás en el cuadro principal en vez de volando a casa el domingo.",
+        "stuck_it_out": "Aprietas los dientes. Las previas empiezan a salirte.",
+        "sank": "Otro año de vuelos de vuelta el domingo, y la cuenta bancaria lo nota."
       }
     }
   },

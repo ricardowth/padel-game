@@ -232,10 +232,15 @@ describe("legacy", () => {
     const ledgerTitles = state.history.reduce((sum, row) => sum + row.titles, 0);
     expect(state.titles).toBe(ledgerTitles);
 
+    // A season nets prize money minus travel, so a bad one can be negative and
+    // so can a whole career — that is the qualifying mechanic doing its job.
+    // The ledger must account for exactly the events that were played; the
+    // career total additionally absorbs decision money (sponsors pay in, a
+    // coach costs), so the two are allowed to differ only by that.
     const ledgerEarnings = state.history.reduce((sum, row) => sum + row.earnings, 0);
-    // Career earnings also absorb sponsor money, so they can only be higher.
-    expect(state.earnings).toBeGreaterThanOrEqual(0);
-    expect(ledgerEarnings).toBeGreaterThan(0);
+    const fromResults = state.results.reduce((sum, r) => sum + r.prize - r.cost, 0);
+    expect(ledgerEarnings).toBe(fromResults);
+    expect(Number.isFinite(state.earnings)).toBe(true);
   });
 });
 

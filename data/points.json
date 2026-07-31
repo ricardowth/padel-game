@@ -12,10 +12,22 @@
     "",
     "Prize figures are a player's own share (not the pair's) in EUR, sized to the plan's bands:",
     "Developmental €7k-30k, Professional €50k-150k, Elite high. Tune freely — nothing derives",
-    "these but the tournament builder."
+    "these but the tournament builder.",
+    "",
+    "`directEntryRank` is the FIP rank that gets you straight into the main draw; below",
+    "it you must win `qualifyingRounds` matches first, and losing there scores nothing.",
+    "`entryCost` is one player's travel and entry bill, charged whether you win or not —",
+    "which is what makes chasing Premier events from outside the top 64 lose real money."
   ],
-
-  "roundLadder": ["r64", "r32", "r16", "quarter", "semi", "final", "winner"],
+  "roundLadder": [
+    "r64",
+    "r32",
+    "r16",
+    "quarter",
+    "semi",
+    "final",
+    "winner"
+  ],
   "roundShares": {
     "r64": 0.0225,
     "r32": 0.045,
@@ -34,63 +46,86 @@
     "final": 0.55,
     "winner": 1
   },
-
   "categories": {
     "bronze": {
       "band": "developmental",
       "drawSize": 16,
       "firstRound": "r16",
       "winnerPoints": 40,
-      "winnerPrize": 1200
+      "winnerPrize": 1200,
+      "directEntryRank": 100000,
+      "qualifyingRounds": 0,
+      "entryCost": 180
     },
     "silver": {
       "band": "developmental",
       "drawSize": 24,
       "firstRound": "r32",
       "winnerPoints": 80,
-      "winnerPrize": 2600
+      "winnerPrize": 2600,
+      "directEntryRank": 260,
+      "qualifyingRounds": 1,
+      "entryCost": 300
     },
     "gold": {
       "band": "professional",
       "drawSize": 32,
       "firstRound": "r32",
       "winnerPoints": 150,
-      "winnerPrize": 7000
+      "winnerPrize": 7000,
+      "directEntryRank": 160,
+      "qualifyingRounds": 1,
+      "entryCost": 900
     },
     "platinum": {
       "band": "professional",
       "drawSize": 32,
       "firstRound": "r32",
       "winnerPoints": 300,
-      "winnerPrize": 14000
+      "winnerPrize": 14000,
+      "directEntryRank": 120,
+      "qualifyingRounds": 1,
+      "entryCost": 1400
     },
     "p2": {
       "band": "elite",
       "drawSize": 32,
       "firstRound": "r32",
       "winnerPoints": 500,
-      "winnerPrize": 13000
+      "winnerPrize": 13000,
+      "directEntryRank": 80,
+      "qualifyingRounds": 2,
+      "entryCost": 2500
     },
     "p1": {
       "band": "elite",
       "drawSize": 32,
       "firstRound": "r32",
       "winnerPoints": 1000,
-      "winnerPrize": 24000
+      "winnerPrize": 24000,
+      "directEntryRank": 64,
+      "qualifyingRounds": 2,
+      "entryCost": 3000
     },
     "major": {
       "band": "elite",
       "drawSize": 64,
       "firstRound": "r64",
       "winnerPoints": 2000,
-      "winnerPrize": 45000
+      "winnerPrize": 45000,
+      "directEntryRank": 64,
+      "qualifyingRounds": 2,
+      "entryCost": 3500
     },
     "finals": {
       "band": "elite",
       "drawSize": 8,
       "firstRound": "quarter",
       "winnerPoints": 1500,
-      "winnerPrize": 60000
+      "winnerPrize": 60000,
+      "directEntryRank": 100000,
+      "qualifyingRounds": 0,
+      "entryCost": 0
     }
   }
 }

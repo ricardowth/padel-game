@@ -13,7 +13,7 @@
  *   events.<id>.results.<resultKey>
  *   tags.<tag>
  */
-import type { Pace } from "../data/types";
+import type { Band, Pace } from "../data/types";
 import type { Rng } from "./rng";
 import type {
   DecisionCard,
@@ -567,6 +567,90 @@ const SWITCH_BAND: EventDefinition = {
   },
 };
 
+/**
+ * The bail-out card. Only offered when the player is *demonstrably* drowning at
+ * their current level: mostly failing to get out of qualifying, or finishing the
+ * season down on money once travel is paid for. Outside those conditions it
+ * never appears, so it reads as a lifeline rather than a nag.
+ *
+ * Weighted high because when it does qualify, it is the most important decision
+ * on the table.
+ */
+const DROP_DOWN: EventDefinition = {
+  id: "drop_down",
+  timing: "end_of_season",
+  weight: 30,
+  eligible: (ctx) => {
+    if (ctx.career.band === "developmental") return false;
+
+    const attempts = ctx.career.qualifyingAttempts;
+    const drowning = attempts >= 4 && ctx.career.qualifyingFailures / attempts >= 0.5;
+    const bleedingMoney = ctx.career.seasonNet < 0;
+
+    return drowning || bleedingMoney;
+  },
+  build: (ctx) => {
+    const target: Band = ctx.career.band === "elite" ? "professional" : "developmental";
+
+    // Two ways to qualify for this card, and they need different words: one is
+    // "you keep losing in the previa", the other is "you made the draws and
+    // still finished the year down". Using the qualifying copy for a player
+    // with zero qualifying attempts reads as a bug, because it is one.
+    const drowning = ctx.career.qualifyingAttempts > 0 && ctx.career.qualifyingFailures > 0;
+
+    const built = card(
+      "drop_down",
+      "end_of_season",
+      [
+        option(
+          "drop_down",
+          "drop",
+          [
+            tag("tags.main_draw_entry", "good"),
+            tag("tags.stop_bleeding", "good"),
+            tag("tags.prestige_down", "bad"),
+          ],
+          [
+            {
+              weight: 100,
+              resultKey: result("drop_down", "dropped"),
+              effects: { band: target, morale: -8, form: 10 },
+            },
+          ],
+        ),
+        option(
+          "drop_down",
+          "stick",
+          [tag("tags.keep_prestige", "good"), tag("tags.money_down", "bad")],
+          [
+            {
+              weight: 55,
+              resultKey: result("drop_down", "stuck_it_out"),
+              effects: { morale: 6 },
+            },
+            {
+              weight: 45,
+              resultKey: result("drop_down", "sank"),
+              effects: { morale: -14, form: -10 },
+            },
+          ],
+        ),
+      ],
+      {
+        failures: ctx.career.qualifyingFailures,
+        attempts: ctx.career.qualifyingAttempts,
+      },
+    );
+
+    return {
+      ...built,
+      descriptionKey: drowning
+        ? "events.drop_down.description"
+        : "events.drop_down.description_money",
+    };
+  },
+};
+
 export const IN_SEASON_EVENTS: EventDefinition[] = [
   TRAIN_HARDER,
   INJURY_KNOCK,
@@ -579,7 +663,13 @@ export const IN_SEASON_EVENTS: EventDefinition[] = [
   SHADY_EDGE,
 ];
 
-export const END_OF_SEASON_EVENTS: EventDefinition[] = [SPONSOR_DEAL, HIRE_COACH, REST_YEAR, SWITCH_BAND];
+export const END_OF_SEASON_EVENTS: EventDefinition[] = [
+  DROP_DOWN,
+  SPONSOR_DEAL,
+  HIRE_COACH,
+  REST_YEAR,
+  SWITCH_BAND,
+];
 
 export const ALL_EVENTS: EventDefinition[] = [...IN_SEASON_EVENTS, ...END_OF_SEASON_EVENTS];
 

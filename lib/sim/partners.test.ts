@@ -3,8 +3,11 @@ import { describe, expect, it } from "vitest";
 import { ATTRIBUTE_KEYS, type Attributes, type Player } from "../data/types";
 import { computeOvr, normaliseToOvr } from "./ovr";
 import {
+  COMPATRIOT_WEIGHT,
   bandForRank,
   beginSideSwitch,
+  breakupChance,
+  buildOffers,
   canEnterBand,
   decaySidePenalty,
   SIDE_SWITCH_DECAY_SEASONS,
@@ -12,6 +15,9 @@ import {
   teamStrength,
   updateChemistry,
 } from "./partners";
+import type { CareerState } from "../data/types";
+import { createRng } from "./rng";
+import type { World } from "./types";
 
 function player(ovr: number, side: "drive" | "reves" = "reves"): Player {
   const flat = {} as Attributes;
@@ -148,5 +154,168 @@ describe("band gating (§7)", () => {
 
   it("lets a wildcard bypass the gate", () => {
     expect(canEnterBand("elite", 500, true)).toBe(true);
+  });
+});
+
+/** Minimal career stub — breakupChance only reads a few fields. */
+const careerStub = (over: Partial<CareerState> = {}) =>
+  ({
+    partnerId: "PARTNER",
+    chemistry: 50,
+    banSeasonsLeft: 0,
+    ...over,
+  }) as CareerState;
+
+const ctx = (over: Parameters<typeof breakupChance>[0] extends infer T ? Partial<T> : never = {}) => ({
+  career: careerStub(),
+  partnerRank: 50,
+  playerRank: 60,
+  seasonQuality: 0,
+  qualifyingFailures: 0,
+  poorDecisions: 0,
+  ...over,
+});
+
+describe("breakupChance", () => {
+  it("is calm when things are going fine", () => {
+    expect(breakupChance(ctx())).toBeLessThan(0.15);
+  });
+
+  it("rises after a bad season", () => {
+    expect(breakupChance(ctx({ seasonQuality: -0.6 }))).toBeGreaterThan(
+      breakupChance(ctx({ seasonQuality: 0.5 })),
+    );
+  });
+
+  it("rises the more you drag them through qualifying", () => {
+    const none = breakupChance(ctx({ qualifyingFailures: 0 }));
+    const some = breakupChance(ctx({ qualifyingFailures: 3 }));
+    const lots = breakupChance(ctx({ qualifyingFailures: 8 }));
+    expect(some).toBeGreaterThan(none);
+    expect(lots).toBeGreaterThan(some);
+  });
+
+  it("rises with a pattern of decisions that backfired", () => {
+    expect(breakupChance(ctx({ poorDecisions: 6 }))).toBeGreaterThan(
+      breakupChance(ctx({ poorDecisions: 0 })),
+    );
+  });
+
+  it("lets high chemistry forgive a bad year (§16)", () => {
+    const loyal = breakupChance(
+      ctx({ career: careerStub({ chemistry: 90 }), seasonQuality: -0.6, qualifyingFailures: 3 }),
+    );
+    const fragile = breakupChance(
+      ctx({ career: careerStub({ chemistry: 25 }), seasonQuality: -0.6, qualifyingFailures: 3 }),
+    );
+    expect(loyal).toBeLessThan(fragile);
+  });
+
+  it("makes a suspension close to terminal", () => {
+    expect(breakupChance(ctx({ career: careerStub({ banSeasonsLeft: 2 }) }))).toBeGreaterThan(0.4);
+  });
+
+  it("stays a probability under every combination", () => {
+    for (const quality of [-1, 0, 1]) {
+      for (const chemistry of [0, 50, 100]) {
+        for (const failures of [0, 20]) {
+          for (const poor of [0, 30]) {
+            const p = breakupChance(
+              ctx({
+                career: careerStub({ chemistry }),
+                seasonQuality: quality,
+                qualifyingFailures: failures,
+                poorDecisions: poor,
+              }),
+            );
+            expect(p).toBeGreaterThanOrEqual(0);
+            expect(p).toBeLessThanOrEqual(1);
+          }
+        }
+      }
+    }
+  });
+
+  it("never fires without a partner", () => {
+    expect(breakupChance(ctx({ career: careerStub({ partnerId: null }) }))).toBe(0);
+  });
+});
+
+describe("compatriot bias in the partner market", () => {
+  /** A synthetic tour: half home-country, half foreign, all the same level. */
+  function world(homeCountry: string, size = 60): World {
+    const players = new Map<string, Player>();
+    const activeIds: string[] = [];
+
+    for (let i = 0; i < size; i++) {
+      const p = player(70, i % 2 === 0 ? "drive" : "reves");
+      // Half the field shares the player's nationality.
+      p.id = `N${i}`;
+      p.country = i < size / 2 ? homeCountry : "ZZ";
+      players.set(p.id, p);
+      activeIds.push(p.id);
+    }
+
+    return {
+      tour: "men",
+      year: 2026,
+      players,
+      activeIds,
+      points: new Map(activeIds.map((id) => [id, 1000])),
+      pairOf: new Map(),
+      pending: [],
+      retiredIds: new Set(),
+      regenCounter: 0,
+    };
+  }
+
+  function measure(homeCountry: string, runs = 400) {
+    const w = world(homeCountry);
+    const you = player(70, "drive");
+    you.id = "YOU";
+    you.country = homeCountry;
+
+    let offers = 0;
+    let compatriots = 0;
+
+    for (let i = 0; i < runs; i++) {
+      const career = {
+        you,
+        partnerId: null,
+        sidePenalty: null,
+        injury: null,
+      } as unknown as CareerState;
+
+      for (const offer of buildOffers({
+        career,
+        world: w,
+        rng: createRng(`offers-${i}`),
+        rank: 50,
+        seasonQuality: 0,
+      })) {
+        offers++;
+        if (offer.player.country === homeCountry) compatriots++;
+      }
+    }
+
+    return { share: compatriots / offers, offers };
+  }
+
+  it("favours countrymen over an identical foreign field", () => {
+    const { share, offers } = measure("AR");
+    expect(offers).toBeGreaterThan(100);
+    // The pool is exactly 50/50, so anything above 0.5 is the bias at work.
+    expect(share).toBeGreaterThan(0.5);
+  });
+
+  it("is a nudge, not a nationality lock", () => {
+    // Foreign partners must stay common — this is flavour, not a filter.
+    const { share } = measure("AR");
+    expect(share).toBeLessThan(0.8);
+  });
+
+  it("keeps the weight a modest multiplier", () => {
+    expect(COMPATRIOT_WEIGHT).toBeGreaterThan(1);
+    expect(COMPATRIOT_WEIGHT).toBeLessThan(5);
   });
 });

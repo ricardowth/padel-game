@@ -3,7 +3,13 @@
  * seeded Bernoulli draw off the strength difference between the two teams.
  */
 import type { Category, Tournament } from "../data/types";
-import { ROUND_INDEX, ROUND_LADDER, WINNER_ROUND_INDEX, type PointsFile } from "../data/points";
+import {
+  ROUND_INDEX,
+  ROUND_LADDER,
+  WINNER_ROUND_INDEX,
+  hasDirectEntry,
+  type PointsFile,
+} from "../data/points";
 import { pairStrength } from "./pool";
 import type { Rng } from "./rng";
 import type { Pair, TournamentOutcome, World } from "./types";
@@ -105,6 +111,13 @@ export function winProbability(ours: number, theirs: number, mental: number): nu
   return Math.max(MIN_WIN_PROB, Math.min(MAX_WIN_PROB, p));
 }
 
+/**
+ * Qualifying draws are contested by players ranked *below* main-draw entry, so
+ * the opposition is softer than the main draw proper — but you have to win two
+ * of them at a Premier event before you have played anyone who matters.
+ */
+const QUALIFYING_STRENGTH_DISCOUNT = 5;
+
 export interface SimulateTournamentOptions {
   tournament: Tournament;
   /** Our team's strength for this event. */
@@ -115,9 +128,17 @@ export interface SimulateTournamentOptions {
   opponents: number[];
   points: PointsFile;
   rng: Rng;
+  /** Our FIP rank going in — decides main draw vs qualifying. */
+  rank: number;
 }
 
-/** Plays one tournament out round by round and scores it. */
+/**
+ * Plays one tournament out round by round and scores it.
+ *
+ * Below the category's direct-entry rank the player starts in qualifying. Losing
+ * there means no points, no prize and a wasted trip — the entry cost is charged
+ * either way, which is the whole point of the mechanic.
+ */
 export function simulateTournament({
   tournament,
   strength,
@@ -126,14 +147,33 @@ export function simulateTournament({
   opponents,
   points,
   rng,
+  rank,
 }: SimulateTournamentOptions): TournamentOutcome {
   const spec = points.categories[tournament.category];
   const entryRound = ROUND_INDEX[spec.firstRound];
 
+  const direct = hasDirectEntry(spec, rank);
+  const qualifyingRounds = direct ? 0 : spec.qualifyingRounds;
+
+  let qualifyingWon = 0;
+  let qualified = true;
+
+  for (let i = 0; i < qualifyingRounds; i++) {
+    // Qualifying fields sit below the main draw, so discount the opposition.
+    const opponent = (opponents[0] ?? strength) - QUALIFYING_STRENGTH_DISCOUNT;
+    if (!rng.chance(winProbability(strength, opponent, mental))) {
+      qualified = false;
+      break;
+    }
+    qualifyingWon++;
+  }
+
   let matchesWon = 0;
-  for (const opponent of opponents) {
-    if (!rng.chance(winProbability(strength, opponent, mental))) break;
-    matchesWon++;
+  if (qualified) {
+    for (const opponent of opponents) {
+      if (!rng.chance(winProbability(strength, opponent, mental))) break;
+      matchesWon++;
+    }
   }
 
   const roundReached = Math.min(WINNER_ROUND_INDEX, entryRound + matchesWon);
@@ -147,11 +187,15 @@ export function simulateTournament({
     year: tournament.startDate ? Number(tournament.startDate.slice(0, 4)) : 0,
     partnerId,
     roundReached,
-    matchesWon,
-    points: tournament.points[roundKey] ?? 0,
-    prize: tournament.prize[roundKey] ?? 0,
-    won: roundReached === WINNER_ROUND_INDEX,
-    reachedFinal: roundReached >= WINNER_ROUND_INDEX - 1,
+    // Qualifying wins are real matches, but they earn no ranking credit.
+    matchesWon: matchesWon + qualifyingWon,
+    points: qualified ? (tournament.points[roundKey] ?? 0) : 0,
+    prize: qualified ? (tournament.prize[roundKey] ?? 0) : 0,
+    cost: spec.entryCost,
+    hadToQualify: qualifyingRounds > 0,
+    qualified,
+    won: qualified && roundReached === WINNER_ROUND_INDEX,
+    reachedFinal: qualified && roundReached >= WINNER_ROUND_INDEX - 1,
   };
 }
 

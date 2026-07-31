@@ -121,7 +121,10 @@ export interface TournamentResult {
   /** Matches actually won at this event — feeds the partnership aggregates. */
   matchesWon: number;
   points: number;
+  /** Gross prize money. */
   prize: number;
+  /** Travel and entry for the trip, charged win or lose. */
+  cost: number;
   partnerId: string;
   year: number;
 }
@@ -235,6 +238,11 @@ export interface CareerState {
    * legacy tier actually weighs.
    */
   bigTitles: number;
+  /**
+   * Decisions that backfired — an injury, lost chemistry, a ban. Partners lose
+   * patience with a pattern of them (see `breakupChance`).
+   */
+  poorDecisions: number;
   finals: number;
   matchesWon: number;
   weeksAtNo1: number;

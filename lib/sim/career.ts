@@ -203,6 +203,10 @@ export class CareerEngine {
   private schedule: Tournament[] = [];
   private scheduleIndex = 0;
   private seasonOutcomes: TournamentOutcome[] = [];
+  /** Season-scoped counters the drop-down gate and the breakup roll read. */
+  private seasonQualifyingAttempts = 0;
+  private seasonQualifyingFailures = 0;
+  private seasonCost = 0;
   /** Week of the last event played, so fatigue can recover in the gaps. */
   private lastEventWeek = 0;
   private previousRank = 0;
@@ -255,6 +259,7 @@ export class CareerEngine {
       sidePenalty: null,
       titles: 0,
       bigTitles: 0,
+      poorDecisions: 0,
       finals: 0,
       matchesWon: 0,
       weeksAtNo1: 0,
@@ -302,6 +307,11 @@ export class CareerEngine {
         firedEventIds: this.state.firedEventIds,
         seasonTitles: this.seasonOutcomes.filter((o) => o.won).length,
         rankDelta,
+        qualifyingAttempts: this.seasonQualifyingAttempts,
+        qualifyingFailures: this.seasonQualifyingFailures,
+        seasonNet:
+          this.seasonOutcomes.reduce((sum, o) => sum + o.prize, 0) - this.seasonCost,
+        poorDecisions: this.state.poorDecisions,
       },
       world: this.world,
       nameOf: this.nameOf,
@@ -392,6 +402,9 @@ export class CareerEngine {
     this.seasonOutcomes = [];
     this.scheduleIndex = 0;
     this.lastEventWeek = 0;
+    this.seasonQualifyingAttempts = 0;
+    this.seasonQualifyingFailures = 0;
+    this.seasonCost = 0;
 
     // A ban means no competition at all this season (§10).
     if (this.state.banSeasonsLeft > 0) {
@@ -450,8 +463,15 @@ export class CareerEngine {
       opponents,
       points: this.points,
       rng: this.rng,
+      rank: this.state.rank,
     });
     outcome.year = this.state.year;
+
+    if (outcome.hadToQualify) {
+      this.seasonQualifyingAttempts++;
+      if (!outcome.qualified) this.seasonQualifyingFailures++;
+    }
+    this.seasonCost += outcome.cost;
 
     this.seasonOutcomes.push(outcome);
     this.state.results.push({
@@ -460,11 +480,14 @@ export class CareerEngine {
       matchesWon: outcome.matchesWon,
       points: outcome.points,
       prize: outcome.prize,
+      cost: outcome.cost,
       partnerId,
       year: this.state.year,
     });
 
-    this.state.earnings += outcome.prize;
+    // Net, not gross: the trip is paid for whether or not you make the draw,
+    // which is what makes chasing Premier events from outside the top 64 hurt.
+    this.state.earnings += outcome.prize - outcome.cost;
     this.state.matchesWon += outcome.matchesWon;
     if (outcome.won) {
       this.state.titles++;
@@ -533,7 +556,9 @@ export class CareerEngine {
       finals: totals.finals,
       matchesWon: totals.matchesWon,
       points: totals.points,
-      earnings: totals.earnings,
+      earnings: totals.earnings - this.seasonCost,
+      qualifyingAttempts: this.seasonQualifyingAttempts,
+      qualifyingFailures: this.seasonQualifyingFailures,
       rank: this.state.rank,
       noteKeys: this.state.banSeasonsLeft > 0 ? ["season.note.banned"] : [],
     };
@@ -548,7 +573,7 @@ export class CareerEngine {
       titles: totals.titles,
       finals: totals.finals,
       rank: this.state.rank,
-      earnings: totals.earnings,
+      earnings: totals.earnings - this.seasonCost,
       sidePenalised: (this.state.sidePenalty?.seasonsLeft ?? 0) > 0,
     });
 
@@ -576,7 +601,17 @@ export class CareerEngine {
     const dumped =
       this.state.partnerId !== null &&
       partnerRank > 0 &&
-      partnerLeaves(this.state, partnerRank, this.state.rank, this.rng);
+      partnerLeaves(
+        {
+          career: this.state,
+          partnerRank,
+          playerRank: this.state.rank,
+          seasonQuality: quality,
+          qualifyingFailures: this.seasonQualifyingFailures,
+          poorDecisions: this.state.poorDecisions,
+        },
+        this.rng,
+      );
 
     const offers = buildOffers({
       career: this.state,
@@ -742,6 +777,15 @@ export class CareerEngine {
 
   private applyEffects(effects: Effect, chosen: EventOption): void {
     const state = this.state;
+
+    // A decision "backfired" when it cost the pair something concrete. This is
+    // what a partner actually notices, and it feeds the breakup roll.
+    const backfired =
+      (effects.injuryWeeks ?? 0) > 0 ||
+      (effects.chemistry ?? 0) < 0 ||
+      (effects.ovr ?? 0) < 0 ||
+      (effects.banSeasons ?? 0) > 0;
+    if (backfired) state.poorDecisions++;
 
     if (effects.ovr) nudgeOvr(state.you, effects.ovr);
     if (effects.attribute && effects.attributeDelta) {

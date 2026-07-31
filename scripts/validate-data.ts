@@ -162,6 +162,19 @@ function validatePoints(): PointsFile {
     check("points.json", BANDS.has(spec.band), `${category} bad band "${spec.band}"`);
     check("points.json", spec.winnerPoints > 0, `${category} winnerPoints`);
     check("points.json", spec.winnerPrize > 0, `${category} winnerPrize`);
+    check("points.json", spec.directEntryRank > 0, `${category} directEntryRank`);
+    check(
+      "points.json",
+      Number.isInteger(spec.qualifyingRounds) && spec.qualifyingRounds >= 0,
+      `${category} qualifyingRounds`,
+    );
+    check("points.json", spec.entryCost >= 0, `${category} entryCost`);
+    // A trip must be worth taking if you win it, or the category is a money pit.
+    check(
+      "points.json",
+      spec.winnerPrize > spec.entryCost,
+      `${category} winning does not cover the entry cost`,
+    );
     check(
       "points.json",
       ROUND_LADDER.includes(spec.firstRound),
@@ -175,6 +188,20 @@ function validatePoints(): PointsFile {
     "points.json",
     ladder.every((c, i) => i === 0 || file.categories[c].winnerPoints > file.categories[ladder[i - 1]!].winnerPoints),
     "winner points do not increase up the circuit ladder",
+  );
+  // Climbing the ladder must get harder to enter and dearer to travel to,
+  // otherwise there is no reason not to chase Premier events from rank 300.
+  check(
+    "points.json",
+    ladder.every(
+      (c, i) => i === 0 || file.categories[c].directEntryRank <= file.categories[ladder[i - 1]!].directEntryRank,
+    ),
+    "direct-entry ranks do not tighten up the circuit ladder",
+  );
+  check(
+    "points.json",
+    ladder.every((c, i) => i === 0 || file.categories[c].entryCost >= file.categories[ladder[i - 1]!].entryCost),
+    "entry costs do not rise up the circuit ladder",
   );
 
   return file;

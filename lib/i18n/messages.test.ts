@@ -113,6 +113,10 @@ describe("every key the engine emits is translated", () => {
       firedEventIds: [],
       seasonTitles: 2,
       rankDelta: -10,
+      qualifyingAttempts: 4,
+      qualifyingFailures: 3,
+      seasonNet: -12_000,
+      poorDecisions: 3,
     },
     world: {} as never,
     nameOf: () => "Test Partner",
@@ -143,6 +147,7 @@ describe("every key the engine emits is translated", () => {
     // These are assembled in career.ts from real players, so they never appear
     // in the catalog above.
     const runtimeKeys = [
+      "events.drop_down.description_money",
       "events.partner_market.title",
       "events.partner_market.description",
       "events.partner_market.title_dumped",
