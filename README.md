@@ -28,13 +28,26 @@ npm run dev          # http://localhost:3000 → redirects to /en
 | `npm run build` | Production build |
 | `npm test` | Unit tests (sim engine, i18n catalogs, data schemas) |
 | `npm run smoke` | Drives a real browser through a full career in every locale |
+| `npm run check:emoji` | Confirms every UI emoji resolves to a colour glyph, not tofu |
 | `npm run sim` | Plays careers headlessly — `-- --runs=200` for a balance sweep |
 | `npm run data:build` | Regenerates `/data` from the raw FIP snapshots, then validates |
 | `npm run data:fetch` | Re-scrapes padelfip.com into `data/raw` (network) |
 | `npm run typecheck` | `tsc --noEmit` |
 
-`npm run smoke` needs a server already running (`npm run dev`) and Playwright's
-Chromium (`npx playwright install chromium`).
+`npm run smoke` and `npm run check:emoji` need a server already running
+(`npm run dev`) and Playwright's Chromium (`npx playwright install chromium`).
+
+### A note on glyphs
+
+The font stacks in `app/globals.css` end in an explicit colour-emoji family;
+without it the text fonts carry no pictographs and desktop browsers fall back to
+tofu boxes. `npm run check:emoji` verifies this by measuring pixel saturation
+rather than trusting a screenshot.
+
+Country flags are the one thing this cannot fix: Segoe UI Emoji ships no regional
+indicator glyphs, so Windows renders `🇦🇷` as the literal letters "AR". Country
+markers are therefore drawn as code badges (`components/ui/Pills.tsx`), which look
+identical on every platform.
 
 ## How it is put together
 

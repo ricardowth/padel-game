@@ -11,6 +11,7 @@
     "start": "next start",
     "sim": "tsx scripts/sim-career.ts",
     "smoke": "node scripts/smoke-ui.mjs",
+    "check:emoji": "node scripts/check-emoji.mjs",
     "data:fetch": "node scripts/fetch-fip.mjs && node scripts/fetch-profiles.mjs && node scripts/fetch-calendars.mjs",
     "data:build": "tsx scripts/build-data.ts && tsx scripts/build-calendars.ts && npm run data:validate",
     "data:validate": "tsx scripts/validate-data.ts",

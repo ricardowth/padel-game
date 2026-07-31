@@ -169,7 +169,10 @@ export function ResultCard({ engine }: { engine: CareerEngine }) {
         {/* World Championship + awards */}
         <div className="grid border-b border-[color:var(--color-line-soft)] sm:grid-cols-2">
           <section className="border-b border-[color:var(--color-line-soft)] p-4 sm:border-b-0 sm:border-r">
-            <h2 className="label">🌍 {t("worlds")}</h2>
+            <h2 className="label flex items-center gap-1.5">
+              <span aria-hidden className="text-[13px] leading-none">🌍</span>
+              {t("worlds")}
+            </h2>
             {state.worlds.apps > 0 ? (
               <p className="mt-1.5 text-sm">
                 <Flag iso={state.worlds.country} /> {state.worlds.apps} · {state.worlds.golds} 🥇
@@ -182,7 +185,10 @@ export function ResultCard({ engine }: { engine: CareerEngine }) {
           </section>
 
           <section className="p-4">
-            <h2 className="label">🏅 {t("awards")}</h2>
+            <h2 className="label flex items-center gap-1.5">
+              <span aria-hidden className="text-[13px] leading-none">🏅</span>
+              {t("awards")}
+            </h2>
             {awards.size > 0 ? (
               <ul className="mt-1.5 flex flex-wrap gap-1.5">
                 {[...awards.entries()].map(([type, count]) => (

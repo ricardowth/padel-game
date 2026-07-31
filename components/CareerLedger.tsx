@@ -136,7 +136,7 @@ export function CareerLedger({
       {/* The reference's bottom national-team row becomes World Championship. */}
       <footer className="flex items-center justify-between border-t border-[color:var(--color-line-soft)] px-3 py-2 text-[11px]">
         <span className="flex items-center gap-1.5 text-[color:var(--color-muted)]">
-          <span aria-hidden>🌍</span>
+          <span aria-hidden className="text-[13px] leading-none">🌍</span>
           {t("worlds", { country: state.worlds.country })}
         </span>
         <span className="num text-[color:var(--color-faint)]">

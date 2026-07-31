@@ -32,8 +32,20 @@
   --color-bad: #fb7185;
   --color-neutral: #94a3b8;
 
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+  /*
+   * Both stacks end in an explicit colour-emoji font. Without it the text fonts
+   * carry no pictographic glyphs, and the browser is left to guess a fallback —
+   * which is how 🏆 / 🥇 / 🔻 end up as tofu boxes on desktop. Segoe UI Emoji
+   * covers Windows, Apple Color Emoji macOS/iOS, Noto Color Emoji Linux.
+   *
+   * Note this does *not* rescue country flags: Segoe UI Emoji ships no regional
+   * indicator glyphs, so Windows renders 🇦🇷 as the letters "AR" no matter what
+   * the stack says. That is why <Flag> draws a code badge instead (ui/Pills.tsx).
+   */
+  --font-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol";
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif,
+    var(--font-emoji);
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace, var(--font-emoji);
 }
 
 html,
