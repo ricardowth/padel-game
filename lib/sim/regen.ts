@@ -9,7 +9,7 @@
 import type { Player, Playstyle, Side, Tour } from "../data/types";
 import { ageOneSeason, retirementChance } from "./growth";
 import { clampOvr, computeOvr, normaliseToOvr, PLAYSTYLE_BIAS, SIDE_BIAS } from "./ovr";
-import { clonePlayer } from "./pool";
+import { clonePlayer, effectiveOvr, pointsForStrength } from "./pool";
 import type { Rng } from "./rng";
 import { ATTRIBUTE_KEYS, type Attributes } from "../data/types";
 import type { World } from "./types";
@@ -201,19 +201,35 @@ export function advanceWorld({
   // off as the new wave arrives. Without this the ladder grows every season and
   // the player's rank number inflates for reasons they never see.
   if (world.activeIds.length > TARGET_POOL_SIZE) {
-    const ordered = [...world.activeIds].sort(
-      (a, b) => (world.points.get(a) ?? 0) - (world.points.get(b) ?? 0),
-    );
+    // Everyone who arrived this season is safe. They have not played a match
+    // yet, so they carry no ranking points — sorting on those would put every
+    // debutant at the bottom and cut them before they ever competed. Left
+    // unguarded this deleted 106 of 140 promises on arrival and left the late
+    // career being played almost entirely against generated names.
+    const arrived = new Set([...report.debutedIds, ...report.generatedIds]);
+
+    const ordered = [...world.activeIds]
+      .filter((id) => !arrived.has(id) && !protectedIds.has(id))
+      // Cut from the bottom of the ranking, and never cut someone still young
+      // enough to climb — that is what keeps the tour turning over.
+      .filter((id) => (world.players.get(id)?.age ?? 0) >= 24)
+      .sort((a, b) => (world.points.get(a) ?? 0) - (world.points.get(b) ?? 0));
 
     for (const id of ordered) {
       if (world.activeIds.length <= TARGET_POOL_SIZE) break;
-      if (protectedIds.has(id)) continue;
 
       world.activeIds.splice(world.activeIds.indexOf(id), 1);
       world.points.delete(id);
       world.retiredIds.add(id);
       report.retiredIds.push(id);
     }
+  }
+
+  // Give this season's arrivals a provisional standing from their level, so the
+  // next rescore and any interim sort rank them on merit rather than on zero.
+  for (const id of [...report.debutedIds, ...report.generatedIds]) {
+    const player = world.players.get(id);
+    if (player) world.points.set(id, Math.round(pointsForStrength(effectiveOvr(player))));
   }
 
   return report;

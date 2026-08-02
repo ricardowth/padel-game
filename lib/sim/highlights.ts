@@ -94,12 +94,16 @@ export function seasonHighlights(input: HighlightInput): Highlight[] {
     return out;
   }
 
+  const best = bestResult(input.outcomes);
+
   // 1. Milestones first — these are the moments people replay for.
-  if (input.careerTitlesBefore === 0 && input.titles > 0) {
-    const first = bestResult(input.outcomes);
+  //    A first title already names the event, so the generic "won X" line below
+  //    is suppressed for it; otherwise the recap says the same thing twice.
+  const namedFirstTitle = input.careerTitlesBefore === 0 && input.titles > 0;
+  if (namedFirstTitle) {
     out.push({
       key: "season.highlight.first_title",
-      values: { tournament: first?.tournamentName ?? "" },
+      values: { tournament: best?.tournamentName ?? "" },
       tone: "good",
     });
   }
@@ -119,8 +123,7 @@ export function seasonHighlights(input: HighlightInput): Highlight[] {
   }
 
   // 2. The season's defining result.
-  const best = bestResult(input.outcomes);
-  if (best && out.length < 3) {
+  if (best && !namedFirstTitle && out.length < 3) {
     out.push({
       key: best.won ? "season.highlight.title" : "season.highlight.runner_up",
       values: {

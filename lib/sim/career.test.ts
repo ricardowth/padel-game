@@ -143,6 +143,29 @@ describe("the world around the career", () => {
     expect(engine.world.pending.length).toBeLessThan(50);
   });
 
+  it("keeps real named players on tour to the end of a career", () => {
+    const { engine } = playCareer("names");
+    const world = engine.world;
+
+    // FIP ids start with "P"; generated newcomers are prefixed "REGEN".
+    const real = world.activeIds.filter((id) => id.startsWith("P")).length;
+    const debutedPromises = [...world.players.values()].filter(
+      (p) => p.debutYear !== undefined && world.activeIds.includes(p.id),
+    ).length;
+
+    // Debutants carry no ranking points, so a pool trim that sorts on points
+    // will cut every one of them on arrival — that once left the late career
+    // being played almost entirely against invented names.
+    expect(debutedPromises).toBeGreaterThan(30);
+    expect(real / world.activeIds.length).toBeGreaterThan(0.25);
+  });
+
+  it("holds the ladder at a stable size so rank numbers stay meaningful", () => {
+    const { engine } = playCareer("poolsize");
+    expect(engine.world.activeIds.length).toBeGreaterThanOrEqual(195);
+    expect(engine.world.activeIds.length).toBeLessThanOrEqual(215);
+  });
+
   it("keeps the tour from ageing into oblivion", () => {
     const { engine } = playCareer("ages");
     const ages = engine.world.activeIds

@@ -66,6 +66,19 @@ describe("seasonHighlights", () => {
     }
   });
 
+  it("does not name the same title twice", () => {
+    // "Your first title — Madrid P1" followed by "Won Madrid P1" reads as a bug.
+    const result = keys(
+      input({
+        outcomes: [event({ won: true, roundReached: WINNER_ROUND_INDEX })],
+        titles: 1,
+        careerTitlesBefore: 0,
+      }),
+    );
+    expect(result).toContain("season.highlight.first_title");
+    expect(result).not.toContain("season.highlight.title");
+  });
+
   it("calls out a first title before anything else", () => {
     const result = seasonHighlights(
       input({
