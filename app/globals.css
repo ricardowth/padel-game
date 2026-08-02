@@ -19,6 +19,10 @@
 
   --color-accent: #38e2b0;
   --color-accent-dim: #1b7f65;
+  /* Secondary accent for the identity badge and share card, echoing the violet
+     of the reference card without abandoning the padel-court teal. */
+  --color-violet: #8b5cf6;
+  --color-violet-deep: #4c1d95;
 
   /* Rating ramp — worst to best. */
   --color-r1: #64748b;
@@ -54,12 +58,19 @@ body {
 }
 
 body {
-  background: var(--color-ink);
   color: var(--color-text);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   /* The board is a fixed dense screen; only inner panes scroll. */
   overscroll-behavior: none;
+
+  /* Two soft washes over near-black: violet high on the left, court-teal low on
+     the right. Fixed so the light does not slide around while a pane scrolls. */
+  background:
+    radial-gradient(80rem 50rem at 12% -10%, rgba(139, 92, 246, 0.16), transparent 60%),
+    radial-gradient(70rem 45rem at 105% 105%, rgba(56, 226, 176, 0.1), transparent 62%),
+    var(--color-ink);
+  background-attachment: fixed;
 }
 
 /* Thin, dark scrollbars so inner panes do not break the dense look. */
@@ -80,15 +91,38 @@ body {
 }
 
 @utility panel {
-  background: var(--color-surface);
+  /* Translucent so the background wash shows through, with a top highlight —
+     the surface reads as lit rather than painted. */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.045) 0%,
+    rgba(255, 255, 255, 0.012) 38%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  rgba(16, 21, 31, 0.82);
   border: 1px solid var(--color-line);
-  border-radius: 0.75rem;
+  border-radius: 0.875rem;
+  box-shadow:
+    0 1px 0 0 rgba(255, 255, 255, 0.05) inset,
+    0 12px 32px -18px rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(6px);
+}
+
+/** A bordered stat capsule, as on the reference share card. */
+@utility chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--color-line);
+  border-radius: 0.625rem;
+  background: rgba(255, 255, 255, 0.035);
+  padding: 0.35rem 0.7rem;
 }
 
 @utility label {
   font-size: 0.625rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
   color: var(--color-faint);
 }

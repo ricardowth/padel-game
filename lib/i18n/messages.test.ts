@@ -4,7 +4,7 @@
  * language = adding one file" true rather than aspirational — a missing key
  * fails here instead of rendering a raw `events.foo.title` to a player.
  */
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync, statSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
@@ -196,5 +196,59 @@ describe("every key the engine emits is translated", () => {
     ];
 
     expect(required.filter((k) => !has(locale, k))).toEqual([]);
+  });
+});
+
+/**
+ * Static sweep of the components for literal `t("...")` lookups.
+ *
+ * The parity test above only proves the locales agree with each other, so a key
+ * that no locale has — because a component was renamed out from under it —
+ * passes cleanly and then renders `result.finalOvr` to a player. This catches
+ * that class of break at the only place it can be caught cheaply.
+ */
+describe("keys the components ask for actually exist", () => {
+  function walk(dir: string): string[] {
+    return readdirSync(dir).flatMap((entry) => {
+      const full = resolve(dir, entry);
+      if (statSync(full).isDirectory()) return walk(full);
+      return /\.tsx?$/.test(entry) ? [full] : [];
+    });
+  }
+
+  /** `const t = useTranslations("board")` -> which namespace each name holds. */
+  function namespacesIn(source: string): Map<string, string> {
+    const out = new Map<string, string>();
+    for (const m of source.matchAll(
+      /const\s+(\w+)\s*=\s*useTranslations\(\s*(?:"([^"]*)")?\s*\)/g,
+    )) {
+      out.set(m[1]!, m[2] ?? "");
+    }
+    return out;
+  }
+
+  const files = walk(resolve(ROOT, "components"));
+
+  it.each(LOCALES)("%s resolves every literal key used in a component", (locale) => {
+    const missing: string[] = [];
+
+    for (const file of files) {
+      const source = readFileSync(file, "utf8");
+      const namespaces = namespacesIn(source);
+      if (namespaces.size === 0) continue;
+
+      for (const [name, namespace] of namespaces) {
+        // Only literal, non-interpolated lookups can be checked statically.
+        const calls = source.matchAll(
+          new RegExp(String.raw`\b${name}\(\s*"([A-Za-z0-9_.]+)"`, "g"),
+        );
+        for (const call of calls) {
+          const key = namespace ? `${namespace}.${call[1]}` : call[1]!;
+          if (!has(locale, key)) missing.push(`${file.split(/[\\/]/).pop()}: ${key}`);
+        }
+      }
+    }
+
+    expect([...new Set(missing)]).toEqual([]);
   });
 });

@@ -141,6 +141,31 @@
       "banned": "Sancionado"
     }
   },
+  "feed": {
+    "playing": "Temporada {year}",
+    "skip": "Saltar",
+    "won": "GANÓ",
+    "qualifyingExit": "Previa"
+  },
+  "categories": {
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold",
+    "platinum": "Platinum",
+    "p2": "P2",
+    "p1": "P1",
+    "major": "Major",
+    "finals": "Finals"
+  },
+  "rounds": {
+    "r64": "R64",
+    "r32": "R32",
+    "r16": "R16",
+    "quarter": "CF",
+    "semi": "SF",
+    "final": "Final",
+    "winner": "Ganó"
+  },
   "attributes": {
     "remate": "Remate",
     "volea": "Volea",
@@ -424,12 +449,9 @@
     "title": "Carrera completa",
     "peakOvr": "OVR máximo",
     "totals": "{titles} títulos · {finals} finales · {weeks} semanas en el #1 · {earnings}",
-    "worlds": "Campeonato del Mundo",
-    "worldsEmpty": "Nunca fue convocado",
     "awards": "Premios",
-    "partnerships": "Parejas decisivas",
-    "seasonsTogether": "{count, plural, =1 {# temporada juntos} other {# temporadas juntos}}",
-    "partnershipTotals": "{titles} títulos · {finals} finales",
+    "path": "Trayectoria",
+    "trophies": "Trofeos",
     "peakRank": "Mejor ranking",
     "playAgain": "Jugar otra vez",
     "viewLedger": "Registro completo de la carrera",

@@ -141,6 +141,31 @@
       "banned": "Suspended"
     }
   },
+  "feed": {
+    "playing": "Season {year}",
+    "skip": "Skip",
+    "won": "WON",
+    "qualifyingExit": "Qualifying"
+  },
+  "categories": {
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold",
+    "platinum": "Platinum",
+    "p2": "P2",
+    "p1": "P1",
+    "major": "Major",
+    "finals": "Finals"
+  },
+  "rounds": {
+    "r64": "R64",
+    "r32": "R32",
+    "r16": "R16",
+    "quarter": "QF",
+    "semi": "SF",
+    "final": "Final",
+    "winner": "Won"
+  },
   "attributes": {
     "remate": "Remate",
     "volea": "Volea",
@@ -424,12 +449,9 @@
     "title": "Career complete",
     "peakOvr": "Peak OVR",
     "totals": "{titles} titles · {finals} finals · {weeks} weeks at #1 · {earnings}",
-    "worlds": "World Championship",
-    "worldsEmpty": "Never called up",
     "awards": "Awards",
-    "partnerships": "Defining partnerships",
-    "seasonsTogether": "{count, plural, =1 {# season together} other {# seasons together}}",
-    "partnershipTotals": "{titles} titles · {finals} finals",
+    "path": "Path",
+    "trophies": "Trophies",
     "peakRank": "Peak rank",
     "playAgain": "Play again",
     "viewLedger": "Full career ledger",

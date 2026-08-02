@@ -119,6 +119,10 @@ export interface Tournament {
 
 export interface TournamentResult {
   tournamentId: string;
+  /** Kept per result so the final trophy case can group titles by level. */
+  category: Category;
+  /** Display name, for the season feed and the trophy case. */
+  tournamentName: string;
   roundReached: number;
   /** Matches actually won at this event — feeds the partnership aggregates. */
   matchesWon: number;

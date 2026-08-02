@@ -1,17 +1,22 @@
 "use client";
 
-import { useCallback, useReducer, useRef, useState } from "react";
+import { useCallback, useEffect, useReducer, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 
 import { loadTourData } from "../lib/data/load";
 import type { Pace, Tour } from "../lib/data/types";
 import { CareerEngine, type CreatePlayerInput } from "../lib/sim/career";
-import type { DecisionCard, DecisionResolution } from "../lib/sim/types";
+import type { DecisionCard, DecisionResolution, TournamentOutcome } from "../lib/sim/types";
 import { CareerBoard } from "./CareerBoard";
 import { PlayerCreator } from "./PlayerCreator";
 import { ResultCard } from "./ResultCard";
 
 type Phase = "creator" | "board" | "result";
+
+/** Milliseconds between two results appearing in the feed. */
+const REVEAL_MS = 90;
+/** A season is worth watching; a whole career of them is not. Cap the wait. */
+const MAX_SEASON_REVEAL_MS = 2600;
 
 /**
  * Owns the career for its whole lifetime.
@@ -36,14 +41,74 @@ export function Game({ tour, pace }: { tour: Tour; pace: Pace }) {
   const [resolution, setResolution] = useState<DecisionResolution | null>(null);
   const [busy, setBusy] = useState(false);
 
-  /** Runs the sim forward until it needs a human, or the career ends. */
+  /** Results still waiting to appear, and the ones already shown. */
+  const queueRef = useRef<TournamentOutcome[]>([]);
+  const [revealed, setRevealed] = useState<TournamentOutcome[]>([]);
+  const [streaming, setStreaming] = useState(false);
+  /** Held back until the feed finishes, so the decision does not pre-empt it. */
+  const heldRef = useRef<{ card: DecisionCard | null; done: boolean } | null>(null);
+
+  /** Shows everything at once and hands over whatever the engine was holding. */
+  const flush = useCallback(() => {
+    const all = queueRef.current;
+    queueRef.current = [];
+    setRevealed((shown) => (shown.length === all.length ? shown : all));
+    setStreaming(false);
+
+    const held = heldRef.current;
+    heldRef.current = null;
+    if (held) {
+      setPending(held.card);
+      if (held.done) setPhase("result");
+    }
+    tick();
+  }, []);
+
+  // Drip the season's results in. Cheap enough that a timer per result is fine,
+  // and it stops the moment the player skips.
+  useEffect(() => {
+    if (!streaming) return;
+
+    if (revealed.length >= queueRef.current.length) {
+      flush();
+      return;
+    }
+
+    const step = Math.max(
+      16,
+      Math.min(REVEAL_MS, MAX_SEASON_REVEAL_MS / Math.max(1, queueRef.current.length)),
+    );
+    const timer = setTimeout(() => {
+      setRevealed(queueRef.current.slice(0, revealed.length + 1));
+    }, step);
+
+    return () => clearTimeout(timer);
+  }, [flush, revealed.length, streaming]);
+
+  /** Runs the sim forward, then plays back whatever it simulated. */
   const runForward = useCallback(() => {
     const engine = engineRef.current;
     if (!engine) return;
 
-    const { pending: next, done } = engine.advance();
-    setPending(next);
-    if (done) setPhase("result");
+    const { log, pending: next, done } = engine.advance();
+
+    const played = log.flatMap((entry) =>
+      entry.kind === "tournament" ? [entry.outcome] : [],
+    );
+
+    if (played.length === 0) {
+      setRevealed([]);
+      setPending(next);
+      if (done) setPhase("result");
+      tick();
+      return;
+    }
+
+    queueRef.current = played;
+    heldRef.current = { card: next, done };
+    setRevealed([]);
+    setPending(null);
+    setStreaming(true);
     tick();
   }, []);
 
@@ -54,16 +119,12 @@ export function Game({ tour, pace }: { tour: Tour; pace: Pace }) {
         const data = await loadTourData(tour);
         engineRef.current = new CareerEngine({ data, seed, pace, input });
         setPhase("board");
-        // First advance runs the opening season and surfaces the first card.
-        const { pending: next, done } = engineRef.current.advance();
-        setPending(next);
-        if (done) setPhase("result");
-        tick();
+        runForward();
       } finally {
         setBusy(false);
       }
     },
-    [pace, tour],
+    [pace, runForward, tour],
   );
 
   const choose = useCallback(
@@ -101,6 +162,8 @@ export function Game({ tour, pace }: { tour: Tour; pace: Pace }) {
       engine={engine}
       pending={pending}
       resolution={resolution}
+      feed={streaming ? revealed : null}
+      onSkip={flush}
       onChoose={choose}
       onAcknowledge={acknowledge}
       simulatingLabel={t("simulating")}

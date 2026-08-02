@@ -510,6 +510,8 @@ export class CareerEngine {
     this.seasonOutcomes.push(outcome);
     this.state.results.push({
       tournamentId: outcome.tournamentId,
+      category: outcome.category,
+      tournamentName: outcome.tournamentName,
       roundReached: outcome.roundReached,
       matchesWon: outcome.matchesWon,
       points: outcome.points,

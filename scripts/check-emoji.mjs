@@ -20,11 +20,20 @@ const EMOJI = [
   { char: "🏅", where: "ResultCard — awards heading" },
   { char: "🌍", where: "CareerLedger + ResultCard — World Championship" },
   { char: "🔻", where: "tags.ovr_down / tags.side_switch" },
+  { char: "🥈", where: "trophy case — P2 titles" },
+  { char: "🥉", where: "trophy case — Platinum titles" },
+  { char: "🎖️", where: "trophy case — Silver titles" },
+  { char: "🏵️", where: "trophy case — Bronze titles" },
+  { char: "👑", where: "trophy case — FIP #1" },
+  { char: "💥", where: "trophy case — Best Smash" },
+  { char: "⭐", where: "trophy case — Breakout" },
 ];
 
 async function run() {
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 600, height: 400 } });
+  // Wide enough that every probe stays on-screen: a cell scrolled out of the
+  // viewport screenshots as blank, which reads as "not rendering" and is a lie.
+  const page = await browser.newPage({ viewport: { width: 1400, height: 700 } });
   await page.goto(`${BASE}/en`, { waitUntil: "networkidle" });
 
   // Render the probes inside the live page so globals.css applies to them.
@@ -32,7 +41,7 @@ async function run() {
     const host = document.createElement("div");
     host.id = "emoji-probe";
     host.style.cssText =
-      "position:fixed;top:0;left:0;z-index:99999;display:flex;background:#fff";
+      "position:fixed;top:0;left:0;z-index:99999;display:flex;flex-wrap:wrap;max-width:1360px;background:#fff";
     for (const { char } of list) {
       const cell = document.createElement("span");
       cell.className = "emoji-cell";

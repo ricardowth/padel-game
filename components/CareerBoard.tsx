@@ -4,11 +4,12 @@ import { useTranslations } from "next-intl";
 
 import { careerEffectiveOvr } from "../lib/sim/partners";
 import type { CareerEngine } from "../lib/sim/career";
-import type { DecisionCard, DecisionResolution } from "../lib/sim/types";
+import type { DecisionCard, DecisionResolution, TournamentOutcome } from "../lib/sim/types";
 import { euro } from "../lib/ui/format";
 import { CareerLedger } from "./CareerLedger";
 import { DecisionPanel } from "./DecisionPanel";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { SeasonFeed } from "./SeasonFeed";
 import { SeasonRecap } from "./SeasonRecap";
 import { Flag, Meter, OvrBadge, RatingPill, SideTag, StatCell } from "./ui/Pills";
 
@@ -20,6 +21,8 @@ export function CareerBoard({
   engine,
   pending,
   resolution,
+  feed,
+  onSkip,
   onChoose,
   onAcknowledge,
   simulatingLabel,
@@ -27,6 +30,9 @@ export function CareerBoard({
   engine: CareerEngine;
   pending: DecisionCard | null;
   resolution: DecisionResolution | null;
+  /** Non-null while the season is playing out. */
+  feed: TournamentOutcome[] | null;
+  onSkip: () => void;
   onChoose: (optionId: string) => void;
   onAcknowledge: () => void;
   simulatingLabel: string;
@@ -121,7 +127,13 @@ export function CareerBoard({
             </div>
           </section>
 
-          {showRecap && engine.lastSeason ? <SeasonRecap season={engine.lastSeason} /> : null}
+          {feed ? (
+            <SeasonFeed results={feed} year={state.year} onSkip={onSkip} />
+          ) : null}
+
+          {!feed && showRecap && engine.lastSeason ? (
+            <SeasonRecap season={engine.lastSeason} />
+          ) : null}
 
           <DecisionPanel
             card={pending}
@@ -133,7 +145,7 @@ export function CareerBoard({
             onAcknowledge={onAcknowledge}
           />
 
-          {!pending && !resolution ? (
+          {!pending && !resolution && !feed ? (
             <p className="panel px-4 py-3 text-xs text-[color:var(--color-faint)]">
               {simulatingLabel}
             </p>

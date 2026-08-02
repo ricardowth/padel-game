@@ -13,22 +13,29 @@ export function OvrBadge({
   label?: string;
 }) {
   const dims = {
-    sm: "h-9 w-9 text-sm",
-    md: "h-16 w-16 text-2xl",
-    lg: "h-24 w-24 text-4xl",
+    sm: "h-9 w-9 text-sm rounded-lg",
+    md: "h-16 w-16 text-2xl rounded-xl",
+    lg: "h-24 w-24 text-4xl rounded-2xl",
   }[size];
+
+  const tone = ratingTone(value);
 
   return (
     <div
-      className={`num flex ${dims} shrink-0 flex-col items-center justify-center rounded-xl font-black leading-none text-white`}
-      style={{ background: ratingTone(value) }}
+      className={`num flex ${dims} shrink-0 flex-col items-center justify-center font-black leading-none text-white`}
+      style={{
+        // A lit face rather than a flat fill: highlight top-left, the rating
+        // colour beneath, and a rim so it reads as a badge at any size.
+        background: `linear-gradient(150deg, rgba(255,255,255,0.34), rgba(255,255,255,0) 52%), ${tone}`,
+        boxShadow: `0 0 0 1px rgba(255,255,255,0.14) inset, 0 10px 26px -12px ${tone}`,
+      }}
     >
-      {value}
       {label ? (
-        <span className="mt-0.5 text-[9px] font-bold uppercase tracking-wider opacity-80">
+        <span className="mb-0.5 text-[9px] font-bold uppercase tracking-widest opacity-75">
           {label}
         </span>
       ) : null}
+      {value}
     </div>
   );
 }
