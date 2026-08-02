@@ -7,16 +7,12 @@ import { loadTourData } from "../lib/data/load";
 import type { Pace, Tour } from "../lib/data/types";
 import { CareerEngine, type CreatePlayerInput } from "../lib/sim/career";
 import type { DecisionCard, DecisionResolution, TournamentOutcome } from "../lib/sim/types";
+import { prefersReducedMotion, revealDelays } from "../lib/ui/pacing";
 import { CareerBoard } from "./CareerBoard";
 import { PlayerCreator } from "./PlayerCreator";
 import { ResultCard } from "./ResultCard";
 
 type Phase = "creator" | "board" | "result";
-
-/** Milliseconds between two results appearing in the feed. */
-const REVEAL_MS = 90;
-/** A season is worth watching; a whole career of them is not. Cap the wait. */
-const MAX_SEASON_REVEAL_MS = 2600;
 
 /**
  * Owns the career for its whole lifetime.
@@ -43,6 +39,8 @@ export function Game({ tour, pace }: { tour: Tour; pace: Pace }) {
 
   /** Results still waiting to appear, and the ones already shown. */
   const queueRef = useRef<TournamentOutcome[]>([]);
+  /** Per-result dwell, so a Major title lingers and a first-round exit does not. */
+  const delaysRef = useRef<number[]>([]);
   const [revealed, setRevealed] = useState<TournamentOutcome[]>([]);
   const [streaming, setStreaming] = useState(false);
   /** Held back until the feed finishes, so the decision does not pre-empt it. */
@@ -74,10 +72,8 @@ export function Game({ tour, pace }: { tour: Tour; pace: Pace }) {
       return;
     }
 
-    const step = Math.max(
-      16,
-      Math.min(REVEAL_MS, MAX_SEASON_REVEAL_MS / Math.max(1, queueRef.current.length)),
-    );
+    // The result about to appear sets its own dwell.
+    const step = delaysRef.current[revealed.length] ?? 90;
     const timer = setTimeout(() => {
       setRevealed(queueRef.current.slice(0, revealed.length + 1));
     }, step);
@@ -105,7 +101,18 @@ export function Game({ tour, pace }: { tour: Tour; pace: Pace }) {
     }
 
     queueRef.current = played;
+    delaysRef.current = revealDelays(played);
     heldRef.current = { card: next, done };
+
+    // Someone who asked for less motion gets the whole season at once.
+    if (prefersReducedMotion()) {
+      setRevealed(played);
+      setPending(next);
+      if (done) setPhase("result");
+      tick();
+      return;
+    }
+
     setRevealed([]);
     setPending(null);
     setStreaming(true);

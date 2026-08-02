@@ -67,7 +67,11 @@ export function SeasonFeed({
             <li
               key={`${r.tournamentId}-${i}`}
               ref={i === results.length - 1 ? endRef : undefined}
-              className="rise flex items-center gap-2 border-b border-[color:var(--color-line-soft)] py-1.5 last:border-0"
+              // Titles get a tinted row. The feed slows down for them, so they
+              // need to look like the reason it slowed down.
+              className={`rise flex items-center gap-2 border-b border-[color:var(--color-line-soft)] py-1.5 last:border-0 ${
+                won ? "-mx-2 rounded bg-[color:var(--color-accent)]/[0.09] px-2" : ""
+              }`}
             >
               <span
                 aria-hidden
