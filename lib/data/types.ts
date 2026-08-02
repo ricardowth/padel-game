@@ -76,6 +76,8 @@ export interface Player {
 export interface PlayerSource {
   /** FIP player id, e.g. "P000010". */
   fipId: string;
+  /** The full legal name as FIP publishes it, before shortening for display. */
+  fullName?: string;
   /** FIP's own alpha-3 country code (IOC-style), e.g. "ESP". */
   fipCountry: string;
   fipRank: number;
@@ -243,6 +245,13 @@ export interface CareerState {
    * patience with a pattern of them (see `breakupChance`).
    */
   poorDecisions: number;
+  /** Best rank ever reached; 0 until the first season is scored. */
+  bestRank: number;
+  /**
+   * A player picked at creation who started at the same level. They are never
+   * mentioned unless the two careers cross, which is what makes it land.
+   */
+  rivalId: string | null;
   finals: number;
   matchesWon: number;
   weeksAtNo1: number;

@@ -41,6 +41,7 @@ function tournament(id: string, week: number, category: Tournament["category"]):
 
 const outcome = (over: Partial<TournamentOutcome> = {}): TournamentOutcome => ({
   tournamentId: "t",
+  tournamentName: "Some Open",
   category: "gold",
   band: "professional",
   week: 1,

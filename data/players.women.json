@@ -10,7 +10,7 @@
   "players": [
     {
       "id": "P200002",
-      "name": "Gemma Triay Pons",
+      "name": "Gemma Triay",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -19,6 +19,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200002",
+        "fullName": "Gemma Triay Pons",
         "fipCountry": "ESP",
         "fipRank": 1,
         "fipPoints": 18186,
@@ -44,7 +45,7 @@
     },
     {
       "id": "P200005",
-      "name": "Delfina Brea Senesi",
+      "name": "Delfina Brea",
       "country": "AR",
       "tour": "women",
       "naturalSide": "drive",
@@ -53,6 +54,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200005",
+        "fullName": "Delfina Brea Senesi",
         "fipCountry": "ARG",
         "fipRank": 1,
         "fipPoints": 18186,
@@ -78,7 +80,7 @@
     },
     {
       "id": "P200011",
-      "name": "Beatriz Gonzalez Fernandez",
+      "name": "Beatriz Gonzalez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -87,6 +89,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200011",
+        "fullName": "Beatriz Gonzalez Fernandez",
         "fipCountry": "ESP",
         "fipRank": 3,
         "fipPoints": 14443,
@@ -112,7 +115,7 @@
     },
     {
       "id": "P200004",
-      "name": "Paula Josemaria Martin",
+      "name": "Paula Josemaria",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -121,6 +124,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200004",
+        "fullName": "Paula Josemaria Martin",
         "fipCountry": "ESP",
         "fipRank": 4,
         "fipPoints": 14231,
@@ -146,7 +150,7 @@
     },
     {
       "id": "P200003",
-      "name": "Ariana Sanchez Fallada",
+      "name": "Ariana Sanchez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -155,6 +159,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200003",
+        "fullName": "Ariana Sanchez Fallada",
         "fipCountry": "ESP",
         "fipRank": 5,
         "fipPoints": 13151,
@@ -180,7 +185,7 @@
     },
     {
       "id": "P000532",
-      "name": "Claudia Fernandez Sanchez",
+      "name": "Claudia Fernandez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -189,6 +194,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000532",
+        "fullName": "Claudia Fernandez Sanchez",
         "fipCountry": "ESP",
         "fipRank": 6,
         "fipPoints": 10673,
@@ -213,7 +219,7 @@
     },
     {
       "id": "P200224",
-      "name": "Andrea Ustero Prieto",
+      "name": "Andrea Ustero",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -222,6 +228,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200224",
+        "fullName": "Andrea Ustero Prieto",
         "fipCountry": "ESP",
         "fipRank": 7,
         "fipPoints": 9296,
@@ -255,6 +262,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000526",
+        "fullName": "Sofia Araujo",
         "fipCountry": "POR",
         "fipRank": 8,
         "fipPoints": 6991,
@@ -280,7 +288,7 @@
     },
     {
       "id": "P200006",
-      "name": "Tamara Icardo Alcorisa",
+      "name": "Tamara Icardo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -289,6 +297,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200006",
+        "fullName": "Tamara Icardo Alcorisa",
         "fipCountry": "ESP",
         "fipRank": 9,
         "fipPoints": 6351,
@@ -314,7 +323,7 @@
     },
     {
       "id": "P200014",
-      "name": "Marta Ortega Gallego",
+      "name": "Marta Ortega",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -323,6 +332,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200014",
+        "fullName": "Marta Ortega Gallego",
         "fipCountry": "ESP",
         "fipRank": 10,
         "fipPoints": 5931,
@@ -357,6 +367,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200032",
+        "fullName": "Claudia Jensen",
         "fipCountry": "ARG",
         "fipRank": 11,
         "fipPoints": 5856,
@@ -382,7 +393,7 @@
     },
     {
       "id": "P203086",
-      "name": "Martina Calvo Santamaria",
+      "name": "Martina Calvo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -391,6 +402,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203086",
+        "fullName": "Martina Calvo Santamaria",
         "fipCountry": "ESP",
         "fipRank": 12,
         "fipPoints": 5096,
@@ -416,7 +428,7 @@
     },
     {
       "id": "P200124",
-      "name": "Alejandra Alonso De Villa",
+      "name": "Alejandra De Villa",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -425,6 +437,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200124",
+        "fullName": "Alejandra Alonso De Villa",
         "fipCountry": "ESP",
         "fipRank": 13,
         "fipPoints": 4646,
@@ -449,7 +462,7 @@
     },
     {
       "id": "P200001",
-      "name": "Alejandra Salazar Bengoechea",
+      "name": "Alejandra Salazar",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -458,6 +471,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200001",
+        "fullName": "Alejandra Salazar Bengoechea",
         "fipCountry": "ESP",
         "fipRank": 14,
         "fipPoints": 4543,
@@ -492,6 +506,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000466",
+        "fullName": "Veronica Virseda",
         "fipCountry": "ESP",
         "fipRank": 15,
         "fipPoints": 4393,
@@ -516,7 +531,7 @@
     },
     {
       "id": "P000472",
-      "name": "Marina Guinart España",
+      "name": "Marina Guinart",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -525,6 +540,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000472",
+        "fullName": "Marina Guinart España",
         "fipCountry": "ESP",
         "fipRank": 16,
         "fipPoints": 4306,
@@ -550,7 +566,7 @@
     },
     {
       "id": "P200029",
-      "name": "Beatriz Caldera Sanchez",
+      "name": "Beatriz Caldera",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -559,6 +575,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200029",
+        "fullName": "Beatriz Caldera Sanchez",
         "fipCountry": "ESP",
         "fipRank": 17,
         "fipPoints": 3216,
@@ -583,7 +600,7 @@
     },
     {
       "id": "P200030",
-      "name": "Carmen Goenaga Garcia",
+      "name": "Carmen Goenaga",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -592,6 +609,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200030",
+        "fullName": "Carmen Goenaga Garcia",
         "fipCountry": "ESP",
         "fipRank": 17,
         "fipPoints": 3216,
@@ -616,7 +634,7 @@
     },
     {
       "id": "P200013",
-      "name": "Aranzazu Osoro Ulrich",
+      "name": "Aranzazu Osoro",
       "country": "AR",
       "tour": "women",
       "naturalSide": "drive",
@@ -625,6 +643,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200013",
+        "fullName": "Aranzazu Osoro Ulrich",
         "fipCountry": "ARG",
         "fipRank": 19,
         "fipPoints": 3043,
@@ -650,7 +669,7 @@
     },
     {
       "id": "P200012",
-      "name": "Victoria Iglesias Segador",
+      "name": "Victoria Iglesias",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -659,6 +678,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200012",
+        "fullName": "Victoria Iglesias Segador",
         "fipCountry": "ESP",
         "fipRank": 20,
         "fipPoints": 2911,
@@ -684,7 +704,7 @@
     },
     {
       "id": "P200008",
-      "name": "Patricia Llaguno Zielinski",
+      "name": "Patricia Llaguno",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -693,6 +713,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200008",
+        "fullName": "Patricia Llaguno Zielinski",
         "fipCountry": "ESP",
         "fipRank": 21,
         "fipPoints": 2666,
@@ -717,7 +738,7 @@
     },
     {
       "id": "P200009",
-      "name": "Lucia Sainz Pelegri",
+      "name": "Lucia Sainz",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -726,6 +747,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200009",
+        "fullName": "Lucia Sainz Pelegri",
         "fipCountry": "ESP",
         "fipRank": 22,
         "fipPoints": 2641,
@@ -751,7 +773,7 @@
     },
     {
       "id": "P200247",
-      "name": "Raquel Eugenio Barrera",
+      "name": "Raquel Eugenio",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -760,6 +782,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200247",
+        "fullName": "Raquel Eugenio Barrera",
         "fipCountry": "ESP",
         "fipRank": 23,
         "fipPoints": 2608,
@@ -785,7 +808,7 @@
     },
     {
       "id": "P000538",
-      "name": "Martina Fassio Goyeneche",
+      "name": "Martina Fassio",
       "country": "AR",
       "tour": "women",
       "naturalSide": "drive",
@@ -794,6 +817,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000538",
+        "fullName": "Martina Fassio Goyeneche",
         "fipCountry": "ARG",
         "fipRank": 24,
         "fipPoints": 2548,
@@ -827,6 +851,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000456",
+        "fullName": "Nuria Rodriguez",
         "fipCountry": "ESP",
         "fipRank": 25,
         "fipPoints": 2456,
@@ -851,7 +876,7 @@
     },
     {
       "id": "P000477",
-      "name": "Lorena Rufo Ortiz",
+      "name": "Lorena Rufo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -860,6 +885,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000477",
+        "fullName": "Lorena Rufo Ortiz",
         "fipCountry": "ESP",
         "fipRank": 26,
         "fipPoints": 2318,
@@ -885,7 +911,7 @@
     },
     {
       "id": "P002020",
-      "name": "Jessica Castello Lopez",
+      "name": "Jessica Castello",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -894,6 +920,7 @@
       "isReal": true,
       "source": {
         "fipId": "P002020",
+        "fullName": "Jessica Castello Lopez",
         "fipCountry": "ESP",
         "fipRank": 26,
         "fipPoints": 2318,
@@ -928,6 +955,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000452",
+        "fullName": "Carolina Orsi",
         "fipCountry": "ITA",
         "fipRank": 28,
         "fipPoints": 2181,
@@ -952,7 +980,7 @@
     },
     {
       "id": "P000455",
-      "name": "Jimena Velasco Postiguillo",
+      "name": "Jimena Velasco",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -961,6 +989,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000455",
+        "fullName": "Jimena Velasco Postiguillo",
         "fipCountry": "ESP",
         "fipRank": 29,
         "fipPoints": 2178,
@@ -986,7 +1015,7 @@
     },
     {
       "id": "P200092",
-      "name": "Marta Barrera De La Fuente",
+      "name": "Marta De La",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -995,6 +1024,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200092",
+        "fullName": "Marta Barrera De La Fuente",
         "fipCountry": "ESP",
         "fipRank": 30,
         "fipPoints": 2131,
@@ -1028,6 +1058,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202302",
+        "fullName": "Giulia Dal Pozzo",
         "fipCountry": "ITA",
         "fipRank": 31,
         "fipPoints": 2095,
@@ -1052,7 +1083,7 @@
     },
     {
       "id": "P200040",
-      "name": "Noa Canovas Paredes",
+      "name": "Noa Canovas",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -1061,6 +1092,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200040",
+        "fullName": "Noa Canovas Paredes",
         "fipCountry": "ESP",
         "fipRank": 32,
         "fipPoints": 1843,
@@ -1085,7 +1117,7 @@
     },
     {
       "id": "P200148",
-      "name": "Maria Eulalia Rodriguez Abajo",
+      "name": "Maria Eulalia",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -1094,6 +1126,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200148",
+        "fullName": "Maria Eulalia Rodriguez Abajo",
         "fipCountry": "ESP",
         "fipRank": 32,
         "fipPoints": 1843,
@@ -1127,6 +1160,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200133",
+        "fullName": "Ksenia Sharifova",
         "fipCountry": "RUS",
         "fipRank": 34,
         "fipPoints": 1736,
@@ -1160,6 +1194,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000450",
+        "fullName": "Araceli Martinez",
         "fipCountry": "ESP",
         "fipRank": 35,
         "fipPoints": 1708,
@@ -1194,6 +1229,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200020",
+        "fullName": "Alix Collombon",
         "fipCountry": "FRA",
         "fipRank": 36,
         "fipPoints": 1676,
@@ -1228,6 +1264,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200007",
+        "fullName": "Virginia Riera",
         "fipCountry": "ARG",
         "fipRank": 37,
         "fipPoints": 1653,
@@ -1253,7 +1290,7 @@
     },
     {
       "id": "330614",
-      "name": "Lucia Martinez Gomez",
+      "name": "Lucia Martinez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -1262,6 +1299,7 @@
       "isReal": true,
       "source": {
         "fipId": "330614",
+        "fullName": "Lucia Martinez Gomez",
         "fipCountry": "ESP",
         "fipRank": 38,
         "fipPoints": 1508,
@@ -1286,7 +1324,7 @@
     },
     {
       "id": "P200184",
-      "name": "Agueda Perez Ortiz",
+      "name": "Agueda Perez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -1295,6 +1333,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200184",
+        "fullName": "Agueda Perez Ortiz",
         "fipCountry": "ESP",
         "fipRank": 39,
         "fipPoints": 1467,
@@ -1320,7 +1359,7 @@
     },
     {
       "id": "P200063",
-      "name": "Marta Caparros Maldonado",
+      "name": "Marta Caparros",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -1329,6 +1368,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200063",
+        "fullName": "Marta Caparros Maldonado",
         "fipCountry": "ESP",
         "fipRank": 40,
         "fipPoints": 1451,
@@ -1353,7 +1393,7 @@
     },
     {
       "id": "P000484",
-      "name": "Julieta Evangelina Bidahorria",
+      "name": "Julieta Evangelina",
       "country": "AR",
       "tour": "women",
       "naturalSide": "reves",
@@ -1362,6 +1402,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000484",
+        "fullName": "Julieta Evangelina Bidahorria",
         "fipCountry": "ARG",
         "fipRank": 41,
         "fipPoints": 1445,
@@ -1387,7 +1428,7 @@
     },
     {
       "id": "P200110",
-      "name": "Noemi Aguilar Carrillo",
+      "name": "Noemi Aguilar",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -1396,6 +1437,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200110",
+        "fullName": "Noemi Aguilar Carrillo",
         "fipCountry": "ESP",
         "fipRank": 42,
         "fipPoints": 1430,
@@ -1420,7 +1462,7 @@
     },
     {
       "id": "P200366",
-      "name": "Jana Montes Cabruja",
+      "name": "Jana Montes",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -1429,6 +1471,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200366",
+        "fullName": "Jana Montes Cabruja",
         "fipCountry": "ESP",
         "fipRank": 43,
         "fipPoints": 1405,
@@ -1462,6 +1505,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000541",
+        "fullName": "Marta Talavan",
         "fipCountry": "ESP",
         "fipRank": 44,
         "fipPoints": 1401,
@@ -1486,7 +1530,7 @@
     },
     {
       "id": "P200131",
-      "name": "Letizia Maria Manquillo Alarza",
+      "name": "Letizia Manquillo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -1495,6 +1539,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200131",
+        "fullName": "Letizia Maria Manquillo Alarza",
         "fipCountry": "ESP",
         "fipRank": 45,
         "fipPoints": 1393,
@@ -1519,7 +1564,7 @@
     },
     {
       "id": "P200896",
-      "name": "Laura Lujan Rodriguez",
+      "name": "Laura Lujan",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -1528,6 +1573,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200896",
+        "fullName": "Laura Lujan Rodriguez",
         "fipCountry": "ESP",
         "fipRank": 45,
         "fipPoints": 1393,
@@ -1561,6 +1607,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000473",
+        "fullName": "Marta Borrero",
         "fipCountry": "ESP",
         "fipRank": 47,
         "fipPoints": 1315,
@@ -1586,7 +1633,7 @@
     },
     {
       "id": "P200044",
-      "name": "Sofia Saiz Vallejo",
+      "name": "Sofia Saiz",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -1595,6 +1642,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200044",
+        "fullName": "Sofia Saiz Vallejo",
         "fipCountry": "ESP",
         "fipRank": 48,
         "fipPoints": 1293,
@@ -1628,6 +1676,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200899",
+        "fullName": "Lara Arruabarrena",
         "fipCountry": "ESP",
         "fipRank": 49,
         "fipPoints": 1251,
@@ -1653,7 +1702,7 @@
     },
     {
       "id": "P000488",
-      "name": "Julia Polo Bautista",
+      "name": "Julia Polo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -1662,6 +1711,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000488",
+        "fullName": "Julia Polo Bautista",
         "fipCountry": "ESP",
         "fipRank": 50,
         "fipPoints": 1242,
@@ -1696,6 +1746,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200038",
+        "fullName": "Lea Godallier",
         "fipCountry": "FRA",
         "fipRank": 51,
         "fipPoints": 1233,
@@ -1720,7 +1771,7 @@
     },
     {
       "id": "P200059",
-      "name": "Patricia Martinez Fortun",
+      "name": "Patricia Martinez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -1729,6 +1780,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200059",
+        "fullName": "Patricia Martinez Fortun",
         "fipCountry": "ESP",
         "fipRank": 52,
         "fipPoints": 1218,
@@ -1763,6 +1815,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200042",
+        "fullName": "Marina Lobo",
         "fipCountry": "ESP",
         "fipRank": 53,
         "fipPoints": 1213,
@@ -1796,6 +1849,7 @@
       "isReal": true,
       "source": {
         "fipId": "317387",
+        "fullName": "Giorgia Marchetti",
         "fipCountry": "ITA",
         "fipRank": 54,
         "fipPoints": 1182,
@@ -1820,7 +1874,7 @@
     },
     {
       "id": "P000478",
-      "name": "Teresa Navarro lopez-Barajas",
+      "name": "Teresa Navarro",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -1829,6 +1883,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000478",
+        "fullName": "Teresa Navarro lopez-Barajas",
         "fipCountry": "ESP",
         "fipRank": 55,
         "fipPoints": 1178,
@@ -1853,7 +1908,7 @@
     },
     {
       "id": "P200075",
-      "name": "Melania Merino Saez",
+      "name": "Melania Merino",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -1862,6 +1917,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200075",
+        "fullName": "Melania Merino Saez",
         "fipCountry": "ESP",
         "fipRank": 55,
         "fipPoints": 1178,
@@ -1887,7 +1943,7 @@
     },
     {
       "id": "P200185",
-      "name": "Amanda Lopez Moral",
+      "name": "Amanda Lopez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -1896,6 +1952,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200185",
+        "fullName": "Amanda Lopez Moral",
         "fipCountry": "ESP",
         "fipRank": 57,
         "fipPoints": 1141,
@@ -1921,7 +1978,7 @@
     },
     {
       "id": "P000432",
-      "name": "Daiara Agustina Valenzuela",
+      "name": "Daiara Agustina",
       "country": "AR",
       "tour": "women",
       "naturalSide": "reves",
@@ -1930,6 +1987,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000432",
+        "fullName": "Daiara Agustina Valenzuela",
         "fipCountry": "ARG",
         "fipRank": 58,
         "fipPoints": 1108,
@@ -1954,7 +2012,7 @@
     },
     {
       "id": "P200028",
-      "name": "Ana Catarina Nogueira",
+      "name": "Ana Catarina",
       "country": "PT",
       "tour": "women",
       "naturalSide": "reves",
@@ -1963,6 +2021,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200028",
+        "fullName": "Ana Catarina Nogueira",
         "fipCountry": "POR",
         "fipRank": 59,
         "fipPoints": 1088,
@@ -1988,7 +2047,7 @@
     },
     {
       "id": "P200036",
-      "name": "Ariadna Cañellas Rodero",
+      "name": "Ariadna Cañellas",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -1997,6 +2056,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200036",
+        "fullName": "Ariadna Cañellas Rodero",
         "fipCountry": "ESP",
         "fipRank": 60,
         "fipPoints": 1081,
@@ -2021,7 +2081,7 @@
     },
     {
       "id": "P202063",
-      "name": "Claudia Escacena Montero",
+      "name": "Claudia Escacena",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2030,6 +2090,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202063",
+        "fullName": "Claudia Escacena Montero",
         "fipCountry": "ESP",
         "fipRank": 61,
         "fipPoints": 960,
@@ -2054,7 +2115,7 @@
     },
     {
       "id": "P000489",
-      "name": "Barbara Las Heras",
+      "name": "Barbara Las",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -2063,6 +2124,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000489",
+        "fullName": "Barbara Las Heras",
         "fipCountry": "ESP",
         "fipRank": 62,
         "fipPoints": 924,
@@ -2088,7 +2150,7 @@
     },
     {
       "id": "P000471",
-      "name": "Sandra Bellver Fructuoso",
+      "name": "Sandra Bellver",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2097,6 +2159,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000471",
+        "fullName": "Sandra Bellver Fructuoso",
         "fipCountry": "ESP",
         "fipRank": 63,
         "fipPoints": 854,
@@ -2122,7 +2185,7 @@
     },
     {
       "id": "P200019",
-      "name": "Carolina Navarro Björk",
+      "name": "Carolina Navarro",
       "country": "SE",
       "tour": "women",
       "naturalSide": "reves",
@@ -2131,6 +2194,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200019",
+        "fullName": "Carolina Navarro Björk",
         "fipCountry": "SWE",
         "fipRank": 64,
         "fipPoints": 835,
@@ -2156,7 +2220,7 @@
     },
     {
       "id": "P200356",
-      "name": "Aida Martinez Sanjuan",
+      "name": "Aida Martinez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2165,6 +2229,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200356",
+        "fullName": "Aida Martinez Sanjuan",
         "fipCountry": "ESP",
         "fipRank": 65,
         "fipPoints": 812,
@@ -2198,6 +2263,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000462",
+        "fullName": "Raquel Piltcher",
         "fipCountry": "BRA",
         "fipRank": 66,
         "fipPoints": 804,
@@ -2223,7 +2289,7 @@
     },
     {
       "id": "P002025",
-      "name": "Marta Arellano Navarro",
+      "name": "Marta Arellano",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2232,6 +2298,7 @@
       "isReal": true,
       "source": {
         "fipId": "P002025",
+        "fullName": "Marta Arellano Navarro",
         "fipCountry": "ESP",
         "fipRank": 67,
         "fipPoints": 795,
@@ -2256,7 +2323,7 @@
     },
     {
       "id": "P200176",
-      "name": "Ana Dominguez Gracia",
+      "name": "Ana Dominguez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2265,6 +2332,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200176",
+        "fullName": "Ana Dominguez Gracia",
         "fipCountry": "ESP",
         "fipRank": 68,
         "fipPoints": 783,
@@ -2289,7 +2357,7 @@
     },
     {
       "id": "P200559",
-      "name": "Natividad Lopez Diaz",
+      "name": "Natividad Lopez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2298,6 +2366,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200559",
+        "fullName": "Natividad Lopez Diaz",
         "fipCountry": "ESP",
         "fipRank": 69,
         "fipPoints": 760,
@@ -2322,7 +2391,7 @@
     },
     {
       "id": "P201785",
-      "name": "Camila Fassio Goyeneche",
+      "name": "Camila Fassio",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2331,6 +2400,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201785",
+        "fullName": "Camila Fassio Goyeneche",
         "fipCountry": "ESP",
         "fipRank": 70,
         "fipPoints": 758,
@@ -2355,7 +2425,7 @@
     },
     {
       "id": "P200081",
-      "name": "Monica Gomez Rivas",
+      "name": "Monica Gomez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -2364,6 +2434,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200081",
+        "fullName": "Monica Gomez Rivas",
         "fipCountry": "ESP",
         "fipRank": 71,
         "fipPoints": 757,
@@ -2397,6 +2468,7 @@
       "isReal": true,
       "source": {
         "fipId": "P002031",
+        "fullName": "Victoria Kurz",
         "fipCountry": "GER",
         "fipRank": 72,
         "fipPoints": 752,
@@ -2421,7 +2493,7 @@
     },
     {
       "id": "P200111",
-      "name": "Alba Perez Momha",
+      "name": "Alba Perez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2430,6 +2502,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200111",
+        "fullName": "Alba Perez Momha",
         "fipCountry": "ESP",
         "fipRank": 72,
         "fipPoints": 752,
@@ -2454,7 +2527,7 @@
     },
     {
       "id": "P200162",
-      "name": "Lucia Peralta Exposito",
+      "name": "Lucia Peralta",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2463,6 +2536,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200162",
+        "fullName": "Lucia Peralta Exposito",
         "fipCountry": "ESP",
         "fipRank": 74,
         "fipPoints": 740,
@@ -2487,7 +2561,7 @@
     },
     {
       "id": "P200027",
-      "name": "Carla Mesa Salazar",
+      "name": "Carla Mesa",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2496,6 +2570,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200027",
+        "fullName": "Carla Mesa Salazar",
         "fipCountry": "ESP",
         "fipRank": 75,
         "fipPoints": 730,
@@ -2530,6 +2605,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200255",
+        "fullName": "Marcella Koek",
         "fipCountry": "NED",
         "fipRank": 76,
         "fipPoints": 723,
@@ -2555,7 +2631,7 @@
     },
     {
       "id": "P200109",
-      "name": "Lucia Garcia Trella",
+      "name": "Lucia Garcia",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -2564,6 +2640,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200109",
+        "fullName": "Lucia Garcia Trella",
         "fipCountry": "ESP",
         "fipRank": 77,
         "fipPoints": 722,
@@ -2589,7 +2666,7 @@
     },
     {
       "id": "P200359",
-      "name": "Carla Fernandez Gonzalez",
+      "name": "Carla Fernandez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2598,6 +2675,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200359",
+        "fullName": "Carla Fernandez Gonzalez",
         "fipCountry": "ESP",
         "fipRank": 78,
         "fipPoints": 691,
@@ -2631,6 +2709,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000534",
+        "fullName": "Carlotta Casali",
         "fipCountry": "ITA",
         "fipRank": 79,
         "fipPoints": 689,
@@ -2665,6 +2744,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000453",
+        "fullName": "Lorena Vano",
         "fipCountry": "ITA",
         "fipRank": 80,
         "fipPoints": 665,
@@ -2690,7 +2770,7 @@
     },
     {
       "id": "P200560",
-      "name": "Nerea Guerra Santana",
+      "name": "Nerea Guerra",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -2699,6 +2779,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200560",
+        "fullName": "Nerea Guerra Santana",
         "fipCountry": "ESP",
         "fipRank": 81,
         "fipPoints": 660,
@@ -2723,7 +2804,7 @@
     },
     {
       "id": "P200925",
-      "name": "Anna Ortiz Gasco",
+      "name": "Anna Ortiz",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2732,6 +2813,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200925",
+        "fullName": "Anna Ortiz Gasco",
         "fipCountry": "ESP",
         "fipRank": 82,
         "fipPoints": 640,
@@ -2756,7 +2838,7 @@
     },
     {
       "id": "P002024",
-      "name": "Caterina Maria Baldi",
+      "name": "Caterina Baldi",
       "country": "IT",
       "tour": "women",
       "naturalSide": "drive",
@@ -2765,6 +2847,7 @@
       "isReal": true,
       "source": {
         "fipId": "P002024",
+        "fullName": "Caterina Maria Baldi",
         "fipCountry": "ITA",
         "fipRank": 83,
         "fipPoints": 634,
@@ -2789,7 +2872,7 @@
     },
     {
       "id": "P000479",
-      "name": "Maria Portillo Perez",
+      "name": "Maria Portillo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -2798,6 +2881,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000479",
+        "fullName": "Maria Portillo Perez",
         "fipCountry": "ESP",
         "fipRank": 84,
         "fipPoints": 624,
@@ -2822,7 +2906,7 @@
     },
     {
       "id": "P200153",
-      "name": "Camila Ramme Coellar",
+      "name": "Camila Ramme",
       "country": "MX",
       "tour": "women",
       "naturalSide": "drive",
@@ -2831,6 +2915,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200153",
+        "fullName": "Camila Ramme Coellar",
         "fipCountry": "MEX",
         "fipRank": 85,
         "fipPoints": 611,
@@ -2864,6 +2949,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201526",
+        "fullName": "Carla Touly",
         "fipCountry": "FRA",
         "fipRank": 86,
         "fipPoints": 607,
@@ -2889,7 +2975,7 @@
     },
     {
       "id": "P200098",
-      "name": "Rebeca Lopez Lopez",
+      "name": "Rebeca Lopez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -2898,6 +2984,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200098",
+        "fullName": "Rebeca Lopez Lopez",
         "fipCountry": "ESP",
         "fipRank": 87,
         "fipPoints": 596,
@@ -2931,6 +3018,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202287",
+        "fullName": "Brittany Dubins",
         "fipCountry": "USA",
         "fipRank": 88,
         "fipPoints": 595,
@@ -2955,7 +3043,7 @@
     },
     {
       "id": "P201863",
-      "name": "Maria Laura Ferreyra",
+      "name": "Maria Ferreyra",
       "country": "AR",
       "tour": "women",
       "naturalSide": "drive",
@@ -2964,6 +3052,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201863",
+        "fullName": "Maria Laura Ferreyra",
         "fipCountry": "ARG",
         "fipRank": 89,
         "fipPoints": 588,
@@ -2988,7 +3077,7 @@
     },
     {
       "id": "P200308",
-      "name": "Clarissa Margherita Aima",
+      "name": "Clarissa Margherita",
       "country": "IT",
       "tour": "women",
       "naturalSide": "reves",
@@ -2997,6 +3086,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200308",
+        "fullName": "Clarissa Margherita Aima",
         "fipCountry": "ITA",
         "fipRank": 90,
         "fipPoints": 558,
@@ -3021,7 +3111,7 @@
     },
     {
       "id": "P000483",
-      "name": "Sara Ruiz Soto",
+      "name": "Sara Ruiz",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3030,6 +3120,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000483",
+        "fullName": "Sara Ruiz Soto",
         "fipCountry": "ESP",
         "fipRank": 91,
         "fipPoints": 541,
@@ -3054,7 +3145,7 @@
     },
     {
       "id": "P000490",
-      "name": "Esther Carnicero Martin",
+      "name": "Esther Carnicero",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3063,6 +3154,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000490",
+        "fullName": "Esther Carnicero Martin",
         "fipCountry": "ESP",
         "fipRank": 92,
         "fipPoints": 509,
@@ -3087,7 +3179,7 @@
     },
     {
       "id": "P200102",
-      "name": "Ana Varo Ramos",
+      "name": "Ana Varo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3096,6 +3188,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200102",
+        "fullName": "Ana Varo Ramos",
         "fipCountry": "ESP",
         "fipRank": 93,
         "fipPoints": 507,
@@ -3129,6 +3222,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000467",
+        "fullName": "Emily Stellato",
         "fipCountry": "ITA",
         "fipRank": 94,
         "fipPoints": 497,
@@ -3153,7 +3247,7 @@
     },
     {
       "id": "P200079",
-      "name": "Lucia Perez Parra",
+      "name": "Lucia Perez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3162,6 +3256,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200079",
+        "fullName": "Lucia Perez Parra",
         "fipCountry": "ESP",
         "fipRank": 95,
         "fipPoints": 496,
@@ -3196,6 +3291,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201837",
+        "fullName": "Aimee Gibson",
         "fipCountry": "GBR",
         "fipRank": 96,
         "fipPoints": 494,
@@ -3230,6 +3326,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200728",
+        "fullName": "Catherine Rose",
         "fipCountry": "GBR",
         "fipRank": 97,
         "fipPoints": 493,
@@ -3254,7 +3351,7 @@
     },
     {
       "id": "P200049",
-      "name": "Xenia Clasca Vidiella",
+      "name": "Xenia Clasca",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3263,6 +3360,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200049",
+        "fullName": "Xenia Clasca Vidiella",
         "fipCountry": "ESP",
         "fipRank": 98,
         "fipPoints": 489,
@@ -3296,6 +3394,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000536",
+        "fullName": "Giulia Sussarello",
         "fipCountry": "ITA",
         "fipRank": 99,
         "fipPoints": 481,
@@ -3320,7 +3419,7 @@
     },
     {
       "id": "P200129",
-      "name": "Aitana Garcia Roman",
+      "name": "Aitana Garcia",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3329,6 +3428,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200129",
+        "fullName": "Aitana Garcia Roman",
         "fipCountry": "ESP",
         "fipRank": 100,
         "fipPoints": 477,
@@ -3353,7 +3453,7 @@
     },
     {
       "id": "P200190",
-      "name": "Lucia Micaela Fernandez Lopez",
+      "name": "Lucia Micaela",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3362,6 +3462,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200190",
+        "fullName": "Lucia Micaela Fernandez Lopez",
         "fipCountry": "ESP",
         "fipRank": 101,
         "fipPoints": 475,
@@ -3386,7 +3487,7 @@
     },
     {
       "id": "P200232",
-      "name": "Maria Teresa Moriñigo Gomez",
+      "name": "Maria Moriñigo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3395,6 +3496,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200232",
+        "fullName": "Maria Teresa Moriñigo Gomez",
         "fipCountry": "ESP",
         "fipRank": 102,
         "fipPoints": 471,
@@ -3419,7 +3521,7 @@
     },
     {
       "id": "P200261",
-      "name": "Ainize Santamaria Landa",
+      "name": "Ainize Santamaria",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3428,6 +3530,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200261",
+        "fullName": "Ainize Santamaria Landa",
         "fipCountry": "ESP",
         "fipRank": 103,
         "fipPoints": 467,
@@ -3461,6 +3564,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202112",
+        "fullName": "Bo Luttikhuis",
         "fipCountry": "NED",
         "fipRank": 104,
         "fipPoints": 465,
@@ -3485,7 +3589,7 @@
     },
     {
       "id": "P202472",
-      "name": "Blanca Arriola Cerrejon",
+      "name": "Blanca Arriola",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3494,6 +3598,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202472",
+        "fullName": "Blanca Arriola Cerrejon",
         "fipCountry": "ESP",
         "fipRank": 105,
         "fipPoints": 452,
@@ -3518,7 +3623,7 @@
     },
     {
       "id": "P200087",
-      "name": "Eugenia Guimet Bigas",
+      "name": "Eugenia Guimet",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3527,6 +3632,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200087",
+        "fullName": "Eugenia Guimet Bigas",
         "fipCountry": "ESP",
         "fipRank": 106,
         "fipPoints": 451,
@@ -3560,6 +3666,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000486",
+        "fullName": "Martina Parmigiani",
         "fipCountry": "ITA",
         "fipRank": 107,
         "fipPoints": 432,
@@ -3584,7 +3691,7 @@
     },
     {
       "id": "P000475",
-      "name": "Carmen Castillon Gamez",
+      "name": "Carmen Castillon",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3593,6 +3700,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000475",
+        "fullName": "Carmen Castillon Gamez",
         "fipCountry": "ESP",
         "fipRank": 108,
         "fipPoints": 415,
@@ -3617,7 +3725,7 @@
     },
     {
       "id": "P200235",
-      "name": "Alba Gallardo Salvado",
+      "name": "Alba Gallardo",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3626,6 +3734,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200235",
+        "fullName": "Alba Gallardo Salvado",
         "fipCountry": "ESP",
         "fipRank": 108,
         "fipPoints": 415,
@@ -3659,6 +3768,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200674",
+        "fullName": "Janine Hemmes",
         "fipCountry": "NED",
         "fipRank": 110,
         "fipPoints": 412,
@@ -3683,7 +3793,7 @@
     },
     {
       "id": "P200163",
-      "name": "Ana Cristina Sanchez Perez",
+      "name": "Ana Sanchez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3692,6 +3802,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200163",
+        "fullName": "Ana Cristina Sanchez Perez",
         "fipCountry": "ESP",
         "fipRank": 111,
         "fipPoints": 411,
@@ -3716,7 +3827,7 @@
     },
     {
       "id": "P200236",
-      "name": "Catarina Santos Domingos",
+      "name": "Catarina Santos",
       "country": "PT",
       "tour": "women",
       "naturalSide": "drive",
@@ -3725,6 +3836,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200236",
+        "fullName": "Catarina Santos Domingos",
         "fipCountry": "POR",
         "fipRank": 112,
         "fipPoints": 387,
@@ -3758,6 +3870,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200921",
+        "fullName": "Clarinha Santos",
         "fipCountry": "POR",
         "fipRank": 113,
         "fipPoints": 385,
@@ -3782,7 +3895,7 @@
     },
     {
       "id": "P200166",
-      "name": "Patricia Araus Lopez",
+      "name": "Patricia Araus",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3791,6 +3904,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200166",
+        "fullName": "Patricia Araus Lopez",
         "fipCountry": "ESP",
         "fipRank": 114,
         "fipPoints": 384,
@@ -3815,7 +3929,7 @@
     },
     {
       "id": "P202025",
-      "name": "Jimena Diaz De La Iglesia",
+      "name": "Jimena De La",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3824,6 +3938,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202025",
+        "fullName": "Jimena Diaz De La Iglesia",
         "fipCountry": "ESP",
         "fipRank": 114,
         "fipPoints": 384,
@@ -3857,6 +3972,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202137",
+        "fullName": "Louise Bahurel",
         "fipCountry": "FRA",
         "fipRank": 116,
         "fipPoints": 364,
@@ -3881,7 +3997,7 @@
     },
     {
       "id": "P200222",
-      "name": "Natalia Molinilla Paniagua",
+      "name": "Natalia Molinilla",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -3890,6 +4006,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200222",
+        "fullName": "Natalia Molinilla Paniagua",
         "fipCountry": "ESP",
         "fipRank": 117,
         "fipPoints": 360,
@@ -3914,7 +4031,7 @@
     },
     {
       "id": "P202394",
-      "name": "Alba Vazquez Gracia",
+      "name": "Alba Vazquez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -3923,6 +4040,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202394",
+        "fullName": "Alba Vazquez Gracia",
         "fipCountry": "ESP",
         "fipRank": 118,
         "fipPoints": 354,
@@ -3956,6 +4074,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000480",
+        "fullName": "Elsa Terranova",
         "fipCountry": "ITA",
         "fipRank": 119,
         "fipPoints": 350,
@@ -3989,6 +4108,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201968",
+        "fullName": "Dora Chamli",
         "fipCountry": "TUN",
         "fipRank": 120,
         "fipPoints": 337,
@@ -4013,7 +4133,7 @@
     },
     {
       "id": "P205711",
-      "name": "Maria Delgado Medina",
+      "name": "Maria Delgado",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -4022,6 +4142,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205711",
+        "fullName": "Maria Delgado Medina",
         "fipCountry": "ESP",
         "fipRank": 121,
         "fipPoints": 329,
@@ -4046,7 +4167,7 @@
     },
     {
       "id": "P000464",
-      "name": "Manuela Schuck Silva",
+      "name": "Manuela Schuck",
       "country": "BR",
       "tour": "women",
       "naturalSide": "reves",
@@ -4055,6 +4176,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000464",
+        "fullName": "Manuela Schuck Silva",
         "fipCountry": "BRA",
         "fipRank": 122,
         "fipPoints": 325,
@@ -4089,6 +4211,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000495",
+        "fullName": "Giorgia Rosi",
         "fipCountry": "ITA",
         "fipRank": 122,
         "fipPoints": 325,
@@ -4122,6 +4245,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202126",
+        "fullName": "Kotomi Ozawa",
         "fipCountry": "JPN",
         "fipRank": 124,
         "fipPoints": 323,
@@ -4146,7 +4270,7 @@
     },
     {
       "id": "P204148",
-      "name": "Claudia Ordoñez Romero",
+      "name": "Claudia Ordoñez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -4155,6 +4279,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204148",
+        "fullName": "Claudia Ordoñez Romero",
         "fipCountry": "ESP",
         "fipRank": 125,
         "fipPoints": 319,
@@ -4179,7 +4304,7 @@
     },
     {
       "id": "P200279",
-      "name": "Ivet Val Lopez",
+      "name": "Ivet Val",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -4188,6 +4313,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200279",
+        "fullName": "Ivet Val Lopez",
         "fipCountry": "ESP",
         "fipRank": 126,
         "fipPoints": 315,
@@ -4212,7 +4338,7 @@
     },
     {
       "id": "P200127",
-      "name": "Valeria Atencia Basilio",
+      "name": "Valeria Atencia",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -4221,6 +4347,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200127",
+        "fullName": "Valeria Atencia Basilio",
         "fipCountry": "ESP",
         "fipRank": 127,
         "fipPoints": 312,
@@ -4254,6 +4381,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200097",
+        "fullName": "Margarida Fernandes",
         "fipCountry": "POR",
         "fipRank": 128,
         "fipPoints": 310,
@@ -4287,6 +4415,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200492",
+        "fullName": "Angelina Neizvestnaya",
         "fipCountry": "RUS",
         "fipRank": 129,
         "fipPoints": 308,
@@ -4320,6 +4449,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200920",
+        "fullName": "Constança Gorito",
         "fipCountry": "POR",
         "fipRank": 130,
         "fipPoints": 303,
@@ -4344,7 +4474,7 @@
     },
     {
       "id": "P200157",
-      "name": "Mafalda Marques Fernandes",
+      "name": "Mafalda Marques",
       "country": "PT",
       "tour": "women",
       "naturalSide": "drive",
@@ -4353,6 +4483,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200157",
+        "fullName": "Mafalda Marques Fernandes",
         "fipCountry": "POR",
         "fipRank": 131,
         "fipPoints": 295,
@@ -4386,6 +4517,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202585",
+        "fullName": "Alexandra Silva",
         "fipCountry": "POR",
         "fipRank": 132,
         "fipPoints": 287,
@@ -4410,7 +4542,7 @@
     },
     {
       "id": "P204113",
-      "name": "Daniela Portilla Gomez",
+      "name": "Daniela Portilla",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -4419,6 +4551,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204113",
+        "fullName": "Daniela Portilla Gomez",
         "fipCountry": "ESP",
         "fipRank": 133,
         "fipPoints": 285,
@@ -4452,6 +4585,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204388",
+        "fullName": "Anastasiia Ryzhova",
         "fipCountry": "RUS",
         "fipRank": 134,
         "fipPoints": 282,
@@ -4485,6 +4619,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201986",
+        "fullName": "Camille Sireix",
         "fipCountry": "FRA",
         "fipRank": 135,
         "fipPoints": 279,
@@ -4518,6 +4653,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205265",
+        "fullName": "Paula Ferrán",
         "fipCountry": "ESP",
         "fipRank": 136,
         "fipPoints": 277,
@@ -4542,7 +4678,7 @@
     },
     {
       "id": "P200090",
-      "name": "Patricia Maria Ribeiro",
+      "name": "Patricia Ribeiro",
       "country": "PT",
       "tour": "women",
       "naturalSide": "reves",
@@ -4551,6 +4687,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200090",
+        "fullName": "Patricia Maria Ribeiro",
         "fipCountry": "POR",
         "fipRank": 137,
         "fipPoints": 275,
@@ -4575,7 +4712,7 @@
     },
     {
       "id": "P200188",
-      "name": "Tia Louisa Norton",
+      "name": "Tia Louisa",
       "country": "GB",
       "tour": "women",
       "naturalSide": "drive",
@@ -4584,6 +4721,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200188",
+        "fullName": "Tia Louisa Norton",
         "fipCountry": "GBR",
         "fipRank": 138,
         "fipPoints": 274,
@@ -4617,6 +4755,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200260",
+        "fullName": "Stephanie Weterings",
         "fipCountry": "NED",
         "fipRank": 139,
         "fipPoints": 273,
@@ -4641,7 +4780,7 @@
     },
     {
       "id": "P200230",
-      "name": "Carla Fito Fernandez",
+      "name": "Carla Fito",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -4650,6 +4789,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200230",
+        "fullName": "Carla Fito Fernandez",
         "fipCountry": "ESP",
         "fipRank": 140,
         "fipPoints": 271,
@@ -4683,6 +4823,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202212",
+        "fullName": "Dora Andrejszki",
         "fipCountry": "HUN",
         "fipRank": 141,
         "fipPoints": 268,
@@ -4716,6 +4857,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000493",
+        "fullName": "Marianela Montesi",
         "fipCountry": "ITA",
         "fipRank": 142,
         "fipPoints": 265,
@@ -4740,7 +4882,7 @@
     },
     {
       "id": "P200170",
-      "name": "Bruna Albuquerque Melo",
+      "name": "Bruna Albuquerque",
       "country": "PT",
       "tour": "women",
       "naturalSide": "drive",
@@ -4749,6 +4891,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200170",
+        "fullName": "Bruna Albuquerque Melo",
         "fipCountry": "POR",
         "fipRank": 143,
         "fipPoints": 261,
@@ -4782,6 +4925,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201786",
+        "fullName": "Kae Tokumoto",
         "fipCountry": "JPN",
         "fipRank": 143,
         "fipPoints": 261,
@@ -4815,6 +4959,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200505",
+        "fullName": "Steffi Merah",
         "fipCountry": "FRA",
         "fipRank": 145,
         "fipPoints": 254,
@@ -4848,6 +4993,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202488",
+        "fullName": "Camilla Livioni",
         "fipCountry": "ITA",
         "fipRank": 146,
         "fipPoints": 253,
@@ -4872,7 +5018,7 @@
     },
     {
       "id": "P201788",
-      "name": "Sara Foguer Lapuente",
+      "name": "Sara Foguer",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -4881,6 +5027,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201788",
+        "fullName": "Sara Foguer Lapuente",
         "fipCountry": "ESP",
         "fipRank": 147,
         "fipPoints": 247,
@@ -4905,7 +5052,7 @@
     },
     {
       "id": "P203522",
-      "name": "Maria Arteaga Vilches",
+      "name": "Maria Arteaga",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -4914,6 +5061,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203522",
+        "fullName": "Maria Arteaga Vilches",
         "fipCountry": "ESP",
         "fipRank": 148,
         "fipPoints": 242,
@@ -4947,6 +5095,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200691",
+        "fullName": "Justine Pysson",
         "fipCountry": "BEL",
         "fipRank": 149,
         "fipPoints": 238,
@@ -4971,7 +5120,7 @@
     },
     {
       "id": "P200671",
-      "name": "Rosalie Van Der Hoek",
+      "name": "Rosalie Van Der",
       "country": "NL",
       "tour": "women",
       "naturalSide": "drive",
@@ -4980,6 +5129,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200671",
+        "fullName": "Rosalie Van Der Hoek",
         "fipCountry": "NED",
         "fipRank": 150,
         "fipPoints": 234,
@@ -5005,7 +5155,7 @@
     },
     {
       "id": "P203078",
-      "name": "Susana Martin Marin",
+      "name": "Susana Marin",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -5014,6 +5164,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203078",
+        "fullName": "Susana Martin Marin",
         "fipCountry": "ESP",
         "fipRank": 150,
         "fipPoints": 234,
@@ -5038,7 +5189,7 @@
     },
     {
       "id": "P000487",
-      "name": "Cristina Carrascosa Cazorla",
+      "name": "Cristina Carrascosa",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -5047,6 +5198,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000487",
+        "fullName": "Cristina Carrascosa Cazorla",
         "fipCountry": "ESP",
         "fipRank": 152,
         "fipPoints": 229,
@@ -5080,6 +5232,7 @@
       "isReal": true,
       "source": {
         "fipId": "P002036",
+        "fullName": "Maaike Betz",
         "fipCountry": "NED",
         "fipRank": 152,
         "fipPoints": 229,
@@ -5113,6 +5266,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204647",
+        "fullName": "Yoshino Kushima",
         "fipCountry": "JPN",
         "fipRank": 154,
         "fipPoints": 228,
@@ -5137,7 +5291,7 @@
     },
     {
       "id": "P000481",
-      "name": "Lorena Alonso De Lera",
+      "name": "Lorena De Lera",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -5146,6 +5300,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000481",
+        "fullName": "Lorena Alonso De Lera",
         "fipCountry": "ESP",
         "fipRank": 155,
         "fipPoints": 227,
@@ -5179,6 +5334,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200128",
+        "fullName": "Melissa Martin",
         "fipCountry": "FRA",
         "fipRank": 155,
         "fipPoints": 227,
@@ -5212,6 +5368,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205180",
+        "fullName": "Nika Sluzhiteleva",
         "fipCountry": "RUS",
         "fipRank": 155,
         "fipPoints": 227,
@@ -5245,6 +5402,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000449",
+        "fullName": "Anna Cortiles",
         "fipCountry": "ESP",
         "fipRank": 158,
         "fipPoints": 225,
@@ -5278,6 +5436,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205747",
+        "fullName": "Daria Kucheriavaia",
         "fipCountry": "RUS",
         "fipRank": 159,
         "fipPoints": 220,
@@ -5311,6 +5470,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000460",
+        "fullName": "Francesca Ligotti",
         "fipCountry": "ITA",
         "fipRank": 160,
         "fipPoints": 219,
@@ -5335,7 +5495,7 @@
     },
     {
       "id": "P206165",
-      "name": "Martina Vera Cebollero",
+      "name": "Martina Vera",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -5344,6 +5504,7 @@
       "isReal": true,
       "source": {
         "fipId": "P206165",
+        "fullName": "Martina Vera Cebollero",
         "fipCountry": "ESP",
         "fipRank": 161,
         "fipPoints": 217,
@@ -5368,7 +5529,7 @@
     },
     {
       "id": "P201961",
-      "name": "Cayetana Sanchez Vera",
+      "name": "Cayetana Sanchez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -5377,6 +5538,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201961",
+        "fullName": "Cayetana Sanchez Vera",
         "fipCountry": "ESP",
         "fipRank": 162,
         "fipPoints": 214,
@@ -5401,7 +5563,7 @@
     },
     {
       "id": "P200299",
-      "name": "Carmen Azcoitia Mazo",
+      "name": "Carmen Azcoitia",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -5410,6 +5572,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200299",
+        "fullName": "Carmen Azcoitia Mazo",
         "fipCountry": "ESP",
         "fipRank": 163,
         "fipPoints": 213,
@@ -5434,7 +5597,7 @@
     },
     {
       "id": "P201794",
-      "name": "Lucia Dionisio Laureano",
+      "name": "Lucia Dionisio",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -5443,6 +5606,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201794",
+        "fullName": "Lucia Dionisio Laureano",
         "fipCountry": "ESP",
         "fipRank": 164,
         "fipPoints": 212,
@@ -5476,6 +5640,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200678",
+        "fullName": "Liza Groenveld",
         "fipCountry": "NED",
         "fipRank": 165,
         "fipPoints": 211,
@@ -5509,6 +5674,7 @@
       "isReal": true,
       "source": {
         "fipId": "P002021",
+        "fullName": "Tess De Vocht",
         "fipCountry": "NED",
         "fipRank": 166,
         "fipPoints": 206,
@@ -5542,6 +5708,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202070",
+        "fullName": "Claudia Gaspar",
         "fipCountry": "POR",
         "fipRank": 167,
         "fipPoints": 194,
@@ -5566,7 +5733,7 @@
     },
     {
       "id": "P202289",
-      "name": "Coral Alvarez Castro",
+      "name": "Coral Alvarez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -5575,6 +5742,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202289",
+        "fullName": "Coral Alvarez Castro",
         "fipCountry": "ESP",
         "fipRank": 167,
         "fipPoints": 194,
@@ -5608,6 +5776,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200706",
+        "fullName": "Elyne Boeykens",
         "fipCountry": "BEL",
         "fipRank": 169,
         "fipPoints": 193,
@@ -5641,6 +5810,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204769",
+        "fullName": "Matilde Minelli",
         "fipCountry": "ITA",
         "fipRank": 170,
         "fipPoints": 192,
@@ -5674,6 +5844,7 @@
       "isReal": true,
       "source": {
         "fipId": "P002022",
+        "fullName": "Puck Bernard",
         "fipCountry": "NED",
         "fipRank": 171,
         "fipPoints": 189,
@@ -5698,7 +5869,7 @@
     },
     {
       "id": "P200091",
-      "name": "Ana Maria Cabrejas Ruiz",
+      "name": "Ana Cabrejas",
       "country": "MX",
       "tour": "women",
       "naturalSide": "reves",
@@ -5707,6 +5878,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200091",
+        "fullName": "Ana Maria Cabrejas Ruiz",
         "fipCountry": "MEX",
         "fipRank": 172,
         "fipPoints": 188,
@@ -5731,7 +5903,7 @@
     },
     {
       "id": "P201985",
-      "name": "Marie Amelie Dardaine",
+      "name": "Marie Amelie",
       "country": "FR",
       "tour": "women",
       "naturalSide": "drive",
@@ -5740,6 +5912,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201985",
+        "fullName": "Marie Amelie Dardaine",
         "fipCountry": "FRA",
         "fipRank": 172,
         "fipPoints": 188,
@@ -5773,6 +5946,7 @@
       "isReal": true,
       "source": {
         "fipId": "P206161",
+        "fullName": "Vilena Petrova",
         "fipCountry": "RUS",
         "fipRank": 174,
         "fipPoints": 187,
@@ -5806,6 +5980,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200937",
+        "fullName": "Maria Garin",
         "fipCountry": "POR",
         "fipRank": 175,
         "fipPoints": 185,
@@ -5839,6 +6014,7 @@
       "isReal": true,
       "source": {
         "fipId": "P206758",
+        "fullName": "Christina-Styliani Ntanou",
         "fipCountry": "GRE",
         "fipRank": 175,
         "fipPoints": 185,
@@ -5872,6 +6048,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203271",
+        "fullName": "Manon Marcarie",
         "fipCountry": "FRA",
         "fipRank": 177,
         "fipPoints": 184,
@@ -5905,6 +6082,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205021",
+        "fullName": "Novela Putria",
         "fipCountry": "INA",
         "fipRank": 178,
         "fipPoints": 180,
@@ -5929,7 +6107,7 @@
     },
     {
       "id": "P200713",
-      "name": "Lisa Rachel Phillips",
+      "name": "Lisa Rachel",
       "country": "GB",
       "tour": "women",
       "naturalSide": "drive",
@@ -5938,6 +6116,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200713",
+        "fullName": "Lisa Rachel Phillips",
         "fipCountry": "GBR",
         "fipRank": 179,
         "fipPoints": 174,
@@ -5971,6 +6150,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204852",
+        "fullName": "Alena Vasileva",
         "fipCountry": "RUS",
         "fipRank": 180,
         "fipPoints": 171,
@@ -5995,7 +6175,7 @@
     },
     {
       "id": "P205404",
-      "name": "Nerea Gomez Blasquez",
+      "name": "Nerea Gomez",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -6004,6 +6184,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205404",
+        "fullName": "Nerea Gomez Blasquez",
         "fipCountry": "ESP",
         "fipRank": 180,
         "fipPoints": 171,
@@ -6037,6 +6218,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205209",
+        "fullName": "Kimy Barla",
         "fipCountry": "FRA",
         "fipRank": 182,
         "fipPoints": 166,
@@ -6061,7 +6243,7 @@
     },
     {
       "id": "P200877",
-      "name": "Teresa Casero De La Casa",
+      "name": "Teresa De La",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -6070,6 +6252,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200877",
+        "fullName": "Teresa Casero De La Casa",
         "fipCountry": "ESP",
         "fipRank": 183,
         "fipPoints": 162,
@@ -6094,7 +6277,7 @@
     },
     {
       "id": "P200941",
-      "name": "Ainhoa Navarro Fernandez",
+      "name": "Ainhoa Navarro",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -6103,6 +6286,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200941",
+        "fullName": "Ainhoa Navarro Fernandez",
         "fipCountry": "ESP",
         "fipRank": 184,
         "fipPoints": 159,
@@ -6136,6 +6320,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201781",
+        "fullName": "Laura Buteau",
         "fipCountry": "FRA",
         "fipRank": 185,
         "fipPoints": 158,
@@ -6169,6 +6354,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203648",
+        "fullName": "Luna Di Battista",
         "fipCountry": "ITA",
         "fipRank": 186,
         "fipPoints": 155,
@@ -6193,7 +6379,7 @@
     },
     {
       "id": "P200668",
-      "name": "Renata Martinez Becerra",
+      "name": "Renata Martinez",
       "country": "MX",
       "tour": "women",
       "naturalSide": "drive",
@@ -6202,6 +6388,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200668",
+        "fullName": "Renata Martinez Becerra",
         "fipCountry": "MEX",
         "fipRank": 187,
         "fipPoints": 153,
@@ -6226,7 +6413,7 @@
     },
     {
       "id": "P201987",
-      "name": "Leire Uriarte Medina",
+      "name": "Leire Uriarte",
       "country": "ES",
       "tour": "women",
       "naturalSide": "reves",
@@ -6235,6 +6422,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201987",
+        "fullName": "Leire Uriarte Medina",
         "fipCountry": "ESP",
         "fipRank": 187,
         "fipPoints": 153,
@@ -6259,7 +6447,7 @@
     },
     {
       "id": "P206185",
-      "name": "Mar Munera Vila",
+      "name": "Mar Munera",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -6268,6 +6456,7 @@
       "isReal": true,
       "source": {
         "fipId": "P206185",
+        "fullName": "Mar Munera Vila",
         "fipCountry": "ESP",
         "fipRank": 187,
         "fipPoints": 153,
@@ -6301,6 +6490,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203440",
+        "fullName": "Jessica Palma",
         "fipCountry": "VEN",
         "fipRank": 190,
         "fipPoints": 152,
@@ -6334,6 +6524,7 @@
       "isReal": true,
       "source": {
         "fipId": "P206128",
+        "fullName": "Vlada Kutuzova",
         "fipCountry": "RUS",
         "fipRank": 190,
         "fipPoints": 152,
@@ -6358,7 +6549,7 @@
     },
     {
       "id": "P205204",
-      "name": "Lou Lambert Agosti",
+      "name": "Lou Lambert",
       "country": "FR",
       "tour": "women",
       "naturalSide": "reves",
@@ -6367,6 +6558,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205204",
+        "fullName": "Lou Lambert Agosti",
         "fipCountry": "FRA",
         "fipRank": 192,
         "fipPoints": 150,
@@ -6400,6 +6592,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202123",
+        "fullName": "Chifumi Sato",
         "fipCountry": "JPN",
         "fipRank": 193,
         "fipPoints": 149,
@@ -6433,6 +6626,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203000",
+        "fullName": "Aurora Buscaino",
         "fipCountry": "ITA",
         "fipRank": 193,
         "fipPoints": 149,
@@ -6466,6 +6660,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200010",
+        "fullName": "Marta Marrero",
         "fipCountry": "ESP",
         "fipRank": 195,
         "fipPoints": 148,
@@ -6500,6 +6695,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201787",
+        "fullName": "Saki Tsukamoto",
         "fipCountry": "JPN",
         "fipRank": 196,
         "fipPoints": 146,
@@ -6524,7 +6720,7 @@
     },
     {
       "id": "P203888",
-      "name": "Vega Cano Ortin",
+      "name": "Vega Cano",
       "country": "ES",
       "tour": "women",
       "naturalSide": "drive",
@@ -6533,6 +6729,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203888",
+        "fullName": "Vega Cano Ortin",
         "fipCountry": "ESP",
         "fipRank": 197,
         "fipPoints": 144,
@@ -6566,6 +6763,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203250",
+        "fullName": "Ekaterina Nikitina",
         "fipCountry": "RUS",
         "fipRank": 198,
         "fipPoints": 143,
@@ -6599,6 +6797,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202341",
+        "fullName": "Martina Minetti",
         "fipCountry": "FIN",
         "fipRank": 199,
         "fipPoints": 142,
@@ -6632,6 +6831,7 @@
       "isReal": true,
       "source": {
         "fipId": "P200084",
+        "fullName": "Helena Wyckaert",
         "fipCountry": "BEL",
         "fipRank": 200,
         "fipPoints": 139,

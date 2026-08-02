@@ -148,6 +148,12 @@ describe("every key the engine emits is translated", () => {
     // in the catalog above.
     const runtimeKeys = [
       "events.drop_down.description_money",
+      ...[
+        "first_title", "title", "runner_up", "world_number_one", "reached_top",
+        "rival_passed", "rival_lost", "qualifying_woes", "lost_money",
+        "climbed", "slipped", "nothing_to_show", "banned",
+      ].map((k) => `season.highlight.${k}`),
+      "season.recap",
       "events.partner_market.title",
       "events.partner_market.description",
       "events.partner_market.title_dumped",

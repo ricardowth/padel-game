@@ -38,7 +38,87 @@ const SNAPSHOT_YEAR = 2026;
 const AGE_REFERENCE = new Date(`${SNAPSHOT_YEAR}-07-01T00:00:00Z`);
 
 const SENIOR_POOL_SIZE = 200;
-const PROMISE_POOL_SIZE = 50;
+/**
+ * NextGen intake. FIP's under-16/under-18 ladders carry 300+ unique juniors per
+ * tour, and a 19-season career burns through names fast — a bigger promise pool
+ * means the late-career tour is still full of real people rather than regens.
+ */
+const PROMISE_POOL_SIZE = 140;
+
+/**
+ * Tokens that begin a compound surname. When one appears, everything before it
+ * is a given name and it starts the surname: "Juan Ignacio De Pascual".
+ */
+const SURNAME_PARTICLES = new Set([
+  "de", "del", "da", "das", "do", "dos", "di", "dal", "della", "van", "von",
+  "der", "den", "la", "le", "el", "san", "santa", "mac", "mc", "bin", "al",
+]);
+
+/**
+ * Common given names that show up as a *second* forename. Spanish and Portuguese
+ * players routinely carry two, and without this list "Carlos Daniel Gutierrez"
+ * shortens to "Carlos Daniel" — a first name twice over, and no surname.
+ */
+const SECOND_FORENAMES = new Set([
+  "daniel", "gabriel", "jose", "josé", "maria", "maría", "juan", "luis", "carlos",
+  "manuel", "antonio", "francisco", "miguel", "agustin", "agustín", "enrique",
+  "rodrigo", "renato", "alejandro", "ignacio", "javier", "andres", "andrés",
+  "eduardo", "fernando", "alberto", "ricardo", "pablo", "pedro", "sergio",
+  "diego", "martin", "martín", "angel", "ángel", "ramon", "ramón", "jesus",
+  "jesús", "vicente", "emilio", "felipe", "gonzalo", "guillermo", "ivan", "iván",
+  "joaquin", "joaquín", "julian", "julián", "lucas", "mateo", "nicolas",
+  "nicolás", "oscar", "óscar", "raul", "raúl", "roberto", "salvador", "tomas",
+  "tomás", "victor", "víctor", "adrian", "adrián", "alonso", "esteban", "isabel",
+  "ana", "carmen", "pilar", "rosa", "teresa", "lucia", "lucía", "sofia", "sofía",
+  "paula", "laura", "marta", "elena", "cristina", "beatriz", "patricia",
+]);
+
+const isParticle = (token: string) => SURNAME_PARTICLES.has(token.toLowerCase());
+
+/** "G." or "G" — a middle initial, never the name anyone uses. */
+const isInitial = (token: string) => /^[A-Za-zÀ-ÿ]\.?$/.test(token);
+
+/**
+ * Shortens a full legal name to the one people actually use.
+ *
+ * FIP publishes names in full — "Mariano Agustin Gonzalez San Martin" — which is
+ * unreadable in a ledger cell and nothing like how the sport talks about its
+ * players. This keeps the first forename and the paternal surname:
+ *
+ *   Maximiliano Arce Simo        -> Maximiliano Arce
+ *   Carlos Daniel Gutierrez      -> Carlos Gutierrez
+ *   Juan Ignacio De Pascual      -> Juan De Pascual
+ *   Franco Renato Dal Bianco     -> Franco Dal Bianco
+ *   Arturo Coello                -> Arturo Coello   (already short)
+ */
+export function friendlyName(full: string): string {
+  const tokens = full.split(/\s+/).filter(Boolean);
+  if (tokens.length <= 2) return tokens.join(" ");
+
+  // A particle appearing early starts the surname outright, whatever sits in
+  // front of it: "Olivier Guy De Chamisso" is a De Chamisso. Later than that and
+  // it is usually the *maternal* surname ("... Gonzalez San Martin"), which is
+  // exactly the half we want to drop.
+  let i = [1, 2].find((k) => k < tokens.length - 1 && isParticle(tokens[k]!)) ?? -1;
+
+  if (i === -1) {
+    // No particle: walk past additional forenames and middle initials.
+    i = 1;
+    while (
+      i < tokens.length - 1 &&
+      (isInitial(tokens[i]!) || SECOND_FORENAMES.has(tokens[i]!.toLowerCase()))
+    ) {
+      i++;
+    }
+  }
+
+  // A particle takes the token after it with it ("De Pascual", "Dal Bianco").
+  const surname = isParticle(tokens[i]!)
+    ? tokens.slice(i, i + 2).join(" ")
+    : tokens[i]!;
+
+  return `${tokens[0]} ${surname}`;
+}
 
 /**
  * Rank -> OVR curve (§11: #1 ~ 95+, #200 ~ 60s).
@@ -153,6 +233,8 @@ function baseFields(row: RawRankingRow, profile: RawProfile | undefined, tour: T
   const playstyle = rng.weighted(PLAYSTYLES, PLAYSTYLE_WEIGHTS[naturalSide]);
   const height = profile?.height ? Number.parseFloat(profile.height) : NaN;
 
+  const fullName = `${row.name} ${row.surname}`.replace(/\s+/g, " ").trim();
+
   return {
     knownAge,
     knownSide,
@@ -160,7 +242,7 @@ function baseFields(row: RawRankingRow, profile: RawProfile | undefined, tour: T
     playstyle,
     common: {
       id: row.player_id,
-      name: `${row.name} ${row.surname}`.replace(/\s+/g, " ").trim(),
+      name: friendlyName(fullName),
       country: toIsoAlpha2(row.country_name),
       tour,
       naturalSide,
@@ -169,6 +251,8 @@ function baseFields(row: RawRankingRow, profile: RawProfile | undefined, tour: T
       isReal: true as const,
       source: {
         fipId: row.player_id,
+        /** As published by FIP, before shortening. */
+        fullName,
         fipCountry: row.country_name,
         fipRank: row.rank,
         fipPoints: row.points,

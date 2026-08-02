@@ -9,6 +9,7 @@ import { euro } from "../lib/ui/format";
 import { CareerLedger } from "./CareerLedger";
 import { DecisionPanel } from "./DecisionPanel";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { SeasonRecap } from "./SeasonRecap";
 import { Flag, Meter, OvrBadge, RatingPill, SideTag, StatCell } from "./ui/Pills";
 
 /**
@@ -41,6 +42,12 @@ export function CareerBoard({
   const ovrOf = (id: string) => world.players.get(id)?.ovr ?? 0;
 
   const effectiveOvr = careerEffectiveOvr(state);
+
+  // The recap belongs to the season that just closed, so it shows alongside the
+  // end-of-season cards and disappears once the next season is under way.
+  const showRecap =
+    pending?.timing === "end_of_season" ||
+    (resolution !== null && engine.lastSeason?.year === state.year);
   const partnerName = state.partnerId ? nameOf(state.partnerId) : null;
 
   return (
@@ -113,6 +120,8 @@ export function CareerBoard({
               <Meter label={t("morale")} value={state.morale} tone="var(--color-r3)" />
             </div>
           </section>
+
+          {showRecap && engine.lastSeason ? <SeasonRecap season={engine.lastSeason} /> : null}
 
           <DecisionPanel
             card={pending}

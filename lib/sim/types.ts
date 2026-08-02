@@ -3,6 +3,7 @@
  * the UI resolves keys against /messages/*.json (§13). Nothing in /lib/sim may
  * import React, Next, or a translation catalog.
  */
+import type { Highlight } from "./highlights";
 import type {
   Band,
   Category,
@@ -63,6 +64,8 @@ export interface TournamentEntry {
 /** What one simulated tournament did to the career. */
 export interface TournamentOutcome {
   tournamentId: string;
+  /** Display name, so a recap can name the event that was won. */
+  tournamentName: string;
   category: Category;
   band: Band;
   week: number;
@@ -104,6 +107,8 @@ export interface SeasonOutcome {
   rank: number;
   /** Keys for anything notable that happened, for the season recap. */
   noteKeys: string[];
+  /** At most three lines worth reading about the season just played. */
+  highlights: Highlight[];
 }
 
 /** ---- Decision events (§10) — data, not prose ---- */

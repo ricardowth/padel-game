@@ -19,6 +19,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000010",
+        "fullName": "Arturo Coello",
         "fipCountry": "ESP",
         "fipRank": 1,
         "fipPoints": 21266,
@@ -53,6 +54,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000285",
+        "fullName": "Agustin Tapia",
         "fipCountry": "ARG",
         "fipRank": 1,
         "fipPoints": 21266,
@@ -87,6 +89,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000001",
+        "fullName": "Alejandro Galan",
         "fipCountry": "ESP",
         "fipRank": 3,
         "fipPoints": 17351,
@@ -121,6 +124,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000007",
+        "fullName": "Federico Chingotto",
         "fipCountry": "ARG",
         "fipRank": 3,
         "fipPoints": 17351,
@@ -155,6 +159,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000002",
+        "fullName": "Juan Lebron",
         "fipCountry": "ESP",
         "fipRank": 5,
         "fipPoints": 8220,
@@ -189,6 +194,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101159",
+        "fullName": "Leandro Augsburger",
         "fipCountry": "ARG",
         "fipRank": 6,
         "fipPoints": 7471,
@@ -222,6 +228,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000005",
+        "fullName": "Franco Stupaczuk",
         "fipCountry": "ARG",
         "fipRank": 7,
         "fipPoints": 6840,
@@ -256,6 +263,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000018",
+        "fullName": "Miguel Yanguas",
         "fipCountry": "ESP",
         "fipRank": 8,
         "fipPoints": 6703,
@@ -289,6 +297,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000003",
+        "fullName": "Francisco Navarro",
         "fipCountry": "ESP",
         "fipRank": 9,
         "fipPoints": 5753,
@@ -323,6 +332,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000017",
+        "fullName": "Jorge Nieto",
         "fipCountry": "ESP",
         "fipRank": 10,
         "fipPoints": 5548,
@@ -356,6 +366,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000004",
+        "fullName": "Martin Di Nenno",
         "fipCountry": "ARG",
         "fipRank": 11,
         "fipPoints": 5131,
@@ -390,6 +401,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000038",
+        "fullName": "Jon Sanz",
         "fipCountry": "ESP",
         "fipRank": 12,
         "fipPoints": 5041,
@@ -423,6 +435,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000138",
+        "fullName": "Francisco Guerrero",
         "fipCountry": "ESP",
         "fipRank": 13,
         "fipPoints": 4586,
@@ -457,6 +470,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000011",
+        "fullName": "Jeronimo Gonzalez",
         "fipCountry": "ESP",
         "fipRank": 14,
         "fipPoints": 4371,
@@ -491,6 +505,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000036",
+        "fullName": "Lucas Bergamini",
         "fipCountry": "BRA",
         "fipRank": 15,
         "fipPoints": 3483,
@@ -525,6 +540,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000019",
+        "fullName": "Javier Leal",
         "fipCountry": "ESP",
         "fipRank": 16,
         "fipPoints": 3278,
@@ -558,6 +574,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000043",
+        "fullName": "Eduardo Alonso",
         "fipCountry": "ESP",
         "fipRank": 17,
         "fipPoints": 3256,
@@ -592,6 +609,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000015",
+        "fullName": "Lucas Campagnolo",
         "fipCountry": "BRA",
         "fipRank": 18,
         "fipPoints": 3226,
@@ -625,6 +643,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000016",
+        "fullName": "Javier Garrido",
         "fipCountry": "ESP",
         "fipRank": 19,
         "fipPoints": 3096,
@@ -659,6 +678,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000008",
+        "fullName": "Juan Tello",
         "fipCountry": "ARG",
         "fipRank": 20,
         "fipPoints": 3058,
@@ -693,6 +713,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000039",
+        "fullName": "Javier Garcia",
         "fipCountry": "ESP",
         "fipRank": 21,
         "fipPoints": 2538,
@@ -727,6 +748,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000012",
+        "fullName": "Alejandro Ruiz",
         "fipCountry": "ESP",
         "fipRank": 22,
         "fipPoints": 2491,
@@ -761,6 +783,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000086",
+        "fullName": "Jairo Bautista",
         "fipCountry": "ESP",
         "fipRank": 23,
         "fipPoints": 2396,
@@ -795,6 +818,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000051",
+        "fullName": "Javier Barahona",
         "fipCountry": "ESP",
         "fipRank": 24,
         "fipPoints": 2268,
@@ -820,7 +844,7 @@
     },
     {
       "id": "P203884",
-      "name": "Maximiliano Arce Simo",
+      "name": "Maximiliano Arce",
       "country": "AR",
       "tour": "men",
       "naturalSide": "drive",
@@ -829,6 +853,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203884",
+        "fullName": "Maximiliano Arce Simo",
         "fipCountry": "ARG",
         "fipRank": 25,
         "fipPoints": 2253,
@@ -863,6 +888,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000052",
+        "fullName": "Juanlu Esbri",
         "fipCountry": "ESP",
         "fipRank": 26,
         "fipPoints": 2220,
@@ -897,6 +923,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000030",
+        "fullName": "Alejandro Arroyo",
         "fipCountry": "ESP",
         "fipRank": 27,
         "fipPoints": 2211,
@@ -921,7 +948,7 @@
     },
     {
       "id": "P000291",
-      "name": "Carlos Daniel Gutierrez",
+      "name": "Carlos Gutierrez",
       "country": "AR",
       "tour": "men",
       "naturalSide": "drive",
@@ -930,6 +957,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000291",
+        "fullName": "Carlos Daniel Gutierrez",
         "fipCountry": "ARG",
         "fipRank": 28,
         "fipPoints": 2133,
@@ -955,7 +983,7 @@
     },
     {
       "id": "P201729",
-      "name": "Gonzalo Gabriel Alfonso",
+      "name": "Gonzalo Alfonso",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -964,6 +992,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201729",
+        "fullName": "Gonzalo Gabriel Alfonso",
         "fipCountry": "ARG",
         "fipRank": 29,
         "fipPoints": 2098,
@@ -997,6 +1026,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101580",
+        "fullName": "David Gala",
         "fipCountry": "ESP",
         "fipRank": 30,
         "fipPoints": 2071,
@@ -1022,7 +1052,7 @@
     },
     {
       "id": "P100957",
-      "name": "Leonel Daniel Aguirre",
+      "name": "Leonel Aguirre",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -1031,6 +1061,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100957",
+        "fullName": "Leonel Daniel Aguirre",
         "fipCountry": "ARG",
         "fipRank": 31,
         "fipPoints": 2068,
@@ -1064,6 +1095,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101157",
+        "fullName": "Alex Chozas",
         "fipCountry": "ARG",
         "fipRank": 32,
         "fipPoints": 2061,
@@ -1088,7 +1120,7 @@
     },
     {
       "id": "P000108",
-      "name": "Jose Jimenez Casas",
+      "name": "Jose Jimenez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -1097,6 +1129,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000108",
+        "fullName": "Jose Jimenez Casas",
         "fipCountry": "ESP",
         "fipRank": 33,
         "fipPoints": 2058,
@@ -1122,7 +1155,7 @@
     },
     {
       "id": "P100048",
-      "name": "Pol Hernandez Alvarez",
+      "name": "Pol Hernandez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -1131,6 +1164,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100048",
+        "fullName": "Pol Hernandez Alvarez",
         "fipCountry": "ESP",
         "fipRank": 34,
         "fipPoints": 1928,
@@ -1165,6 +1199,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000293",
+        "fullName": "Inigo Jofre",
         "fipCountry": "UAE",
         "fipRank": 35,
         "fipPoints": 1898,
@@ -1198,6 +1233,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101057",
+        "fullName": "Guillermo Collado",
         "fipCountry": "ESP",
         "fipRank": 36,
         "fipPoints": 1893,
@@ -1223,7 +1259,7 @@
     },
     {
       "id": "P101591",
-      "name": "Aimar Goñi Lacabe",
+      "name": "Aimar Goñi",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -1232,6 +1268,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101591",
+        "fullName": "Aimar Goñi Lacabe",
         "fipCountry": "ESP",
         "fipRank": 37,
         "fipPoints": 1872,
@@ -1256,7 +1293,7 @@
     },
     {
       "id": "P100983",
-      "name": "Maximiliano Sanchez Blasco",
+      "name": "Maximiliano Sanchez",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -1265,6 +1302,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100983",
+        "fullName": "Maximiliano Sanchez Blasco",
         "fipCountry": "ARG",
         "fipRank": 38,
         "fipPoints": 1760,
@@ -1298,6 +1336,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100030",
+        "fullName": "Pablo Garcia",
         "fipCountry": "ESP",
         "fipRank": 39,
         "fipPoints": 1670,
@@ -1323,7 +1362,7 @@
     },
     {
       "id": "P101158",
-      "name": "Valentino Gabriel Libaak",
+      "name": "Valentino Libaak",
       "country": "AR",
       "tour": "men",
       "naturalSide": "drive",
@@ -1332,6 +1371,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101158",
+        "fullName": "Valentino Gabriel Libaak",
         "fipCountry": "ARG",
         "fipRank": 40,
         "fipPoints": 1625,
@@ -1366,6 +1406,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000035",
+        "fullName": "Victor Ruiz",
         "fipCountry": "ESP",
         "fipRank": 41,
         "fipPoints": 1503,
@@ -1400,6 +1441,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000022",
+        "fullName": "Pablo Lijo",
         "fipCountry": "ESP",
         "fipRank": 42,
         "fipPoints": 1473,
@@ -1434,6 +1476,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000029",
+        "fullName": "Gonzalo Rubio",
         "fipCountry": "ESP",
         "fipRank": 43,
         "fipPoints": 1448,
@@ -1458,7 +1501,7 @@
     },
     {
       "id": "P000032",
-      "name": "Jose Antonio Diestro",
+      "name": "Jose Diestro",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -1467,6 +1510,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000032",
+        "fullName": "Jose Antonio Diestro",
         "fipCountry": "ESP",
         "fipRank": 43,
         "fipPoints": 1448,
@@ -1500,6 +1544,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000021",
+        "fullName": "Javier Ruiz",
         "fipCountry": "ESP",
         "fipRank": 45,
         "fipPoints": 1409,
@@ -1524,7 +1569,7 @@
     },
     {
       "id": "P101734",
-      "name": "Luis Hernandez Quesada",
+      "name": "Luis Hernandez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -1533,6 +1578,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101734",
+        "fullName": "Luis Hernandez Quesada",
         "fipCountry": "ESP",
         "fipRank": 46,
         "fipPoints": 1285,
@@ -1558,7 +1604,7 @@
     },
     {
       "id": "P000107",
-      "name": "Ignacio Piotto Albornoz",
+      "name": "Ignacio Piotto",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -1567,6 +1613,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000107",
+        "fullName": "Ignacio Piotto Albornoz",
         "fipCountry": "ARG",
         "fipRank": 47,
         "fipPoints": 1264,
@@ -1591,7 +1638,7 @@
     },
     {
       "id": "P101627",
-      "name": "Enzo Jensen Sirvent",
+      "name": "Enzo Jensen",
       "country": "IT",
       "tour": "men",
       "naturalSide": "reves",
@@ -1600,6 +1647,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101627",
+        "fullName": "Enzo Jensen Sirvent",
         "fipCountry": "ITA",
         "fipRank": 48,
         "fipPoints": 1253,
@@ -1624,7 +1672,7 @@
     },
     {
       "id": "P100037",
-      "name": "Alonso Rodriguez Martinez",
+      "name": "Alonso Rodriguez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -1633,6 +1681,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100037",
+        "fullName": "Alonso Rodriguez Martinez",
         "fipCountry": "ESP",
         "fipRank": 49,
         "fipPoints": 1221,
@@ -1658,7 +1707,7 @@
     },
     {
       "id": "P101160",
-      "name": "Juan Ignacio De Pascual",
+      "name": "Juan De Pascual",
       "country": "AR",
       "tour": "men",
       "naturalSide": "drive",
@@ -1667,6 +1716,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101160",
+        "fullName": "Juan Ignacio De Pascual",
         "fipCountry": "ARG",
         "fipRank": 50,
         "fipPoints": 1217,
@@ -1700,6 +1750,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000060",
+        "fullName": "Alvaro Cepero",
         "fipCountry": "ESP",
         "fipRank": 51,
         "fipPoints": 1196,
@@ -1734,6 +1785,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000072",
+        "fullName": "Javier Martinez",
         "fipCountry": "ESP",
         "fipRank": 52,
         "fipPoints": 1170,
@@ -1759,7 +1811,7 @@
     },
     {
       "id": "P100003",
-      "name": "Marc Sintes Villalonga",
+      "name": "Marc Sintes",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -1768,6 +1820,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100003",
+        "fullName": "Marc Sintes Villalonga",
         "fipCountry": "ESP",
         "fipRank": 53,
         "fipPoints": 1133,
@@ -1801,6 +1854,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000085",
+        "fullName": "Enrique Goenaga",
         "fipCountry": "ESP",
         "fipRank": 54,
         "fipPoints": 1093,
@@ -1826,7 +1880,7 @@
     },
     {
       "id": "P000023",
-      "name": "Francisco Manuel Gil",
+      "name": "Francisco Gil",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -1835,6 +1889,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000023",
+        "fullName": "Francisco Manuel Gil",
         "fipCountry": "ESP",
         "fipRank": 55,
         "fipPoints": 1092,
@@ -1868,6 +1923,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000041",
+        "fullName": "Mario Del Castillo",
         "fipCountry": "ESP",
         "fipRank": 56,
         "fipPoints": 1083,
@@ -1892,7 +1948,7 @@
     },
     {
       "id": "P201731",
-      "name": "Manuel Castaño Salguero",
+      "name": "Manuel Castaño",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -1901,6 +1957,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201731",
+        "fullName": "Manuel Castaño Salguero",
         "fipCountry": "ESP",
         "fipRank": 57,
         "fipPoints": 1079,
@@ -1926,7 +1983,7 @@
     },
     {
       "id": "P000062",
-      "name": "Denis Tomas Perino",
+      "name": "Denis Perino",
       "country": "IT",
       "tour": "men",
       "naturalSide": "reves",
@@ -1935,6 +1992,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000062",
+        "fullName": "Denis Tomas Perino",
         "fipCountry": "ITA",
         "fipRank": 58,
         "fipPoints": 1068,
@@ -1959,7 +2017,7 @@
     },
     {
       "id": "P100879",
-      "name": "Eduardo Agustin Torre",
+      "name": "Eduardo Torre",
       "country": "AR",
       "tour": "men",
       "naturalSide": "drive",
@@ -1968,6 +2026,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100879",
+        "fullName": "Eduardo Agustin Torre",
         "fipCountry": "ARG",
         "fipRank": 59,
         "fipPoints": 1061,
@@ -1992,7 +2051,7 @@
     },
     {
       "id": "P201417",
-      "name": "Francisco Cabeza Teres",
+      "name": "Francisco Cabeza",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -2001,6 +2060,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201417",
+        "fullName": "Francisco Cabeza Teres",
         "fipCountry": "ESP",
         "fipRank": 60,
         "fipPoints": 1053,
@@ -2026,7 +2086,7 @@
     },
     {
       "id": "P101612",
-      "name": "Daniel Santigosa Sastre",
+      "name": "Daniel Santigosa",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -2035,6 +2095,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101612",
+        "fullName": "Daniel Santigosa Sastre",
         "fipCountry": "ESP",
         "fipRank": 61,
         "fipPoints": 1049,
@@ -2059,7 +2120,7 @@
     },
     {
       "id": "P101601",
-      "name": "Andres Fernandez Lancha",
+      "name": "Andres Fernandez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -2068,6 +2129,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101601",
+        "fullName": "Andres Fernandez Lancha",
         "fipCountry": "ESP",
         "fipRank": 62,
         "fipPoints": 1028,
@@ -2101,6 +2163,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000031",
+        "fullName": "Antonio Fernandez",
         "fipCountry": "ESP",
         "fipRank": 63,
         "fipPoints": 1027,
@@ -2135,6 +2198,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101253",
+        "fullName": "Flavio Abbate",
         "fipCountry": "ITA",
         "fipRank": 63,
         "fipPoints": 1027,
@@ -2169,6 +2233,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000109",
+        "fullName": "Mario Ortega",
         "fipCountry": "ESP",
         "fipRank": 65,
         "fipPoints": 1013,
@@ -2202,6 +2267,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000063",
+        "fullName": "Marc Quilez",
         "fipCountry": "ESP",
         "fipRank": 66,
         "fipPoints": 995,
@@ -2235,6 +2301,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000013",
+        "fullName": "Maximiliano Sanchez",
         "fipCountry": "ARG",
         "fipRank": 67,
         "fipPoints": 986,
@@ -2260,7 +2327,7 @@
     },
     {
       "id": "P100178",
-      "name": "Ignacio Vilariño Gestoso",
+      "name": "Ignacio Vilariño",
       "country": "AE",
       "tour": "men",
       "naturalSide": "reves",
@@ -2269,6 +2336,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100178",
+        "fullName": "Ignacio Vilariño Gestoso",
         "fipCountry": "UAE",
         "fipRank": 68,
         "fipPoints": 967,
@@ -2294,7 +2362,7 @@
     },
     {
       "id": "P201907",
-      "name": "Mariano Agustin Gonzalez San Martin",
+      "name": "Mariano Gonzalez",
       "country": "PY",
       "tour": "men",
       "naturalSide": "drive",
@@ -2303,6 +2371,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201907",
+        "fullName": "Mariano Agustin Gonzalez San Martin",
         "fipCountry": "PAR",
         "fipRank": 68,
         "fipPoints": 967,
@@ -2327,7 +2396,7 @@
     },
     {
       "id": "P000076",
-      "name": "Jose Luis Gonzalez",
+      "name": "Jose Gonzalez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -2336,6 +2405,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000076",
+        "fullName": "Jose Luis Gonzalez",
         "fipCountry": "ESP",
         "fipRank": 70,
         "fipPoints": 943,
@@ -2361,7 +2431,7 @@
     },
     {
       "id": "P000175",
-      "name": "Alvaro Montiel Caruso",
+      "name": "Alvaro Montiel",
       "country": "IT",
       "tour": "men",
       "naturalSide": "reves",
@@ -2370,6 +2440,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000175",
+        "fullName": "Alvaro Montiel Caruso",
         "fipCountry": "ITA",
         "fipRank": 70,
         "fipPoints": 943,
@@ -2395,7 +2466,7 @@
     },
     {
       "id": "P001511",
-      "name": "Juan Ignacio Rubini",
+      "name": "Juan Rubini",
       "country": "AR",
       "tour": "men",
       "naturalSide": "drive",
@@ -2404,6 +2475,7 @@
       "isReal": true,
       "source": {
         "fipId": "P001511",
+        "fullName": "Juan Ignacio Rubini",
         "fipCountry": "ARG",
         "fipRank": 72,
         "fipPoints": 940,
@@ -2438,6 +2510,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000014",
+        "fullName": "Luciano Capra",
         "fipCountry": "ARG",
         "fipRank": 73,
         "fipPoints": 939,
@@ -2472,6 +2545,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000097",
+        "fullName": "Facundo Dominguez",
         "fipCountry": "ITA",
         "fipRank": 74,
         "fipPoints": 919,
@@ -2506,6 +2580,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000116",
+        "fullName": "Federico Mouriño",
         "fipCountry": "ARG",
         "fipRank": 75,
         "fipPoints": 914,
@@ -2540,6 +2615,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000080",
+        "fullName": "Aris Patiniotis",
         "fipCountry": "ITA",
         "fipRank": 76,
         "fipPoints": 897,
@@ -2573,6 +2649,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000128",
+        "fullName": "Ignacio Sager",
         "fipCountry": "ESP",
         "fipRank": 77,
         "fipPoints": 891,
@@ -2597,7 +2674,7 @@
     },
     {
       "id": "P202744",
-      "name": "Ramiro Jesus Valenzuela",
+      "name": "Ramiro Valenzuela",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -2606,6 +2683,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202744",
+        "fullName": "Ramiro Jesus Valenzuela",
         "fipCountry": "ARG",
         "fipRank": 78,
         "fipPoints": 849,
@@ -2631,7 +2709,7 @@
     },
     {
       "id": "P000079",
-      "name": "Álvaro Melendez Amaya",
+      "name": "Álvaro Melendez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -2640,6 +2718,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000079",
+        "fullName": "Álvaro Melendez Amaya",
         "fipCountry": "ESP",
         "fipRank": 79,
         "fipPoints": 833,
@@ -2674,6 +2753,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000054",
+        "fullName": "Teodoro Zapata",
         "fipCountry": "ESP",
         "fipRank": 80,
         "fipPoints": 829,
@@ -2698,7 +2778,7 @@
     },
     {
       "id": "P000026",
-      "name": "Juan Cruz Belluati",
+      "name": "Juan Cruz",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -2707,6 +2787,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000026",
+        "fullName": "Juan Cruz Belluati",
         "fipCountry": "ARG",
         "fipRank": 81,
         "fipPoints": 827,
@@ -2740,6 +2821,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000185",
+        "fullName": "Clement Geens",
         "fipCountry": "BEL",
         "fipRank": 82,
         "fipPoints": 822,
@@ -2773,6 +2855,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000045",
+        "fullName": "Javier Valdes",
         "fipCountry": "CHI",
         "fipRank": 83,
         "fipPoints": 794,
@@ -2806,6 +2889,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000047",
+        "fullName": "Anton Sans",
         "fipCountry": "ESP",
         "fipRank": 84,
         "fipPoints": 777,
@@ -2830,7 +2914,7 @@
     },
     {
       "id": "P101099",
-      "name": "Diego Garcia Garcia",
+      "name": "Diego Garcia",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -2839,6 +2923,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101099",
+        "fullName": "Diego Garcia Garcia",
         "fipCountry": "ESP",
         "fipRank": 85,
         "fipPoints": 774,
@@ -2872,6 +2957,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201198",
+        "fullName": "Nuno Deus",
         "fipCountry": "POR",
         "fipRank": 85,
         "fipPoints": 774,
@@ -2906,6 +2992,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000157",
+        "fullName": "Dylan Guichard",
         "fipCountry": "FRA",
         "fipRank": 87,
         "fipPoints": 766,
@@ -2930,7 +3017,7 @@
     },
     {
       "id": "P101056",
-      "name": "Marcos Gonzalez Blanco",
+      "name": "Marcos Gonzalez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -2939,6 +3026,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101056",
+        "fullName": "Marcos Gonzalez Blanco",
         "fipCountry": "ESP",
         "fipRank": 88,
         "fipPoints": 728,
@@ -2972,6 +3060,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000099",
+        "fullName": "Pablo Cardona",
         "fipCountry": "ESP",
         "fipRank": 89,
         "fipPoints": 725,
@@ -3005,6 +3094,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000100",
+        "fullName": "Victor Mena",
         "fipCountry": "ESP",
         "fipRank": 90,
         "fipPoints": 719,
@@ -3029,7 +3119,7 @@
     },
     {
       "id": "P000149",
-      "name": "Emilio Sanchez Chamero",
+      "name": "Emilio Sanchez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -3038,6 +3128,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000149",
+        "fullName": "Emilio Sanchez Chamero",
         "fipCountry": "ESP",
         "fipRank": 91,
         "fipPoints": 716,
@@ -3072,6 +3163,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000391",
+        "fullName": "Miguel Lamperti",
         "fipCountry": "ARG",
         "fipRank": 92,
         "fipPoints": 715,
@@ -3096,7 +3188,7 @@
     },
     {
       "id": "P000111",
-      "name": "Mario Huete Hernandez",
+      "name": "Mario Huete",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -3105,6 +3197,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000111",
+        "fullName": "Mario Huete Hernandez",
         "fipCountry": "ESP",
         "fipRank": 93,
         "fipPoints": 710,
@@ -3130,7 +3223,7 @@
     },
     {
       "id": "P000679",
-      "name": "Pedro Melendez Amaya",
+      "name": "Pedro Melendez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -3139,6 +3232,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000679",
+        "fullName": "Pedro Melendez Amaya",
         "fipCountry": "ESP",
         "fipRank": 94,
         "fipPoints": 699,
@@ -3173,6 +3267,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000049",
+        "fullName": "Salvador Oria",
         "fipCountry": "ESP",
         "fipRank": 95,
         "fipPoints": 690,
@@ -3197,7 +3292,7 @@
     },
     {
       "id": "P000150",
-      "name": "Adrian Marques Berdonce",
+      "name": "Adrian Marques",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -3206,6 +3301,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000150",
+        "fullName": "Adrian Marques Berdonce",
         "fipCountry": "ESP",
         "fipRank": 96,
         "fipPoints": 686,
@@ -3230,7 +3326,7 @@
     },
     {
       "id": "P101167",
-      "name": "Facundo Rodrigo Luis Lopez",
+      "name": "Facundo Lopez",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -3239,6 +3335,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101167",
+        "fullName": "Facundo Rodrigo Luis Lopez",
         "fipCountry": "ARG",
         "fipRank": 97,
         "fipPoints": 685,
@@ -3272,6 +3369,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000028",
+        "fullName": "Agustin Gutierrez",
         "fipCountry": "ARG",
         "fipRank": 98,
         "fipPoints": 680,
@@ -3305,6 +3403,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204774",
+        "fullName": "Martin Abud",
         "fipCountry": "PAR",
         "fipRank": 99,
         "fipPoints": 674,
@@ -3329,7 +3428,7 @@
     },
     {
       "id": "P204727",
-      "name": "Albert Roglan Pons",
+      "name": "Albert Roglan",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -3338,6 +3437,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204727",
+        "fullName": "Albert Roglan Pons",
         "fipCountry": "ESP",
         "fipRank": 100,
         "fipPoints": 659,
@@ -3371,6 +3471,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000126",
+        "fullName": "Marco Cassetta",
         "fipCountry": "ITA",
         "fipRank": 101,
         "fipPoints": 657,
@@ -3405,6 +3506,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201200",
+        "fullName": "Miguel Deus",
         "fipCountry": "POR",
         "fipRank": 102,
         "fipPoints": 646,
@@ -3430,7 +3532,7 @@
     },
     {
       "id": "P100958",
-      "name": "Santiago Jose Pineda Cabello",
+      "name": "Santiago Pineda",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -3439,6 +3541,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100958",
+        "fullName": "Santiago Jose Pineda Cabello",
         "fipCountry": "ESP",
         "fipRank": 103,
         "fipPoints": 640,
@@ -3472,6 +3575,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100055",
+        "fullName": "Ramiro Pereyra",
         "fipCountry": "ARG",
         "fipRank": 104,
         "fipPoints": 629,
@@ -3496,7 +3600,7 @@
     },
     {
       "id": "P203885",
-      "name": "Franco Renato Dal Bianco",
+      "name": "Franco Dal Bianco",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -3505,6 +3609,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203885",
+        "fullName": "Franco Renato Dal Bianco",
         "fipCountry": "ARG",
         "fipRank": 105,
         "fipPoints": 576,
@@ -3529,7 +3634,7 @@
     },
     {
       "id": "P000786",
-      "name": "Rodrigo Coello Manso",
+      "name": "Rodrigo Coello",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -3538,6 +3643,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000786",
+        "fullName": "Rodrigo Coello Manso",
         "fipCountry": "ESP",
         "fipRank": 106,
         "fipPoints": 562,
@@ -3562,7 +3668,7 @@
     },
     {
       "id": "P101142",
-      "name": "Roberto Belmont Pastor",
+      "name": "Roberto Belmont",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -3571,6 +3677,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101142",
+        "fullName": "Roberto Belmont Pastor",
         "fipCountry": "ESP",
         "fipRank": 107,
         "fipPoints": 554,
@@ -3595,7 +3702,7 @@
     },
     {
       "id": "P101443",
-      "name": "Ferran Insa Sotillo",
+      "name": "Ferran Insa",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -3604,6 +3711,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101443",
+        "fullName": "Ferran Insa Sotillo",
         "fipCountry": "ESP",
         "fipRank": 108,
         "fipPoints": 553,
@@ -3637,6 +3745,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201233",
+        "fullName": "Adam Axelsson",
         "fipCountry": "SWE",
         "fipRank": 109,
         "fipPoints": 551,
@@ -3661,7 +3770,7 @@
     },
     {
       "id": "P101140",
-      "name": "Guillem Figuerola Santiago",
+      "name": "Guillem Figuerola",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -3670,6 +3779,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101140",
+        "fullName": "Guillem Figuerola Santiago",
         "fipCountry": "ESP",
         "fipRank": 110,
         "fipPoints": 545,
@@ -3694,7 +3804,7 @@
     },
     {
       "id": "P100910",
-      "name": "Manuel Aragon Herrera",
+      "name": "Manuel Aragon",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -3703,6 +3813,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100910",
+        "fullName": "Manuel Aragon Herrera",
         "fipCountry": "ESP",
         "fipRank": 111,
         "fipPoints": 535,
@@ -3727,7 +3838,7 @@
     },
     {
       "id": "P201600",
-      "name": "Juan Zamora Perez",
+      "name": "Juan Zamora",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -3736,6 +3847,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201600",
+        "fullName": "Juan Zamora Perez",
         "fipCountry": "ESP",
         "fipRank": 112,
         "fipPoints": 533,
@@ -3760,7 +3872,7 @@
     },
     {
       "id": "P201884",
-      "name": "Pablo Sanchez Vicente",
+      "name": "Pablo Sanchez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -3769,6 +3881,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201884",
+        "fullName": "Pablo Sanchez Vicente",
         "fipCountry": "ESP",
         "fipRank": 113,
         "fipPoints": 521,
@@ -3793,7 +3906,7 @@
     },
     {
       "id": "P201323",
-      "name": "Renzo Gabriel Nuñez",
+      "name": "Renzo Nuñez",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -3802,6 +3915,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201323",
+        "fullName": "Renzo Gabriel Nuñez",
         "fipCountry": "ARG",
         "fipRank": 114,
         "fipPoints": 504,
@@ -3826,7 +3940,7 @@
     },
     {
       "id": "P100611",
-      "name": "Juan Pablo Dametto",
+      "name": "Juan Dametto",
       "country": "AR",
       "tour": "men",
       "naturalSide": "reves",
@@ -3835,6 +3949,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100611",
+        "fullName": "Juan Pablo Dametto",
         "fipCountry": "ARG",
         "fipRank": 115,
         "fipPoints": 503,
@@ -3859,7 +3974,7 @@
     },
     {
       "id": "P100714",
-      "name": "Maximo Jesus Maldonado",
+      "name": "Maximo Maldonado",
       "country": "AR",
       "tour": "men",
       "naturalSide": "drive",
@@ -3868,6 +3983,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100714",
+        "fullName": "Maximo Jesus Maldonado",
         "fipCountry": "ARG",
         "fipRank": 116,
         "fipPoints": 496,
@@ -3892,7 +4008,7 @@
     },
     {
       "id": "P000290",
-      "name": "Jose Solano Marmolejo",
+      "name": "Jose Solano",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -3901,6 +4017,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000290",
+        "fullName": "Jose Solano Marmolejo",
         "fipCountry": "ESP",
         "fipRank": 117,
         "fipPoints": 495,
@@ -3935,6 +4052,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000042",
+        "fullName": "Jesus Moya",
         "fipCountry": "ESP",
         "fipRank": 118,
         "fipPoints": 492,
@@ -3959,7 +4077,7 @@
     },
     {
       "id": "P000803",
-      "name": "Miguel Melero Bernal",
+      "name": "Miguel Melero",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -3968,6 +4086,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000803",
+        "fullName": "Miguel Melero Bernal",
         "fipCountry": "ESP",
         "fipRank": 119,
         "fipPoints": 488,
@@ -3992,7 +4111,7 @@
     },
     {
       "id": "P201346",
-      "name": "Nacho Moragues Moltò",
+      "name": "Nacho Moragues",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -4001,6 +4120,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201346",
+        "fullName": "Nacho Moragues Moltò",
         "fipCountry": "ESP",
         "fipRank": 120,
         "fipPoints": 487,
@@ -4025,7 +4145,7 @@
     },
     {
       "id": "P201642",
-      "name": "Adrian Naranjo Martinez",
+      "name": "Adrian Naranjo",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -4034,6 +4154,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201642",
+        "fullName": "Adrian Naranjo Martinez",
         "fipCountry": "ESP",
         "fipRank": 120,
         "fipPoints": 487,
@@ -4058,7 +4179,7 @@
     },
     {
       "id": "P203081",
-      "name": "Alberto Garcia Trabanco",
+      "name": "Alberto Garcia",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -4067,6 +4188,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203081",
+        "fullName": "Alberto Garcia Trabanco",
         "fipCountry": "ESP",
         "fipRank": 120,
         "fipPoints": 487,
@@ -4092,7 +4214,7 @@
     },
     {
       "id": "P101886",
-      "name": "Pau Miñano Ortinez",
+      "name": "Pau Miñano",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -4101,6 +4223,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101886",
+        "fullName": "Pau Miñano Ortinez",
         "fipCountry": "ESP",
         "fipRank": 123,
         "fipPoints": 483,
@@ -4134,6 +4257,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100528",
+        "fullName": "Sten Richters",
         "fipCountry": "NED",
         "fipRank": 124,
         "fipPoints": 482,
@@ -4158,7 +4282,7 @@
     },
     {
       "id": "P101649",
-      "name": "Jaume Romera Barcelo",
+      "name": "Jaume Romera",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -4167,6 +4291,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101649",
+        "fullName": "Jaume Romera Barcelo",
         "fipCountry": "ESP",
         "fipRank": 125,
         "fipPoints": 478,
@@ -4200,6 +4325,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100578",
+        "fullName": "Pedro Araujo",
         "fipCountry": "POR",
         "fipRank": 126,
         "fipPoints": 473,
@@ -4224,7 +4350,7 @@
     },
     {
       "id": "P101539",
-      "name": "Luis Oliver Artigas",
+      "name": "Luis Oliver",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -4233,6 +4359,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101539",
+        "fullName": "Luis Oliver Artigas",
         "fipCountry": "ESP",
         "fipRank": 126,
         "fipPoints": 473,
@@ -4266,6 +4393,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101164",
+        "fullName": "Felipe Calleja",
         "fipCountry": "ARG",
         "fipRank": 128,
         "fipPoints": 472,
@@ -4299,6 +4427,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100635",
+        "fullName": "Nicolas Zurita",
         "fipCountry": "ITA",
         "fipRank": 129,
         "fipPoints": 467,
@@ -4332,6 +4461,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201587",
+        "fullName": "Julian Prins",
         "fipCountry": "NED",
         "fipRank": 130,
         "fipPoints": 452,
@@ -4365,6 +4495,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201589",
+        "fullName": "Youp De Kroon",
         "fipCountry": "NED",
         "fipRank": 130,
         "fipPoints": 452,
@@ -4398,6 +4529,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000061",
+        "fullName": "Arnau Ayats",
         "fipCountry": "UAE",
         "fipRank": 132,
         "fipPoints": 451,
@@ -4431,6 +4563,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000050",
+        "fullName": "Rafael Mendez",
         "fipCountry": "ESP",
         "fipRank": 133,
         "fipPoints": 447,
@@ -4455,7 +4588,7 @@
     },
     {
       "id": "P100734",
-      "name": "Alfonso Sanchez Arriaga",
+      "name": "Alfonso Sanchez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -4464,6 +4597,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100734",
+        "fullName": "Alfonso Sanchez Arriaga",
         "fipCountry": "ESP",
         "fipRank": 134,
         "fipPoints": 438,
@@ -4488,7 +4622,7 @@
     },
     {
       "id": "P000112",
-      "name": "Adrian Ronco Lopez",
+      "name": "Adrian Ronco",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -4497,6 +4631,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000112",
+        "fullName": "Adrian Ronco Lopez",
         "fipCountry": "ESP",
         "fipRank": 135,
         "fipPoints": 437,
@@ -4521,7 +4656,7 @@
     },
     {
       "id": "P101116",
-      "name": "Boris Castro Garcia",
+      "name": "Boris Castro",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -4530,6 +4665,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101116",
+        "fullName": "Boris Castro Garcia",
         "fipCountry": "ESP",
         "fipRank": 136,
         "fipPoints": 436,
@@ -4554,7 +4690,7 @@
     },
     {
       "id": "P100049",
-      "name": "Daniel Luna Peinado",
+      "name": "Daniel Luna",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -4563,6 +4699,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100049",
+        "fullName": "Daniel Luna Peinado",
         "fipCountry": "ESP",
         "fipRank": 137,
         "fipPoints": 430,
@@ -4587,7 +4724,7 @@
     },
     {
       "id": "P203840",
-      "name": "Alvaro Pozo Marroyo",
+      "name": "Alvaro Pozo",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -4596,6 +4733,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203840",
+        "fullName": "Alvaro Pozo Marroyo",
         "fipCountry": "ESP",
         "fipRank": 138,
         "fipPoints": 427,
@@ -4620,7 +4758,7 @@
     },
     {
       "id": "P100056",
-      "name": "Alberto Garcia Jimenez",
+      "name": "Alberto Garcia",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -4629,6 +4767,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100056",
+        "fullName": "Alberto Garcia Jimenez",
         "fipCountry": "ESP",
         "fipRank": 139,
         "fipPoints": 426,
@@ -4662,6 +4801,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000125",
+        "fullName": "Simone Cremona",
         "fipCountry": "ITA",
         "fipRank": 140,
         "fipPoints": 424,
@@ -4687,7 +4827,7 @@
     },
     {
       "id": "P100050",
-      "name": "Fran Ramirez Navas",
+      "name": "Fran Ramirez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -4696,6 +4836,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100050",
+        "fullName": "Fran Ramirez Navas",
         "fipCountry": "ESP",
         "fipRank": 141,
         "fipPoints": 422,
@@ -4721,7 +4862,7 @@
     },
     {
       "id": "P203806",
-      "name": "José Enrique Giménez Barcelona",
+      "name": "José Giménez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -4730,6 +4871,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203806",
+        "fullName": "José Enrique Giménez Barcelona",
         "fipCountry": "ESP",
         "fipRank": 142,
         "fipPoints": 419,
@@ -4763,6 +4905,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100634",
+        "fullName": "Ignacio Archieri",
         "fipCountry": "ARG",
         "fipRank": 143,
         "fipPoints": 413,
@@ -4796,6 +4939,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100672",
+        "fullName": "Luciano Puppo",
         "fipCountry": "ARG",
         "fipRank": 144,
         "fipPoints": 399,
@@ -4829,6 +4973,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202493",
+        "fullName": "Timeo Fonteny",
         "fipCountry": "FRA",
         "fipRank": 144,
         "fipPoints": 399,
@@ -4862,6 +5007,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000027",
+        "fullName": "Jose Rico",
         "fipCountry": "ESP",
         "fipRank": 146,
         "fipPoints": 394,
@@ -4895,6 +5041,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202538",
+        "fullName": "Julian Lacamoire",
         "fipCountry": "ARG",
         "fipRank": 147,
         "fipPoints": 392,
@@ -4928,6 +5075,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101584",
+        "fullName": "Gustavo Nunes",
         "fipCountry": "POR",
         "fipRank": 148,
         "fipPoints": 386,
@@ -4952,7 +5100,7 @@
     },
     {
       "id": "P101096",
-      "name": "Alejandro Jerez Carnero",
+      "name": "Alejandro Jerez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -4961,6 +5109,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101096",
+        "fullName": "Alejandro Jerez Carnero",
         "fipCountry": "ESP",
         "fipRank": 149,
         "fipPoints": 383,
@@ -4994,6 +5143,7 @@
       "isReal": true,
       "source": {
         "fipId": "P001131",
+        "fullName": "Giulio Graziotti",
         "fipCountry": "ITA",
         "fipRank": 150,
         "fipPoints": 380,
@@ -5027,6 +5177,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000137",
+        "fullName": "Pepe Aliaga",
         "fipCountry": "ESP",
         "fipRank": 151,
         "fipPoints": 379,
@@ -5051,7 +5202,7 @@
     },
     {
       "id": "P000761",
-      "name": "Miguel Morales Domenech",
+      "name": "Miguel Morales",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -5060,6 +5211,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000761",
+        "fullName": "Miguel Morales Domenech",
         "fipCountry": "ESP",
         "fipRank": 152,
         "fipPoints": 374,
@@ -5093,6 +5245,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201211",
+        "fullName": "Pedro Perry",
         "fipCountry": "POR",
         "fipRank": 153,
         "fipPoints": 369,
@@ -5126,6 +5279,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100954",
+        "fullName": "Thijs Roper",
         "fipCountry": "NED",
         "fipRank": 154,
         "fipPoints": 368,
@@ -5150,7 +5304,7 @@
     },
     {
       "id": "P101100",
-      "name": "Pablo Reina Ambel",
+      "name": "Pablo Reina",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -5159,6 +5313,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101100",
+        "fullName": "Pablo Reina Ambel",
         "fipCountry": "ESP",
         "fipRank": 155,
         "fipPoints": 366,
@@ -5192,6 +5347,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000037",
+        "fullName": "Antonio Luque",
         "fipCountry": "POR",
         "fipRank": 156,
         "fipPoints": 365,
@@ -5225,6 +5381,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000127",
+        "fullName": "Marcos Cordoba",
         "fipCountry": "ESP",
         "fipRank": 157,
         "fipPoints": 364,
@@ -5258,6 +5415,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101697",
+        "fullName": "Pedro Graca",
         "fipCountry": "POR",
         "fipRank": 157,
         "fipPoints": 364,
@@ -5291,6 +5449,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101514",
+        "fullName": "Albin Olsson",
         "fipCountry": "SWE",
         "fipRank": 159,
         "fipPoints": 363,
@@ -5315,7 +5474,7 @@
     },
     {
       "id": "P203134",
-      "name": "Alejandro Merino Nieto",
+      "name": "Alejandro Merino",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -5324,6 +5483,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203134",
+        "fullName": "Alejandro Merino Nieto",
         "fipCountry": "ESP",
         "fipRank": 160,
         "fipPoints": 356,
@@ -5348,7 +5508,7 @@
     },
     {
       "id": "P001160",
-      "name": "Diego Dorta Diaz",
+      "name": "Diego Dorta",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -5357,6 +5517,7 @@
       "isReal": true,
       "source": {
         "fipId": "P001160",
+        "fullName": "Diego Dorta Diaz",
         "fipCountry": "ESP",
         "fipRank": 161,
         "fipPoints": 352,
@@ -5381,7 +5542,7 @@
     },
     {
       "id": "P100893",
-      "name": "Diego Arredondo Garcia",
+      "name": "Diego Arredondo",
       "country": "MX",
       "tour": "men",
       "naturalSide": "reves",
@@ -5390,6 +5551,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100893",
+        "fullName": "Diego Arredondo Garcia",
         "fipCountry": "MEX",
         "fipRank": 162,
         "fipPoints": 349,
@@ -5414,7 +5576,7 @@
     },
     {
       "id": "P000171",
-      "name": "Christian Medina Murphy",
+      "name": "Christian Medina",
       "country": "GB",
       "tour": "men",
       "naturalSide": "drive",
@@ -5423,6 +5585,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000171",
+        "fullName": "Christian Medina Murphy",
         "fipCountry": "GBR",
         "fipRank": 163,
         "fipPoints": 347,
@@ -5456,6 +5619,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201052",
+        "fullName": "Agustin Reca",
         "fipCountry": "GER",
         "fipRank": 164,
         "fipPoints": 345,
@@ -5489,6 +5653,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000020",
+        "fullName": "Javier Rico",
         "fipCountry": "ESP",
         "fipRank": 165,
         "fipPoints": 343,
@@ -5513,7 +5678,7 @@
     },
     {
       "id": "P000142",
-      "name": "Victor Tur Checa",
+      "name": "Victor Tur",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -5522,6 +5687,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000142",
+        "fullName": "Victor Tur Checa",
         "fipCountry": "ESP",
         "fipRank": 165,
         "fipPoints": 343,
@@ -5546,7 +5712,7 @@
     },
     {
       "id": "P203126",
-      "name": "Sergio Arias Aznar",
+      "name": "Sergio Arias",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -5555,6 +5721,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203126",
+        "fullName": "Sergio Arias Aznar",
         "fipCountry": "ESP",
         "fipRank": 167,
         "fipPoints": 342,
@@ -5579,7 +5746,7 @@
     },
     {
       "id": "P201657",
-      "name": "Alejandro Calvo Perez",
+      "name": "Alejandro Calvo",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -5588,6 +5755,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201657",
+        "fullName": "Alejandro Calvo Perez",
         "fipCountry": "ESP",
         "fipRank": 168,
         "fipPoints": 340,
@@ -5621,6 +5789,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000273",
+        "fullName": "Julien Seurin",
         "fipCountry": "FRA",
         "fipRank": 169,
         "fipPoints": 332,
@@ -5645,7 +5814,7 @@
     },
     {
       "id": "P100682",
-      "name": "Pablo Pastor Landaburu",
+      "name": "Pablo Pastor",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -5654,6 +5823,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100682",
+        "fullName": "Pablo Pastor Landaburu",
         "fipCountry": "ESP",
         "fipRank": 170,
         "fipPoints": 330,
@@ -5687,6 +5857,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100532",
+        "fullName": "Simone Iacovino",
         "fipCountry": "ITA",
         "fipRank": 171,
         "fipPoints": 329,
@@ -5720,6 +5891,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000066",
+        "fullName": "Christian Fuster",
         "fipCountry": "ESP",
         "fipRank": 172,
         "fipPoints": 326,
@@ -5753,6 +5925,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000091",
+        "fullName": "Thomas Leygue",
         "fipCountry": "FRA",
         "fipRank": 173,
         "fipPoints": 315,
@@ -5778,7 +5951,7 @@
     },
     {
       "id": "P000056",
-      "name": "Miguel Benitez Lara",
+      "name": "Miguel Benitez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -5787,6 +5960,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000056",
+        "fullName": "Miguel Benitez Lara",
         "fipCountry": "ESP",
         "fipRank": 174,
         "fipPoints": 312,
@@ -5820,6 +5994,7 @@
       "isReal": true,
       "source": {
         "fipId": "P202504",
+        "fullName": "Yoan Boronad",
         "fipCountry": "FRA",
         "fipRank": 174,
         "fipPoints": 312,
@@ -5853,6 +6028,7 @@
       "isReal": true,
       "source": {
         "fipId": "P208761",
+        "fullName": "Santino Contreras",
         "fipCountry": "ARG",
         "fipRank": 174,
         "fipPoints": 312,
@@ -5886,6 +6062,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000087",
+        "fullName": "Miguel Gonzalez",
         "fipCountry": "ESP",
         "fipRank": 177,
         "fipPoints": 311,
@@ -5911,7 +6088,7 @@
     },
     {
       "id": "P101643",
-      "name": "Hector Vazquez Lopez",
+      "name": "Hector Vazquez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -5920,6 +6097,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101643",
+        "fullName": "Hector Vazquez Lopez",
         "fipCountry": "ESP",
         "fipRank": 178,
         "fipPoints": 310,
@@ -5953,6 +6131,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101621",
+        "fullName": "Douglas Rutgersson",
         "fipCountry": "SWE",
         "fipRank": 179,
         "fipPoints": 308,
@@ -5986,6 +6165,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000092",
+        "fullName": "Johan Bergeron",
         "fipCountry": "FRA",
         "fipRank": 180,
         "fipPoints": 307,
@@ -6019,6 +6199,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000103",
+        "fullName": "Simon Vasquez",
         "fipCountry": "SWE",
         "fipRank": 181,
         "fipPoints": 291,
@@ -6053,6 +6234,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100599",
+        "fullName": "Francisco Maier",
         "fipCountry": "ARG",
         "fipRank": 182,
         "fipPoints": 287,
@@ -6077,7 +6259,7 @@
     },
     {
       "id": "P000065",
-      "name": "Miguel Angel Solbes",
+      "name": "Miguel Solbes",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -6086,6 +6268,7 @@
       "isReal": true,
       "source": {
         "fipId": "P000065",
+        "fullName": "Miguel Angel Solbes",
         "fipCountry": "ESP",
         "fipRank": 183,
         "fipPoints": 282,
@@ -6110,7 +6293,7 @@
     },
     {
       "id": "P100937",
-      "name": "Joel Olivera Palos",
+      "name": "Joel Olivera",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -6119,6 +6302,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100937",
+        "fullName": "Joel Olivera Palos",
         "fipCountry": "ESP",
         "fipRank": 184,
         "fipPoints": 281,
@@ -6152,6 +6336,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101330",
+        "fullName": "Menno Nolten",
         "fipCountry": "NED",
         "fipRank": 185,
         "fipPoints": 278,
@@ -6176,7 +6361,7 @@
     },
     {
       "id": "P203416",
-      "name": "Guillermo Fernandez Sanchez",
+      "name": "Guillermo Fernandez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -6185,6 +6370,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203416",
+        "fullName": "Guillermo Fernandez Sanchez",
         "fipCountry": "ESP",
         "fipRank": 185,
         "fipPoints": 278,
@@ -6209,7 +6395,7 @@
     },
     {
       "id": "P204344",
-      "name": "Jaime Perez Martin",
+      "name": "Jaime Perez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -6218,6 +6404,7 @@
       "isReal": true,
       "source": {
         "fipId": "P204344",
+        "fullName": "Jaime Perez Martin",
         "fipCountry": "ESP",
         "fipRank": 185,
         "fipPoints": 278,
@@ -6251,6 +6438,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201256",
+        "fullName": "Willy Släryd",
         "fipCountry": "SWE",
         "fipRank": 188,
         "fipPoints": 275,
@@ -6275,7 +6463,7 @@
     },
     {
       "id": "P201343",
-      "name": "Joao Maria Caiano",
+      "name": "Joao Caiano",
       "country": "PT",
       "tour": "men",
       "naturalSide": "drive",
@@ -6284,6 +6472,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201343",
+        "fullName": "Joao Maria Caiano",
         "fipCountry": "POR",
         "fipRank": 188,
         "fipPoints": 275,
@@ -6308,7 +6497,7 @@
     },
     {
       "id": "P001709",
-      "name": "Borja Trujillo Chang",
+      "name": "Borja Trujillo",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -6317,6 +6506,7 @@
       "isReal": true,
       "source": {
         "fipId": "P001709",
+        "fullName": "Borja Trujillo Chang",
         "fipCountry": "ESP",
         "fipRank": 190,
         "fipPoints": 274,
@@ -6341,7 +6531,7 @@
     },
     {
       "id": "P101633",
-      "name": "Francisco Jurado Sosa",
+      "name": "Francisco Jurado",
       "country": "AE",
       "tour": "men",
       "naturalSide": "reves",
@@ -6350,6 +6540,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101633",
+        "fullName": "Francisco Jurado Sosa",
         "fipCountry": "UAE",
         "fipRank": 191,
         "fipPoints": 273,
@@ -6375,7 +6566,7 @@
     },
     {
       "id": "P100040",
-      "name": "Alvaro Lopez Luque",
+      "name": "Alvaro Lopez",
       "country": "ES",
       "tour": "men",
       "naturalSide": "drive",
@@ -6384,6 +6575,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100040",
+        "fullName": "Alvaro Lopez Luque",
         "fipCountry": "ESP",
         "fipRank": 192,
         "fipPoints": 271,
@@ -6417,6 +6609,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100731",
+        "fullName": "Leonardo Yob",
         "fipCountry": "ARG",
         "fipRank": 192,
         "fipPoints": 271,
@@ -6450,6 +6643,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203362",
+        "fullName": "Federico Chiostri",
         "fipCountry": "ARG",
         "fipRank": 194,
         "fipPoints": 270,
@@ -6483,6 +6677,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203375",
+        "fullName": "Mateo Rivero",
         "fipCountry": "ARG",
         "fipRank": 194,
         "fipPoints": 270,
@@ -6516,6 +6711,7 @@
       "isReal": true,
       "source": {
         "fipId": "P201700",
+        "fullName": "Marcel Font",
         "fipCountry": "ESP",
         "fipRank": 196,
         "fipPoints": 268,
@@ -6540,7 +6736,7 @@
     },
     {
       "id": "P203900",
-      "name": "Aaron Garcia Rubio",
+      "name": "Aaron Garcia",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -6549,6 +6745,7 @@
       "isReal": true,
       "source": {
         "fipId": "P203900",
+        "fullName": "Aaron Garcia Rubio",
         "fipCountry": "ESP",
         "fipRank": 197,
         "fipPoints": 263,
@@ -6573,7 +6770,7 @@
     },
     {
       "id": "P205461",
-      "name": "Iago Fuertes Leonardo",
+      "name": "Iago Fuertes",
       "country": "ES",
       "tour": "men",
       "naturalSide": "reves",
@@ -6582,6 +6779,7 @@
       "isReal": true,
       "source": {
         "fipId": "P205461",
+        "fullName": "Iago Fuertes Leonardo",
         "fipCountry": "ESP",
         "fipRank": 197,
         "fipPoints": 263,
@@ -6615,6 +6813,7 @@
       "isReal": true,
       "source": {
         "fipId": "P101509",
+        "fullName": "Daniel Appelgren",
         "fipCountry": "SWE",
         "fipRank": 199,
         "fipPoints": 260,
@@ -6648,6 +6847,7 @@
       "isReal": true,
       "source": {
         "fipId": "P100615",
+        "fullName": "Octavio Alvarez",
         "fipCountry": "ARG",
         "fipRank": 200,
         "fipPoints": 259,

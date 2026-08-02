@@ -181,6 +181,7 @@ export function simulateTournament({
 
   return {
     tournamentId: tournament.id,
+    tournamentName: tournament.name,
     category: tournament.category,
     band: tournament.band,
     week: tournament.week,

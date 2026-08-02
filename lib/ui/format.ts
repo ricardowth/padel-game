@@ -15,11 +15,20 @@ export function ratingTone(value: number): string {
   return "var(--color-r1)";
 }
 
-/** Compact money, e.g. €1.2M / €740k / €900. */
+/**
+ * Compact money, e.g. €1.2M / €740k / €900 / -€4.2k.
+ *
+ * Seasons can finish in the red once travel is charged, so the sign has to lead
+ * rather than land between the symbol and the digits ("€-4171").
+ */
 export function euro(value: number): string {
-  if (value >= 1_000_000) return `€${(value / 1_000_000).toFixed(1)}M`;
-  if (value >= 1_000) return `€${Math.round(value / 1000)}k`;
-  return `€${Math.round(value)}`;
+  const sign = value < 0 ? "-" : "";
+  const n = Math.abs(value);
+
+  if (n >= 1_000_000) return `${sign}€${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 10_000) return `${sign}€${Math.round(n / 1000)}k`;
+  if (n >= 1_000) return `${sign}€${(n / 1000).toFixed(1)}k`;
+  return `${sign}€${Math.round(n)}`;
 }
 
 /** Regional-indicator flag emoji from an ISO alpha-2 code. */

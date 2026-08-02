@@ -49,6 +49,14 @@ function validatePlayer(player: Player, where: string, kind: "senior" | "promise
 
   check(at, typeof player.id === "string" && player.id.length > 0, "missing id");
   check(at, typeof player.name === "string" && player.name.trim().length > 1, "bad name");
+  // Display names are shortened at build time; anything longer than a forename
+  // plus a compound surname will not fit the ledger's partner column.
+  check(
+    at,
+    player.name.split(" ").length <= 3,
+    `display name not shortened: "${player.name}"`,
+  );
+  check(at, !/\s[A-Za-z]\.?$/.test(player.name), `display name ends in an initial: "${player.name}"`);
   check(at, /^[A-Z]{2}$/.test(player.country), `country not ISO alpha-2: "${player.country}"`);
   check(at, SIDES.has(player.naturalSide), `bad naturalSide "${player.naturalSide}"`);
   check(at, SIDES.has(player.currentSide), `bad currentSide "${player.currentSide}"`);
@@ -270,7 +278,7 @@ function main() {
 
   for (const tour of ["men", "women"]) {
     validatePool(`players.${tour}.json`, "senior", 200);
-    validatePool(`promises.${tour}.json`, "promise", 50);
+    validatePool(`promises.${tour}.json`, "promise", 140);
   }
 
   validateCalendar("calendar.premier.json", points, ["p2", "p1", "major", "finals"], 24);

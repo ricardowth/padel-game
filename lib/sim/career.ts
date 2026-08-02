@@ -31,6 +31,7 @@ import {
   rollInSeasonEvent,
 } from "./events";
 import { rotateCalendar } from "./calendar";
+import { seasonHighlights } from "./highlights";
 import { ageOneSeason, nudgeAttribute, nudgeOvr } from "./growth";
 import {
   buildField,
@@ -174,6 +175,27 @@ function pickStartingPartner(world: World, you: Player, rng: Rng): Player | null
   return rng.pick(candidates);
 }
 
+/**
+ * Picks the career-long rival: someone starting at the player's own level, on
+ * their own side, who they will be measured against for twenty years.
+ *
+ * Deliberately drawn from the *bottom* of the ladder alongside the player rather
+ * than from the stars — a rival only means something if you started level.
+ */
+function pickRival(world: World, partnerId: string | null, rng: Rng): Player | null {
+  const candidates: Player[] = [];
+
+  // The tail of the ladder is where a 16-year-old actually begins.
+  for (const id of world.activeIds.slice(-60)) {
+    if (id === partnerId) continue;
+    const player = world.players.get(id);
+    if (player && player.age <= 24) candidates.push(player);
+  }
+
+  if (candidates.length === 0) return null;
+  return rng.pick(candidates);
+}
+
 export interface AdvanceResult {
   log: CareerLogEntry[];
   /** Set when the engine is waiting on the human. */
@@ -196,6 +218,8 @@ export class CareerEngine {
   private pending: DecisionCard | null = null;
   /** What the last `choose()` actually produced, for the outcome panel. */
   private lastResolutionValue: DecisionResolution | null = null;
+  /** The most recently closed season, surfaced to the UI as a recap. */
+  private lastSeasonValue: SeasonOutcome | null = null;
   /** Set when the pending card is the partner market, so we can apply the swap. */
   private pendingOffers: Map<string, { partnerId: string; band: Band; sideSwitch: boolean }> =
     new Map();
@@ -210,6 +234,8 @@ export class CareerEngine {
   /** Week of the last event played, so fatigue can recover in the gaps. */
   private lastEventWeek = 0;
   private previousRank = 0;
+  /** Whether the player finished above their rival last season. */
+  private wasAheadOfRival: boolean | undefined = undefined;
   private log: CareerLogEntry[] = [];
   private endOfSeasonQueue: DecisionCard[] = [];
   private seasonStarted = false;
@@ -231,6 +257,7 @@ export class CareerEngine {
     this.world.players.set(you.id, clonePlayer(you));
 
     const partner = pickStartingPartner(this.world, you, this.rng);
+    const rival = pickRival(this.world, partner?.id ?? null, this.rng);
 
     this.state = {
       seed: options.seed,
@@ -260,6 +287,8 @@ export class CareerEngine {
       titles: 0,
       bigTitles: 0,
       poorDecisions: 0,
+      bestRank: 0,
+      rivalId: rival?.id ?? null,
       finals: 0,
       matchesWon: 0,
       weeksAtNo1: 0,
@@ -278,6 +307,11 @@ export class CareerEngine {
   /** The outcome of the most recent choice — the UI shows this before moving on. */
   get lastResolution(): DecisionResolution | null {
     return this.lastResolutionValue;
+  }
+
+  /** The season just scored, with its highlights, for the recap panel. */
+  get lastSeason(): SeasonOutcome | null {
+    return this.lastSeasonValue;
   }
 
   /** Name lookup for event copy — the only place the engine touches prose. */
@@ -548,6 +582,39 @@ export class CareerEngine {
       );
     }
 
+    const rivalId = this.state.rivalId;
+    const rivalRank =
+      rivalId && this.world.activeIds.includes(rivalId)
+        ? this.world.activeIds.indexOf(rivalId) + 1
+        : undefined;
+
+    const highlights = seasonHighlights({
+      outcomes: this.seasonOutcomes,
+      rank: this.state.rank,
+      previousRank: this.previousRank,
+      previousBestRank: this.state.bestRank,
+      titles: totals.titles,
+      bigTitles: this.state.bigTitles,
+      careerTitlesBefore: this.state.titles - totals.titles,
+      qualifyingAttempts: this.seasonQualifyingAttempts,
+      qualifyingFailures: this.seasonQualifyingFailures,
+      net: totals.earnings - this.seasonCost,
+      banned: this.state.banSeasonsLeft > 0,
+      rivalName: rivalId ? this.nameOf(rivalId) : undefined,
+      rivalRank,
+      wasAheadOfRival: this.wasAheadOfRival,
+    });
+
+    if (rivalRank !== undefined && this.state.rank > 0) {
+      this.wasAheadOfRival = this.state.rank < rivalRank;
+    }
+
+    // Career-best rank is read by the next season's milestones, so update it
+    // only after the highlights above have had their look at the old value.
+    if (this.state.rank > 0 && (this.state.bestRank === 0 || this.state.rank < this.state.bestRank)) {
+      this.state.bestRank = this.state.rank;
+    }
+
     const seasonOutcome: SeasonOutcome = {
       year: this.state.year,
       age: this.state.you.age,
@@ -561,6 +628,7 @@ export class CareerEngine {
       qualifyingFailures: this.seasonQualifyingFailures,
       rank: this.state.rank,
       noteKeys: this.state.banSeasonsLeft > 0 ? ["season.note.banned"] : [],
+      highlights,
     };
 
     this.state.history.push({
@@ -577,6 +645,7 @@ export class CareerEngine {
       sidePenalised: (this.state.sidePenalty?.seasonsLeft ?? 0) > 0,
     });
 
+    this.lastSeasonValue = seasonOutcome;
     this.log.push({ kind: "season", outcome: seasonOutcome });
 
     this.queueEndOfSeasonDecisions(totals, seasonQuality(totals, this.state.rank, this.previousRank));
@@ -679,7 +748,11 @@ export class CareerEngine {
       });
     }
 
-    if (options.length > 0) {
+    // A card with one option is not a decision. This happens when a partner
+    // walks out in a thin market and only one replacement is plausible — in
+    // that case skip the card entirely and let the rollover pair the player up,
+    // rather than asking them to "choose" the only thing on offer.
+    if (options.length >= 2) {
       const card: DecisionCard = {
         id: `partner_market_${this.state.year}`,
         eventId: "partner_market",

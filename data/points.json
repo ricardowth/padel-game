@@ -63,8 +63,8 @@
       "firstRound": "r32",
       "winnerPoints": 80,
       "winnerPrize": 2600,
-      "directEntryRank": 260,
-      "qualifyingRounds": 1,
+      "directEntryRank": 100000,
+      "qualifyingRounds": 0,
       "entryCost": 300
     },
     "gold": {

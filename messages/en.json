@@ -120,6 +120,27 @@
     "injured": "Injured · {weeks} weeks",
     "banned": "Suspended · {seasons} seasons"
   },
+  "season": {
+    "recap": "Season {year}",
+    "highlight": {
+      "first_title": "Your first title — {tournament}.",
+      "title": "Won {tournament}.",
+      "runner_up": "Runner-up at {tournament}.",
+      "world_number_one": "You finished the year world number one.",
+      "reached_top": "Broke into the world top {rank} for the first time.",
+      "rival_passed": "You finished above {rival} for the first time.",
+      "rival_lost": "{rival} finished above you.",
+      "qualifying_woes": "Lost in qualifying {failures} times out of {attempts}.",
+      "lost_money": "The season cost you €{amount} more than it paid.",
+      "climbed": "Climbed {places} places to #{rank}.",
+      "slipped": "Slipped {places} places to #{rank}.",
+      "nothing_to_show": "A season with nothing to show for it.",
+      "banned": "Suspended. You did not play."
+    },
+    "note": {
+      "banned": "Suspended"
+    }
+  },
   "attributes": {
     "remate": "Remate",
     "volea": "Volea",

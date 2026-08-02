@@ -196,5 +196,25 @@ export function advanceWorld({
     report.generatedIds.push(newcomer.id);
   }
 
+  // ...and trim it back down when a big NextGen intake overshoots. A real tour
+  // holds a roughly fixed number of ranked players: the ones at the bottom drop
+  // off as the new wave arrives. Without this the ladder grows every season and
+  // the player's rank number inflates for reasons they never see.
+  if (world.activeIds.length > TARGET_POOL_SIZE) {
+    const ordered = [...world.activeIds].sort(
+      (a, b) => (world.points.get(a) ?? 0) - (world.points.get(b) ?? 0),
+    );
+
+    for (const id of ordered) {
+      if (world.activeIds.length <= TARGET_POOL_SIZE) break;
+      if (protectedIds.has(id)) continue;
+
+      world.activeIds.splice(world.activeIds.indexOf(id), 1);
+      world.points.delete(id);
+      world.retiredIds.add(id);
+      report.retiredIds.push(id);
+    }
+  }
+
   return report;
 }
