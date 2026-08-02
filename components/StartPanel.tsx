@@ -40,8 +40,13 @@ export function StartPanel() {
       <button
         type="button"
         onClick={() => router.push(`/play?tour=${tour}&pace=${pace}`)}
-        className="w-full rounded-lg bg-[color:var(--color-accent)] px-5 py-3.5 text-sm font-bold uppercase tracking-wider text-[color:var(--color-ink)] transition-transform hover:brightness-110 active:scale-[0.99] sm:w-auto sm:self-start sm:px-10"
+        className="group relative w-full overflow-hidden rounded-xl bg-[color:var(--color-accent)] px-5 py-4 text-sm font-black uppercase tracking-[0.15em] text-[color:var(--color-ink)] shadow-[0_16px_40px_-18px_var(--color-accent)] transition-transform hover:brightness-110 active:scale-[0.99] sm:w-auto sm:self-start sm:px-12"
       >
+        {/* A sheen that crosses the button on hover. */}
+        <span
+          aria-hidden
+          className="pointer-events-none absolute inset-y-0 -left-full w-1/2 skew-x-[-20deg] bg-white/25 transition-[left] duration-500 group-hover:left-[150%]"
+        />
         {t("start")}
       </button>
     </div>
@@ -77,14 +82,14 @@ function Choice({
               type="button"
               onClick={() => onChange(option.value)}
               aria-pressed={active}
-              className={`rounded-lg border px-3 py-2.5 text-left transition-colors ${
+              className={`lift rounded-xl border px-3 py-2.5 text-left hover:lift-hover ${
                 active
-                  ? "border-[color:var(--color-accent)]/60 bg-[color:var(--color-accent)]/10"
-                  : "border-[color:var(--color-line)] bg-white/[0.02] hover:border-[color:var(--color-line)] hover:bg-white/[0.04]"
+                  ? "border-[color:var(--color-accent)]/60 bg-[color:var(--color-accent)]/10 shadow-[0_0_0_1px_var(--color-accent)_inset]"
+                  : "border-[color:var(--color-line)] bg-white/[0.02] hover:border-[color:var(--color-line)] hover:bg-white/[0.05]"
               }`}
             >
               <span
-                className={`block text-sm font-semibold ${
+                className={`block text-sm font-bold ${
                   active ? "text-[color:var(--color-accent)]" : "text-[color:var(--color-text)]"
                 }`}
               >

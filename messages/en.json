@@ -131,7 +131,7 @@
       "rival_passed": "You finished above {rival} for the first time.",
       "rival_lost": "{rival} finished above you.",
       "qualifying_woes": "Lost in qualifying {failures} times out of {attempts}.",
-      "lost_money": "The season cost you €{amount} more than it paid.",
+      "lost_money": "The season cost you €{amount, number} more than it paid.",
       "climbed": "Climbed {places} places to #{rank}.",
       "slipped": "Slipped {places} places to #{rank}.",
       "nothing_to_show": "A season with nothing to show for it.",
@@ -145,7 +145,8 @@
     "playing": "Season {year}",
     "skip": "Skip",
     "won": "WON",
-    "qualifyingExit": "Qualifying"
+    "qualifyingExit": "Qualifying",
+    "titlesSoFar": "titles"
   },
   "categories": {
     "bronze": "Bronze",

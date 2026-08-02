@@ -131,7 +131,7 @@
       "rival_passed": "Acabaste à frente de {rival} pela primeira vez.",
       "rival_lost": "{rival} acabou à tua frente.",
       "qualifying_woes": "Perdeste na pré-qualificação {failures} vezes em {attempts}.",
-      "lost_money": "A época custou-te mais €{amount} do que rendeu.",
+      "lost_money": "A época custou-te mais €{amount, number} do que rendeu.",
       "climbed": "Subiste {places} lugares até #{rank}.",
       "slipped": "Caíste {places} lugares até #{rank}.",
       "nothing_to_show": "Uma época sem nada para mostrar.",
@@ -145,7 +145,8 @@
     "playing": "Época {year}",
     "skip": "Saltar",
     "won": "VENCEU",
-    "qualifyingExit": "Pré-qualificação"
+    "qualifyingExit": "Pré-qualificação",
+    "titlesSoFar": "títulos"
   },
   "categories": {
     "bronze": "Bronze",

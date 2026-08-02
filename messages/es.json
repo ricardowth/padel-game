@@ -131,7 +131,7 @@
       "rival_passed": "Acabaste por delante de {rival} por primera vez.",
       "rival_lost": "{rival} acabó por delante de ti.",
       "qualifying_woes": "Perdiste en la previa {failures} veces de {attempts}.",
-      "lost_money": "La temporada te costó €{amount} más de lo que dio.",
+      "lost_money": "La temporada te costó €{amount, number} más de lo que dio.",
       "climbed": "Subiste {places} puestos hasta el #{rank}.",
       "slipped": "Bajaste {places} puestos hasta el #{rank}.",
       "nothing_to_show": "Una temporada sin nada que enseñar.",
@@ -145,7 +145,8 @@
     "playing": "Temporada {year}",
     "skip": "Saltar",
     "won": "GANÓ",
-    "qualifyingExit": "Previa"
+    "qualifyingExit": "Previa",
+    "titlesSoFar": "títulos"
   },
   "categories": {
     "bronze": "Bronze",

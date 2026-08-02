@@ -148,6 +148,60 @@ body {
   animation: rise 0.28s ease-out both;
 }
 
+/* A result worth pausing on gets a one-shot flare as it lands. */
+@keyframes flare {
+  0% {
+    opacity: 0;
+    transform: translateY(6px) scale(0.985);
+  }
+  55% {
+    box-shadow: 0 0 0 1px var(--color-accent) inset;
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+    box-shadow: 0 0 0 1px transparent inset;
+  }
+}
+
+@utility flare {
+  animation: flare 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* The accent sweep behind the landing headline and the tier badge. */
+@utility gradient-text {
+  background: linear-gradient(
+    100deg,
+    var(--color-text) 8%,
+    var(--color-accent) 46%,
+    var(--color-violet) 92%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* An interactive surface that lifts toward the cursor. */
+@utility lift {
+  transition:
+    transform 0.16s ease-out,
+    border-color 0.16s ease-out,
+    background-color 0.16s ease-out,
+    box-shadow 0.16s ease-out;
+}
+@utility lift-hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -20px rgba(0, 0, 0, 0.95);
+}
+
+/* A thin progress rail — career age, season completion. */
+@utility rail {
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  overflow: hidden;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

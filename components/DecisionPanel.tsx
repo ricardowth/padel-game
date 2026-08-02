@@ -38,7 +38,10 @@ export function DecisionPanel({
   if (resolution) {
     return (
       <div className="rise panel p-4">
-        <h2 className="label">{tDecision("outcome")}</h2>
+        <h2 className="label flex items-center gap-1.5 text-[color:var(--color-accent)]">
+          <span aria-hidden className="inline-block h-1 w-1 rounded-full bg-[color:var(--color-accent)]" />
+          {tDecision("outcome")}
+        </h2>
         <p className="mt-2 text-sm leading-relaxed text-[color:var(--color-text)]">
           {t(resolution.resultKey)}
         </p>
@@ -46,7 +49,7 @@ export function DecisionPanel({
           type="button"
           onClick={onAcknowledge}
           autoFocus
-          className="mt-4 w-full rounded-lg bg-[color:var(--color-accent)] px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-[color:var(--color-ink)] transition-transform hover:brightness-110 active:scale-[0.99]"
+          className="mt-4 w-full rounded-xl bg-[color:var(--color-accent)] px-4 py-2.5 text-xs font-black uppercase tracking-[0.15em] text-[color:var(--color-ink)] shadow-[0_12px_30px_-18px_var(--color-accent)] transition-transform hover:brightness-110 active:scale-[0.99]"
         >
           {tDecision("next")}
         </button>
@@ -58,7 +61,10 @@ export function DecisionPanel({
 
   return (
     <div className="rise panel p-4">
-      <h2 className="label">{tDecision("heading")}</h2>
+      <h2 className="label flex items-center gap-1.5 text-[color:var(--color-accent)]">
+        <span aria-hidden className="inline-block h-1 w-1 rounded-full bg-[color:var(--color-accent)]" />
+        {tDecision("heading")}
+      </h2>
       <h3 className="mt-1.5 text-base font-bold leading-snug">
         {t(card.titleKey, card.values ?? {})}
       </h3>
@@ -121,7 +127,7 @@ function OptionCard({
     <button
       type="button"
       onClick={() => onChoose(option.id)}
-      className="group flex flex-col gap-2 rounded-lg border border-[color:var(--color-line)] bg-white/[0.02] p-3 text-left transition-colors hover:border-[color:var(--color-accent)]/50 hover:bg-[color:var(--color-accent)]/[0.06]"
+      className="group lift flex flex-col gap-2 rounded-xl border border-[color:var(--color-line)] bg-white/[0.025] p-3 text-left hover:lift-hover hover:border-[color:var(--color-accent)]/50 hover:bg-[color:var(--color-accent)]/[0.07]"
     >
       <span className="flex items-start justify-between gap-2">
         <span className="text-xs font-bold leading-snug">

@@ -94,7 +94,11 @@ export function CareerLedger({
                 <tr
                   key={age}
                   ref={index === state.history.length - 1 ? currentRowRef : undefined}
-                  className="rise border-t border-[color:var(--color-line-soft)] hover:bg-white/[0.02]"
+                  className={`rise border-t border-[color:var(--color-line-soft)] hover:bg-white/[0.03] ${
+                    index === state.history.length - 1
+                      ? "bg-[color:var(--color-accent)]/[0.05]"
+                      : ""
+                  }`}
                 >
                   <td className="num px-2 py-1.5 font-semibold">{age}</td>
                   <td className="max-w-0 px-2 py-1.5">
@@ -117,13 +121,23 @@ export function CareerLedger({
                   <td className="px-2 py-1.5 text-right">
                     <RatingPill value={row.ovr} />
                   </td>
-                  <td className="num px-2 py-1.5 text-right font-semibold">
-                    {row.titles || <span className="text-[color:var(--color-faint)]">—</span>}
+                  <td className="num px-2 py-1.5 text-right font-bold">
+                    {row.titles ? (
+                      <span className="text-[color:var(--color-accent)]">{row.titles}</span>
+                    ) : (
+                      <span className="text-[color:var(--color-faint)]">—</span>
+                    )}
                   </td>
                   <td className="num px-2 py-1.5 text-right text-[color:var(--color-muted)]">
                     {row.rank > 0 ? `#${row.rank}` : "—"}
                   </td>
-                  <td className="num px-2 py-1.5 text-right text-[color:var(--color-muted)]">
+                  <td
+                    className={`num px-2 py-1.5 text-right ${
+                      row.earnings < 0
+                        ? "text-[color:var(--color-bad)]"
+                        : "text-[color:var(--color-muted)]"
+                    }`}
+                  >
                     {euro(row.earnings)}
                   </td>
                 </tr>

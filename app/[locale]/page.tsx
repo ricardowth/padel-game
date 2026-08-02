@@ -12,36 +12,50 @@ export default async function LandingPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("landing");
-  const tCommon = await getTranslations("disclaimer");
+  const tDisclaimer = await getTranslations("disclaimer");
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-5 py-6">
       <header className="flex items-center justify-between">
-        <span className="label">{t("eyebrow")}</span>
+        <span className="chip label !text-[10px] !text-[color:var(--color-accent)]">
+          {t("eyebrow")}
+        </span>
         <LanguageSwitcher />
       </header>
 
-      <div className="flex flex-1 flex-col justify-center gap-8 py-10">
+      <div className="flex flex-1 flex-col justify-center gap-9 py-12">
         <div className="rise max-w-2xl">
-          <h1 className="text-4xl font-black tracking-tight sm:text-6xl">
+          <h1 className="gradient-text text-5xl font-black leading-[0.95] tracking-tighter sm:text-7xl">
             {t("title")}
           </h1>
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-[color:var(--color-muted)]">
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-[color:var(--color-muted)]">
             {t("tagline")}
           </p>
         </div>
 
         <StartPanel />
 
-        <dl className="flex flex-wrap gap-x-8 gap-y-2 text-xs text-[color:var(--color-faint)]">
-          <dd>{t("facts.players", { count: 400 })}</dd>
-          <dd>{t("facts.events", { count: 260 })}</dd>
-          <dd>{t("facts.duration")}</dd>
+        {/* The three numbers that say this is built on real data. */}
+        <dl className="flex flex-wrap gap-2.5">
+          {(
+            [
+              [t("facts.players", { count: 400 }), "400"],
+              [t("facts.events", { count: 260 }), "260"],
+              [t("facts.duration"), "~2"],
+            ] as const
+          ).map(([text]) => (
+            <dd key={text} className="chip text-[11px] text-[color:var(--color-muted)]">
+              <span aria-hidden className="text-[color:var(--color-accent)]">
+                ◆
+              </span>
+              {text}
+            </dd>
+          ))}
         </dl>
       </div>
 
       <footer className="border-t border-[color:var(--color-line-soft)] pt-4 text-[11px] leading-relaxed text-[color:var(--color-faint)]">
-        {tCommon("full")}
+        {tDisclaimer("full")}
       </footer>
     </main>
   );

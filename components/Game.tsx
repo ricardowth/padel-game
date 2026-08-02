@@ -170,6 +170,7 @@ export function Game({ tour, pace }: { tour: Tour; pace: Pace }) {
       pending={pending}
       resolution={resolution}
       feed={streaming ? revealed : null}
+      feedTotal={queueRef.current.length}
       onSkip={flush}
       onChoose={choose}
       onAcknowledge={acknowledge}

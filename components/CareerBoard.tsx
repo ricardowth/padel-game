@@ -6,6 +6,7 @@ import { careerEffectiveOvr } from "../lib/sim/partners";
 import type { CareerEngine } from "../lib/sim/career";
 import type { DecisionCard, DecisionResolution, TournamentOutcome } from "../lib/sim/types";
 import { euro } from "../lib/ui/format";
+import { END_AGE, START_AGE } from "../lib/sim/career";
 import { CareerLedger } from "./CareerLedger";
 import { DecisionPanel } from "./DecisionPanel";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -22,6 +23,7 @@ export function CareerBoard({
   pending,
   resolution,
   feed,
+  feedTotal,
   onSkip,
   onChoose,
   onAcknowledge,
@@ -32,6 +34,8 @@ export function CareerBoard({
   resolution: DecisionResolution | null;
   /** Non-null while the season is playing out. */
   feed: TournamentOutcome[] | null;
+  /** Events in the season being streamed, so the feed can show progress. */
+  feedTotal: number;
   onSkip: () => void;
   onChoose: (optionId: string) => void;
   onAcknowledge: () => void;
@@ -55,6 +59,15 @@ export function CareerBoard({
     pending?.timing === "end_of_season" ||
     (resolution !== null && engine.lastSeason?.year === state.year);
   const partnerName = state.partnerId ? nameOf(state.partnerId) : null;
+
+  // How far through a 16 -> 35 career the player is, and which way the ranking
+  // moved last season — the two things you want to know at a glance.
+  const progress = ((you.age - START_AGE) / (END_AGE - START_AGE)) * 100;
+  const history = state.history;
+  const rankDelta =
+    history.length >= 2 && history[history.length - 1]!.rank > 0 && history[history.length - 2]!.rank > 0
+      ? history[history.length - 2]!.rank - history[history.length - 1]!.rank
+      : 0;
 
   return (
     // Below lg the two panes stack and the page scrolls normally; the fixed
@@ -85,10 +98,39 @@ export function CareerBoard({
                 <p className="truncate text-xs text-[color:var(--color-muted)]">
                   {partnerName ? t("with", { partner: partnerName }) : t("noPartner")}
                 </p>
-                <p className="num mt-1.5 text-[11px] text-[color:var(--color-faint)]">
-                  {t("age")} {you.age} · {euro(state.earnings)} ·{" "}
-                  {state.rank > 0 ? `#${state.rank}` : t("unranked")}
+                <p className="num mt-1.5 flex flex-wrap items-center gap-x-2 text-[11px] text-[color:var(--color-faint)]">
+                  <span>
+                    {t("age")} {you.age}
+                  </span>
+                  <span aria-hidden>·</span>
+                  <span className={state.earnings < 0 ? "text-[color:var(--color-bad)]" : ""}>
+                    {euro(state.earnings)}
+                  </span>
+                  <span aria-hidden>·</span>
+                  <span className="flex items-center gap-1">
+                    {state.rank > 0 ? `#${state.rank}` : t("unranked")}
+                    {rankDelta !== 0 ? (
+                      <span
+                        className={
+                          rankDelta > 0
+                            ? "text-[color:var(--color-good)]"
+                            : "text-[color:var(--color-bad)]"
+                        }
+                      >
+                        {rankDelta > 0 ? "▲" : "▼"}
+                        {Math.abs(rankDelta)}
+                      </span>
+                    ) : null}
+                  </span>
                 </p>
+
+                {/* Career clock: 16 on the left, 35 on the right. */}
+                <div className="rail mt-2.5">
+                  <div
+                    className="h-full rounded-full bg-[color:var(--color-accent)] transition-[width] duration-700"
+                    style={{ width: `${Math.max(2, Math.min(100, progress))}%` }}
+                  />
+                </div>
               </div>
             </div>
 
@@ -128,7 +170,7 @@ export function CareerBoard({
           </section>
 
           {feed ? (
-            <SeasonFeed results={feed} year={state.year} onSkip={onSkip} />
+            <SeasonFeed results={feed} total={feedTotal} year={state.year} onSkip={onSkip} />
           ) : null}
 
           {!feed && showRecap && engine.lastSeason ? (
