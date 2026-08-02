@@ -10,8 +10,10 @@ import {
   buildOffers,
   canEnterBand,
   decaySidePenalty,
+  MAX_SIDE_SWITCH_OFFERS,
   SIDE_SWITCH_DECAY_SEASONS,
   SIDE_SWITCH_FLOOR,
+  SIDE_SWITCH_WEIGHT,
   teamStrength,
   updateChemistry,
 } from "./partners";
@@ -317,5 +319,93 @@ describe("compatriot bias in the partner market", () => {
   it("keeps the weight a modest multiplier", () => {
     expect(COMPATRIOT_WEIGHT).toBeGreaterThan(1);
     expect(COMPATRIOT_WEIGHT).toBeLessThan(5);
+  });
+});
+
+describe("side preference in the partner market", () => {
+  /** A synthetic tour split exactly 50/50 between the two walls. */
+  function world(size = 60): World {
+    const players = new Map<string, Player>();
+    const activeIds: string[] = [];
+
+    for (let i = 0; i < size; i++) {
+      const p = player(70, i % 2 === 0 ? "drive" : "reves");
+      p.id = `N${i}`;
+      p.country = i % 3 === 0 ? "AR" : "ZZ";
+      players.set(p.id, p);
+      activeIds.push(p.id);
+    }
+
+    return {
+      tour: "men",
+      year: 2026,
+      players,
+      activeIds,
+      points: new Map(activeIds.map((id) => [id, 1000])),
+      pairOf: new Map(),
+      pending: [],
+      retiredIds: new Set(),
+      regenCounter: 0,
+    };
+  }
+
+  function measure(runs = 400) {
+    const w = world();
+    const you = player(70, "drive");
+    you.id = "YOU";
+    you.country = "AR";
+
+    let offers = 0;
+    let switches = 0;
+    let cards = 0;
+    let cardsOverCap = 0;
+
+    for (let i = 0; i < runs; i++) {
+      const career = {
+        you,
+        partnerId: null,
+        sidePenalty: null,
+        injury: null,
+      } as unknown as CareerState;
+
+      const card = buildOffers({
+        career,
+        world: w,
+        rng: createRng(`sides-${i}`),
+        rank: 50,
+        seasonQuality: 0,
+      });
+
+      cards++;
+      const onCard = card.filter((o) => o.requiresSideSwitch).length;
+      if (onCard > MAX_SIDE_SWITCH_OFFERS) cardsOverCap++;
+      offers += card.length;
+      switches += onCard;
+    }
+
+    return { share: switches / offers, offers, cards, cardsOverCap };
+  }
+
+  it("mostly offers partners who take the other wall", () => {
+    const { share, offers } = measure();
+    expect(offers).toBeGreaterThan(100);
+    // The pool is exactly 50/50, so a blind draw would land near 0.5. Anything
+    // well under that is the market preferring a partner who completes the team.
+    expect(share).toBeLessThan(0.3);
+  });
+
+  it("still lets a switch be worth considering", () => {
+    // This is a trade-off, not a ban: rebuilding your game for a better partner
+    // has to stay on the table (§6).
+    expect(measure().share).toBeGreaterThan(0);
+  });
+
+  it("never asks the same question twice on one card", () => {
+    expect(measure().cardsOverCap).toBe(0);
+  });
+
+  it("keeps the weight a discount, not a filter", () => {
+    expect(SIDE_SWITCH_WEIGHT).toBeGreaterThan(0);
+    expect(SIDE_SWITCH_WEIGHT).toBeLessThan(1);
   });
 });

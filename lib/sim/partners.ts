@@ -29,6 +29,25 @@ import type { Pair, StrengthBreakdown, World } from "./types";
  */
 export const COMPATRIOT_WEIGHT = 2.4;
 
+/**
+ * How strongly the market avoids offering a partner who wants the wall the
+ * player already owns.
+ *
+ * The pool is close to an even drive/reves split, so a blind draw made roughly
+ * half of every partner market a side-switch demand — the card kept asking the
+ * same expensive question, and the tag stopped meaning anything. Real pairings
+ * form the other way round: a drive player looks for a reves player first, and
+ * only a genuinely better option is worth rebuilding your game for. This makes a
+ * same-side candidate a quarter as likely to be drawn.
+ */
+export const SIDE_SWITCH_WEIGHT = 0.25;
+
+/**
+ * At most one offer on a card may require a switch, so "change your side" always
+ * reads as one road not taken rather than as the market's standing position.
+ */
+export const MAX_SIDE_SWITCH_OFFERS = 1;
+
 /** Chemistry starts here for a brand-new pairing. */
 export const STARTING_CHEMISTRY = 40;
 export const MAX_CHEMISTRY = 100;
@@ -265,17 +284,32 @@ export function buildOffers({
   shuffled.sort((a, b) => b.upgrade - a.upgrade);
 
   const picked: PartnerOffer[] = [];
+  let sideSwitchOffers = 0;
   const spread = Math.max(1, Math.floor(shuffled.length / count));
   for (let i = 0; i < count && i * spread < shuffled.length; i++) {
-    const slice = shuffled.slice(i * spread, (i + 1) * spread);
+    let slice = shuffled.slice(i * spread, (i + 1) * spread);
     if (slice.length === 0) continue;
 
+    // Once the card asks the question once, stop asking — unless this band of
+    // the market genuinely has nobody on the other wall.
+    if (sideSwitchOffers >= MAX_SIDE_SWITCH_OFFERS) {
+      const noSwitch = slice.filter((offer) => !offer.requiresSideSwitch);
+      if (noSwitch.length > 0) slice = noSwitch;
+    }
+
     // Countrymen train together, share coaches and speak the same language, so
-    // they pair up more often than a blind draw would suggest.
-    const weights = slice.map((offer) =>
-      offer.player.country === career.you.country ? COMPATRIOT_WEIGHT : 1,
+    // they pair up more often than a blind draw would suggest; a player who
+    // wants the wall you already own pairs up a lot less often than one who
+    // completes the team.
+    const weights = slice.map(
+      (offer) =>
+        (offer.player.country === career.you.country ? COMPATRIOT_WEIGHT : 1) *
+        (offer.requiresSideSwitch ? SIDE_SWITCH_WEIGHT : 1),
     );
-    picked.push(rng.weighted(slice, weights));
+
+    const offer = rng.weighted(slice, weights);
+    if (offer.requiresSideSwitch) sideSwitchOffers++;
+    picked.push(offer);
   }
 
   return picked;

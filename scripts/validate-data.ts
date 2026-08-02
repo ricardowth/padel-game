@@ -94,9 +94,11 @@ function validatePlayer(player: Player, where: string, kind: "senior" | "promise
     // A 12-year-old can legitimately rank on the under-16 ladder; they simply
     // debut later, which is exactly the staggered intake §11 asks for.
     check(at, player.age >= 12 && player.age <= 19, `implausible promise age ${player.age}`);
+    // The deepest wave arrives late on purpose (build-data's PROMISE_WAVE_SIZE),
+    // so the ceiling has to cover a full 2026 -> 2045 career.
     check(
       at,
-      typeof player.debutYear === "number" && player.debutYear >= 2026 && player.debutYear <= 2040,
+      typeof player.debutYear === "number" && player.debutYear >= 2026 && player.debutYear <= 2047,
       `bad debutYear ${player.debutYear}`,
     );
   }
@@ -278,7 +280,7 @@ function main() {
 
   for (const tour of ["men", "women"]) {
     validatePool(`players.${tour}.json`, "senior", 200);
-    validatePool(`promises.${tour}.json`, "promise", 140);
+    validatePool(`promises.${tour}.json`, "promise", 300);
   }
 
   validateCalendar("calendar.premier.json", points, ["p2", "p1", "major", "finals"], 24);

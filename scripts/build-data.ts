@@ -4,7 +4,7 @@
  *   data/raw/ranking.<tour>.json   +  data/raw/profiles.<tour>.json
  *     -> data/players.<tour>.json      (~200 real seniors)
  *   data/raw/promises.<tour>.json  +  data/raw/profiles.<tour>.json
- *     -> data/promises.<tour>.json     (~50 NextGen, staggered debut years)
+ *     -> data/promises.<tour>.json     (300 NextGen, staggered debut years)
  *
  * Everything is rank-derived and deterministic: the same raw snapshot always
  * produces byte-identical output, and the JSON stays hand-editable afterwards.
@@ -42,8 +42,23 @@ const SENIOR_POOL_SIZE = 200;
  * NextGen intake. FIP's under-16/under-18 ladders carry 300+ unique juniors per
  * tour, and a 19-season career burns through names fast — a bigger promise pool
  * means the late-career tour is still full of real people rather than regens.
+ * This takes essentially the whole junior ladder (338 men / 319 women survive
+ * de-duplication), so it is capped by the data rather than by taste.
  */
-const PROMISE_POOL_SIZE = 140;
+const PROMISE_POOL_SIZE = 300;
+
+/**
+ * How many juniors share a debut wave.
+ *
+ * Debut year is driven by age, and the junior ladders are bunched at 13-17, so
+ * left alone all 300 would arrive inside six seasons — a 200-slot tour would
+ * evict the real seniors almost immediately and then run on regens for the back
+ * twelve years, which is the exact problem the bigger pool is meant to solve.
+ * A junior deeper down the ladder is further from tour level anyway, so each
+ * wave takes a year longer to make the jump. That spreads ~300 arrivals across
+ * the full 16 -> 35 span at a rate the pool trim can absorb.
+ */
+const PROMISE_WAVE_SIZE = 20;
 
 /**
  * Tokens that begin a compound surname. When one appears, everything before it
@@ -360,8 +375,15 @@ function buildPromises(tour: Tour, profiles: Map<string, RawProfile>): Player[] 
     const attributes = buildAttributes(target, naturalSide, playstyle, age, rng);
 
     // They join the active pool as they turn ~18, staggered by a year so the
-    // late-career world keeps refreshing rather than arriving all at once (§11).
-    const debutYear = SNAPSHOT_YEAR + Math.max(0, 18 - age) + rng.int(0, 1);
+    // late-career world keeps refreshing rather than arriving all at once (§11),
+    // and by their wave so the deeper juniors keep arriving for twenty seasons.
+    // A late wave still debuts as an 18-year-old: `debutYear` is when they reach
+    // tour level, not their birthday.
+    const debutYear =
+      SNAPSHOT_YEAR +
+      Math.max(0, 18 - age) +
+      rng.int(0, 1) +
+      Math.floor(index / PROMISE_WAVE_SIZE);
 
     return {
       ...common,

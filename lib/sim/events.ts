@@ -74,6 +74,25 @@ const option = (
 
 const result = (eventId: string, key: string) => `events.${eventId}.results.${key}`;
 
+/** Below this, a season's previa record is noise rather than evidence. */
+const MIN_QUALIFYING_ATTEMPTS = 4;
+
+/**
+ * Whether the player spent the season failing to play their way into main draws.
+ *
+ * This is the *only* thing that can cost a Premier place (§7). A Premier player
+ * is not relegated by a ranking that quietly slips, by a season that went badly,
+ * or by a year spent down on money — they hold their level until the qualifying
+ * draw itself says they no longer belong there. Everywhere below Premier the
+ * economics still count, because down there the travel bill really is the thing
+ * that ends careers.
+ */
+function failingQualifying(ctx: EventContext): boolean {
+  const attempts = ctx.career.qualifyingAttempts;
+  if (attempts < MIN_QUALIFYING_ATTEMPTS) return false;
+  return ctx.career.qualifyingFailures / attempts >= 0.5;
+}
+
 /* ------------------------------------------------------------------ */
 /* In-season pop-ups (§10)                                             */
 /* ------------------------------------------------------------------ */
@@ -537,7 +556,9 @@ const SWITCH_BAND: EventDefinition = {
       );
     }
 
-    if (ctx.career.band === "elite") {
+    // Leaving Premier is not a lifestyle choice you can make at will — the
+    // qualifying draw has to have told you first (§7).
+    if (ctx.career.band === "elite" && failingQualifying(ctx)) {
       options.push(
         option(
           "switch_band",
@@ -583,11 +604,11 @@ const DROP_DOWN: EventDefinition = {
   eligible: (ctx) => {
     if (ctx.career.band === "developmental") return false;
 
-    const attempts = ctx.career.qualifyingAttempts;
-    const drowning = attempts >= 4 && ctx.career.qualifyingFailures / attempts >= 0.5;
-    const bleedingMoney = ctx.career.seasonNet < 0;
+    // A Premier place is held until the previa takes it back, so a losing year
+    // on the balance sheet is not on its own a reason to be shown the door.
+    if (ctx.career.band === "elite") return failingQualifying(ctx);
 
-    return drowning || bleedingMoney;
+    return failingQualifying(ctx) || ctx.career.seasonNet < 0;
   },
   build: (ctx) => {
     const target: Band = ctx.career.band === "elite" ? "professional" : "developmental";

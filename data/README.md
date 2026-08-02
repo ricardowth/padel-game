@@ -14,7 +14,7 @@ runtime.
 | File | What it is |
 |---|---|
 | `players.men.json` / `players.women.json` | Top 200 real FIP-ranked players per tour |
-| `promises.men.json` / `promises.women.json` | 50 NextGen juniors per tour, with staggered `debutYear` |
+| `promises.men.json` / `promises.women.json` | 300 NextGen juniors per tour, with `debutYear` staggered across a full career |
 | `calendar.premier.json` | Premier Padel 2026 — 25 events (5 Majors, 10 P1, 9 P2, Finals) |
 | `calendar.fip.json` | CUPRA FIP Tour 2026 — 235 events (150 Bronze, 68 Silver, 12 Gold, 5 Platinum) |
 | `points.json` | Points- and prize-by-round-by-category tables (**hand-authored tuning data**) |
@@ -39,7 +39,7 @@ byte-identical output, because every random draw is seeded by the player's FIP i
 **Real** (scraped from padelfip.com, ranking week 31 of 2026):
 
 - Names, countries, FIP rank and points.
-- Birth dates for **all 400** ranked seniors and ~45 of the 100 juniors.
+- Birth dates for **all 400** ranked seniors and ~28 of the 300 juniors on each tour.
 - Court side for the 108 players whose "Playing Position" FIP publishes
   (`Right` → `drive`, `Left` → `reves`). `source.sideKnown` flags these.
 - Every tournament's name, host city, country, category and dates.
@@ -55,6 +55,10 @@ byte-identical output, because every random draw is seeded by the player's FIP i
 - **Playstyle** — inferred from side (drive skews to finishers, revés to builders).
 - **Court side** for the ~73% of players FIP does not publish it for.
 - **Potential** — headroom that shrinks to zero at age 27.
+- **Debut year** (juniors only) — they join the tour as they turn ~18, plus a year for
+  each wave of 20 further down the junior ladder. Without that stagger the whole 300
+  would arrive inside six seasons and the back half of a career would be played against
+  generated names.
 - **Points and prize money** — `points.json`, anchored on the plan's §7 winner-points
   table and the real Premier Padel round breakdown (2000/1200/720/360/180/90/45).
 
